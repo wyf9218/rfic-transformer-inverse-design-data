@@ -1,0 +1,20 @@
+{
+  "schema": "paired64_offline_tick_bounds_fix.v1",
+  "status": "PASS_REAL_N14_THREE_FIGURE_EXPORT",
+  "script_sha256": "418010e2ce7d0c887757ebf99fefe9f96e647dbe01adbca7d3e3d7d6cd1057e5",
+  "preserved_failure": {"path": "snapshot_0013/FAIL_RECEIPT.json", "sha256": "52fdd4a7f087efaca6498870e4170679c99bd9bf307c8780d445b439bb0ca87d"},
+  "new_output": {"path": "snapshot_0013_v2/FIGURE_RECEIPT.json", "sha256": "00cbeabea766ee0496ddeb74bfa8a74141d482648e6504c565ee0288d6705795"},
+  "new_output_index": {"path": "snapshot_0013_v2/SHA256SUMS", "sha256": "66276ed2d92b38264b3dd4bbbc632c65ffa246c382bc4a0ace2a35db8ba90d47"},
+  "regression_test": {"path": "../dataset_size_811_20260921_v1/paired64_analysis/offline_paired_figures_v1/test_tick_label_bounds.py", "sha256": "d2566a0ea6c1287fb7da46cb0bf0eac716695f2d8adeba2b6652711a352446d8", "count": 1, "status": "PASS", "seconds": 0.238},
+  "minimal_change": "Exclude only outside-view ticklabel Text objects from canvas clipping checks, matching actual tick drawing; all visible in-view labels and other text remain checked",
+  "scientific_coordinate_limits_changed": false,
+  "font_sizes_changed": false,
+  "data_moved_or_changed": false,
+  "real_snapshot": "snapshot_0013",
+  "figure_status": "PARTIAL N=14/64",
+  "counts": {"matched": 14, "pending": 50, "chain_failure": 0, "unverified": 0, "both_hit": 2, "both_miss": 12},
+  "three_figure_pngs_visually_reviewed": true,
+  "all11_output_sha_checks": "PASS",
+  "new_native_analysis_inference_network_or_publisher_changes": 0,
+  "shared_memory_edits": 0
+}

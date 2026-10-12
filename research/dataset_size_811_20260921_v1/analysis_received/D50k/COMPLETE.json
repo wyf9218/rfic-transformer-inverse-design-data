@@ -1,0 +1,119 @@
+{
+  "status": "COMPLETE",
+  "utc": "2026-09-21T09:09:08.788651+00:00",
+  "arm": "D50k",
+  "comparison_family": "dataset",
+  "model_id": "dataset_D50k_seed20260713",
+  "model_identity": {
+    "weights_sha256": "c2bd6202351114c29bcf62864b7075d30d11f58587c84749980d3a2f33970a1b",
+    "summary_sha256": "289fc402475512c7b5b69658e26eada2a7d416bbdddef29e70d8ca58fb8efc50",
+    "forward": [
+      10,
+      256,
+      256,
+      128,
+      4
+    ],
+    "inverse": [
+      4,
+      512,
+      512,
+      256,
+      10
+    ]
+  },
+  "dataset_contract_sha256": "f4259d99c19b7b9efb2b97171c7e20c61aff585c80391355a37fb451a7e4b880",
+  "partition_counts": {
+    "train": 40000,
+    "validation": 5000,
+    "test": 5000
+  },
+  "target_sha256": "a71e43284e1e629d14892d6e0ff72a4c2fbdf64616784884aa854bdd6984b223",
+  "common_test_indices_sha256": "5c22ced2ec926dad716708afcb2da313f0d29ebe2d0a627670913a4c69dccdd6",
+  "target_N": 10000,
+  "common_forward_test_N": 11369,
+  "proxy_counts": {
+    "SELF_PROXY": {
+      "hits": 1195,
+      "original_N": 10000,
+      "fraction": 0.1195,
+      "request_failures": 0,
+      "projections": {
+        "lp_ls": {
+          "inside": 10000,
+          "outside": 0,
+          "hits_inside": 1195
+        },
+        "q_k": {
+          "inside": 10000,
+          "outside": 0,
+          "hits_inside": 1195
+        }
+      }
+    },
+    "COMMON_PROXY_ORIGINAL_SEED20260713": {
+      "hits": 1152,
+      "original_N": 10000,
+      "fraction": 0.1152,
+      "request_failures": 0,
+      "projections": {
+        "lp_ls": {
+          "inside": 10000,
+          "outside": 0,
+          "hits_inside": 1152
+        },
+        "q_k": {
+          "inside": 10000,
+          "outside": 0,
+          "hits_inside": 1152
+        }
+      }
+    }
+  },
+  "inference": {
+    "new_inverse_calls": 10000
+  },
+  "plot_status": "GENERATED_PENDING_VISUAL_REVIEW",
+  "new_training": 0,
+  "fresh_EMX": "NOT_RUN",
+  "test_used_for_model_selection": false,
+  "outputs": {
+    "request_results.csv": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_outputs/results/D50k/request_results.csv",
+      "sha256": "ca719c465292d63b6be47eec656e43b9acfed8e7440d51f8a8ce1c1d22193fce"
+    },
+    "common_test_forward_predictions.csv": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_outputs/results/D50k/common_test_forward_predictions.csv",
+      "sha256": "5301c8dbe5a614d8e62849a5c463cd18cf4f6611abfa41f7a384a8eca287fb96"
+    },
+    "target_coordinate_hotspots.csv": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_outputs/results/D50k/target_coordinate_hotspots.csv",
+      "sha256": "f336b61b96dcf42d2433c06b2e97a347a8bffef565d2fed60f9741778a5f7011"
+    },
+    "common_test_forward_errors.csv": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_outputs/results/D50k/common_test_forward_errors.csv",
+      "sha256": "d692d08250bc6ef1439d80c7b63ef05e63f1a5bae6437444d9053d52b82309d9"
+    },
+    "target_coordinate_hotspots.svg": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_outputs/results/D50k/target_coordinate_hotspots.svg",
+      "sha256": "6fed2f56129fc97ecac26f30d45dedd1db3150d91eeaa06df184e0b787174615"
+    },
+    "target_coordinate_hotspots.png": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_outputs/results/D50k/target_coordinate_hotspots.png",
+      "sha256": "3af1c87f754ca734b27a88ed492fab873a172a6cc21976ae60cf4ed8c5105191"
+    },
+    "common_test_forward_scatter.svg": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_outputs/results/D50k/common_test_forward_scatter.svg",
+      "sha256": "ce400b43c1af593aeefd8bc932b9114a3edb370cf1e8e93e850510335ab8f52f"
+    },
+    "common_test_forward_scatter.png": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_outputs/results/D50k/common_test_forward_scatter.png",
+      "sha256": "ea4be1b114355feebf8774bf7d948b632e80e5c69ad479c9f64b5bb96a1b2fad"
+    }
+  },
+  "frame_contract": {
+    "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_inputs/C_FRAME_CONTRACT.json",
+    "sha256": "6aac68901d58180d5fef3eb52064052cdde9fe0730d18121b86ade99bb500e48"
+  },
+  "comparison_boundary": "Dataset-size and width-only families remain separate. Original D100k is historical selected-model reuse. Single-seed results are descriptive, not fresh EM or universal accuracy."
+}

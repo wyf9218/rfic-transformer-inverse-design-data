@@ -1,0 +1,102 @@
+{
+  "engine": "@oai/artifact-tool Workbook.fromCSV; read-only import",
+  "checks": [
+    {
+      "file": "distribution_histograms.csv",
+      "rows": 200,
+      "columns": 14,
+      "header": [
+        "feature",
+        "unit",
+        "bin_index",
+        "bin_lower"
+      ],
+      "inspect_nonempty": true
+    },
+    {
+      "file": "dataset_composition.csv",
+      "rows": 20,
+      "columns": 9,
+      "header": [
+        "metric",
+        "count",
+        "status",
+        "count_group"
+      ],
+      "inspect_nonempty": true
+    },
+    {
+      "file": "model_compare_forward.csv",
+      "rows": 36,
+      "columns": 47,
+      "header": [
+        "model_structure",
+        "seed",
+        "feature",
+        "unit"
+      ],
+      "inspect_nonempty": true
+    },
+    {
+      "file": "model_compare_inverse.csv",
+      "rows": 9,
+      "columns": 52,
+      "header": [
+        "model_structure",
+        "seed",
+        "joint_hit_count",
+        "joint_hit_denominator"
+      ],
+      "inspect_nonempty": true
+    },
+    {
+      "file": "proxy_error_summary.csv",
+      "rows": 4,
+      "columns": 10,
+      "header": [
+        "evidence_class",
+        "feature",
+        "unit",
+        "N"
+      ],
+      "inspect_nonempty": true
+    },
+    {
+      "file": "coverage_overlap.csv",
+      "rows": 6,
+      "columns": 15,
+      "header": [
+        "projection",
+        "comparison",
+        "proxy_occupied_bins",
+        "EM_occupied_bins"
+      ],
+      "inspect_nonempty": true
+    },
+    {
+      "file": "hotspot_bin_counts.csv",
+      "rows": 800,
+      "columns": 18,
+      "header": [
+        "projection",
+        "bin_x",
+        "bin_y",
+        "x_lower"
+      ],
+      "inspect_nonempty": true
+    },
+    {
+      "file": "emx_existing_cases.csv",
+      "rows": 3,
+      "columns": 53,
+      "header": [
+        "target_id",
+        "candidate_id",
+        "candidate_id_sha256",
+        "candidate_geometry_identity_sha256"
+      ],
+      "inspect_nonempty": true
+    }
+  ],
+  "large_random_result_scope": "10000 rows independently verified in SAVED_RESULT_VERIFICATION.json; not imported twice"
+}

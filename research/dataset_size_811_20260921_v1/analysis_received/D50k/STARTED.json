@@ -1,0 +1,26 @@
+{
+  "utc": "2026-09-21T09:09:00.335529+00:00",
+  "job": {
+    "name": "D50k",
+    "kind": "dataset",
+    "run_dir": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/runs/D50k"
+  },
+  "gate": {
+    "status": "READY",
+    "kind": "dataset",
+    "terminal": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/runs/D50k/ENTRY_TERMINAL.json",
+      "sha256": "e66bba51b97f7774713be29bd110c772abb0be6e7cd8f02887fcd743f6039850"
+    },
+    "identity": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/runs/D50k/ENTRY_IDENTITY.json",
+      "sha256": "99d915e57ed6d0f2e08f41cd93511da8579eb43922add0ed13e0fb67e16006f4"
+    },
+    "summary": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/runs/D50k/physical_feature_tandem_inverse_summary.json",
+    "summary_sha256": "289fc402475512c7b5b69658e26eada2a7d416bbdddef29e70d8ca58fb8efc50",
+    "partition": "D50k"
+  },
+  "config_identity": "fd028be19e49e9c8adf1a6faec12f1e691ceb3fda25d66f60ff3e7d2f071efa5",
+  "script_sha256": "240d7a4419856ec6b17a5bb504ba9e6587bf12a56ecc0342caab879732642381",
+  "base_sha256": "5d713a19b21bdc1c1875531edec11707aa66615f9a88447f5f6c9f54cf04b557"
+}

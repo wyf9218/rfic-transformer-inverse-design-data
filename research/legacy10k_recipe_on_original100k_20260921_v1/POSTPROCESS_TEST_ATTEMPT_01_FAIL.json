@@ -1,0 +1,11 @@
+{
+  "status": "FAIL_TEST_ASSERTION",
+  "tests_run": 4,
+  "passed": 3,
+  "failed_test": "test_binding_and_wrong_recipe_fail_closed",
+  "error": "Expected unresolved macOS /var temporary path but pin_check correctly returns resolved /private/var path.",
+  "production_postprocess_sha256": "ebe9983905eac28212d7a3fbe121ccbaa75f5b93bd425b60003ef298ff45fa25",
+  "failed_test_source_sha256": "8ac7b542ca3db1cfd99471da4a36c6359e9e666e577c6d267879a505c2a2f0ad",
+  "new_training_or_inference": 0,
+  "resolution": "Only expected fixture path changed to src.resolve(); rerun the previously failed test only."
+}

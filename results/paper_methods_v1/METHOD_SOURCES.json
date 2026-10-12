@@ -1,0 +1,24 @@
+{
+  "schema": "paper_original100k_method_sources.v1",
+  "model_id": "current_foundry_qmin_response_only_seed20260713",
+  "source_workflow": {
+    "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap15ghz_20260908T220300Z/paper_actual_structure_package_20260919_v1/source_code/network_workflow_nodes_edges.json",
+    "sha256": "7d92cc1c6ebd3545b0adb0e1b73041b8288720b6f96487217ba8869c5254fc39"
+  },
+  "source_network": {
+    "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap15ghz_20260908T220300Z/paper_actual_structure_package_20260919_v1/network_structure.json",
+    "sha256": "088d9e930cc0f300e161736a13692f41312d34b44bb1d405d5dd2120db1287f5"
+  },
+  "workflow_nodes": 35,
+  "workflow_edges": 42,
+  "raw_files_modified": false,
+  "training_calls": 0,
+  "inference_calls": 0,
+  "native_calls": 0,
+  "change_to_source_workflow": "U_EM detail generalized to physical-stage definition; old three-case scope is not silently applied to the new paired64 study. D_MIX revised in the derived graph only using the recovered generation note: three-source1.2M proposal pool -> five-quota120K acquisition queue -> accepted120810 parent -> selected100K.",
+  "source_generation_note": {
+    "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/notes/dataset_generation_and_completion_note.md",
+    "sha256": "2bf5ab500fe3af7184870435d5cab1456488c85c390695535efabb615493d4e8"
+  },
+  "source_generation_note_role": "Recovered original proposal-mode summary and launched acquisition-queue binding; three proposal modes and five selection quotas are distinct stages."
+}

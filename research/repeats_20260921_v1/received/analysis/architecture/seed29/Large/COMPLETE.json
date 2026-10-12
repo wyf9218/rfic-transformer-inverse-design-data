@@ -1,0 +1,114 @@
+{
+  "status": "COMPLETE",
+  "utc": "2026-09-21T15:27:12.269679+00:00",
+  "arm": "Large",
+  "comparison_family": "architecture",
+  "model_id": "architecture_Large_seed29",
+  "model_identity": {
+    "weights_sha256": "cf0f1dec89093b695bced51856d6e9074f8627dd094773abd02a26cf846daaf4",
+    "summary_sha256": "9637488775e5d50be7f58e192cbbb252188541762d53252e8c9ac3ad475b0966",
+    "forward": [
+      10,
+      512,
+      512,
+      512,
+      4
+    ],
+    "inverse": [
+      4,
+      512,
+      512,
+      512,
+      10
+    ]
+  },
+  "dataset_contract_sha256": "f4259d99c19b7b9efb2b97171c7e20c61aff585c80391355a37fb451a7e4b880",
+  "partition_counts": {
+    "train": 78891,
+    "validation": 9740,
+    "test": 11369
+  },
+  "target_sha256": "a71e43284e1e629d14892d6e0ff72a4c2fbdf64616784884aa854bdd6984b223",
+  "common_test_indices_sha256": "5c22ced2ec926dad716708afcb2da313f0d29ebe2d0a627670913a4c69dccdd6",
+  "target_N": 10000,
+  "common_forward_test_N": 11369,
+  "proxy_counts": {
+    "SELF_PROXY": {
+      "hits": 1366,
+      "original_N": 10000,
+      "fraction": 0.1366,
+      "request_failures": 0,
+      "projections": {
+        "lp_ls": {
+          "inside": 10000,
+          "outside": 0,
+          "hits_inside": 1366
+        },
+        "q_k": {
+          "inside": 10000,
+          "outside": 0,
+          "hits_inside": 1366
+        }
+      }
+    },
+    "COMMON_PROXY_ORIGINAL_SEED20260713": {
+      "hits": 1117,
+      "original_N": 10000,
+      "fraction": 0.1117,
+      "request_failures": 0,
+      "projections": {
+        "lp_ls": {
+          "inside": 10000,
+          "outside": 0,
+          "hits_inside": 1117
+        },
+        "q_k": {
+          "inside": 10000,
+          "outside": 0,
+          "hits_inside": 1117
+        }
+      }
+    }
+  },
+  "inference": {
+    "new_inverse_calls": 10000
+  },
+  "plot_status": "NOT_RUN_DISABLED",
+  "new_training": 0,
+  "fresh_EMX": "NOT_RUN",
+  "test_used_for_model_selection": false,
+  "outputs": {
+    "request_results.csv": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_repeats_20260921_v1/runtime_v1/analysis_outputs/architecture/seed29/results/Large/request_results.csv",
+      "sha256": "fa0b9c6104293ed943e8c1e7ceb69a0d4bf4359b57878f6a0326ee37357f1c62"
+    },
+    "common_test_forward_predictions.csv": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_repeats_20260921_v1/runtime_v1/analysis_outputs/architecture/seed29/results/Large/common_test_forward_predictions.csv",
+      "sha256": "abaea68369eef4889dfc823a606599f127af2ec7f5d13bc2fa67c7d958eb51ca"
+    },
+    "target_coordinate_hotspots.csv": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_repeats_20260921_v1/runtime_v1/analysis_outputs/architecture/seed29/results/Large/target_coordinate_hotspots.csv",
+      "sha256": "d515fe2ac2e585e4b01ad07f551c9b5870ab29769dbf07277f51ee12696c808e"
+    },
+    "common_test_forward_errors.csv": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_repeats_20260921_v1/runtime_v1/analysis_outputs/architecture/seed29/results/Large/common_test_forward_errors.csv",
+      "sha256": "e1e5e9268df03afceebc4c1b8e0400c143ded8b88509884ead82149cc172399a"
+    },
+    "target_hit_counts.csv": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_repeats_20260921_v1/runtime_v1/analysis_outputs/architecture/seed29/results/Large/target_hit_counts.csv",
+      "sha256": "9832e7889dbf8b925fa6410e7bd6437008c253e82fd9232d22be5cce2a52b8a6"
+    }
+  },
+  "frame_contract": {
+    "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_inputs/C_FRAME_CONTRACT.json",
+    "sha256": "6aac68901d58180d5fef3eb52064052cdde9fe0730d18121b86ade99bb500e48"
+  },
+  "comparison_boundary": "Prospectively fixed seed17/29 repetitions; dataset and architecture families separate. New scratch F/I weights including D100k. Frozen original seed20260713 commonF; SELF/COMMON proxy, not fresh EM. Test and T10000 not used for training, selection, or seed choice.",
+  "kind": "new-trained",
+  "model_seed": 29,
+  "repeat_job_id": "architecture__Large__seed29",
+  "training_identity": {
+    "path": "/volumes/research-localdata/ywang3652/eucap_paper_repeats_20260921_v1/runtime_v1/runs/architecture/seed29/Large/ENTRY_IDENTITY.json",
+    "sha256": "b267f61aaf7cc65b2a4c9e2138eb30eda4790c38d35493e8021947f8292ddd7f"
+  }
+}

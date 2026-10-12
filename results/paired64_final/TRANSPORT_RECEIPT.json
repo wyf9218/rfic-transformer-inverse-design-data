@@ -1,0 +1,16 @@
+{
+  "schema": "paired64_terminal_json_snapshot.v1",
+  "utc": "2026-09-21T12:29:56.952436+00:00",
+  "remote_root": "/volumes/research-localdata/ywang3652/eucap15_native_owner_20260909T062500Z/paper_original100k_paired64_20260921_v2_env_recovery/results",
+  "original_denominator": 64,
+  "content_fingerprint": "8770ac7364b4501bcd6be3838bc65319cca6ccc28fc1c7140404d90300eaa0f0",
+  "source_index": {
+    "path": "/volumes/research-localdata/ywang3652/eucap15_native_owner_20260909T062500Z/paper_original100k_paired64_20260921_v2_env_recovery/received_analysis/snapshot_0063/SHA256SUMS",
+    "sha256": "699d028dd3155e91a417a0364163ac11d7df59d65e20c08f61f33421b94fd26d"
+  },
+  "remote_bytes_sha_verified": true,
+  "identity_rejections": {},
+  "deferred_incomplete_or_missing": {},
+  "scope": "RESULT and FEATURE JSON only; no raw S4P/GDS/PDK copying",
+  "missing_or_rejected_is_not_physical_failure": true
+}

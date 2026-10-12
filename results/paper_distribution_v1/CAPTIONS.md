@@ -1,0 +1,9 @@
+# Original100K data distribution — final-paper-size source
+
+**Caption.** Distribution of15GHz primary inductance Lp, secondary inductance Ls, minimum winding quality factor Qmin, and coupling magnitude |k| in the original100,000-row dataset. Each field contains100,000 finite values(missing/nonfinite0). Bars use the original unweighted histogram counts and bin edges; this layout export performs no new filtering, extraction, sampling, inference or EM simulation. Lp and Ls are in nH; Qmin and |k| are dimensionless. No extra lower-K, inductance-window or half-SRF restriction is introduced; all original rows already have |k|≤0.8. Numeric plotting eligibility is not a claim of complete per-row GDS/DRC qualification.
+
+The selected dataset comprises3,590 bootstrap-source and96,410 main-source members. The historical generation chain used a bootstrap Latin-hypercube proposal stage, mixed neighbor/global proposals and several candidate-selection components, followed by capacity-aware selection. It is not a pure LHS sample and geometric proposal uniformity does not imply response-space uniformity. Proposal-stage quotas are not the final100K component contributions. Exact stage counts, seeds, source evidence and remaining unknowns are in the copied dataset_generation_and_completion_note.md.
+
+The original split is78,891 training,9,740 validation and11,369 test geometries. These are dataset counts, not all gradient-training rows. Current distribution uses the full source descriptively; test labels do not determine model updates or sampling decisions.
+
+Figure width184.273mm, height112mm; axis/tick labels8.5pt at this exact size,300dpi PNG and editable-text SVG. Do not reduce below this width without checking readability. CSV files are byte-for-byte copies of existing sources, not newly calculated data. Statistical provenance is the existing histogram source-table SHA in every CSV row. There is no new performance or coverage-improvement claim.

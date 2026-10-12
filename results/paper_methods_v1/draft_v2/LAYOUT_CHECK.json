@@ -1,0 +1,17 @@
+{
+  "schema": "method_figure_layout.v1",
+  "width_mm": 184.2734722222222,
+  "height_mm": 149.225,
+  "body_font_pt": 8,
+  "panel_font_pt": 8.5,
+  "font_family": "Times New Roman",
+  "vector_text_editable": true,
+  "new_training": 0,
+  "new_inference": 0,
+  "new_EM": 0,
+  "text_in_frame": true,
+  "visual_review": "PENDING",
+  "source_id": "current_foundry_qmin_response_only_seed20260713",
+  "decoder": "hard_feasible_topology_v1",
+  "layout_notes": "Four stages; dashed red derivative route updates only designated neural weights. Green diagnostic branch does not select or modify geometry."
+}

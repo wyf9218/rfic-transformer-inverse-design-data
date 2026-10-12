@@ -1,0 +1,10 @@
+{
+  "status": "PASS_BOUNDED_POST_CHECK_CHANGE",
+  "utc": "2026-09-21T19:53:02Z",
+  "original_scientific_check_wrapper_sha256": "af000a412a872f49f57380abfbdcc9bcc818fd845ded037b77d218430aa2cb61",
+  "final_wrapper_sha256": "78487afe59f870bb372cc12c337382e052b3a9b88f90bdf85907471b8dea9c50",
+  "changes": ["check CLI exclusively saves CHECK_ARGUMENTS.json", "run refuses COMPLETE unless postprocessor returns COMPLETE or REUSED_COMPLETE"],
+  "scientific_functions_changed": false,
+  "checks_executed": ["AST parse", "explicit check receipt write present", "explicit completion status gate present"],
+  "historical_or_full_tests_repeated": false
+}

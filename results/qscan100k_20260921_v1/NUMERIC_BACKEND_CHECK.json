@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-21T18:45:41.253350+00:00",
+  "script_sha256": "05c25d242d0ace7a68703dda353ba2b74f20a395f1ac074075b6c9568b57577c",
+  "archive_sha256": "ea755900c0e49712386aea4409382b0ecc422c0efd842193e1daf171d2c7230b",
+  "observation": "Original NumPy matmul emitted divide/overflow/invalid RuntimeWarnings. Retained here, not silently suppressed.",
+  "full_archive_all_finite": true,
+  "check_scope": "110 candidate computations only, deterministic 10 requests x 11 Q; not full inference rerun",
+  "sampled_request_indices": [
+    0,
+    1,
+    137,
+    512,
+    999,
+    2500,
+    4999,
+    7500,
+    9876,
+    9999
+  ],
+  "method": "np.einsum optimize=False bypasses matmul/BLAS; original GELU/decoder retained; errstate all=raise",
+  "warnings": [],
+  "max_abs_geometry_difference": 0.0,
+  "max_abs_proxy_difference": 0.0,
+  "sample_selected_Q_exact": true,
+  "interpretation": "No numerical divergence found in sampled alternative arithmetic or nonfinite values in full outputs. Underlying backend warning cause not independently established."
+}

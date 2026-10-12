@@ -1,0 +1,79 @@
+{
+  "status": "GENERATED_PENDING_VISUAL_REVIEW",
+  "identity": {
+    "family": "dataset",
+    "seeds": [
+      20260713,
+      17,
+      29
+    ],
+    "manifest_sha256": "5489b89a483672d7da2ec946c4de22ca99958680143e06116d892c850f1fac5e",
+    "script_sha256": "f5a4ca3efd184019795ec6a28c8f400040b3211a554990224404a257a658eb2c",
+    "inputs": {
+      "D10k__seed20260713": {
+        "receipt": "33e86fdd34203bf8587923263ab26a6400a2ca5e4b4c866f46a439ec46dcef38",
+        "common_test_forward_errors.csv": "907e84d13e8b7e993ecbf23667244d3d50ec3c848a325fd1be2c535c1a086015",
+        "target_coordinate_hotspots.csv": "98ed9b11fa39053f632c028472337a25ccb3ad40e8069da0c49bdfbc5aa192f2"
+      },
+      "D10k__seed17": {
+        "receipt": "ddd58f09b9130fdb31b66f855f0afa4dc1e1ca710d5b1ab97704a0d5031c819e",
+        "common_test_forward_errors.csv": "2d7e1466e1c10e34eb979d6f95d634b560c014e94d55a6fae9c54811cbc0aeae",
+        "target_hit_counts.csv": "adeb2bd48298a5423095429a67030202dc095cc96d451848a142c826afc8641d"
+      },
+      "D10k__seed29": {
+        "receipt": "9f9234fb5637d554d52615e56633319d5ff56d26267e623904adc060e7c96146",
+        "common_test_forward_errors.csv": "f4bc00b35021dbe26a03296851466c263604b7f8a75dc34a649956748941efb4",
+        "target_hit_counts.csv": "cc668e9f668034e8a88feff8aaabe6cfedc06ac28ff27a08059802e90d3158a6"
+      },
+      "D50k__seed20260713": {
+        "receipt": "ddf571d47f282d22f99ab98c8f90800c7938373d626bcec1029ddcd130424f6c",
+        "common_test_forward_errors.csv": "d692d08250bc6ef1439d80c7b63ef05e63f1a5bae6437444d9053d52b82309d9",
+        "target_coordinate_hotspots.csv": "f336b61b96dcf42d2433c06b2e97a347a8bffef565d2fed60f9741778a5f7011"
+      },
+      "D50k__seed17": {
+        "receipt": "1429c0a11627bfe4e5430fc7f51748b1eba1bb80fd58d156a79dc13bb6c84923",
+        "common_test_forward_errors.csv": "0bfe3def4ee0212b020e79400485ee8f609d97bf53ae8ebd21507422dd9caed8",
+        "target_hit_counts.csv": "0321d16bcb17b696c28f65b7e285f24f861999ea29090cb0dff5dcbb7226dd6b"
+      },
+      "D50k__seed29": {
+        "receipt": "b793b9089224fe9a64016ff94bb45088f12bf808860e7a66006604a11ca6e61c",
+        "common_test_forward_errors.csv": "be20150588fdff56dbe03f777c85fcce49a34ebda31a24f64bd7761668722757",
+        "target_hit_counts.csv": "ab5e171267763ce795dfe017a40bb167fb5a159c8faf7605b610ed7bfb290e96"
+      },
+      "D100k__seed20260713": {
+        "receipt": "77753749147e63148b8d7b680b9c557d0beb15decf17ce909ac5eb6528ec12dc",
+        "common_test_forward_errors.csv": "7cd6254c6307a6829639d48eec6f62ac217b6e0e129d46be6080d85ff7c9ea79",
+        "target_coordinate_hotspots.csv": "7451dd2cde8bcdda524ac0c8940fc23957671a63089b055ae871eba2044180db"
+      },
+      "D100k__seed17": {
+        "receipt": "07480faa0af4c895bbcf86b9c5ccced25472d0298c7dbf2633bef27a431de0cf",
+        "common_test_forward_errors.csv": "0dad228f5dd0556f026482721e9ff16cbcffdfa1b2d1473a755184ad48cdb922",
+        "target_hit_counts.csv": "fda45a7d49290a0f4f19ed5c90c773de44ec759b31c100207f789b9c22c24b95"
+      },
+      "D100k__seed29": {
+        "receipt": "45a70a7f394134bff3b3e65492c56f909c3d3d7071d91a68ae9b3a26a7df2050",
+        "common_test_forward_errors.csv": "70b1ab6d5e2f884d618680b8c7f9521cb711a546bcdfe9f98b047aa42d20d06d",
+        "target_hit_counts.csv": "9d53b2eb38ab27b57e21c544fb4ef90c56ab2a9348dac1a2f8464276fdd0b8de"
+      }
+    }
+  },
+  "utc": "2026-09-21T17:31:19.392275+00:00",
+  "outputs": {
+    "STARTED.json": "73f7ea4f981d0ce0a5ada89fea8c2bc534dee9063e7af45473623054ff0447d2",
+    "per_seed_forward.csv": "62b1de54117cd539eb685e34989a8571c44640006be0ff1430a97880fc7f52d9",
+    "per_seed_target_hits.csv": "51b2d5525349736db3ff51d1e820f08712909dab5d7cc1cc34208ca5e7048c22",
+    "forward_mean_sample_SD.csv": "2229b51cb84a861f18b6942900ccebc11d8e8f412afc29a1e47145d0e566fe77",
+    "target_hit_mean_sample_SD.csv": "354569633ea01c4b046c2b0537f5d075210e1b48204553c2c33573560678339b",
+    "CAPTIONS.md": "3c34fb24b55d1167475141ee9297581b9119d6eaf250c7ece5cf621248e53d09",
+    "forward_MAE_RMSE_mean_SD.svg": "3d5626acb6f31f2c59dce9f67c8aa9ef0c09d68656d15c213a939e2b2e912912",
+    "forward_MAE_RMSE_mean_SD.png": "6677d296c479246d28e35407cd999a362aa61ae406416f81cb0b05d0d6e9de59",
+    "joint_hit_mean_SD.svg": "a9280a78b9c470dce7fa7b2c28d4a8b4daec8183f58182bf13e5bf0184b9ecdb",
+    "joint_hit_mean_SD.png": "ec48d998f25e9aeccf00a4fd5e19d7e82a2aea918a88357849f42fa0298b581c"
+  },
+  "replicate_count": 3,
+  "uncertainty": "SAMPLE_STANDARD_DEVIATION_DDOF1_NOT_CI",
+  "new_inference": 0,
+  "new_training": 0,
+  "new_EMX": 0,
+  "unique_target_requests": 10000
+}

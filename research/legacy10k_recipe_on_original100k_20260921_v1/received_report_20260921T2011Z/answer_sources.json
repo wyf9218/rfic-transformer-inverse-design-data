@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "symmetric-matching-results",
+      "title": "新模型四指标对称匹配结果",
+      "queries": [
+        {
+          "id": "new-model-fixed-frames",
+          "source": {
+            "label": "legacyrecipe_D100k_seed20260711",
+            "files": [
+              "T10000/SUMMARY.json",
+              "application8000/SUMMARY.json",
+              "selected_results.csv"
+            ],
+            "filters": [
+              "Q逐整数扫描10至20",
+              "以四项固定尺度对称RMSE选择一个候选",
+              "命中要求四项相对误差均不超过相应阈值"
+            ],
+            "caveats": [
+              "SELF_PROXY，不是fresh EMX物理精度；本次fresh EMX未运行。",
+              "8,000旧目标与10,000较宽范围目标不同，二者百分比不能作为同一测试比较。"
+            ],
+            "evidenceFlow": [
+              {
+                "kind": "validation",
+                "title": "逐行复核",
+                "description": "直接用保存CSV的target/proxy值重算5/10/15/20%联合命中数，两组均与汇总一致；唯一target_id分别为10,000和8,000。"
+              }
+            ]
+          },
+          "columns": [
+            "frame",
+            "N",
+            "hit5",
+            "hit10",
+            "hit15",
+            "hit20"
+          ],
+          "rows": [
+            {
+              "frame": "T10000",
+              "N": 10000,
+              "hit5": 3002,
+              "hit10": 4220,
+              "hit15": 5311,
+              "hit20": 6264
+            },
+            {
+              "frame": "application8000",
+              "N": 8000,
+              "hit5": 4642,
+              "hit10": 6192,
+              "hit15": 6991,
+              "hit20": 7444
+            }
+          ],
+          "preview": {
+            "kind": "aggregate",
+            "note": "两组冻结目标的完整计数汇总"
+          }
+        }
+      ]
+    },
+    {
+      "id": "same-eight-thousand",
+      "title": "旧图相同8,000目标的描述性比较",
+      "queries": [
+        {
+          "id": "legacy-comparison",
+          "source": {
+            "label": "旧8,000目标对照与本次完成结果",
+            "files": [
+              "legacy8k_logic_alignment_20260921_v1/SUMMARY.json",
+              "application8000/SUMMARY.json"
+            ],
+            "caveats": [
+              "各模型使用自己的正向代理评分；模型、训练和decoder不同，不是数据量的因果实验。"
+            ]
+          },
+          "columns": [
+            "model",
+            "hit10",
+            "N"
+          ],
+          "rows": [
+            {
+              "model": "旧10K",
+              "hit10": 6468,
+              "N": 8000
+            },
+            {
+              "model": "原100K",
+              "hit10": 4492,
+              "N": 8000
+            },
+            {
+              "model": "本次复现配方100K",
+              "hit10": 6192,
+              "N": 8000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "existing-em-holdout",
+      "title": "11,369条已有EM标签留出集的正向误差",
+      "queries": [
+        {
+          "id": "forward-errors",
+          "source": {
+            "label": "common_test11369",
+            "files": [
+              "common_test11369/errors.csv",
+              "common_test11369/SUMMARY.json"
+            ],
+            "caveats": [
+              "这是已有EM标签留出评价，不是新逆设计几何的fresh EMX验证。"
+            ]
+          },
+          "columns": [
+            "feature",
+            "unit",
+            "MAE",
+            "RMSE"
+          ],
+          "rows": [
+            {
+              "feature": "Lp",
+              "unit": "nH",
+              "MAE": 0.08453659402691333,
+              "RMSE": 0.12400252492540487
+            },
+            {
+              "feature": "Ls",
+              "unit": "nH",
+              "MAE": 0.061986149388131156,
+              "RMSE": 0.10064582995384677
+            },
+            {
+              "feature": "Q",
+              "unit": "dimensionless",
+              "MAE": 0.4305294259502038,
+              "RMSE": 0.5810094710651214
+            },
+            {
+              "feature": "|k|",
+              "unit": "dimensionless",
+              "MAE": 0.02051042967427826,
+              "RMSE": 0.029097649887840655
+            }
+          ],
+          "preview": {
+            "kind": "aggregate",
+            "note": "N=11,369，四指标全部有限"
+          }
+        }
+      ]
+    }
+  ]
+}

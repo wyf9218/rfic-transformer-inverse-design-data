@@ -1,0 +1,20 @@
+{
+  "completed_utc": "2026-09-21T06:34:31.098586+00:00",
+  "started_utc": "2026-09-21T06:34:29.571747+00:00",
+  "model_id": "current_foundry_qmin_response_only_seed20260713",
+  "targets": 10000,
+  "targets_sha256": "a71e43284e1e629d14892d6e0ff72a4c2fbdf64616784884aa854bdd6984b223",
+  "actual_infer_calls_this_session": 10000,
+  "previous_completed_prefix": 0,
+  "complete": 10000,
+  "failed": 0,
+  "proxy_valid": 10000,
+  "proxy_hits": 1420,
+  "wall_seconds_this_session": 1.5327514589298517,
+  "output": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/figure_data/proxy_predictions_random10000.csv",
+  "output_sha256": "731bab8852bbd438e0ac152489083c16081be08f8f0669cc8693b86a2e936e44",
+  "new_training": 0,
+  "new_GDS_DRC_EMX": 0,
+  "inference_mode": "original one-shot",
+  "own_forward_only": true
+}

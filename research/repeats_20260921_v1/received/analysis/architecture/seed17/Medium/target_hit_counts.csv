@@ -1,0 +1,3 @@
+evidence_class,original_N,hits,fraction,request_failures
+SELF_PROXY,10000,1267,0.1267,0
+COMMON_PROXY_ORIGINAL_SEED20260713,10000,1013,0.1013,0

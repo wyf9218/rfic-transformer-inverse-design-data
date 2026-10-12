@@ -1,0 +1,79 @@
+{
+  "schema": "original100k_nested_partition_811_qualification.v1",
+  "status": "PASS",
+  "created_utc": "2026-09-21T07:17:43.424413+00:00",
+  "mother_csv_sha256": "fe94d15b0d083330fe7a64d3e059d083a5aa32d73394c85fc4b881e9904e68a2",
+  "indices_sha256": "1364e39c819736ea0de65b51c839b8e9eec77bb3dd998409e0306f5771500286",
+  "checks": {
+    "original_split_reproduced_exactly": true,
+    "original_split_hashes_match": true,
+    "nested_per_partition": true,
+    "no_cross_partition_reassignment": true,
+    "common_test_disjoint_from_every_train_validation": true,
+    "all_100k_rows_retained": true,
+    "finite_15ghz_features": true,
+    "original_split_exact": true,
+    "nested_within_original_partitions": true,
+    "geometry_disjoint_train_validation_test": true,
+    "common_test_is_original_test": true,
+    "mother_dataset_exact": true
+  },
+  "original_split": {
+    "train": "9ef1f3d0bebf30cfd8c1ccdc6f4a40d0676956354a0091e897d0894257301a37",
+    "validation": "5799974d9f22e63f4e8cc5f5f4c30b2d2390060aaecebb9a0a858c4d384603cd",
+    "test": "5c22ced2ec926dad716708afcb2da313f0d29ebe2d0a627670913a4c69dccdd6"
+  },
+  "common_test_index_sha256": "5c22ced2ec926dad716708afcb2da313f0d29ebe2d0a627670913a4c69dccdd6",
+  "index_sha256": {
+    "D10k": {
+      "train": "2dc5cd82d9828e050368832f018a2e0dfecfa3e0a12891fbda9a7a1e99cf5306",
+      "validation": "9057e54bd7201ad96b8c80fc2c0d4e23e4ad4018de0e11d5742b6678bdfb151e",
+      "test": "a6e295b1315a76a8f988d1b767f99137d4ef2e54637db3a8551735bbcd13b77a"
+    },
+    "D50k": {
+      "train": "39d928a3030848f61e0a6c0fde8d2f2319b048f122e376b6d74f782dfae15314",
+      "validation": "99bdd6874d5300020b3ef976be1645d9dfa88309fcbed1149261ec83e7b62b74",
+      "test": "4734093801a8fc882161ed80f2b6bc17e03bd2fc2a864169469ab895b164a161"
+    },
+    "D100k": {
+      "train": "9ef1f3d0bebf30cfd8c1ccdc6f4a40d0676956354a0091e897d0894257301a37",
+      "validation": "5799974d9f22e63f4e8cc5f5f4c30b2d2390060aaecebb9a0a858c4d384603cd",
+      "test": "5c22ced2ec926dad716708afcb2da313f0d29ebe2d0a627670913a4c69dccdd6"
+    }
+  },
+  "source_model_summary": {
+    "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/physical_feature_tandem_inverse_summary.json",
+    "sha256": "f05c4c0b3937bf9107f95d38d14679995aedc936071852ac7696f9838c5d43c1"
+  },
+  "splitter_source": {
+    "path": "/Users/wyf/Documents/模拟变压器AI反向建模/github_worktrees/eucap15-mlp-capacity-20260909/rfic_transformer_inverse_design/model_splitting.py",
+    "sha256": "9db4b7f1ed9435f73e95e49c558003bdaaf153579c5c44f04fb779aa31e0ef8a"
+  },
+  "splitter_function": "split_physical_feature_indices",
+  "subsampling_seeds": {
+    "train": 2026092104,
+    "validation": 2026092105,
+    "test": 2026092106
+  },
+  "subsampling_rule": "Independent PCG64 permutation within each original partition; prefix selection followed by ascending source-row order. D100k original order retained exactly.",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "sample_identity_evidence": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/datasize_20260921_v1/complement_audit_v1/COMPLEMENT_AUDIT.json",
+  "family_boundary": "Original physical-cell assignments preserved; no new cross-partition family reassignment. Historical family independence is not newly certified by this task.",
+  "test_boundary": "Common test is the original 11369-row test partition, not a fresh independent EM experiment. New training/checkpoint selection must not consume test labels.",
+  "original_validation_fraction_argument": 0.15,
+  "original_test_fraction_argument": 0.1,
+  "effective_D100k_counts": {
+    "train": 78891,
+    "validation": 9740,
+    "test": 11369
+  },
+  "ranges_boundary": "Existing original physical-cell bounds reproduced only to identify historical partitions. No new Lp/Ls/K/half-SRF filter is applied.",
+  "external_holdout_status": "SUPERSEDED_BY_LATEST_USER_TOTAL_DATASET_SIZE_DEFINITION; 120810 audit retained but not used here",
+  "data_writes": "new index/mapping only; original CSV unchanged",
+  "new_training": 0,
+  "new_inference": 0,
+  "new_EMX": 0
+}

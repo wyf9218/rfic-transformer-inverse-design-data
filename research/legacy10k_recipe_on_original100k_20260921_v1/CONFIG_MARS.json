@@ -1,0 +1,73 @@
+{
+  "schema": "legacy10k_recipe_on_original100k.v1",
+  "created_utc": "2026-09-21 19:53:44 UTC",
+  "threads": 4,
+  "deadline_epoch": 1790042040,
+  "sources": {
+    "dataset_adapter": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/train_dataset_sizes.py",
+      "sha256": "bd59a6b6d0188d67e1c0f5ae702ce7654e9c6a2f0870625054fd032a8580af55"
+    },
+    "core": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/runtime_inputs/train_original100k_nested.py",
+      "sha256": "ddb5088d9143ac9bd9b870fd4bef1cbdff93ef36c7f0e0176db3fefac03bed49"
+    },
+    "trainer": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/runtime_inputs/trainer_runtime.py",
+      "sha256": "fbfda2023f862af2f0b185e41c4bf899f97cb79b0d0d763d20501c03525e8a4f"
+    },
+    "splitter": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/runtime_inputs/model_splitting.py",
+      "sha256": "9db4b7f1ed9435f73e95e49c558003bdaaf153579c5c44f04fb779aa31e0ef8a"
+    },
+    "original_summary": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/runtime_inputs/physical_feature_tandem_inverse_summary.json",
+      "sha256": "f05c4c0b3937bf9107f95d38d14679995aedc936071852ac7696f9838c5d43c1"
+    }
+  },
+  "legacy_summary": {
+    "path": "/volumes/research-localdata/ywang3652/eucap_legacy10k_recipe_on_original100k_20260921_v1/legacy10k_summary.json",
+    "sha256": "90a81532f7342ae7348248ea45889368fbb13ed2b6ee8f89e789f80f6811a3fa"
+  },
+  "dataset_contract": {
+    "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/data/DATASET_SIZE_CONTRACT_MARS.json",
+    "sha256": "f4259d99c19b7b9efb2b97171c7e20c61aff585c80391355a37fb451a7e4b880"
+  },
+  "postprocess_script": {
+    "path": "/volumes/research-localdata/ywang3652/eucap_legacy10k_recipe_on_original100k_20260921_v1/postprocess.py",
+    "sha256": "f45e3eb69581b20e41453e72c70a249790547a718bb5a6ca873b2617a8e9a393"
+  },
+  "evaluation": {
+    "loader_path": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_legacy10k_recipe_on_original100k_20260921_v1/frozen_mlp.py",
+      "sha256": "d962de6f923234d5e9702556a1df16ff63d84df59c2684f3b46e469f2fe39eb9"
+    },
+    "target_10000_csv": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_legacy10k_recipe_on_original100k_20260921_v1/random10000_targets.csv",
+      "sha256": "a71e43284e1e629d14892d6e0ff72a4c2fbdf64616784884aa854bdd6984b223"
+    },
+    "target_8000_csv": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_legacy10k_recipe_on_original100k_20260921_v1/application8k_qscan_v1.csv",
+      "sha256": "c12835ab65f898f4b72e2471b125e68fe81edfe6221541ed166c1e21b569a346"
+    },
+    "common_test_csv": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_outputs/common_test_source/common_test11369.csv",
+      "sha256": "36c28c33e8d55b632c13cfb59db0fb98d78d3a450b47f4dd369d8805b00f2403"
+    }
+  },
+  "recipe_source": "real10k_center15ghz_seed20260711 recorded arguments",
+  "reproduction": "RECORDED_RECIPE_RECONSTRUCTION; original trainer1288... byte identity unrecovered",
+  "identity_boundary": "New original100K dataset training; not old10K replay, not original100K seed13, not a causal single-variable loss ablation",
+  "sealed_selection": "Only validation checkpoint selection. Existing test and observed target frames used after model frozen, not novel FINAL external EM verification",
+  "resource_budget": {
+    "single_worker": 1,
+    "blas_threads": 4,
+    "nice": 19,
+    "virtual_memory_bytes": 17179869184,
+    "required_available_ram_bytes": 8589934592,
+    "required_free_disk_bytes": 5368709120,
+    "updates_per_stage": 1200,
+    "stage_boundary_deadline_hours": 6
+  },
+  "permissions": "No native simulator or production/controller mutation; no old output overwrite"
+}

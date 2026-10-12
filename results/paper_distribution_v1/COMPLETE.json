@@ -1,0 +1,31 @@
+{
+  "status": "GENERATED_PENDING_VISUAL_REVIEW",
+  "utc": "2026-09-21T08:24:37.901206+00:00",
+  "paper_width_mm": 184.273,
+  "minimum_normal_text_pt": 8.5,
+  "source_table_sha256": "fe94d15b0d083330fe7a64d3e059d083a5aa32d73394c85fc4b881e9904e68a2",
+  "sources": {
+    "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/figure_data/distribution_histograms.csv": "bba060338424444d933822d95a8c4c191e618a5bb3215d05a977471a11b378d8",
+    "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/figure_data/dataset_composition.csv": "5f88d734197370e15175d0c9509daf3b3170c4ba9f36185449a7e4b19d351500",
+    "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/notes/dataset_generation_and_completion_note.md": "2bf5ab500fe3af7184870435d5cab1456488c85c390695535efabb615493d4e8"
+  },
+  "script_sha256": "d50f82998db04aa6ae32d3f3dce61f6eee7959f53c34834bce97b883d115438c",
+  "histogram_N": {
+    "lp_nh": 100000,
+    "ls_nh": 100000,
+    "q_min": 100000,
+    "k_abs": 100000
+  },
+  "new_inference": 0,
+  "new_extraction": 0,
+  "new_EMX": 0,
+  "layout_only": true,
+  "outputs": {
+    "CAPTIONS.md": "e37bd120e90e24576c3d8b713577dc157c10f6a7e13291f049785d81a0f1229e",
+    "Original100K_15GHz_distribution.svg": "c0d9967d87fd0aae36971cc1536d4be6e03c500073f4107d7150ee3911e8a712",
+    "dataset_composition.csv": "5f88d734197370e15175d0c9509daf3b3170c4ba9f36185449a7e4b19d351500",
+    "Original100K_15GHz_distribution.png": "3e8e0a92dde57a66c983fbe58a4070648c3c6ceacfa86a11635913097531a4b3",
+    "distribution_histograms.csv": "bba060338424444d933822d95a8c4c191e618a5bb3215d05a977471a11b378d8",
+    "dataset_generation_and_completion_note.md": "2bf5ab500fe3af7184870435d5cab1456488c85c390695535efabb615493d4e8"
+  }
+}

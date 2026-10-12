@@ -1,0 +1,9 @@
+{
+  "status": "FAIL_VERIFIER_IMPLEMENTATION",
+  "action": "Independent saved-array arithmetic verification; no inference",
+  "failed_assertion": "selected_geometry_valid_masks",
+  "cause": "The first verifier compared physical geometry to stored standardized geometry_lower/upper without decoding y_scale/y_mean.",
+  "already_passed": "110000 scores exact; finite masks; all source IDs and triplets; Q grid; argmins; selected Q, target, proxy and score values.",
+  "correction": "Decode physical bounds as standardized_bound * y_scale + y_mean; original scan and its outputs are unchanged.",
+  "classification": "Verification code error, not evidence of an inference-data failure. No VERIFICATION.json had been written."
+}

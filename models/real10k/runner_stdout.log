@@ -1,0 +1,4 @@
+overall_status=COMPLETE_REVIEW_REQUIRED
+test_access_event_count=0
+tandem_validation_response_range_normalized_rmse=0.009268715258338223
+summary=/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/physical_feature_tandem_inverse_summary.json

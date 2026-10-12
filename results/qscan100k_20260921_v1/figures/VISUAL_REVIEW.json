@@ -1,0 +1,22 @@
+{
+  "timestamp_utc": "2026-09-21T18:47:02Z",
+  "status": "PASS_WITH_ONE_SUPERSEDED_LAYOUT",
+  "scope": "Direct visual inspection of the four deliverable PNGs; no rerun of inference or old QA.",
+  "accepted": {
+    "Qscan100k_target_hotspots.png": "097066b4c44c3e304ebad3c746c7278078496a2686aeb2ec3da5ae1a42423ca5",
+    "Qscan100k_target_counts.png": "06540ac9a53421c3a04633193c461771ef2f19b1c5363ab22fb213861dbb9c92",
+    "Qscan100k_performance_summary.png": "6c4db998dd83fcc2092405f83f8c35ca2abe536b91ec2b9c0458ce2d80a880b5",
+    "selected_q_layout_v2/SelectedQ_K_hotspot.png": "d93fb9d1196c5792d53dcdd8cad3f9ba5647514f94a2fe5362da3b62fbfd1718"
+  },
+  "accepted_svg": "The identically named SVG companions of accepted PNGs are deliverable.",
+  "findings": "Target maps, counts, and performance are legible with no clipping. Selected-Q v2 removes the repeated right-panel y labels that collided with the center colorbar. Shared scales, empty/low-N bins, original denominator, symmetric-Q semantics, and proxy-only boundary are visible or explicitly documented in captions.",
+  "rejected_preserved": {
+    "SelectedQ_K_hotspot.png": "FAIL_LAYOUT: center colorbar and right-panel y labels overlap; preserved unchanged, do not publish.",
+    "SelectedQ_K_hotspot.svg": "FAIL_LAYOUT: same first-render geometry; preserved unchanged, do not publish."
+  },
+  "final_script_sha256": "fe29c54955dd191024f44980242fdb86563076f85c9d71318100b55b65699245",
+  "first_render_receipt_sha256": "0dcea3e750abc6739d35d10742fd235c05a4fc3cbcae5aabfb0193527d5511c8",
+  "selected_q_v2_receipt_sha256": "9ab88b5de70f5c549e25fc4ffc857424aa7810ca42e684a0cfa6c865517636ec",
+  "reproduce_all": "python plot_qscan.py --input-dir INPUT_DIR --output-dir NEW_FIGURE_DIR",
+  "reproduce_only_selected_q": "python plot_qscan.py --input-dir INPUT_DIR --output-dir NEW_FIGURE_DIR --figure selected-q"
+}

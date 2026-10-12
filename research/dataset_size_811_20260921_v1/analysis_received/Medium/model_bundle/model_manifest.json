@@ -1,0 +1,37 @@
+{
+  "schema": "rfic_frozen_inverse_mlp_bundle_v1",
+  "model_id": "architecture_Medium_seed20260713",
+  "model_seed": 20260713,
+  "target_frequency_ghz": 15.0,
+  "q_target_semantics": "minimum",
+  "architecture": {
+    "forward_surrogate": [
+      10,
+      256,
+      256,
+      256,
+      4
+    ],
+    "inverse_mlp": [
+      4,
+      256,
+      256,
+      256,
+      10
+    ]
+  },
+  "artifacts": {
+    "model_summary": {
+      "path": "physical_feature_tandem_inverse_summary.json",
+      "sha256": "01d591f9ad68b9a6ecce56481ad570904974ae50dbbd1f705f47aaece96393cc"
+    },
+    "model_weights": {
+      "path": "physical_feature_tandem_inverse_weights.npz",
+      "sha256": "d02ffc42cd75c184e1ec063f60440387a410df0abe2650f7880a7738ffb88352"
+    }
+  },
+  "original_training_identity": {
+    "path": "/volumes/research-localdata/ywang3652/eucap_paper_architecture_100k_20260921_v1/runs/Medium/ENTRY_IDENTITY.json",
+    "sha256": "3acb886436dc699665a06bbcc1923aa6b8a1d9f4c348089e73cf8a30403cd7e4"
+  }
+}

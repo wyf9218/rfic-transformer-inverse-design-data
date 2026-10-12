@@ -1,0 +1,63 @@
+{
+  "observation_utc": "2026-09-21T06:54:06Z",
+  "scope": "Read-only prioritization requested by user; no native job started or modified",
+  "MARS_connected": true,
+  "host": "mars-0002.ece.wisc.edu",
+  "access": "Existing authorized SSH mux; strict host-key checking retained",
+  "observed_user_native_EMX_processes": 0,
+  "observed_user_training_processes": 0,
+  "queue_or_timer_pending_state": "UNKNOWN; no active user solver is not proof of an empty queue",
+  "system_load_average_1_5_15_min": [152.34, 112.02, 107.64],
+  "logical_CPUs_followup_read": 192,
+  "memory_available_reported_MiB": 154651,
+  "swap_used_reported_MiB": 16294,
+  "research_mount_available_human_readable": "1.8T (df -h; not an exact byte measurement)",
+  "license_and_resource_admission": "NOT_CHECKED; these snapshots are not native launch permission/capacity",
+  "time_critical_work": [
+    {
+      "task": "Paired real-EM validation of frozen random-target geometries",
+      "needs_MARS_native_tools": true,
+      "current_random_targets_inferred": 10000,
+      "current_matching_existing_EM_cases": 3,
+      "current_random_targets_EM_validated": 0,
+      "next_decision": "User asked whether to override prior no-new-EM instruction for 64 unchanged frozen candidates; not yet answered",
+      "new_native_starts": 0
+    },
+    {
+      "task": "Comparable data-size F/I training",
+      "needs_MARS_native_tools": false,
+      "may_benefit_from_MARS_compute": true,
+      "current_new_training_starts": 0,
+      "remaining_contract_issue": "Original100K contains78891 training rows plus fixed9740validation/11369test; actual100000-gradient arm needs an external independent evaluation set or changed requested largest count"
+    },
+    {
+      "task": "Saved-result statistics, hotspot maps and captions",
+      "needs_MARS": false,
+      "current_status": "Nine figures plus tables/captions already delivered; do not redraw or rerun inference merely while waiting"
+    }
+  ],
+  "existing_native_entry_inspection": {
+    "path": "/volumes/research-localdata/ywang3652/eucap15_native_owner_20260909T062500Z/run_selected_native.py",
+    "lines": "202–217",
+    "CLI": "--release REQUIRED; --preflight-only OPTIONAL",
+    "preflight_semantics": "PASS_METADATA_REALPATH_NO_NATIVE: loads first GDS_REQUEST and checks competing processes, not a native solve or full resource/license admission",
+    "not_suitable_unchanged_for_new_random_frame": "Legacy preflight prints requests=64 and selected_pass=62; these are old-batch values, not verified counts for new random targets",
+    "executed": false
+  },
+  "external_evaluation_candidate_source": {
+    "path": "/volumes/research-localdata/ywang3652/current_foundry_campaign_20260728/first100k_v1/real_emx_round_v2/accepted_pool/dataset_rows.csv",
+    "actual_remote_stat_bytes": 156448455,
+    "actual_remote_stat_mtime": "2026-07-31 15:37:10.116586765 -0500",
+    "historical_manifest_sha256": "fd150a47f9e788eed6c7d124deffa9433af0d88a4bebedcdbed2a188236f5893",
+    "content_read_or_rehashed_this_check": false,
+    "historical_parent_unique_count": 120810,
+    "arithmetic_remainder_after_selected100K": 20810,
+    "certified_independent_remainder": "UNKNOWN",
+    "known_limit": "Bootstrap4056 labels were used for acquisition scoring; main-remainder usage history and geometry/physical complement map still unproven. Fixed-rule water-fill reading alone is not classified as model-training contamination."
+  },
+  "read_failures": ["No app terminal attached; existing SSH mux successfully used instead", "Remote rg unavailable; used grep for bounded source inspection"],
+  "server_files_changed": 0,
+  "signals_sent": 0,
+  "new_EM_or_training_runs": 0,
+  "prior_goal_turn_classification": "PROGRESS: groups1–3 delivered and actual train-size missing evidence established; not a verified wait for a running experiment"
+}

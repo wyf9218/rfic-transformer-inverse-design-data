@@ -1,0 +1,29 @@
+{
+  "utc": "2026-09-21T08:17:01.642452+00:00",
+  "status": "COMPLETE",
+  "returncode": 0,
+  "summary_sha256": "fa1229c9d5b677c9c9cc5a11e370c709d1c0fec24f8ac514ee8957ecb69caa76",
+  "architecture": {
+    "forward": [
+      10,
+      128,
+      128,
+      128,
+      4
+    ],
+    "inverse": [
+      4,
+      128,
+      128,
+      128,
+      10
+    ],
+    "forward_parameters": 34948,
+    "inverse_parameters": 34954
+  },
+  "actual_train_rows": 78891,
+  "validation_rows": 9740,
+  "test_rows_reserved": 11369,
+  "test_evaluation": "NOT_RUN",
+  "fresh_emx": "NOT_RUN"
+}

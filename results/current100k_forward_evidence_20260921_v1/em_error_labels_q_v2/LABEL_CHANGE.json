@@ -1,0 +1,10 @@
+{
+  "change": "Display Q instead of Qmin; labels only",
+  "definition_unchanged": "Q = min(Qp, Qs); exact target matching, not a minimum-Q requirement",
+  "raw_schema_unchanged": true,
+  "metrics_csv_byte_identical": true,
+  "source_script": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/current100k_forward_evidence_20260921_v1/plot_em_errors.py",
+  "source_script_sha256": "198e48d0956bddce505f1411d140b81bcc8b49fe785751f0c809cb1b13d8255e",
+  "revision_script_sha256": "99d7ffe952ef37c34ec7a336325b3921e0b8abad0fdfedc08f3f2462e5467ff1",
+  "new_training_inference_emx": 0
+}

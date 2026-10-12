@@ -1,0 +1,30 @@
+{
+  "status": "PASS_REAL_DATASET_THREE_SEED_FIGURE_REVIEW",
+  "reviewed_utc": "2026-09-21T17:37:24Z",
+  "comparison_family": "dataset",
+  "seeds": [20260713, 17, 29],
+  "completion_sha256": "b928d11eb18b0aa890d0caf460e91a14f19c535daf9e02bc39ce0c3ea7654493",
+  "images_inspected": {
+    "forward_MAE_RMSE_mean_SD.png": "6677d296c479246d28e35407cd999a362aa61ae406416f81cb0b05d0d6e9de59",
+    "joint_hit_mean_SD.png": "ec48d998f25e9aeccf00a4fd5e19d7e82a2aea918a88357849f42fa0298b581c"
+  },
+  "source_CSV_sha256": {
+    "forward_mean_sample_SD.csv": "2229b51cb84a861f18b6942900ccebc11d8e8f412afc29a1e47145d0e566fe77",
+    "target_hit_mean_sample_SD.csv": "354569633ea01c4b046c2b0537f5d075210e1b48204553c2c33573560678339b"
+  },
+  "checks": {
+    "all_three_dataset_totals_present": true,
+    "four_forward_panels_have_correct_units": true,
+    "MAE_RMSE_legend_and_error_bars_readable": true,
+    "no_clipped_titles_labels_or_error_bars": true,
+    "SELF_PROXY_and_COMMON_PROXY_separate": true,
+    "joint_fraction_axis_is_zero_to_one": true,
+    "same_10000_requests_and_sample_SD_labeled": true
+  },
+  "reading_caveat": "Dataset names are categorical positions, not a proportionally spaced numerical training-size axis. Lines connect only the three tested dataset totals. Forward panels use visible nonzero lower axis limits; joint hits use 0..100%, so exact small differences should be read from the bound CSV. Error bars are sample SD across three seeds, not confidence intervals. Training and validation populations both change. COMMON_PROXY is the original D100k seed20260713 F and is not independent of that historical arm; these plots do not establish a physical ranking.",
+  "new_statistics": 0,
+  "new_rendering": 0,
+  "new_inference_training_EM": 0,
+  "remote_calls": 0,
+  "scope": "Visual review of the two newly closed dataset three-seed PNGs and reading their completed mean/SD tables only. Existing parent-verified transport and input/output bindings were reused, not rerun. No repeated CSV replot or whole-project QA."
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS_REAL_ARCHITECTURE_THREE_SEED_FIGURE_REVIEW",
+  "reviewed_utc": "2026-09-21T16:19:23Z",
+  "comparison_family": "architecture",
+  "seeds": [20260713, 17, 29],
+  "completion_sha256": "2aaff00091c50b35d4c86bf5c280e494ae5867a93d96b18a8749fb326ab262f8",
+  "images_inspected": {
+    "forward_MAE_RMSE_mean_SD.png": "9a5b68c0c12e67314d405bce429d2b8f96f24bcae0ccec8a668e933b47ac7203",
+    "joint_hit_mean_SD.png": "c93f1f4979f54d1d643aec5aadeea30bc938ef0a7e311ab9d4d3884601cd3825"
+  },
+  "source_CSV_sha256": {
+    "forward_mean_sample_SD.csv": "9a14607c3c2e08815fcaaac482084a27ff822e8969cca870309608c6c658fc34",
+    "target_hit_mean_sample_SD.csv": "ef5836738007e46d41a6d9230805a4d73b870c365cbdc31c28174b81c19221d3"
+  },
+  "checks": {
+    "all_three_architectures_present": true,
+    "four_forward_panels_have_correct_units": true,
+    "MAE_RMSE_legend_and_error_bars_readable": true,
+    "no_clipped_titles_labels_or_error_bars": true,
+    "SELF_PROXY_and_COMMON_PROXY_separate": true,
+    "joint_fraction_axis_is_zero_to_one": true,
+    "same_10000_requests_and_sample_SD_labeled": true
+  },
+  "reading_caveat": "The fixed 0..100% joint-hit axis keeps the small differences near the bottom; exact means and sample SD are provided by the bound CSV, not inferred from pixels. Lines connect tested categorical widths only. No monotonic inverse-design gain, confidence interval, or physical winner is implied.",
+  "new_statistics": 0,
+  "new_inference_training_EM": 0,
+  "remote_calls": 0,
+  "scope": "Visual review of the two newly closed architecture three-seed figures only; not an additional whole-project QA."
+}

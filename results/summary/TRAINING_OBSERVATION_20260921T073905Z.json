@@ -1,0 +1,96 @@
+{
+  "utc": "2026-09-21T07:39:05.899044+00:00",
+  "groups": {
+    "dataset_size": {
+      "D10k": {
+        "pid": 3409830,
+        "started_utc": "2026-09-21T07:23:53.131812+00:00",
+        "output": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/runs/D10k",
+        "console_log": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/runs/D10k/console.log",
+        "error_files": [],
+        "stage_files": [
+          "stage_checkpoint_contract.json"
+        ]
+      },
+      "D50k": {
+        "pid": 3409831,
+        "started_utc": "2026-09-21T07:23:53.138323+00:00",
+        "output": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/runs/D50k",
+        "console_log": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/runs/D50k/console.log",
+        "error_files": [],
+        "stage_files": [
+          "stage_checkpoint_contract.json"
+        ]
+      }
+    },
+    "architecture": {
+      "Small": {
+        "pid": 3457206,
+        "started_utc": "2026-09-21T07:32:41.645132+00:00",
+        "output": "/volumes/research-localdata/ywang3652/eucap_paper_architecture_100k_20260921_v1/runs/Small",
+        "console_log": "/volumes/research-localdata/ywang3652/eucap_paper_architecture_100k_20260921_v1/runs/Small/console.log",
+        "error_files": [],
+        "stage_files": [
+          "stage_checkpoint_contract.json"
+        ],
+        "PROGRESS.json": {
+          "utc": "2026-09-21T07:38:55.121370+00:00",
+          "pid": 3457206,
+          "stage": "forward_training",
+          "status": "TRAINING",
+          "actual_optimizer_updates": 1440,
+          "target_optimizer_updates": 3600,
+          "stage_elapsed_seconds": 370.13667909498326,
+          "observer": "after_original_adam_step; no optimizer or gradient change",
+          "fresh_emx": "NOT_RUN",
+          "observed_parameter_0_0": 0.4992790647627838
+        }
+      },
+      "Medium": {
+        "pid": 3457207,
+        "started_utc": "2026-09-21T07:32:41.615075+00:00",
+        "output": "/volumes/research-localdata/ywang3652/eucap_paper_architecture_100k_20260921_v1/runs/Medium",
+        "console_log": "/volumes/research-localdata/ywang3652/eucap_paper_architecture_100k_20260921_v1/runs/Medium/console.log",
+        "error_files": [],
+        "stage_files": [
+          "stage_checkpoint_contract.json"
+        ],
+        "PROGRESS.json": {
+          "utc": "2026-09-21T07:38:47.765254+00:00",
+          "pid": 3457207,
+          "stage": "forward_training",
+          "status": "TRAINING",
+          "actual_optimizer_updates": 720,
+          "target_optimizer_updates": 3600,
+          "stage_elapsed_seconds": 362.8442868029233,
+          "observer": "after_original_adam_step; no optimizer or gradient change",
+          "fresh_emx": "NOT_RUN",
+          "observed_parameter_0_0": 0.5085662335074113
+        }
+      },
+      "Large": {
+        "pid": 3457208,
+        "started_utc": "2026-09-21T07:32:41.619942+00:00",
+        "output": "/volumes/research-localdata/ywang3652/eucap_paper_architecture_100k_20260921_v1/runs/Large",
+        "console_log": "/volumes/research-localdata/ywang3652/eucap_paper_architecture_100k_20260921_v1/runs/Large/console.log",
+        "error_files": [],
+        "stage_files": [
+          "stage_checkpoint_contract.json"
+        ],
+        "PROGRESS.json": {
+          "utc": "2026-09-21T07:37:09.509953+00:00",
+          "pid": 3457208,
+          "stage": "forward_training",
+          "status": "TRAINING",
+          "actual_optimizer_updates": 240,
+          "target_optimizer_updates": 3600,
+          "stage_elapsed_seconds": 264.3508896519197,
+          "observer": "after_original_adam_step; no optimizer or gradient change",
+          "fresh_emx": "NOT_RUN",
+          "observed_parameter_0_0": 0.4844304959568315
+        }
+      }
+    }
+  },
+  "processes": "    PID    PPID STAT     ELAPSED %CPU   RSS\n3409830 3409823 RNl        15:12  397 439452\n3409831 3409823 RNl        15:12  397 441620\n3457206 3457196 RNl        06:24  395 434888\n3457207 3457196 RNl        06:24  390 534780\n3457208 3457196 RNl        06:24  304 676984\n"
+}

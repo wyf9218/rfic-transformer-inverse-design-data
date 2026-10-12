@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE",
+  "path": "/Users/wyf/Downloads/EuCAP_100K_Qscan_10000_Hotspots_20260921.zip",
+  "sha256": "97fa86f098bced16c55621e282ce4dd93f56512f359b41c88fe53f06f6090831",
+  "bytes": 16958359,
+  "files": 32,
+  "crc_and_member_hashes": "PASS",
+  "inference": "110000 candidates for 10000 preserved triplets",
+  "new_EMX": 0,
+  "public_upload": false,
+  "excluded": "Large weights, raw100K, duplicate all-candidate CSV.gz, superseded overlapping Q chart, credentials and PDK"
+}

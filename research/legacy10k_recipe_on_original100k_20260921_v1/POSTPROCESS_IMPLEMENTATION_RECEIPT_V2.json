@@ -1,0 +1,24 @@
+{
+  "recorded_utc": "2026-09-21T19:53:00Z",
+  "timestamp_precision": "minute",
+  "status": "IMPLEMENTATION_READY_TARGETED_BINDING_CHECK_PASS",
+  "postprocess_sha256": "f45e3eb69581b20e41453e72c70a249790547a718bb5a6ca873b2617a8e9a393",
+  "tests_sha256": "f5ffce4128c1026ceaf85c1e7564df450dd8f3a5ce9f41a418c611d8d8d2f241",
+  "supersedes_implementation_identity": "POSTPROCESS_IMPLEMENTATION_RECEIPT.json",
+  "new_gates": [
+    "sha256(actual weights) equals summary.weights_npz_sha256 after terminal-to-summary binding",
+    "response_loss_family == mse",
+    "response_loss_scaling == declared_range",
+    "topology_feasibility_weight == 0"
+  ],
+  "new_check": "One synthetic terminal/summary-valid but weights-mismatched case fails before analysis/model access: PASS",
+  "source_compile": "PASS",
+  "previous_passed_checks": "Reused, not rerun",
+  "training_runs": 0,
+  "trained_model_loads": 0,
+  "real_candidate_inference": 0,
+  "fresh_emx": 0,
+  "runtime_validation": "PENDING_ACTUAL_TRAINING_TERMINAL",
+  "visual_review": "PENDING_ACTUAL_POSTPROCESS_OUTPUTS",
+  "next_legal_entry": "Parent completion queue calls the pinned postprocess once after training COMPLETE and run-lock release."
+}

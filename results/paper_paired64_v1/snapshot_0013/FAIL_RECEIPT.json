@@ -1,0 +1,19 @@
+{
+  "schema": "paired64_offline_layout_failure_preserved.v1",
+  "status": "FAIL_PRESERVED_TEXT_CLIPPING_FALSE_POSITIVE",
+  "reported_by": "Main real N14 offline figure invocation",
+  "exception": "FIGURE_TEXT_CLIPPING:['3.0', '0.8']",
+  "source_snapshot": "paired64_20260921_v1/received_snapshots/snapshot_0013/analysis",
+  "source_analysis_index_sha256": "880f29acb20ffa628641099875f842f7080ec3ed5e8c9846a30cf75ee249b810",
+  "original_plot_source_sha256": "b8d1819c2774d7f4f7fa24795a7cbf3bc564211cb1e7ab0adae7df4f7f56f8ca",
+  "matched": 14,
+  "pending": 50,
+  "original_denominator": 64,
+  "cause": "Automatic locators retain outside-view ticks with visible Text objects; Axis.draw does not draw those ticks. The generic canvas-text scan incorrectly counted them.",
+  "minimal_fix": "Exclude only ticklabel objects whose actual tick positions lie outside their unchanged axis view limits. Keep checks for every drawn label, normal text and legend.",
+  "scientific_limits_font_sizes_or_data_changed": false,
+  "new_output": "paper_paired64_v1/snapshot_0013_v2",
+  "old_output_overwritten_or_deleted": false,
+  "new_inference_analysis_or_native": 0,
+  "running_publisher_modified": false
+}

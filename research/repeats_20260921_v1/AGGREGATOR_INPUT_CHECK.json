@@ -1,0 +1,26 @@
+{
+  "status": "PASS_REAL_PRIMARY_SCHEMA_AND_PARTIAL_GUARD",
+  "checked_date_utc": "2026-09-21",
+  "source_root": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/dataset_size_811_20260921_v1/analysis_received",
+  "real_primary_seed": 20260713,
+  "real_primary_arms": ["D10k", "D50k", "D100k", "Small", "Medium", "Large"],
+  "validated_completed_evaluations": 6,
+  "validated_forward_metric_rows": 24,
+  "validated_hit_rows": 12,
+  "same_input_read_twice_returns_identical_values": true,
+  "sha_bound_small_csvs_only": true,
+  "partial_family_rejection": {
+    "dataset": "NOT_COMPLETE: all nine arm/seed evaluations required",
+    "architecture": "NOT_COMPLETE: all nine arm/seed evaluations required"
+  },
+  "additional_required_evaluations": 12,
+  "additional_required_seeds": [17, 29],
+  "new_seed_results_fabricated": 0,
+  "three_seed_aggregates_generated": 0,
+  "plots_generated": 0,
+  "new_inference": 0,
+  "new_training": 0,
+  "new_EMX": 0,
+  "remote_calls": 0,
+  "boundary": "Input compatibility and deterministic loading are verified on real completed primary evaluations. Future repeat outputs and three-seed rendering have not yet completed and are not claimed validated. No dummy repeat receipts or metrics were created."
+}

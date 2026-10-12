@@ -1,0 +1,54 @@
+{
+  "schema": "paired64_physical_residual_summary.v1",
+  "status": "COMPLETE_OFFLINE_ARITHMETIC",
+  "source_csv": {
+    "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/paired64_20260921_v1/received_snapshots/snapshot_0063/analysis/paired64_candidate_status.csv",
+    "sha256": "feee0b8e67118d2145cce3b629aaca6416cc466423e8b3e472872dab369ebbe9"
+  },
+  "source_analysis_receipt": {
+    "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/paired64_20260921_v1/received_snapshots/snapshot_0063/analysis/ANALYSIS_RECEIPT.json",
+    "sha256": "5e63cae021ab72d620040182f0555815aad3ac910c87407111868501b42de375"
+  },
+  "script": {
+    "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/paper_paired64_v1/final64_error_summary_v1/summarize_final64.py",
+    "sha256": "91b87be45fba068386289311fadac2b9ffb7475b63ec41fa06540ec37a0952d4"
+  },
+  "N": 64,
+  "finite_N_per_metric": 64,
+  "source_observation_utc": "2026-09-21T12:29:59.881020+00:00",
+  "contingency": {
+    "both_hit": 8,
+    "proxy_only_hit": 1,
+    "emx_only_hit": 0,
+    "both_miss": 55
+  },
+  "proxy_only_hit_target": "paper_u20260921_05172",
+  "flipped_criteria": [
+    "lp_nh",
+    "q_min",
+    "k_abs"
+  ],
+  "p95_method": "linear/type7; percentile of absolute residual",
+  "new_inference": 0,
+  "new_training": 0,
+  "new_emx": 0,
+  "re_extraction": 0,
+  "outputs": {
+    "physical_error_summary.csv": {
+      "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/paper_paired64_v1/final64_error_summary_v1/physical_error_summary.csv",
+      "sha256": "728ab673ffb1e38f4c2cd0039d24c25abee25a92ba19de5cb2339d1a3ccfbfaa"
+    },
+    "signed_residuals.csv": {
+      "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/paper_paired64_v1/final64_error_summary_v1/signed_residuals.csv",
+      "sha256": "a32311b2aff774a9cc3a0fe20192a2d2769786b1fb71af0c7307ba9fc1f82692"
+    },
+    "proxy_only_hit_case.csv": {
+      "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/paper_paired64_v1/final64_error_summary_v1/proxy_only_hit_case.csv",
+      "sha256": "d3996f7688ac0448a6436bfd887aa7842dcc448dd05a7713eb897d4b9f32a8c7"
+    },
+    "RESULT_PARAGRAPH.md": {
+      "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/paper_paired64_v1/final64_error_summary_v1/RESULT_PARAGRAPH.md",
+      "sha256": "0bde655b903a48b6b5dd0f24f2f1fd98646f80391fe0944e97297fd447e5b4df"
+    }
+  }
+}

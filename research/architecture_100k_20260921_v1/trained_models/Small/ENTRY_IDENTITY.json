@@ -1,0 +1,42 @@
+{
+  "schema": "original100k_width_only_full_tandem.v1",
+  "arm": "Small",
+  "architecture": {
+    "forward": [
+      10,
+      128,
+      128,
+      128,
+      4
+    ],
+    "inverse": [
+      4,
+      128,
+      128,
+      128,
+      10
+    ],
+    "forward_parameters": 34948,
+    "inverse_parameters": 34954
+  },
+  "model_seed": 20260713,
+  "dataset_rows": 100000,
+  "partition_rows": {
+    "train": 78891,
+    "validation": 9740,
+    "test": 11369
+  },
+  "dataset_contract_sha256": "f4259d99c19b7b9efb2b97171c7e20c61aff585c80391355a37fb451a7e4b880",
+  "wrapper_sha256": "159adcff89f2590b7750af0452fa8919b4d00d468e394ca655c960446b1e2b73",
+  "dataset_adapter_sha256": "bd59a6b6d0188d67e1c0f5ae702ce7654e9c6a2f0870625054fd032a8580af55",
+  "core_sha256": "ddb5088d9143ac9bd9b870fd4bef1cbdff93ef36c7f0e0176db3fefac03bed49",
+  "runtime_sha256": "fbfda2023f862af2f0b185e41c4bf899f97cb79b0d0d763d20501c03525e8a4f",
+  "global_split_index_sha256": {
+    "train": "9ef1f3d0bebf30cfd8c1ccdc6f4a40d0676956354a0091e897d0894257301a37",
+    "validation": "5799974d9f22e63f4e8cc5f5f4c30b2d2390060aaecebb9a0a858c4d384603cd",
+    "test": "5c22ced2ec926dad716708afcb2da313f0d29ebe2d0a627670913a4c69dccdd6"
+  },
+  "scientific_variable": "shared hidden width of complete F and I; own F is trained then frozen",
+  "fresh_emx": "NOT_RUN",
+  "existing_models_modified": false
+}

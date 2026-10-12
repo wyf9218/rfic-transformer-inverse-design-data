@@ -1,0 +1,37 @@
+{
+  "status": "PASS_TERMINAL_N64_THREE_FIGURE_REVIEW",
+  "review_date_utc": "2026-09-21",
+  "source_cut_utc": "2026-09-21T12:29:59.881020+00:00",
+  "source_analysis_index_sha256": "91af6d3314f53467de8d95ad054da86e6c52506da1f5a8e872a0b5833c5c1432",
+  "source_analysis_receipt_sha256": "5e63cae021ab72d620040182f0555815aad3ac910c87407111868501b42de375",
+  "frozen_plot_script_sha256": "418010e2ce7d0c887757ebf99fefe9f96e647dbe01adbca7d3e3d7d6cd1057e5",
+  "figure_receipt_sha256": "97bfb9f17e33b8973f5e13c412a9b319ae1bcede6f114dbd5f7813a74c4e8dca",
+  "figure_output_index_sha256": "1497e2d54d21d86dccadb42383db2b0c389c3f808b0ceecfe28461404da8b39e",
+  "all_11_original_output_hashes": "PASS",
+  "images_viewed": [
+    "paired64_proxy_emx_correspondence.png",
+    "paired64_target_hit_rate_difference.png",
+    "paired64_proxy_emx_hit_rate_comparison.png"
+  ],
+  "original_denominator": 64,
+  "matched_pairs": 64,
+  "proxy_joint_hits": 9,
+  "EMX_joint_hits": 8,
+  "paired_contingency": {"both_hit": 8, "proxy_only_hit": 1, "emx_only_hit": 0, "both_miss": 55},
+  "checks": [
+    "Titles, axes, units, marker legends, colour bars and original64 accounting footer are visible without clipping",
+    "64 identical candidate pairs are used in both proxy and fresh-EM columns",
+    "The observed proxy-only disagreement is retained and visible in both target-coordinate projections",
+    "Difference colour scale -1..1 and hit-rate colour scale 0..1 are retained",
+    "No-observation gray, zero-difference white and low-n crosses are distinguishable",
+    "TERMINAL N=64/64 label is consistent with zero failures, pending and unverified states"
+  ],
+  "scope_note": "Complete original64 paired validation, not full T10000 EM validation or complete physical feasible-space coverage. Low-n bins are not interpolated. See READING_NOTE_CN.md.",
+  "new_inference": 0,
+  "new_training": 0,
+  "new_native_simulation": 0,
+  "remote_calls": 0,
+  "old_cut_redrawn": false,
+  "shared_memory_edited": false,
+  "zip_created": false
+}

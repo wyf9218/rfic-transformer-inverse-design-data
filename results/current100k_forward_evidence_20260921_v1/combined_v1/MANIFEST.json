@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-09-21T21:11:18.327619+00:00",
+  "model_id": "legacyrecipe_D100k_seed20260711",
+  "operation": "Compose approved original figures vertically; presentation only",
+  "sources": {
+    "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/current100k_forward_evidence_20260921_v1/clean_v2/forward_learning_curve_clean.png": "eef54a17596999e689b03c2cc01afa74a84d06f973fae550d6d08f516077c1cc",
+    "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/current100k_forward_evidence_20260921_v1/clean_v2/forward_learning_curve_clean.svg": "fcbec64ebe80072f813150d2ea6e9bdba0cd4f9308ed2d15809e10c051173c80",
+    "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/current100k_forward_evidence_20260921_v1/em_error_labels_q_v2/forward_prediction_vs_em_errors.png": "2ebe21e25886aed4a7943755eee5345bc80ecf3a8d6978f680ff218dd8354a51",
+    "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/current100k_forward_evidence_20260921_v1/em_error_labels_q_v2/forward_prediction_vs_em_errors.svg": "1fc0eec7b13d4e4767bbca159cc50916eb803e94e4c165312e2c2d9e7f61523f"
+  },
+  "script_sha256": "3be1f22cf09a8157648c64b5399d050d401fcb24c41715e90bfb0d3f73ea631d",
+  "pixel_dimensions": [
+    2052,
+    3032
+  ],
+  "new_inference_training_emx": 0,
+  "evidence": "Existing 11369 held-out EM labels, not fresh-EMX validation of inverse designs",
+  "Q_notation": "Q; underlying definition unchanged",
+  "visual_review": "PENDING"
+}

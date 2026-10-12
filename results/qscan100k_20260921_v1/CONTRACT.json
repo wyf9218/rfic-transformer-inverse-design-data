@@ -1,0 +1,178 @@
+{
+  "schema": "original100k_external_symmetric_qscan.v1",
+  "created_utc": "2026-09-21T18:44:47.841265+00:00",
+  "inputs": [
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/src/rfic_transformer_inverse_design/synthesis/frozen_mlp.py",
+      "sha256": "d962de6f923234d5e9702556a1df16ff63d84df59c2684f3b46e469f2fe39eb9"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/model_manifest.json",
+      "sha256": "37a47545bc94193f4d2ef0afed9697fcd0b1b2a5f579aeaf118330d526fb396c"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/physical_feature_tandem_inverse_summary.json",
+      "sha256": "f05c4c0b3937bf9107f95d38d14679995aedc936071852ac7696f9838c5d43c1"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/physical_feature_tandem_inverse_weights.npz",
+      "sha256": "c61a93d56136ad21686863aae72984c49eb0d33ce766923c8ec2d03d9c3177dd"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/figure_data/random10000_targets.csv",
+      "sha256": "a71e43284e1e629d14892d6e0ff72a4c2fbdf64616784884aa854bdd6984b223"
+    }
+  ],
+  "script_sha256": "729d99b62990bc90a3e324832ee2916a0f4b9c1625ed0550102064d5de6a2dac",
+  "model_id": "current_foundry_qmin_response_only_seed20260713",
+  "model_seed": 20260713,
+  "frequency_ghz": 15,
+  "source_rows": 100000,
+  "train_rows": 78891,
+  "validation_rows": 9740,
+  "test_rows": 11369,
+  "model_training_Q_semantics": "minimum; margin=2 in original training, unchanged",
+  "external_evaluation_Q_semantics": "exact symmetric error relative to each scanned q, NOT minimum",
+  "n_requests": 10000,
+  "n_candidates": 110000,
+  "q_values": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "target_use": "Reuse exact source IDs and Lp/Ls/K. Source random Q archived but NOT used; no target redraw.",
+  "target_range_min": [
+    0.5021232207093306,
+    0.5027909917570141,
+    0.01545946987287989
+  ],
+  "target_range_max": [
+    2.999947340626969,
+    2.9996533919512243,
+    0.7995055143826415
+  ],
+  "selection_score": "sqrt(mean(((F(I([Lp,Ls,q,abs(k)]))-[Lp,Ls,q,abs(k)])/[2.5,2.5,20,0.8])**2)); symmetric Q; ascending-q exact ties",
+  "feature_order": [
+    "lp_nh",
+    "ls_nh",
+    "q_scalar",
+    "k_abs"
+  ],
+  "spans": [
+    2.5,
+    2.5,
+    20.0,
+    0.8
+  ],
+  "selection_failure": "Nonfinite scores or geometry receive infinite score; all-failed requests remain denominator. No replacement.",
+  "hit_rule": "all four abs(proxy-target)/abs(target)<=threshold AND finite original-decoder bounds and physical proxy validity; symmetric Q; no margin",
+  "physical_proxy_validity": "Lp,Ls,Q positive; 0<K_abs<1; not DRC/EM or SRF qualification",
+  "geometry_handling": "original floating decoder output, no grid/repair/GDS regeneration",
+  "hit_thresholds": [
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "low_N": 10,
+  "binning": {
+    "lp_nh": [
+      0.5,
+      0.625,
+      0.75,
+      0.875,
+      1.0,
+      1.125,
+      1.25,
+      1.375,
+      1.5,
+      1.625,
+      1.75,
+      1.875,
+      2.0,
+      2.125,
+      2.25,
+      2.375,
+      2.5,
+      2.625,
+      2.75,
+      2.875,
+      3.0
+    ],
+    "ls_nh": [
+      0.5,
+      0.625,
+      0.75,
+      0.875,
+      1.0,
+      1.125,
+      1.25,
+      1.375,
+      1.5,
+      1.625,
+      1.75,
+      1.875,
+      2.0,
+      2.125,
+      2.25,
+      2.375,
+      2.5,
+      2.625,
+      2.75,
+      2.875,
+      3.0
+    ],
+    "k_abs": [
+      0.0,
+      0.04,
+      0.08,
+      0.12,
+      0.16,
+      0.2,
+      0.24,
+      0.28,
+      0.32,
+      0.36,
+      0.4,
+      0.44,
+      0.48,
+      0.52,
+      0.56,
+      0.6,
+      0.64,
+      0.68,
+      0.72,
+      0.76,
+      0.8
+    ],
+    "selected_q": [
+      9.5,
+      10.5,
+      11.5,
+      12.5,
+      13.5,
+      14.5,
+      15.5,
+      16.5,
+      17.5,
+      18.5,
+      19.5,
+      20.5
+    ]
+  },
+  "evidence": "SELF_PROXY_NOT_FRESH_EMX",
+  "fresh_emx": "NOT_RUN_FOR_QSCAN_CANDIDATES",
+  "old64": "Remains paired to prior one-shot geometries, not automatically evidence for selected scan geometries",
+  "inference_batch_rows": 2048,
+  "numpy": "2.0.2",
+  "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+  "runtime": "local; native server untouched; CPU thread cap 4"
+}

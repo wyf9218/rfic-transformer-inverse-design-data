@@ -1,0 +1,50 @@
+{
+  "status": "COMPLETE",
+  "completed_utc": "2026-09-21T19:40:53.070546+00:00",
+  "inference_seconds": 1.756215125,
+  "n_targets": 8000,
+  "n_new_candidate_inferences": 88000,
+  "n_old_candidate_inferences": 0,
+  "all_candidates_finite": true,
+  "failed_requests": 0,
+  "selected_geometry_bounds_valid": 8000,
+  "selected_physical_proxy_valid": 8000,
+  "old_hits": {
+    "5": 4945,
+    "10": 6468,
+    "15": 7371,
+    "20": 7812,
+    "25": 7943
+  },
+  "new_hits": {
+    "5": 311,
+    "10": 4492,
+    "15": 6490,
+    "20": 7449,
+    "25": 7796
+  },
+  "new_any_Q_hits_10pct_posthoc_not_selected": 5174,
+  "old_feature_hits_10pct": {
+    "lp_nh": 7254,
+    "ls_nh": 7620,
+    "q_scalar": 7977,
+    "k_abs": 6967
+  },
+  "new_feature_hits_10pct": {
+    "lp_nh": 7267,
+    "ls_nh": 6670,
+    "q_scalar": 6022,
+    "k_abs": 6870
+  },
+  "both_models_hit10": 4348,
+  "unchanged_methods": true,
+  "new_training_runs": 0,
+  "new_physical_runs": 0,
+  "comparison_scope": "Same targets/scan/score/hit rule, but different models, training, decoder and own forward evaluator; not a causal data-size comparison",
+  "contract_sha256": "b90c0df12f0dd3800086fc374c9c6e658495d45a7640e2d29550f7716f858d61",
+  "outputs": {
+    "all_original100k_88000_candidates.npz": "e37802a3eadfe2c0c37a50293d92fb67d45f0c890e358e6a8d39b26d33872b43",
+    "original100k_selected_same8000.csv": "629063605faea72b1baed9b0e9977f3ce2cb332849db97566f0c0620a362b591",
+    "same8000_descriptive_comparison.csv": "756ed23f2fe4ca5bb0aea92268d6d437d9ed031686a32ecff995066780e4faa7"
+  }
+}

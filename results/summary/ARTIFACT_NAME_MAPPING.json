@@ -1,0 +1,23 @@
+{
+  "figure_aliases": {
+    "FigA1_distribution": "Fig1A_distribution",
+    "FigA2_composition": "Fig1B_composition",
+    "FigB1_forward_model_compare": "Fig2A_forward_model_compare",
+    "FigB2_inverse_model_compare": "Fig2B_inverse_model_compare",
+    "FigC1_proxy_hotspot_lp_ls": "Fig3A_proxy_lp_ls",
+    "FigC2_proxy_hotspot_q_k": "Fig3B_proxy_q_k",
+    "FigC3_emx_hotspot_lp_ls": "Fig3C_emx_lp_ls",
+    "FigC4_emx_hotspot_q_k": "Fig3D_emx_q_k",
+    "FigC5_proxy_emx_overlap": "Fig3E_proxy_emx_overlap"
+  },
+  "note_aliases": {
+    "distribution_figure_caption.md": "Fig1_captions.md",
+    "dataset_generation_note.md": "dataset_generation_and_completion_note.md",
+    "model_compare_caption.md": "Fig2_captions.md",
+    "model_selection_basis.md": "model_compare_method.md",
+    "proxy_emx_figure_captions.md": "Fig3_captions.md",
+    "coverage_method.md": "hotspot_method_note.md"
+  },
+  "reason": "Exact byte copies of completed exports under revised user-requested names; not new figures/evaluations",
+  "full_random_result_alias": "random10000_proxy_results.csv == proxy_predictions_random10000.csv"
+}

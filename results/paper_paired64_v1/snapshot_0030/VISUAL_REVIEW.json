@@ -1,0 +1,32 @@
+{
+  "status": "PASS_REAL_N31_THREE_FIGURE_REVIEW",
+  "review_date_utc": "2026-09-21",
+  "source_cut_utc": "2026-09-21T09:58:58.512045+00:00",
+  "source_analysis_index_sha256": "05a402598ad86f5aac55858e244d68bcb2aeb86445d402adbe321924465c6f31",
+  "source_analysis_receipt_sha256": "98afe9e6b2ff387aa316f57a12248d72b391c863361a71ce8c1ff6762734921e",
+  "frozen_plot_script_sha256": "418010e2ce7d0c887757ebf99fefe9f96e647dbe01adbca7d3e3d7d6cd1057e5",
+  "figure_receipt_sha256": "a57df7b05b365d2598e68e32dbd69834fb3885a44bb965661b13354103cda8a2",
+  "figure_output_index_sha256": "85d9b55abb961308d11190404447292ee3a8595b733893361396e4f1b5d53556",
+  "all_11_original_output_hashes": "PASS",
+  "images_viewed": [
+    "paired64_proxy_emx_correspondence.png",
+    "paired64_target_hit_rate_difference.png",
+    "paired64_proxy_emx_hit_rate_comparison.png"
+  ],
+  "checks": [
+    "Titles, axes, units, marker legends, colour bars and accounting footers are visible without clipping",
+    "31 identical candidate pairs used in proxy and fresh-EM comparisons",
+    "Five both-hit and 26 both-miss candidates preserved",
+    "Difference colour scale -1..1 and hit-rate colour scale 0..1 retained",
+    "No paired observations remain gray; low-n crosses and zero observed differences stay distinguishable",
+    "PARTIAL N=31/64 label and original64 footer retained"
+  ],
+  "denominator_note": "READING_NOTE_CN.md explains that pending33 are not necessarily running jobs; narrow unverified0 does not mean all64 verified. Overall33 requests remain unverified.",
+  "new_inference": 0,
+  "new_training": 0,
+  "new_native_simulation": 0,
+  "remote_calls": 0,
+  "old_14_cut_redrawn": false,
+  "shared_memory_edited": false,
+  "zip_created": false
+}

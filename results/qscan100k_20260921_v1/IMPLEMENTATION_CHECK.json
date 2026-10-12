@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "original_api_equivalence": [
+    {
+      "flat_index": 0,
+      "geometry_max_abs": 1.1368683772161603e-13,
+      "proxy_max_abs": 4.440892098500626e-16
+    },
+    {
+      "flat_index": 5,
+      "geometry_max_abs": 1.7053025658242404e-13,
+      "proxy_max_abs": 1.7763568394002505e-15
+    },
+    {
+      "flat_index": 10,
+      "geometry_max_abs": 2.2737367544323206e-13,
+      "proxy_max_abs": 1.7763568394002505e-15
+    },
+    {
+      "flat_index": 55000,
+      "geometry_max_abs": 5.684341886080802e-14,
+      "proxy_max_abs": 9.992007221626409e-16
+    },
+    {
+      "flat_index": 109999,
+      "geometry_max_abs": 5.684341886080802e-14,
+      "proxy_max_abs": 3.552713678800501e-15
+    }
+  ],
+  "symmetric_Q_sign_check": true,
+  "low_Q_exact_tie": true,
+  "no_one_sided_shortfall": true
+}

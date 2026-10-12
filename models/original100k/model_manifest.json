@@ -1,0 +1,87 @@
+{
+  "schema": "rfic_frozen_inverse_mlp_bundle_v1",
+  "generated_utc": "2026-08-04T17:15:11+00:00",
+  "model_id": "current_foundry_qmin_response_only_seed20260713",
+  "model_seed": 20260713,
+  "target_frequency_ghz": 15.0,
+  "q_target_semantics": "minimum",
+  "input_columns": [
+    "input__lp_nh_center",
+    "input__ls_nh_center",
+    "input__q_center",
+    "input__k_abs_center"
+  ],
+  "geometry_columns": [
+    "geom__primary_outer_width_um",
+    "geom__primary_outer_height_um",
+    "geom__secondary_outer_width_um",
+    "geom__secondary_outer_height_um",
+    "geom__line_width_um",
+    "geom__primary_terminal_y_span_um",
+    "geom__secondary_terminal_y_span_um",
+    "geom__offset_um",
+    "geom__primary_feed_extension_um",
+    "geom__secondary_feed_extension_um"
+  ],
+  "architecture": {
+    "inverse_mlp": [
+      4,
+      512,
+      512,
+      256,
+      10
+    ],
+    "forward_surrogate": [
+      10,
+      256,
+      256,
+      128,
+      4
+    ]
+  },
+  "artifacts": {
+    "model_summary": {
+      "path": "physical_feature_tandem_inverse_summary.json",
+      "sha256": "f05c4c0b3937bf9107f95d38d14679995aedc936071852ac7696f9838c5d43c1",
+      "size_bytes": 42444
+    },
+    "model_weights": {
+      "path": "physical_feature_tandem_inverse_weights.npz",
+      "sha256": "c61a93d56136ad21686863aae72984c49eb0d33ce766923c8ec2d03d9c3177dd",
+      "size_bytes": 3846950
+    },
+    "trainer_runtime": {
+      "path": "trainer_runtime.py",
+      "sha256": "fbfda2023f862af2f0b185e41c4bf899f97cb79b0d0d763d20501c03525e8a4f",
+      "size_bytes": 248034
+    }
+  },
+  "production_contract": {
+    "training_count": 100000,
+    "training_csv_sha256": "fe94d15b0d083330fe7a64d3e059d083a5aa32d73394c85fc4b881e9904e68a2",
+    "config_sha256": "996ebad95e407b5f959b3807e1a2b90fad5599c54a7b6745fcd24ce82c4708e0",
+    "port_mode": "single_ended_shield_grounded",
+    "cadence_pin_purpose": 51,
+    "signal_port_count": 4,
+    "center_tap_auxiliary_terminals": 4,
+    "touchstone_extension": ".s4p",
+    "frequency_start_ghz": 5.0,
+    "frequency_stop_ghz": 60.0,
+    "frequency_step_ghz": 0.5,
+    "frequency_points": 111,
+    "process": "TSMC65 current-foundry contract",
+    "geometry_dimension": 10,
+    "shared_m9_m10_line_width": true
+  },
+  "mars_defaults": {
+    "repo_root": "/volumes/research-localdata/ywang3652/rfic-transformer-inverse-design-current-foundry-20260730-qmin10-v2",
+    "python_executable": "/volumes/research-localdata/ywang3652/rfic-transformer-inverse-design-current-foundry-20260730-qmin10-v2/.venv/bin/python",
+    "training_csv": "/volumes/research-localdata/ywang3652/current_foundry_campaign_20260728/first100k_v1/real_emx_round_v2/model_checkpoint_1_n100000/training_table/physical_feature_inverse_training_table.csv",
+    "config": "/volumes/research-localdata/ywang3652/rfic-transformer-inverse-design-current-foundry-20260730-qmin10-v2/configs/mars_current_foundry_s4p_5_60_0p5_drc_margin_v2.yaml"
+  },
+  "config_snapshot": {
+    "path": "config/mars_current_foundry_s4p_5_60_0p5_drc_margin_v2.yaml",
+    "sha256": "996ebad95e407b5f959b3807e1a2b90fad5599c54a7b6745fcd24ce82c4708e0"
+  },
+  "scientific_boundary": "The bundle emits candidate geometries and GDS files. Frozen-forward outputs are diagnostics, not physical labels. Calibre PASS establishes layout-rule status only; independent EMX or HFSS is required before claiming that a candidate meets Lp, Ls, Qmin, or |K|."
+}

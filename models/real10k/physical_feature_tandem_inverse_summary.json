@@ -1,0 +1,823 @@
+{
+  "generated_utc": "2026-07-20T19:39:42+00:00",
+  "training_csv": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_table_20260720/multifrequency_physical_feature_training_table.csv",
+  "training_csv_sha256": "3027290eb1b4c229a23f0676f970ff9d13762677a897a0d7e2aed959075c85c8",
+  "out_dir": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d",
+  "training_count": 10000,
+  "input_columns": [
+    "input__lp_nh_center",
+    "input__ls_nh_center",
+    "input__q_center",
+    "input__k_abs_center"
+  ],
+  "geometry_columns": [
+    "geom__primary_outer_width_um",
+    "geom__primary_outer_height_um",
+    "geom__secondary_outer_width_um",
+    "geom__secondary_outer_height_um",
+    "geom__line_width_um",
+    "geom__primary_terminal_y_span_um",
+    "geom__secondary_terminal_y_span_um",
+    "geom__offset_um",
+    "geom__primary_feed_extension_um",
+    "geom__secondary_feed_extension_um"
+  ],
+  "model_comparison_contract": {
+    "schema": "physical_feature_tandem_cross_checkpoint_v1",
+    "trainer_implementation_sha256": "1288e8f5dbedb74e64fe77d044cb8ca67b24edde172b2f21e988dc0f93a9ef4a",
+    "input_columns": [
+      "input__lp_nh_center",
+      "input__ls_nh_center",
+      "input__q_center",
+      "input__k_abs_center"
+    ],
+    "geometry_columns": [
+      "geom__primary_outer_width_um",
+      "geom__primary_outer_height_um",
+      "geom__secondary_outer_width_um",
+      "geom__secondary_outer_height_um",
+      "geom__line_width_um",
+      "geom__primary_terminal_y_span_um",
+      "geom__secondary_terminal_y_span_um",
+      "geom__offset_um",
+      "geom__primary_feed_extension_um",
+      "geom__secondary_feed_extension_um"
+    ],
+    "architecture": {
+      "forward_depth": 3,
+      "forward_width": 256,
+      "forward_hidden_widths": [
+        256,
+        256,
+        256
+      ],
+      "forward_hidden_widths_source": "legacy_uniform_depth_width",
+      "inverse_depth": 3,
+      "inverse_width": 256,
+      "inverse_hidden_widths": [
+        256,
+        256,
+        256
+      ],
+      "inverse_hidden_widths_source": "legacy_uniform_depth_width"
+    },
+    "optimization": {
+      "batch_size": 1024,
+      "training_batch_sampler": "row_uniform",
+      "forward_epochs": 160,
+      "inverse_epochs": 180,
+      "patience": 20,
+      "forward_max_optimizer_updates": 1200,
+      "inverse_max_optimizer_updates": 1200,
+      "validation_every_optimizer_updates": 20,
+      "learning_rate": 0.001,
+      "weight_decay": 1e-06
+    },
+    "evaluation": {
+      "mode": "validation_only",
+      "test_access_allowed": false
+    },
+    "loss": {
+      "response_weight": 1.0,
+      "geometry_anchor_weight": 0.01,
+      "topology_feasibility_weight": 0.0,
+      "response_ramp_fraction": 0.25,
+      "response_loss_scaling": "declared_range",
+      "response_loss_family": "mse",
+      "response_weight_schedule": "warmup_ramp_adaptive_ema",
+      "response_schedule_domain": "optimizer_update",
+      "response_warmup_fraction": 0.05,
+      "response_adaptive_ema_decay": 0.95,
+      "response_adaptive_min_multiplier": 0.25,
+      "response_adaptive_max_multiplier": 4.0
+    },
+    "split": {
+      "mode": "physical_cell_grouped",
+      "validation_fraction": 0.15,
+      "test_fraction": 0.1,
+      "physical_cell_bins": 4,
+      "physical_cell_lower": "0.5,0.5,5.0,0.0",
+      "physical_cell_upper": "3.0,3.0,25.0,0.8"
+    },
+    "fingerprint_sha256": "8011de4d59f08d0d505c1dd9da105ffd09f78e3517fe4164213e3a7c8e40ef7a"
+  },
+  "checks": {
+    "training_csv_exists": true,
+    "usable_rows_meet_minimum": true,
+    "input_is_physical_features_not_zin": true,
+    "split_reference_is_physical_features_not_zin": true,
+    "geometry_columns_present": true,
+    "topology_feasibility_columns_present": true
+  },
+  "arguments": {
+    "training_csv": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_table_20260720/multifrequency_physical_feature_training_table.csv",
+    "out_dir": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d",
+    "input_columns": "input__lp_nh_center,input__ls_nh_center,input__q_center,input__k_abs_center",
+    "split_reference_columns": "input__lp_nh_center,input__ls_nh_center,input__q_center,input__k_abs_center",
+    "geometry_columns": "geom__primary_outer_width_um,geom__primary_outer_height_um,geom__secondary_outer_width_um,geom__secondary_outer_height_um,geom__line_width_um,geom__primary_terminal_y_span_um,geom__secondary_terminal_y_span_um,geom__offset_um,geom__primary_feed_extension_um,geom__secondary_feed_extension_um",
+    "geometry_prefix": "geom__",
+    "min_training_rows": 10000,
+    "validation_fraction": 0.15,
+    "test_fraction": 0.1,
+    "split_mode": "physical_cell_grouped",
+    "physical_cell_bins": 4,
+    "physical_cell_lower": "0.5,0.5,5.0,0.0",
+    "physical_cell_upper": "3.0,3.0,25.0,0.8",
+    "seed": 20260711,
+    "split_seed": 20260711,
+    "forward_depth": 3,
+    "forward_width": 256,
+    "forward_hidden_widths": null,
+    "inverse_depth": 3,
+    "inverse_width": 256,
+    "inverse_hidden_widths": null,
+    "batch_size": 1024,
+    "training_batch_sampler": "row_uniform",
+    "forward_epochs": 160,
+    "inverse_epochs": 180,
+    "patience": 20,
+    "forward_max_optimizer_updates": 1200,
+    "inverse_max_optimizer_updates": 1200,
+    "validation_every_optimizer_updates": 20,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-06,
+    "response_weight": 1.0,
+    "geometry_anchor_weight": 0.01,
+    "topology_feasibility_weight": 0.0,
+    "response_ramp_fraction": 0.25,
+    "response_loss_scaling": "declared_range",
+    "response_loss_family": "mse",
+    "balanced_mse_temperature": null,
+    "response_weight_schedule": "warmup_ramp_adaptive_ema",
+    "response_schedule_domain": "optimizer_update",
+    "response_warmup_fraction": 0.05,
+    "response_adaptive_ema_decay": 0.95,
+    "response_adaptive_min_multiplier": 0.25,
+    "response_adaptive_max_multiplier": 4.0,
+    "normalization_floor": 1e-12,
+    "max_forward_test_rmse": null,
+    "max_tandem_response_test_rmse": null,
+    "evaluation_mode": "validation_only",
+    "local_refinement_steps": 0,
+    "local_refinement_starts": 1,
+    "local_refinement_learning_rate": 0.05,
+    "local_refinement_optimizer": "projected_gradient",
+    "local_refinement_lr_schedule": "constant",
+    "local_refinement_final_lr_fraction": 0.1,
+    "local_refinement_jitter": 0.05,
+    "local_refinement_seed": 20260712,
+    "max_prediction_rows": 10000,
+    "robustness_noise_levels": "0.01,0.03,0.05,0.10",
+    "robustness_repeats": 3,
+    "robustness_max_rows": 4096,
+    "robustness_seed": 20260711,
+    "stage_checkpoint_mode": "resume_exact",
+    "no_fail_exit": false
+  },
+  "overall_status": "COMPLETE_REVIEW_REQUIRED",
+  "execution_status": "PASS",
+  "quality_status": "REVIEW_REQUIRED_VALIDATION_ONLY",
+  "eligible_for_checkpoint_model_acceptance": false,
+  "eligible_for_model_success_claim": false,
+  "evaluation_mode": "validation_only",
+  "test_access_contract": {
+    "test_access_event_count": 0,
+    "test_access_timing": "not_accessed",
+    "test_used_for_training": false,
+    "test_used_for_early_stopping": false,
+    "test_used_for_model_or_hyperparameter_selection": false,
+    "test_used_for_acceptance_threshold_tuning": false,
+    "test_evaluator_called": false
+  },
+  "evaluation_scope": {
+    "validation_explicit_physical_cell_ood": true,
+    "formal_explicit_physical_cell_ood": false,
+    "split_mode": "physical_cell_grouped",
+    "physical_cell_range_source": "explicit",
+    "boundary": "Checkpoint acceptance requires explicit non-overlapping physical-cell OOD and finite preregistered thresholds. Final model-success claims additionally require real EMX closure and sampled HFSS comparison."
+  },
+  "evaluation_isolation": {
+    "overall_status": "PASS",
+    "checks": {
+      "all_geometry_identities_are_sha256": true,
+      "all_geometry_identities_unique": true,
+      "all_rows_assigned_once": true,
+      "no_geometry_identity_overlap_across_splits": true,
+      "all_splits_nonempty": true
+    },
+    "row_counts": {
+      "train": 7871,
+      "validation": 1227,
+      "test": 902
+    },
+    "index_overlap_count": 0,
+    "geometry_identity_overlap_count": 0,
+    "geometry_identity_set_sha256": {
+      "train": "e490acc549dd407c1f9589a4cb597a3ffcec0810eab7de3fa459c9bbfa2eb1c1",
+      "validation": "3ef189fcd7ca791f04f075859ce1aca5933a58e9cece3388b392d0a81049f252",
+      "test": "c1f21d627f332953563433e5d6906c4a68abaeae85ef9aa3888444d53801cee4"
+    },
+    "test_set_used_for_gradient_updates": false,
+    "test_set_used_for_early_stopping": false,
+    "test_set_used_for_model_or_hyperparameter_selection": false,
+    "test_set_used_for_acceptance_threshold_tuning": false,
+    "evaluation_mode": "validation_only",
+    "test_set_not_accessed": true,
+    "test_set_used_only_for_post_training_evaluation": false,
+    "selection_contract": "training rows update weights; validation rows select epochs; test rows remain sealed"
+  },
+  "decision": "REVIEW_VALIDATION_ONLY_SAMPLER_ABLATION_WITHOUT_TEST_ACCESS",
+  "method": {
+    "forward_proxy": "geometry_to_Lp_Ls_Q_absK",
+    "inverse": "physical_features_to_geometry_through_frozen_forward_proxy",
+    "inverse_loss": "feature_balanced_response_consistency_plus_geometry_anchor",
+    "geometry_anchor_weight": 0.01,
+    "geometry_label_used_in_inverse_objective": true,
+    "topology_feasibility_weight": 0.0,
+    "topology_feasibility_is_label_free": true,
+    "topology_feasibility_contract": {
+      "enabled": false,
+      "weight": 0.0,
+      "available": true,
+      "geometry_columns": [
+        "geom__primary_outer_width_um",
+        "geom__primary_outer_height_um",
+        "geom__secondary_outer_width_um",
+        "geom__secondary_outer_height_um",
+        "geom__line_width_um",
+        "geom__primary_terminal_y_span_um",
+        "geom__secondary_terminal_y_span_um",
+        "geom__offset_um",
+        "geom__primary_feed_extension_um",
+        "geom__secondary_feed_extension_um"
+      ],
+      "required_semantics": [
+        "primary_outer_width_um",
+        "primary_outer_height_um",
+        "secondary_outer_width_um",
+        "secondary_outer_height_um",
+        "primary_terminal_y_span_um",
+        "secondary_terminal_y_span_um",
+        "offset_um",
+        "primary_feed_extension_um",
+        "secondary_feed_extension_um"
+      ],
+      "missing_semantics": [],
+      "index_by_semantic": {
+        "primary_outer_width_um": 0,
+        "primary_outer_height_um": 1,
+        "secondary_outer_width_um": 2,
+        "secondary_outer_height_um": 3,
+        "primary_terminal_y_span_um": 5,
+        "secondary_terminal_y_span_um": 6,
+        "offset_um": 7,
+        "primary_feed_extension_um": 8,
+        "secondary_feed_extension_um": 9
+      },
+      "source_by_semantic": {
+        "primary_outer_width_um": "geom__primary_outer_width_um",
+        "primary_outer_height_um": "geom__primary_outer_height_um",
+        "secondary_outer_width_um": "geom__secondary_outer_width_um",
+        "secondary_outer_height_um": "geom__secondary_outer_height_um",
+        "primary_terminal_y_span_um": "geom__primary_terminal_y_span_um",
+        "secondary_terminal_y_span_um": "geom__secondary_terminal_y_span_um",
+        "offset_um": "geom__offset_um",
+        "primary_feed_extension_um": "geom__primary_feed_extension_um",
+        "secondary_feed_extension_um": "geom__secondary_feed_extension_um"
+      },
+      "scale_by_semantic_um": {
+        "primary_outer_width_um": 359.8437364311198,
+        "primary_outer_height_um": 359.87530217110776,
+        "secondary_outer_width_um": 359.2270899394124,
+        "secondary_outer_height_um": 359.8433198663374,
+        "primary_terminal_y_span_um": 69.95164869681514,
+        "secondary_terminal_y_span_um": 69.96655258063983,
+        "offset_um": 179.78266962576777,
+        "primary_feed_extension_um": 219.84190105529976,
+        "secondary_feed_extension_um": 219.82827377804344
+      },
+      "constraint_names": [
+        "primary_terminal_within_outer_width",
+        "primary_terminal_within_outer_height",
+        "primary_terminal_within_feed_side_straight_section",
+        "secondary_terminal_within_outer_width",
+        "secondary_terminal_within_outer_height",
+        "secondary_terminal_within_feed_side_straight_section",
+        "offset_within_primary_feed_support",
+        "offset_within_secondary_feed_support"
+      ],
+      "scientific_boundary": "This differentiable penalty is label-free and mirrors the coupled terminal-span/feed-support checks in TransformerSpec.validate(). It does not cover the full TSMC65 geometry audit, foundry signoff DRC, EMX, HFSS, ADS, or measurement."
+    },
+    "geometry_output_constraint": "sigmoid_projection_to_observed_training_envelope",
+    "local_refinement": "disabled",
+    "local_refinement_lr_schedule": "constant",
+    "local_refinement_final_lr_fraction": 0.1,
+    "robustness_evaluation": "relative_Gaussian_input_noise_with_training_envelope_clipping",
+    "split_reference_columns": [
+      "input__lp_nh_center",
+      "input__ls_nh_center",
+      "input__q_center",
+      "input__k_abs_center"
+    ],
+    "response_loss_family": "mse",
+    "response_loss_scaling": "declared_range",
+    "response_weight_schedule": "warmup_ramp_adaptive_ema",
+    "response_schedule_domain": "optimizer_update",
+    "training_batch_sampler": "row_uniform"
+  },
+  "response_loss_contract": {
+    "family": "mse",
+    "scaling": "declared_range",
+    "input_columns": [
+      "input__lp_nh_center",
+      "input__ls_nh_center",
+      "input__q_center",
+      "input__k_abs_center"
+    ],
+    "physical_spans": {
+      "input__lp_nh_center": 2.5,
+      "input__ls_nh_center": 2.5,
+      "input__q_center": 20.0,
+      "input__k_abs_center": 0.8
+    },
+    "standardized_dimension_weights": {
+      "input__lp_nh_center": 1.1522627181686569,
+      "input__ls_nh_center": 1.3089853003412328,
+      "input__q_center": 0.6742038033806842,
+      "input__k_abs_center": 0.8645481781094257
+    },
+    "dimension_weight_mean": 1.0,
+    "range_source": "explicit_split_bound,explicit_split_bound,explicit_split_bound,explicit_split_bound",
+    "balanced_mse_bni": null,
+    "interpretation": "Weights convert standardized errors into equalized declared-range errors before a mean-one rescale. This follows dimension-balanced physical regression; it does not change the declared feature ranges."
+  },
+  "training_batch_sampler_contract": {
+    "version": "train_only_physical_cell_sampler_v1",
+    "family": "row_uniform",
+    "training_row_count": 7871,
+    "draws_per_epoch": 7871,
+    "batch_size": 1024,
+    "optimizer_updates_per_epoch": 8,
+    "train_split_index_sha256": "07216df79a33ad6d08c8c32598c9c7323d47c6a0e6c20291fa9cca4d0915427a",
+    "model_seed": 20260711,
+    "forward_sampler_seed": 20260711,
+    "inverse_sampler_seed": 20260712,
+    "enabled": false,
+    "implementation": "one_random_permutation_of_every_real_train_row_per_epoch",
+    "train_only": true,
+    "validation_or_test_rows_eligible_for_sampling": false,
+    "synthetic_rows_created": false,
+    "sampling_with_replacement": false,
+    "occupied_training_cell_count": null,
+    "target_cell_draw_count_difference_max_per_epoch": null,
+    "fingerprint_sha256": "d407da798d4f981d0ad8a4d479d3f2aea24d329034536cbe149a7116e3339951",
+    "interpretation_boundary": "This is the unchanged row-uniform baseline. It balances neither occupied physical cells nor the full declared 4-D grid.",
+    "realized_training_budget": {
+      "forward_epochs": 150,
+      "forward_real_row_draws": 1180650,
+      "forward_optimizer_updates": 1200,
+      "inverse_epochs": 150,
+      "inverse_real_row_draws": 1180650,
+      "inverse_optimizer_updates": 1200,
+      "total_real_row_draws": 2361300,
+      "total_optimizer_updates": 2400
+    }
+  },
+  "optimizer_budget_contract": {
+    "schema": "physical_feature_optimizer_budget_v1",
+    "mode": "fixed_optimizer_updates",
+    "updates_per_full_training_epoch": 8,
+    "validation_every_optimizer_updates": 20,
+    "early_stopping_enabled": false,
+    "response_schedule_domain": "optimizer_update",
+    "forward": {
+      "configured_epoch_limit": 160,
+      "target_optimizer_updates": 1200
+    },
+    "inverse": {
+      "configured_epoch_limit": 180,
+      "target_optimizer_updates": 1200
+    },
+    "interpretation_boundary": "fixed_optimizer_updates cycles only real train rows, validates at a fixed update cadence, and selects the best checkpoint using validation data after completing the exact budget; repeated row exposure is not additional independent data.",
+    "fingerprint_sha256": "4d4d54c77e90509a7e6dfacd17529f042a8a81e6c1540abec5b90a26f9a57bb8",
+    "realized": {
+      "forward_optimizer_updates": 1200,
+      "inverse_optimizer_updates": 1200,
+      "forward_target_exactly_met": true,
+      "inverse_target_exactly_met": true,
+      "exact_update_budget_pass": true
+    }
+  },
+  "split_audit": {
+    "split_mode": "physical_cell_grouped",
+    "physical_cell_grouped": true,
+    "physical_cell_partition_method": "seeded_sha256_threshold_by_cell_id",
+    "physical_cell_partition_seed": 20260711,
+    "physical_cell_partition_stable_for_existing_cells": true,
+    "physical_cell_bins_per_dimension": 4,
+    "physical_cell_range_source": "explicit",
+    "physical_cell_lower": [
+      0.5,
+      0.5,
+      5.0,
+      0.0
+    ],
+    "physical_cell_upper": [
+      3.0,
+      3.0,
+      25.0,
+      0.8
+    ],
+    "occupied_cell_count": 107,
+    "cell_counts": {
+      "train": 83,
+      "validation": 13,
+      "test": 11
+    },
+    "row_counts": {
+      "train": 7871,
+      "validation": 1227,
+      "test": 902
+    },
+    "physical_cell_overlap_count": 0,
+    "all_rows_assigned_once": true,
+    "out_of_range_row_count_before_clipping": 0,
+    "cell_ids": {
+      "train": [
+        "0:0:1:0",
+        "0:0:1:3",
+        "0:0:2:0",
+        "0:0:2:1",
+        "0:0:2:2",
+        "0:0:2:3",
+        "0:0:3:0",
+        "0:0:3:1",
+        "0:1:0:0",
+        "0:1:1:0",
+        "0:1:1:1",
+        "0:1:1:2",
+        "0:1:1:3",
+        "0:1:2:0",
+        "0:1:2:1",
+        "0:1:2:2",
+        "0:2:0:0",
+        "0:2:0:1",
+        "0:2:0:2",
+        "0:2:1:0",
+        "0:3:0:0",
+        "0:3:0:1",
+        "1:0:1:0",
+        "1:0:1:1",
+        "1:0:1:2",
+        "1:0:1:3",
+        "1:0:2:2",
+        "1:1:0:1",
+        "1:1:0:2",
+        "1:1:0:3",
+        "1:1:1:0",
+        "1:1:1:1",
+        "1:1:1:2",
+        "1:1:1:3",
+        "1:1:2:0",
+        "1:1:2:1",
+        "1:1:2:2",
+        "1:1:2:3",
+        "1:2:0:0",
+        "1:2:0:1",
+        "1:2:0:2",
+        "1:2:0:3",
+        "1:2:1:0",
+        "1:2:1:1",
+        "1:2:1:2",
+        "1:2:1:3",
+        "1:3:0:0",
+        "1:3:0:1",
+        "1:3:0:2",
+        "1:3:1:0",
+        "2:0:0:0",
+        "2:0:0:1",
+        "2:0:1:0",
+        "2:0:1:1",
+        "2:0:1:2",
+        "2:1:0:1",
+        "2:1:0:2",
+        "2:1:1:2",
+        "2:2:0:0",
+        "2:2:0:2",
+        "2:2:0:3",
+        "2:2:1:0",
+        "2:2:1:1",
+        "2:2:1:3",
+        "2:3:0:0",
+        "2:3:0:1",
+        "2:3:0:3",
+        "2:3:1:1",
+        "2:3:1:2",
+        "3:0:1:0",
+        "3:1:0:0",
+        "3:1:0:1",
+        "3:1:0:2",
+        "3:1:0:3",
+        "3:1:1:0",
+        "3:1:1:1",
+        "3:2:0:0",
+        "3:2:0:1",
+        "3:2:0:3",
+        "3:2:1:0",
+        "3:2:1:3",
+        "3:3:0:1",
+        "3:3:0:2"
+      ],
+      "validation": [
+        "0:0:1:1",
+        "0:0:1:2",
+        "0:0:3:2",
+        "0:1:0:1",
+        "0:2:1:1",
+        "1:0:2:1",
+        "2:1:1:0",
+        "2:2:0:1",
+        "2:2:1:2",
+        "2:3:0:2",
+        "3:2:1:2",
+        "3:3:1:1",
+        "3:3:1:2"
+      ],
+      "test": [
+        "0:1:0:2",
+        "1:0:2:0",
+        "1:3:0:3",
+        "2:1:0:0",
+        "2:1:0:3",
+        "2:1:1:1",
+        "2:1:1:3",
+        "3:0:0:0",
+        "3:2:0:2",
+        "3:2:1:1",
+        "3:3:0:3"
+      ]
+    },
+    "boundary": "Validation and test rows occupy complete joint physical-feature cells absent from training.",
+    "physical_cell_partition_fingerprint_sha256": "d8f27edf25753955bfec27c8aa6f780151db1ab48320bbca6a2359a070a356e2",
+    "split_index_sha256": {
+      "train": "07216df79a33ad6d08c8c32598c9c7323d47c6a0e6c20291fa9cca4d0915427a",
+      "validation": "d5d0a3d32e5abd9c5c479fdb10ddb54efc8b2647d9791a14b835765c149d02ab",
+      "test": "5e4fa629725d5a24b44557638aff57c533883e6be490a74bdafe7cada58c9f1a"
+    },
+    "split_fingerprint_sha256": "7bb0ccc353b3ecc20051fa563dd478267d9f42b288573a4379fd9eb8e530385d"
+  },
+  "validation_metrics": {
+    "forward_proxy": {
+      "validation_normalized_rmse": 0.18130446291238428,
+      "validation_feature_balanced_normalized_rmse": 0.17569316433120366,
+      "validation_normalized_mae": 0.13025992245934148,
+      "validation_normalized_r2": 0.964193621106147,
+      "validation_range_normalized_rmse": 0.0345475262015108,
+      "validation_range_normalized_mae": 0.02493359713830059
+    },
+    "tandem_inverse": {
+      "validation_response_normalized_rmse": 0.04927887576447851,
+      "validation_feature_balanced_response_normalized_rmse": 0.04713651285836895,
+      "validation_response_normalized_mae": 0.03127730767427662,
+      "validation_response_normalized_r2": 0.9973547605165699,
+      "validation_response_range_normalized_rmse": 0.009268715258338223,
+      "validation_response_range_normalized_mae": 0.005963796658521595,
+      "validation_geometry_anchor_normalized_rmse": 0.8304184652852594,
+      "geometry_envelope_sample_violation_rate": 0.0,
+      "geometry_envelope_element_violation_rate": 0.0,
+      "geometry_envelope_definition": "observed_training_min_max_per_dimension_not_drc",
+      "topology_feasibility_penalty": 0.0,
+      "topology_feasibility": {
+        "available": true,
+        "row_count": 1227,
+        "constraint_count": 8,
+        "penalty_mse": 0.0,
+        "violation_count": 0,
+        "violation_fraction": 0.0,
+        "max_normalized_violation": 0.0,
+        "per_constraint": {
+          "primary_terminal_within_outer_width": {
+            "scale_um": 69.95164869681514,
+            "violation_count": 0,
+            "violation_fraction": 0.0,
+            "max_violation_um": 0.0,
+            "max_normalized_violation": 0.0
+          },
+          "primary_terminal_within_outer_height": {
+            "scale_um": 69.95164869681514,
+            "violation_count": 0,
+            "violation_fraction": 0.0,
+            "max_violation_um": 0.0,
+            "max_normalized_violation": 0.0
+          },
+          "primary_terminal_within_feed_side_straight_section": {
+            "scale_um": 69.95164869681514,
+            "violation_count": 0,
+            "violation_fraction": 0.0,
+            "max_violation_um": 0.0,
+            "max_normalized_violation": 0.0
+          },
+          "secondary_terminal_within_outer_width": {
+            "scale_um": 69.96655258063983,
+            "violation_count": 0,
+            "violation_fraction": 0.0,
+            "max_violation_um": 0.0,
+            "max_normalized_violation": 0.0
+          },
+          "secondary_terminal_within_outer_height": {
+            "scale_um": 69.96655258063983,
+            "violation_count": 0,
+            "violation_fraction": 0.0,
+            "max_violation_um": 0.0,
+            "max_normalized_violation": 0.0
+          },
+          "secondary_terminal_within_feed_side_straight_section": {
+            "scale_um": 69.96655258063983,
+            "violation_count": 0,
+            "violation_fraction": 0.0,
+            "max_violation_um": 0.0,
+            "max_normalized_violation": 0.0
+          },
+          "offset_within_primary_feed_support": {
+            "scale_um": 179.78266962576777,
+            "violation_count": 0,
+            "violation_fraction": 0.0,
+            "max_violation_um": 0.0,
+            "max_normalized_violation": 0.0
+          },
+          "offset_within_secondary_feed_support": {
+            "scale_um": 179.78266962576777,
+            "violation_count": 0,
+            "violation_fraction": 0.0,
+            "max_violation_um": 0.0,
+            "max_normalized_violation": 0.0
+          }
+        }
+      },
+      "local_refinement": {
+        "enabled": false,
+        "method": "disabled",
+        "steps": 0,
+        "starts": 1,
+        "learning_rate": 0.05,
+        "optimizer": "projected_gradient",
+        "learning_rate_schedule": "constant",
+        "final_learning_rate_fraction": 0.1,
+        "jitter_fraction_of_geometry_span": 0.05,
+        "baseline_feature_balanced_normalized_rmse": 0.04713651285836896,
+        "selected_feature_balanced_normalized_rmse": 0.04713651285836896,
+        "improved_row_fraction": 0.0,
+        "selection_nonworsening_by_construction": true,
+        "initial_nonfinite_response_row_count": 0,
+        "initial_nonfinite_score_row_count": 0,
+        "nonfinite_forward_event_count": 0,
+        "nonfinite_gradient_event_count": 0,
+        "nonfinite_proposal_event_count": 0,
+        "rejected_nonfinite_update_count": 0,
+        "nonfinite_refined_score_count": 0
+      }
+    },
+    "input_noise_robustness": {
+      "status": "NOT_RUN_ON_VALIDATION_SELECTION_SPLIT",
+      "boundary": "Robustness is reported once on the frozen final test evaluation, not used to select architecture."
+    },
+    "per_feature_forward_proxy_physical_mae": {
+      "input__lp_nh_center": 0.05477545662658097,
+      "input__ls_nh_center": 0.05850426913087185,
+      "input__q_center": 0.4296370709904428,
+      "input__k_abs_center": 0.02635251576055923
+    },
+    "per_feature_physical_mae": {
+      "input__lp_nh_center": 0.014188436810105481,
+      "input__ls_nh_center": 0.013037747381761902,
+      "input__q_center": 0.11407980861533448,
+      "input__k_abs_center": 0.00580857802125816
+    },
+    "per_feature_range_normalized_mae": {
+      "input__lp_nh_center": 0.005675374724042193,
+      "input__ls_nh_center": 0.005215098952704761,
+      "input__q_center": 0.005703990430766724,
+      "input__k_abs_center": 0.0072607225265727
+    },
+    "range_normalization": {
+      "source": "declared_physical_cell_range",
+      "feature_span": {
+        "input__lp_nh_center": 2.5,
+        "input__ls_nh_center": 2.5,
+        "input__q_center": 20.0,
+        "input__k_abs_center": 0.8
+      },
+      "boundary": "Range-normalized metrics use a fixed declared physical span when available and are the preferred cross-checkpoint learning-curve metrics."
+    },
+    "common_lp_ls_qmin_absk_contract": {
+      "status": "PASS",
+      "q_representation": "Q_scalar",
+      "selected_frequency_tag": "center",
+      "available_frequency_groups": [
+        "center"
+      ],
+      "feature_order": [
+        "Lp_nH",
+        "Ls_nH",
+        "Q_min",
+        "K_abs"
+      ],
+      "fixed_feature_spans": {
+        "Lp_nH": 2.5,
+        "Ls_nH": 2.5,
+        "Q_min": 20.0,
+        "K_abs": 0.8
+      },
+      "validation_range_normalized_rmse": 0.009268715258338223,
+      "validation_range_normalized_mae": 0.005963796658521595,
+      "per_feature_physical_mae": {
+        "Lp_nH": 0.014188436810105473,
+        "Ls_nH": 0.013037747381761906,
+        "Q_min": 0.1140798086153346,
+        "K_abs": 0.00580857802125816
+      },
+      "boundary": "This metric is valid for Q versus Qp/Qs comparison only when both models use the same frequency tag. Cross-frequency input representations require one shared canonical evaluator and new real-EM closure."
+    },
+    "per_geometry_anchor_mae": {
+      "geom__primary_outer_width_um": 67.00666529507782,
+      "geom__primary_outer_height_um": 56.3085177206864,
+      "geom__secondary_outer_width_um": 52.607727983389374,
+      "geom__secondary_outer_height_um": 49.038138995485646,
+      "geom__line_width_um": 1.1197867021099182,
+      "geom__primary_terminal_y_span_um": 16.583247390227168,
+      "geom__secondary_terminal_y_span_um": 17.89013908359916,
+      "geom__offset_um": 43.99594107382328,
+      "geom__primary_feed_extension_um": 41.67340087424548,
+      "geom__secondary_feed_extension_um": 36.85838956823272
+    },
+    "validation_row_count": 1227
+  },
+  "metrics": {},
+  "acceptance_thresholds": {
+    "configured": false,
+    "max_forward_test_normalized_rmse": null,
+    "max_tandem_response_test_normalized_rmse": null,
+    "boundary": "Test thresholds are disabled in validation-only mode. PASS is emitted only in validation-then-test mode when both thresholds are explicitly finite and satisfied.",
+    "checkpoint_acceptance_additional_requirement": "explicit_nonoverlapping_physical_cell_OOD"
+  },
+  "best_epochs": {
+    "forward_proxy": 150,
+    "tandem_inverse": 133
+  },
+  "best_optimizer_updates": {
+    "forward_proxy": 1200,
+    "tandem_inverse": 1060
+  },
+  "stage_checkpoint_resume": {
+    "mode": "resume_exact",
+    "enabled": true,
+    "checkpoint_root": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/stage_checkpoints",
+    "contract_fingerprint_sha256": "e4660f9f6f7da7bebbec0fde12c65805e08590a2fba6fefe3b7f47d5cebbdbcc",
+    "contract_path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/stage_checkpoints/stage_checkpoint_contract.json",
+    "contract_file_sha256": "2e9cddc4f3ed2c9345e5f80abb092a70585cd08e5da0ee75192f6e2c93659063",
+    "resumed_stage_names": [],
+    "resumed_stage_count": 0,
+    "stage_records": {
+      "forward_proxy": {
+        "schema": "physical_feature_tandem_stage_checkpoint_marker_v1",
+        "generated_utc": "2026-07-20T19:38:33+00:00",
+        "status": "PASS",
+        "stage": "forward_proxy",
+        "contract_fingerprint_sha256": "e4660f9f6f7da7bebbec0fde12c65805e08590a2fba6fefe3b7f47d5cebbdbcc",
+        "dependency_weights_sha256": "",
+        "weights_path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/stage_checkpoints/forward_proxy_stage_weights.npz",
+        "weights_sha256": "91c13defc30f64308df5f0f26a4fde742bc45f1ec5c23af52ec3e3d500ef1db3",
+        "metadata_path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/stage_checkpoints/forward_proxy_stage.json",
+        "metadata_sha256": "85b1ddcff7e57d852ca6c3276dc7e253bf750a1a326970afd6606cd9a315a170"
+      },
+      "tandem_inverse": {
+        "schema": "physical_feature_tandem_stage_checkpoint_marker_v1",
+        "generated_utc": "2026-07-20T19:39:42+00:00",
+        "status": "PASS",
+        "stage": "tandem_inverse",
+        "contract_fingerprint_sha256": "e4660f9f6f7da7bebbec0fde12c65805e08590a2fba6fefe3b7f47d5cebbdbcc",
+        "dependency_weights_sha256": "91c13defc30f64308df5f0f26a4fde742bc45f1ec5c23af52ec3e3d500ef1db3",
+        "weights_path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/stage_checkpoints/tandem_inverse_stage_weights.npz",
+        "weights_sha256": "9303dc083bacc2fbf4539f2b09ab2c7e837cdf6c8c2a504ff776627bc8d10c94",
+        "metadata_path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/stage_checkpoints/tandem_inverse_stage.json",
+        "metadata_sha256": "a23f48fe54a11dd254846c0f437e4d45004624c9c0f4064f07144ff2d1d77ba5"
+      }
+    },
+    "scientific_boundary": "Exact stage reuse is allowed only when the real-data, trainer, split, normalization, sampler, optimizer-budget, and argument contract fingerprint matches. A resumed stage does not add training data or constitute model-quality evidence."
+  },
+  "history_csv": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/physical_feature_tandem_inverse_history.csv",
+  "history_csv_sha256": "df05dfc71f6606122ea49c34e4dd1e0bedeb50f0696a92b8ff475fdc79f9513b",
+  "validation_predictions_csv": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/physical_feature_tandem_inverse_validation_predictions.csv",
+  "validation_predictions_csv_sha256": "49038cf8b91cd215dfe4a62df8ad88b9de3ebfcf404dc3e8a675842cf7343678",
+  "test_predictions_csv": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/physical_feature_tandem_inverse_test_predictions.csv",
+  "test_predictions_csv_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "weights_npz": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/physical_feature_tandem_inverse_weights.npz",
+  "weights_npz_sha256": "ffea66dfdd0bb252e402e1ade70f5e8768511e26f2978b1d73b1817a0221e42a",
+  "limitations": [
+    "The frozen proxy reconstructs four center-frequency physical features, not the complete broadband S-parameter tensor.",
+    "The output projection and differentiable topology penalty cover only encoded envelope/topology constraints and are not a DRC certificate.",
+    "Surrogate response consistency is not final validation; selected outputs require DRC, real EMX, and sampled HFSS comparison.",
+    "A single inverse output does not represent the complete one-to-many design distribution; a later conditional generative model should produce top-k alternatives.",
+    "Local refinement, when enabled, selects candidates only through the frozen proxy and therefore cannot be counted as real-EM improvement without new EMX labels."
+  ]
+}

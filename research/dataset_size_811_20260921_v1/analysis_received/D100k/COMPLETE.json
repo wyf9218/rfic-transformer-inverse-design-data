@@ -1,0 +1,118 @@
+{
+  "status": "COMPLETE",
+  "utc": "2026-09-21T07:58:34.906626+00:00",
+  "arm": "D100k",
+  "comparison_family": "original",
+  "model_id": "current_foundry_qmin_response_only_seed20260713",
+  "model_identity": {
+    "weights_sha256": "c61a93d56136ad21686863aae72984c49eb0d33ce766923c8ec2d03d9c3177dd",
+    "reuse_receipt": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_inputs/D100K_REUSE.json",
+      "sha256": "70b823d1a36bcfb9cc02d5d64d92c79e74ff7a209c8babf5f484aa0f29f4a154"
+    }
+  },
+  "dataset_contract_sha256": "f4259d99c19b7b9efb2b97171c7e20c61aff585c80391355a37fb451a7e4b880",
+  "partition_counts": {
+    "train": 78891,
+    "validation": 9740,
+    "test": 11369
+  },
+  "target_sha256": "a71e43284e1e629d14892d6e0ff72a4c2fbdf64616784884aa854bdd6984b223",
+  "common_test_indices_sha256": "5c22ced2ec926dad716708afcb2da313f0d29ebe2d0a627670913a4c69dccdd6",
+  "target_N": 10000,
+  "common_forward_test_N": 11369,
+  "proxy_counts": {
+    "SELF_PROXY": {
+      "hits": 1420,
+      "original_N": 10000,
+      "fraction": 0.142,
+      "request_failures": 0,
+      "projections": {
+        "lp_ls": {
+          "inside": 10000,
+          "outside": 0,
+          "hits_inside": 1420
+        },
+        "q_k": {
+          "inside": 10000,
+          "outside": 0,
+          "hits_inside": 1420
+        }
+      }
+    },
+    "COMMON_PROXY_ORIGINAL_SEED20260713": {
+      "hits": 1420,
+      "original_N": 10000,
+      "fraction": 0.142,
+      "request_failures": 0,
+      "projections": {
+        "lp_ls": {
+          "inside": 10000,
+          "outside": 0,
+          "hits_inside": 1420
+        },
+        "q_k": {
+          "inside": 10000,
+          "outside": 0,
+          "hits_inside": 1420
+        }
+      }
+    }
+  },
+  "inference": {
+    "original_receipt": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_inputs/C_INFERENCE_COMPLETE.json",
+      "sha256": "c74e3389f4938568bc9433b5b017bad31cafecd25cf9620b69abfeb483624747"
+    },
+    "original_predictions": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_inputs/random10000_proxy_results.csv",
+      "sha256": "731bab8852bbd438e0ac152489083c16081be08f8f0669cc8693b86a2e936e44"
+    },
+    "recorded_source_path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/figure_data/proxy_predictions_random10000.csv",
+    "path_relocation_only": true,
+    "new_inverse_calls": 0
+  },
+  "plot_status": "GENERATED_PENDING_VISUAL_REVIEW",
+  "new_training": 0,
+  "fresh_EMX": "NOT_RUN",
+  "test_used_for_model_selection": false,
+  "outputs": {
+    "request_results.csv": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_outputs/results/D100k/request_results.csv",
+      "sha256": "73bd8b0953d9d037108b56da113812db8d1ef726180e87cf6bd38e592bb0ad90"
+    },
+    "common_test_forward_predictions.csv": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_outputs/results/D100k/common_test_forward_predictions.csv",
+      "sha256": "88366d28721a2a47df4162aab22a2869db23ae994c958b7f6bbe614d1a8191ec"
+    },
+    "target_coordinate_hotspots.csv": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_outputs/results/D100k/target_coordinate_hotspots.csv",
+      "sha256": "7451dd2cde8bcdda524ac0c8940fc23957671a63089b055ae871eba2044180db"
+    },
+    "common_test_forward_errors.csv": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_outputs/results/D100k/common_test_forward_errors.csv",
+      "sha256": "7cd6254c6307a6829639d48eec6f62ac217b6e0e129d46be6080d85ff7c9ea79"
+    },
+    "target_coordinate_hotspots.svg": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_outputs/results/D100k/target_coordinate_hotspots.svg",
+      "sha256": "954ee71c8f7a1781b660acfcddefc27bca1287e83d64271e61d969a1ca87ce15"
+    },
+    "target_coordinate_hotspots.png": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_outputs/results/D100k/target_coordinate_hotspots.png",
+      "sha256": "69d83a1ff945a196a3c2ad24a7415c72444557de6d8a0624bc987109e1e7d047"
+    },
+    "common_test_forward_scatter.svg": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_outputs/results/D100k/common_test_forward_scatter.svg",
+      "sha256": "144765587be4601b08866125343407174a1eecec319b3531e9ba9617dc5d417c"
+    },
+    "common_test_forward_scatter.png": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_outputs/results/D100k/common_test_forward_scatter.png",
+      "sha256": "6c465cda4c59fb473ed94e6578cd07191293b79bb605f9dc7bde551b1f2d994b"
+    }
+  },
+  "frame_contract": {
+    "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis_inputs/C_FRAME_CONTRACT.json",
+    "sha256": "6aac68901d58180d5fef3eb52064052cdde9fe0730d18121b86ade99bb500e48"
+  },
+  "comparison_boundary": "Dataset-size and width-only families remain separate. Original D100k is historical selected-model reuse. Single-seed results are descriptive, not fresh EM or universal accuracy."
+}

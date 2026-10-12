@@ -1,0 +1,66 @@
+{
+  "created_utc": "2026-09-21T21:03:15.993238+00:00",
+  "model_id": "legacyrecipe_D100k_seed20260711",
+  "weights_sha256": "ddc3476184911007132728722ae5fb0a00d1183ee867af80cbc6ccaf9dfc805b",
+  "sources": {
+    "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/current100k_forward_evidence_20260921_v1/forward_test_predictions.csv": "a2c1dd716e634a620ded5c69699d1947eacbb1810eb08839095d3dd1a4127175",
+    "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/legacy10k_recipe_on_original100k_20260921_v1/received_report_20260921T2011Z/COMPLETE.json": "e2f718ff48b7d55df7e23d13a2a4a4e3c907040091246a34e8dd644160cecb90",
+    "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/legacy10k_recipe_on_original100k_20260921_v1/received_report_20260921T2011Z/common_test11369/errors.csv": "ffa6d193e56a415eafa3acc8a262e37446b5432dcda6c1774b852e5f420f8b46",
+    "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/legacy10k_forward_evidence_20260921_v1/plot_saved_forward.py": "f62946769509eb670fa24c306e5c9acd8a5f9835c41ffe9cd26aff556c0d304c",
+    "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/current100k_forward_evidence_20260921_v1/plot_em_errors.py": "198e48d0956bddce505f1411d140b81bcc8b49fe785751f0c809cb1b13d8255e"
+  },
+  "metrics": [
+    {
+      "feature": "lp_nh",
+      "unit": "nH",
+      "n": 11369,
+      "n_relative": 11369,
+      "MAE": 0.08453659402691333,
+      "RMSE": 0.12400252492540487,
+      "MAPE_pct": 3.8419587876535055,
+      "P95_relative_error_pct": 10.752184459610909,
+      "P95_absolute_error": 0.2757837468962518,
+      "hits_10pct": 10609
+    },
+    {
+      "feature": "ls_nh",
+      "unit": "nH",
+      "n": 11369,
+      "n_relative": 11369,
+      "MAE": 0.061986149388131156,
+      "RMSE": 0.10064582995384677,
+      "MAPE_pct": 3.2089289760945237,
+      "P95_relative_error_pct": 9.840672478706672,
+      "P95_absolute_error": 0.23327335138075558,
+      "hits_10pct": 10823
+    },
+    {
+      "feature": "q_scalar",
+      "unit": "dimensionless",
+      "n": 11369,
+      "n_relative": 11369,
+      "MAE": 0.4305294259502038,
+      "RMSE": 0.5810094710651214,
+      "MAPE_pct": 5.063444006776037,
+      "P95_relative_error_pct": 17.170789346775404,
+      "P95_absolute_error": 1.2925303782525703,
+      "hits_10pct": 9721
+    },
+    {
+      "feature": "k_abs",
+      "unit": "dimensionless",
+      "n": 11369,
+      "n_relative": 11369,
+      "MAE": 0.02051042967427826,
+      "RMSE": 0.029097649887840655,
+      "MAPE_pct": 5.780740281356534,
+      "P95_relative_error_pct": 17.892386503423335,
+      "P95_absolute_error": 0.059867838475451685,
+      "hits_10pct": 9569
+    }
+  ],
+  "MAPE_definition": "100 * mean(abs(prediction - EM_label) / abs(EM_label)); no zero denominators in this data",
+  "evidence": "EXISTING_REAL_EM_LABEL_HOLDOUT_NOT_FRESH_EM",
+  "new_inference_training_emx": 0,
+  "visual_review": "PENDING"
+}

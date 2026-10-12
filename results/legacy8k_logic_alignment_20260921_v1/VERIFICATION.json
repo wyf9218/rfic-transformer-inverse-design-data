@@ -1,0 +1,144 @@
+{
+  "schema": "same_legacy8k_saved_results_verification.v1",
+  "status": "PASS",
+  "created_utc": "2026-09-21T19:42:34.682983+00:00",
+  "script_sha256": "c5d2059277b7ec81614133cba5cca7f69d4bf05cb4f8ea24591d1312ba7d37ee",
+  "contract_sha256": "b90c0df12f0dd3800086fc374c9c6e658495d45a7640e2d29550f7716f858d61",
+  "summary_sha256": "b9a7f942fe79a1ed55a9958dfffba3af174cb3abbacaeb8b171e6a8af2932386",
+  "inputs": [
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/qscan100k_20260921_v1/run_qscan.py",
+      "sha256": "729d99b62990bc90a3e324832ee2916a0f4b9c1625ed0550102064d5de6a2dac"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/application8k_qscan_v1/application8k_qscan_v1.csv",
+      "sha256": "c12835ab65f898f4b72e2471b125e68fe81edfe6221541ed166c1e21b569a346"
+    },
+    {
+      "path": "/Users/wyf/Desktop/Q_Optimized_8000_Advisor_Report/csv/selected_best_q_per_target.csv",
+      "sha256": "e4d5b40e62f212952df345ef1078903b595c56b3bb5eafab8c864fb7f3693825"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/src/rfic_transformer_inverse_design/synthesis/frozen_mlp.py",
+      "sha256": "d962de6f923234d5e9702556a1df16ff63d84df59c2684f3b46e469f2fe39eb9"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/model_manifest.json",
+      "sha256": "37a47545bc94193f4d2ef0afed9697fcd0b1b2a5f579aeaf118330d526fb396c"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/physical_feature_tandem_inverse_summary.json",
+      "sha256": "f05c4c0b3937bf9107f95d38d14679995aedc936071852ac7696f9838c5d43c1"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/physical_feature_tandem_inverse_weights.npz",
+      "sha256": "c61a93d56136ad21686863aae72984c49eb0d33ce766923c8ec2d03d9c3177dd"
+    }
+  ],
+  "output_pins": {
+    "all_original100k_88000_candidates.npz": "e37802a3eadfe2c0c37a50293d92fb67d45f0c890e358e6a8d39b26d33872b43",
+    "original100k_selected_same8000.csv": "629063605faea72b1baed9b0e9977f3ce2cb332849db97566f0c0620a362b591",
+    "same8000_descriptive_comparison.csv": "756ed23f2fe4ca5bb0aea92268d6d437d9ed031686a32ecff995066780e4faa7"
+  },
+  "checks": {
+    "input_sha:/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/qscan100k_20260921_v1/run_qscan.py": true,
+    "input_sha:/Users/wyf/Documents/模拟变压器AI反向建模/reports/application8k_qscan_v1/application8k_qscan_v1.csv": true,
+    "input_sha:/Users/wyf/Desktop/Q_Optimized_8000_Advisor_Report/csv/selected_best_q_per_target.csv": true,
+    "input_sha:/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/src/rfic_transformer_inverse_design/synthesis/frozen_mlp.py": true,
+    "input_sha:/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/model_manifest.json": true,
+    "input_sha:/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/physical_feature_tandem_inverse_summary.json": true,
+    "input_sha:/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/physical_feature_tandem_inverse_weights.npz": true,
+    "output_sha:all_original100k_88000_candidates.npz": true,
+    "output_sha:original100k_selected_same8000.csv": true,
+    "output_sha:same8000_descriptive_comparison.csv": true,
+    "contract_sha": true,
+    "8000_exact_unique_ids_same_order": true,
+    "saved_shapes": true,
+    "new_source_triplets_exact_all_candidates": true,
+    "old_triplets_agree_with_csv_precision": true,
+    "q_grid_exact": true,
+    "88000_scores_exact": true,
+    "all_candidates_finite": true,
+    "finite_masks_exact": true,
+    "all_argmins_exact": true,
+    "selected_q_exact": true,
+    "selected_target_exact": true,
+    "selected_proxy_exact": true,
+    "selected_score_exact": true,
+    "selected_symmetric_relative_errors_exact": true,
+    "old_selected_scores_csv_precision": true,
+    "old_hit_flags_5": true,
+    "new_hit_flags_5": true,
+    "old_hit_flags_10": true,
+    "new_hit_flags_10": true,
+    "old_hit_flags_15": true,
+    "new_hit_flags_15": true,
+    "old_hit_flags_20": true,
+    "new_hit_flags_20": true,
+    "old_hit_flags_25": true,
+    "new_hit_flags_25": true,
+    "old_hits_summary": true,
+    "new_hits_summary": true,
+    "old_feature_counts_summary": true,
+    "new_feature_counts_summary": true,
+    "both_models_hit10": true,
+    "anyQhit_posthoc_count": true,
+    "historical_real10k_comparison_counts": true,
+    "original100k_seed13_comparison_counts": true,
+    "selected_geometry_bounds_count": true,
+    "selected_proxy_valid_count": true,
+    "33_nonBLAS_geometries": true,
+    "33_nonBLAS_proxy_values": true,
+    "three_nonBLAS_Q_selections": true
+  },
+  "check_count": 49,
+  "n_targets": 8000,
+  "n_candidates": 88000,
+  "score_max_abs_difference": 0.0,
+  "selected_q_mismatch_count": 0,
+  "old_triplet_max_abs_csv_rounding_difference": 4.000133557724439e-12,
+  "old_score_max_abs_csv_rounding_difference": 2.235594738844715e-12,
+  "old_hits": {
+    "5": 4945,
+    "10": 6468,
+    "15": 7371,
+    "20": 7812,
+    "25": 7943
+  },
+  "new_hits": {
+    "5": 311,
+    "10": 4492,
+    "15": 6490,
+    "20": 7449,
+    "25": 7796
+  },
+  "old_feature_hits_10pct": {
+    "lp_nh": 7254,
+    "ls_nh": 7620,
+    "q_scalar": 7977,
+    "k_abs": 6967
+  },
+  "new_feature_hits_10pct": {
+    "lp_nh": 7267,
+    "ls_nh": 6670,
+    "q_scalar": 6022,
+    "k_abs": 6870
+  },
+  "both_hit10": 4348,
+  "anyQhit10_posthoc": 5174,
+  "numeric_backend_sample": {
+    "sampled_request_indices": [
+      0,
+      3999,
+      7999
+    ],
+    "candidate_count": 33,
+    "method": "einsum optimize=False with original GELU/decoder; np.errstate(all=raise)",
+    "warnings": [],
+    "max_abs_geometry_difference": 0.0,
+    "max_abs_proxy_difference": 0.0,
+    "original_warning": "Original run emitted NumPy matmul divide/overflow/invalid warnings; preserved as observed, not independently explained.",
+    "interpretation": "All 88000 saved candidates finite; no divergence beyond 1e-11 tolerance found in 33 sampled non-BLAS candidates. This is not a full alternative-backend inference rerun or proof of warning root cause."
+  },
+  "scope": "Saved-array/CSV verification plus 33 bounded alternative arithmetic candidates; no full inference rerun, training, physical solver, remote access or old-result modification."
+}

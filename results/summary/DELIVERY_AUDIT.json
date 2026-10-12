@@ -1,0 +1,217 @@
+{
+  "generated_utc": "2026-09-21T06:51:15.444226+00:00",
+  "objective": "Updated four-group EuCAP figure goal",
+  "goal_complete": false,
+  "requirements": [
+    {
+      "requirement": "Fig1A_distribution",
+      "status": "DELIVERED",
+      "figure": "figures/Fig1A_distribution.png",
+      "vector": "figures/Fig1A_distribution.svg",
+      "visual_review": "PASS; plotted labels/axes/footers reviewed at rendered resolution"
+    },
+    {
+      "requirement": "Fig1B_composition",
+      "status": "DELIVERED",
+      "figure": "figures/Fig1B_composition.png",
+      "vector": "figures/Fig1B_composition.svg",
+      "visual_review": "PASS; plotted labels/axes/footers reviewed at rendered resolution"
+    },
+    {
+      "requirement": "Fig2A_forward_model_compare",
+      "status": "DELIVERED",
+      "figure": "figures/Fig2A_forward_model_compare.png",
+      "vector": "figures/Fig2A_forward_model_compare.svg",
+      "visual_review": "PASS; plotted labels/axes/footers reviewed at rendered resolution"
+    },
+    {
+      "requirement": "Fig2B_inverse_model_compare",
+      "status": "DELIVERED",
+      "figure": "figures/Fig2B_inverse_model_compare.png",
+      "vector": "figures/Fig2B_inverse_model_compare.svg",
+      "visual_review": "PASS; plotted labels/axes/footers reviewed at rendered resolution"
+    },
+    {
+      "requirement": "Fig3A_proxy_lp_ls",
+      "status": "DELIVERED",
+      "figure": "figures/Fig3A_proxy_lp_ls.png",
+      "vector": "figures/Fig3A_proxy_lp_ls.svg",
+      "visual_review": "PASS; plotted labels/axes/footers reviewed at rendered resolution"
+    },
+    {
+      "requirement": "Fig3B_proxy_q_k",
+      "status": "DELIVERED",
+      "figure": "figures/Fig3B_proxy_q_k.png",
+      "vector": "figures/Fig3B_proxy_q_k.svg",
+      "visual_review": "PASS; plotted labels/axes/footers reviewed at rendered resolution"
+    },
+    {
+      "requirement": "Fig3C_emx_lp_ls",
+      "status": "DELIVERED",
+      "figure": "figures/Fig3C_emx_lp_ls.png",
+      "vector": "figures/Fig3C_emx_lp_ls.svg",
+      "visual_review": "PASS; plotted labels/axes/footers reviewed at rendered resolution"
+    },
+    {
+      "requirement": "Fig3D_emx_q_k",
+      "status": "DELIVERED",
+      "figure": "figures/Fig3D_emx_q_k.png",
+      "vector": "figures/Fig3D_emx_q_k.svg",
+      "visual_review": "PASS; plotted labels/axes/footers reviewed at rendered resolution"
+    },
+    {
+      "requirement": "Fig3E_proxy_emx_overlap",
+      "status": "DELIVERED",
+      "figure": "figures/Fig3E_proxy_emx_overlap.png",
+      "vector": "figures/Fig3E_proxy_emx_overlap.svg",
+      "visual_review": "PASS; plotted labels/axes/footers reviewed at rendered resolution"
+    },
+    {
+      "requirement": "DATASET_LOCATIONS.md",
+      "group": "dataset",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "MODEL_LOCATIONS.md",
+      "group": "dataset",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "DATASET_SUMMARY.csv",
+      "group": "dataset",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "figure_data/distribution_histograms.csv",
+      "group": "dataset",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "figure_data/dataset_composition.csv",
+      "group": "dataset",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "notes/Fig1_captions.md",
+      "group": "dataset",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "notes/dataset_generation_and_completion_note.md",
+      "group": "dataset",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "figure_data/model_compare_forward.csv",
+      "group": "model_size",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "figure_data/model_compare_inverse.csv",
+      "group": "model_size",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "notes/Fig2_captions.md",
+      "group": "model_size",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "notes/model_compare_method.md",
+      "group": "model_size",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "figure_data/random10000_proxy_results.csv",
+      "group": "proxy_EM",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "figure_data/proxy_hotspot_lp_ls.csv",
+      "group": "proxy_EM",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "figure_data/proxy_hotspot_q_k.csv",
+      "group": "proxy_EM",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "figure_data/emx_hotspot_lp_ls.csv",
+      "group": "proxy_EM",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "figure_data/emx_hotspot_q_k.csv",
+      "group": "proxy_EM",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "figure_data/proxy_emx_overlap.csv",
+      "group": "proxy_EM",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "notes/Fig3_captions.md",
+      "group": "proxy_EM",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "notes/hotspot_method_note.md",
+      "group": "proxy_EM",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "summary/OVERNIGHT_PROGRESS_SUMMARY.md",
+      "group": "summary",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "summary/MISSING_ITEMS.md",
+      "group": "summary",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "summary/WHAT_IS_FINAL_AND_WHAT_IS_PROVISIONAL.md",
+      "group": "summary",
+      "status": "DELIVERED"
+    },
+    {
+      "requirement": "figure_data/datasize_compare_forward.csv",
+      "status": "NOT_RUN",
+      "reason": "No located comparable arms; actual100000 gradient rows incompatible with preserved within100K holdouts"
+    },
+    {
+      "requirement": "figure_data/datasize_compare_inverse.csv",
+      "status": "NOT_RUN",
+      "reason": "No located comparable arms; actual100000 gradient rows incompatible with preserved within100K holdouts"
+    },
+    {
+      "requirement": "figures/Fig4A_forward_vs_datasize.png",
+      "status": "NOT_RUN",
+      "reason": "No located comparable arms; actual100000 gradient rows incompatible with preserved within100K holdouts"
+    },
+    {
+      "requirement": "figures/Fig4B_inverse_vs_datasize.png",
+      "status": "NOT_RUN",
+      "reason": "No located comparable arms; actual100000 gradient rows incompatible with preserved within100K holdouts"
+    },
+    {
+      "requirement": "figures/Fig4C_datasize_trend.png",
+      "status": "NOT_RUN",
+      "reason": "No located comparable arms; actual100000 gradient rows incompatible with preserved within100K holdouts"
+    },
+    {
+      "requirement": "notes/Fig4_captions.md",
+      "status": "NOT_RUN",
+      "reason": "No located comparable arms; actual100000 gradient rows incompatible with preserved within100K holdouts"
+    }
+  ],
+  "numerical_verification": "SAVED_RESULT_VERIFICATION.json",
+  "csv_engine_readback": "CSV_ENGINE_READBACK.json",
+  "new_training": 0,
+  "new_EM": 0,
+  "physical_coverage_equivalence": "NOT_ESTABLISHED",
+  "training_size_question": "Choose actual10000/50000/78891 preserving mother holdouts, or identify compatible independent external evaluation before100000 gradient arm",
+  "historical_model_and_server_state": "UNMODIFIED"
+}

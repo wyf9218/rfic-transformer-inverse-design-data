@@ -1,0 +1,28 @@
+{
+  "observed_utc": "2026-09-21T07:21:41Z",
+  "status": "PASS_TARGETED_OFFLINE_ADAPTER_CHECKS",
+  "dataset_contract_sha256": "809ee456a2ad6c96b52dd52750e9eae394d3b201a77f883251fe353e8153db3c",
+  "mother_csv_sha256": "fe94d15b0d083330fe7a64d3e059d083a5aa32d73394c85fc4b881e9904e68a2",
+  "indices_sha256": "1364e39c819736ea0de65b51c839b8e9eec77bb3dd998409e0306f5771500286",
+  "checks": [
+    "Actual original100K matrix to three nested dataset arm mappings, cell isolation and train-only normalizer",
+    "Original seed13 architecture, decoder, minimum-Q+2, checkpoint selection and 3600/3600 budget arguments",
+    "Cross-partition, non-nested or wrong common-test order rejected"
+  ],
+  "tests_run": 3,
+  "tests_passed": 3,
+  "elapsed_seconds": 1.816,
+  "formal_training_started_by_checks": false,
+  "optimizer_updates_by_checks": 0,
+  "new_inference_by_checks": 0,
+  "native_calls_by_checks": 0,
+  "source_files": {
+    "train_dataset_sizes.py": "bd59a6b6d0188d67e1c0f5ae702ce7654e9c6a2f0870625054fd032a8580af55",
+    "run_all.py": "2f4e30e8b0438af95b7cf9f24da3b3cb53a950ddc41f5244802c27b7cae468c0",
+    "test_dataset_adapter.py": "138286a73d5bc111796d88c57b529f72846fc3f2d75fe874cbd19e173547a98e",
+    "../datasize_20260921_v1/train_original100k_nested.py": "ddb5088d9143ac9bd9b870fd4bef1cbdff93ef36c7f0e0176db3fefac03bed49"
+  },
+  "launch_owner": "parent task only",
+  "new_training_state_at_check": "NOT_STARTED",
+  "stage_resume_limit": "Completed stages only; interrupted unfinished stage has no Adam/RNG state checkpoint"
+}

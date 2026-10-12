@@ -1,0 +1,159 @@
+{
+  "status": "COMPLETE",
+  "completed_utc": "2026-09-21T18:44:52.703039+00:00",
+  "elapsed_seconds": 4.861536459,
+  "n_requests": 10000,
+  "n_candidates": 110000,
+  "n_finite_candidates": 110000,
+  "n_failed_requests": 0,
+  "n_proxy_valid_requests": 10000,
+  "n_proxy_invalid_requests": 0,
+  "joint_hits": {
+    "5": 233,
+    "10": 2073,
+    "15": 4242,
+    "20": 5816
+  },
+  "feature_hits_10pct": {
+    "lp_nh": 5505,
+    "ls_nh": 4500,
+    "q_scalar": 6459,
+    "k_abs": 6477
+  },
+  "model_id": "current_foundry_qmin_response_only_seed20260713",
+  "model_seed": 20260713,
+  "selection_score": "sqrt(mean(((F(I([Lp,Ls,q,abs(k)]))-[Lp,Ls,q,abs(k)])/[2.5,2.5,20,0.8])**2)); symmetric Q; ascending-q exact ties",
+  "weight_sha256": "c61a93d56136ad21686863aae72984c49eb0d33ce766923c8ec2d03d9c3177dd",
+  "target_sha256": "a71e43284e1e629d14892d6e0ff72a4c2fbdf64616784884aa854bdd6984b223",
+  "model_training_Q_semantics": "minimum with margin2; unchanged weights",
+  "evaluation_Q_semantics": "symmetric scanned Q target, not a minimum",
+  "dataset_total": 100000,
+  "gradient_training_rows": 78891,
+  "validation_rows": 9740,
+  "test_rows": 11369,
+  "frame": "same 10000 saved IDs and Lp/Ls/K; ignored source Q replaced by declared Q scan",
+  "target_triplet_min": [
+    0.5021232207093306,
+    0.5027909917570141,
+    0.01545946987287989
+  ],
+  "target_triplet_max": [
+    2.999947340626969,
+    2.9996533919512243,
+    0.7995055143826415
+  ],
+  "proxy_only": true,
+  "fresh_emx_new": 0,
+  "old64_not_reused_as_scan_validation": true,
+  "grids": {
+    "lp_ls": {
+      "n_total": 10000,
+      "n_hit": 2073,
+      "n_empty": 0,
+      "n_low": 0
+    },
+    "lp_k": {
+      "n_total": 10000,
+      "n_hit": 2073,
+      "n_empty": 0,
+      "n_low": 1
+    },
+    "ls_k": {
+      "n_total": 10000,
+      "n_hit": 2073,
+      "n_empty": 0,
+      "n_low": 1
+    },
+    "q_selected_k": {
+      "n_total": 10000,
+      "n_hit": 2073,
+      "n_empty": 45,
+      "n_low": 22
+    }
+  },
+  "physical_errors": [
+    {
+      "feature": "lp_nh",
+      "unit": "nH",
+      "n": 10000,
+      "MAE": 0.21670382395221263,
+      "RMSE": 0.2960967226746545,
+      "P95_absolute_error": 0.624950421599748,
+      "mean_relative_error_pct": 14.100725458711294,
+      "P95_relative_error_pct": 46.96865249582153,
+      "hits_10pct": 5505,
+      "original_denominator": 10000
+    },
+    {
+      "feature": "ls_nh",
+      "unit": "nH",
+      "n": 10000,
+      "MAE": 0.27828109798726547,
+      "RMSE": 0.3750542493351095,
+      "P95_absolute_error": 0.7992322719838204,
+      "mean_relative_error_pct": 17.603094523611126,
+      "P95_relative_error_pct": 55.100564582867584,
+      "hits_10pct": 4500,
+      "original_denominator": 10000
+    },
+    {
+      "feature": "q_scalar",
+      "unit": "dimensionless",
+      "n": 10000,
+      "MAE": 0.8975976032232993,
+      "RMSE": 1.1114918237422557,
+      "P95_absolute_error": 1.9754240800161271,
+      "mean_relative_error_pct": 8.124763500304192,
+      "P95_relative_error_pct": 18.31039769296518,
+      "hits_10pct": 6459,
+      "original_denominator": 10000
+    },
+    {
+      "feature": "k_abs",
+      "unit": "dimensionless",
+      "n": 10000,
+      "MAE": 0.04079745534472121,
+      "RMSE": 0.07007382289939028,
+      "P95_absolute_error": 0.15948796338614593,
+      "mean_relative_error_pct": 13.745514706839094,
+      "P95_relative_error_pct": 46.663360591872056,
+      "hits_10pct": 6477,
+      "original_denominator": 10000
+    }
+  ],
+  "inputs": [
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/src/rfic_transformer_inverse_design/synthesis/frozen_mlp.py",
+      "sha256": "d962de6f923234d5e9702556a1df16ff63d84df59c2684f3b46e469f2fe39eb9"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/model_manifest.json",
+      "sha256": "37a47545bc94193f4d2ef0afed9697fcd0b1b2a5f579aeaf118330d526fb396c"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/physical_feature_tandem_inverse_summary.json",
+      "sha256": "f05c4c0b3937bf9107f95d38d14679995aedc936071852ac7696f9838c5d43c1"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/physical_feature_tandem_inverse_weights.npz",
+      "sha256": "c61a93d56136ad21686863aae72984c49eb0d33ce766923c8ec2d03d9c3177dd"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/figure_data/random10000_targets.csv",
+      "sha256": "a71e43284e1e629d14892d6e0ff72a4c2fbdf64616784884aa854bdd6984b223"
+    }
+  ],
+  "contract_sha256": "c363ef17af4a6ae20351b214b95868974a7cbfd1e85d85190e676c52a5cac24b",
+  "script_sha256": "729d99b62990bc90a3e324832ee2916a0f4b9c1625ed0550102064d5de6a2dac",
+  "outputs": {
+    "selected_Q_counts.csv": "21226181b65c3d75f061265a9929a6a62466c9a8a44b445be570f0ce94c37908",
+    "selected_10000_results.csv": "b969ea1dc484171f61829d93f0faeb5a5e6a5fe64edb35bd84a080dd36c438ec",
+    "all_candidates.npz": "ea755900c0e49712386aea4409382b0ecc422c0efd842193e1daf171d2c7230b",
+    "IMPLEMENTATION_CHECK.json": "0b06fa9023ded573a43001dd740f0f307eebef62aa9c6eed2559ffed3ff51d40",
+    "STARTED.json": "b6410aee26494f0cb9476065931ae291bac6a5483112f694c012f7f031cf3aed",
+    "physical_error_summary.csv": "48a198f5b8cb0041587e1936a2f1dd98098566748c7400222957f16b0d19d32f",
+    "hotspot_bins.csv": "a82599dea08bd8eca8c38accdb2dc2d354d386cc712a08e4df4f661be034355b",
+    "CONTRACT.json": "c363ef17af4a6ae20351b214b95868974a7cbfd1e85d85190e676c52a5cac24b",
+    "all_110000_candidates.csv.gz": "2ce794e1946a32d98fe01e89a00b8cb2b6ba522db72beb4bbc2d21b2214b41ee"
+  }
+}

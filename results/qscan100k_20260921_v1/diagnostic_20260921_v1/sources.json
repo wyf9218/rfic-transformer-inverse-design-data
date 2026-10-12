@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "candidate-outcomes",
+      "title": "已保存11个候选的命中与选择",
+      "queries": [
+        {
+          "id": "saved-candidates",
+          "source": {
+            "label": "100K Q扫描保存结果",
+            "caveats": [
+              "POST_HOC_DIAGNOSTIC_ONLY; selection/rules/figures unchanged. Any-Q bound is only over these 11 saved proxy candidates, not physical feasibility or achievable best design."
+            ]
+          },
+          "rows": [
+            {
+              "outcome": "selected_hits",
+              "n": 2073
+            },
+            {
+              "outcome": "passing_candidate_not_selected",
+              "n": 552
+            },
+            {
+              "outcome": "no_passing_candidate_among_saved_11",
+              "n": 7375
+            }
+          ],
+          "columns": [
+            "outcome",
+            "n"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "target-domain",
+      "title": "目标范围内外的描述性切片",
+      "queries": [
+        {
+          "id": "target-slices",
+          "source": {
+            "label": "同一10000请求的固定范围切片",
+            "filters": [
+              "15 GHz",
+              "每请求整数Q=10..20",
+              "四项相对误差均不超过10%"
+            ],
+            "caveats": [
+              "Old-domain slice is a different finite target sample and model from historical 8000; not a paired causal model comparison."
+            ]
+          },
+          "rows": [
+            {
+              "group": "all",
+              "n": 10000,
+              "hits": 2073,
+              "percent": 20.73,
+              "any_Q_hit_count": 2625
+            },
+            {
+              "group": "inside_old_target_domain",
+              "n": 372,
+              "hits": 209,
+              "percent": 56.18279569892473,
+              "any_Q_hit_count": 245
+            },
+            {
+              "group": "outside_old_target_domain",
+              "n": 9628,
+              "hits": 1864,
+              "percent": 19.36019941836311,
+              "any_Q_hit_count": 2380
+            },
+            {
+              "group": "Ls_over_Lp_0p67_to_1p5",
+              "n": 4523,
+              "hits": 1690,
+              "percent": 37.36458103028963,
+              "any_Q_hit_count": 2042
+            },
+            {
+              "group": "outside_Ls_over_Lp_0p67_to_1p5",
+              "n": 5477,
+              "hits": 383,
+              "percent": 6.9928793134927885,
+              "any_Q_hit_count": 583
+            },
+            {
+              "group": "both_L_at_most_1p5",
+              "n": 1661,
+              "hits": 876,
+              "percent": 52.73931366646598,
+              "any_Q_hit_count": 1112
+            },
+            {
+              "group": "any_L_above_1p5",
+              "n": 8339,
+              "hits": 1197,
+              "percent": 14.354239117400168,
+              "any_Q_hit_count": 1513
+            }
+          ],
+          "columns": [
+            "group",
+            "n",
+            "hits",
+            "percent"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q-and-feature-errors",
+      "title": "所选候选的各指标及Q超差",
+      "queries": [
+        {
+          "id": "feature-diagnostic",
+          "source": {
+            "label": "所选10000候选的双侧误差",
+            "caveats": [
+              "原权重训练为minimum-Q/+2，本次仅作对称Q外部评价。以下是误差分解，不是训练目标的因果贡献。",
+              "所有结果是SELF_PROXY，不是EMX物理精度。"
+            ]
+          },
+          "rows": [
+            {
+              "metric": "Lp",
+              "n": 5505
+            },
+            {
+              "metric": "Ls",
+              "n": 4500
+            },
+            {
+              "metric": "Q",
+              "n": 6459
+            },
+            {
+              "metric": "K",
+              "n": 6477
+            },
+            {
+              "metric": "Q_only_fail",
+              "n": 1000
+            },
+            {
+              "metric": "Q_above_plus10pct",
+              "n": 2807
+            },
+            {
+              "metric": "Q_below_minus10pct",
+              "n": 734
+            }
+          ],
+          "columns": [
+            "metric",
+            "n"
+          ]
+        }
+      ]
+    }
+  ]
+}

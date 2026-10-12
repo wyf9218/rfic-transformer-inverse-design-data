@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-21T09:04:53.835922+00:00",
+  "status": "COMPLETE",
+  "returncode": 0,
+  "summary_sha256": "eb5a277d577242004b7a5fdb5398127392226f91751ce38cea13fab2e7c1f37d",
+  "dataset_total_rows": 10000,
+  "actual_train_rows": 8000,
+  "validation_rows": 1000,
+  "test_rows_reserved": 1000,
+  "test_evaluation": "NOT_RUN",
+  "fresh_emx": "NOT_RUN"
+}

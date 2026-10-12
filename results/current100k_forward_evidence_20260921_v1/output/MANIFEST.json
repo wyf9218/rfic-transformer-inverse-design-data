@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-09-21T20:57:32.733136+00:00",
+  "model_id": "legacyrecipe_D100k_seed20260711",
+  "model_weights_sha256": "ddc3476184911007132728722ae5fb0a00d1183ee867af80cbc6ccaf9dfc805b",
+  "source_train_validation_test": [
+    100000,
+    78891,
+    9740,
+    11369
+  ],
+  "best_forward_update": 1200,
+  "final_train_nrmse": 0.10133881793013388,
+  "final_validation_nrmse": 0.1364538097944152,
+  "metric": "original logged feature-balanced normalized RMSE",
+  "sources": {
+    "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/current100k_forward_evidence_20260921_v1/physical_feature_tandem_inverse_summary.json": "dd2773ba3eba618d7628ac22ddb9b7d99ed55742c5786799a4eb2b54a1dae76b",
+    "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/current100k_forward_evidence_20260921_v1/physical_feature_tandem_inverse_history.csv": "83e1b9a12f1a162b0c1196f1ff34d726684c8d2eb22f3a6cbdf96461fd8472ee",
+    "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/legacy10k_recipe_on_original100k_20260921_v1/received_report_20260921T2011Z/COMPLETE.json": "e2f718ff48b7d55df7e23d13a2a4a4e3c907040091246a34e8dd644160cecb90",
+    "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/legacy10k_forward_evidence_20260921_v1/plot_saved_forward.py": "f62946769509eb670fa24c306e5c9acd8a5f9835c41ffe9cd26aff556c0d304c",
+    "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/current100k_forward_evidence_20260921_v1/plot_saved_curve.py": "c763ba0e0b740b26cba0a9669e7d4f3b58cdfc46442e3b53deb9d82bb56496f6",
+    "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/current100k_forward_evidence_20260921_v1/forward_scatter.png": "e313a81b3d3fa3d018ef7832e8405e720887cb5a67b8ecd789258df931240fc7",
+    "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/current100k_forward_evidence_20260921_v1/forward_scatter.svg": "7ebf50c05294ac6a4ea30b6ded5cf7cac946698c7c6c8b49f93eb1665336c166"
+  },
+  "new_training_inference_emx": 0,
+  "scatter_evidence": "EXISTING_REAL_EM_LABEL_HOLDOUT_NOT_FRESH_EM",
+  "text_bounds": "PASS",
+  "visual_review": "PENDING"
+}

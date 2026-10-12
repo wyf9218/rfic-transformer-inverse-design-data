@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-09-21T21:01:24.122514+00:00",
+  "model_id": "legacyrecipe_D100k_seed20260711",
+  "weights_sha256": "ddc3476184911007132728722ae5fb0a00d1183ee867af80cbc6ccaf9dfc805b",
+  "source_csv": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/current100k_forward_evidence_20260921_v1/output/forward_learning_curve.csv",
+  "source_sha256": "e1d46e48426735b746ba935be1d8c1ea52f3ffc6f8ee9fcd4fab31d37d02d538",
+  "parent_manifest_sha256": "c3d0ec34a3c4d0ecfe6b97c6d730cc0cfbc38fe8e0d51eaa27d920e87a386f2d",
+  "script_sha256": "c220e224b122bb5be0b23f058706fdb4e49021aa25b316a38257cc04828e99a9",
+  "helper_sha256": "f62946769509eb670fa24c306e5c9acd8a5f9835c41ffe9cd26aff556c0d304c",
+  "source_train_validation_test": [
+    100000,
+    78891,
+    9740,
+    11369
+  ],
+  "metric": "Feature-balanced normalized RMSE; not MSE or accuracy",
+  "first_logged_update": 20,
+  "last_update": 1200,
+  "first_train": 0.4308831476727695,
+  "final_train": 0.10133881793013388,
+  "first_validation": 0.47915739065152874,
+  "final_validation": 0.1364538097944152,
+  "change": "Only presentation: remove metadata/footer/checkpoint text; label final curve endpoints. All 60 data points unchanged.",
+  "new_inference_training_emx": 0,
+  "visual_review": "PENDING"
+}

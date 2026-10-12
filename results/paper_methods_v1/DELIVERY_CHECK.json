@@ -1,0 +1,68 @@
+{
+  "status": "DELIVERED_SOURCE_BOUND_FIGURE",
+  "utc": "2026-09-21T08:28:57.663Z",
+  "model_id": "current_foundry_qmin_response_only_seed20260713",
+  "model_weight_sha256_existing_identity": "c61a93d56136ad21686863aae72984c49eb0d33ce766923c8ec2d03d9c3177dd",
+  "weight_rehash_this_work_package": false,
+  "Fig1": [
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap15ghz_20260908T220300Z/fig1_motivation_revision_20260921T071650Z/delivery_v1/Fig1_DesignMotivation.svg",
+      "sha256": "c8e8665eae670fe81af055e28ff2823c8150be3ac3cc5c1626f40d4efd15aba7",
+      "matches_existing_checksum": true,
+      "action": "READ_ONLY_REUSE_REFERENCE"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap15ghz_20260908T220300Z/fig1_motivation_revision_20260921T071650Z/delivery_v1/Fig1_DesignMotivation.png",
+      "sha256": "55ac798be11fbcf7120a58c1abd48209ed1a64a45afbff1395a5dc9e76981f66",
+      "matches_existing_checksum": true,
+      "action": "READ_ONLY_REUSE_REFERENCE"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap15ghz_20260908T220300Z/fig1_motivation_revision_20260921T071650Z/delivery_v1/Method_Table.md",
+      "sha256": "e97e1123fe3ce6c53a1e6c36f097744d2c679ee1f2f8a8b05e5fbb0b6a6daa35",
+      "matches_existing_checksum": true,
+      "action": "READ_ONLY_REUSE_REFERENCE"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap15ghz_20260908T220300Z/fig1_motivation_revision_20260921T071650Z/delivery_v1/DELIVERY_RECEIPT.json",
+      "sha256": "68d214590807a6f9ec7975ce1e5acba0d6fd71a921ff7564b6c8f22bc16d52ef",
+      "matches_existing_checksum": true,
+      "action": "READ_ONLY_REUSE_REFERENCE"
+    }
+  ],
+  "Fig2": {
+    "width_mm": 184.2734722222222,
+    "height_mm": 149.225,
+    "font_pt": 8,
+    "nodes": 35,
+    "edges": 42,
+    "editable_SVG_text": true,
+    "actual_PNG_visually_reviewed": true,
+    "visual_review_note": "Final 144dpi paper-width preview inspected after rerouting the inverse derivative and moving its label below the shared branch; no label or arrow crosses a node caption. Full450dpi PNG generated from the same vector scene."
+  },
+  "new_training": 0,
+  "new_inference": 0,
+  "new_native_solver_calls": 0,
+  "remote_calls": 0,
+  "active_files_modified": false,
+  "scientific_boundary": "Method diagram, not experiment completion, target-hit or acceleration evidence. Historical seed13 loss/decoder preserved; separate dataset-total and width-only protocols in caption.",
+  "firstcut_receipt": {
+    "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/paper_methods_v1/DELIVERY_CHECK.firstcut.json",
+    "sha256": "018d3a0665edebd69d3ff92d9e18700cef35420eac8443d77c89cb23d09874d3"
+  },
+  "text_revision": {
+    "scope": "D_MIX and matching caption/source metadata only",
+    "generation_note": {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/notes/dataset_generation_and_completion_note.md",
+      "sha256": "2bf5ab500fe3af7184870435d5cab1456488c85c390695535efabb615493d4e8"
+    },
+    "proposal_generation_modes": 3,
+    "acquisition_quota_count": 5,
+    "original_structure_package_modified": false,
+    "SVG_PNG_rerendered": false,
+    "edges_modified": false,
+    "new_training": 0,
+    "new_inference": 0,
+    "new_EM": 0
+  }
+}

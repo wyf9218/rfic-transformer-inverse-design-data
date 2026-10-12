@@ -1,0 +1,12 @@
+{
+  "zip_path": "/Users/wyf/Downloads/eucap_figures_20260921_groups1to3.zip",
+  "bytes": 9415749,
+  "sha256": "2d03a7531fa8ecef9fb7c7e75a06c7e5e1e5936609915fe1b85e7e81d9c4d7bc",
+  "files": 89,
+  "unique_scientific_PNG_figures": 9,
+  "canonical_aliases_not_extra_experiments": true,
+  "scope": "Groups1–3 only; revised training-size group4 incomplete",
+  "goal_complete": false,
+  "zip_crc": "PASS",
+  "contains_original100K_or_weights_or_PDK_or_credentials": false
+}

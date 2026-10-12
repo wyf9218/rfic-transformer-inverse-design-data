@@ -1,0 +1,28 @@
+{
+  "report_date": "2026-10-12 America/Chicago",
+  "remote_observation_date": "2026-10-04T04:56:25Z",
+  "paths": {
+    "project_root_local": "/Users/wyf/Documents/模拟变压器AI反向建模",
+    "paper_root_local": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1",
+    "handover_notes_local": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/project_wrapup_20261003_v1",
+    "dataset100k_local": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap15ghz_20260908T220300Z/old100k_baseline_recovery_20260914_v1/source_v1/physical_feature_inverse_training_table.csv",
+    "dataset100k_mars": "/volumes/research-localdata/ywang3652/current_foundry_campaign_20260728/first100k_v1/real_emx_round_v2/model_checkpoint_1_n100000/training_table/physical_feature_inverse_training_table.csv",
+    "dataset100k_sha256_recorded": "fe94d15b0d083330fe7a64d3e059d083a5aa32d73394c85fc4b881e9904e68a2",
+    "original100k_toolkit_local": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1",
+    "real10k_model_local": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d",
+    "symmetric100k_weights_mars": "/volumes/research-localdata/ywang3652/eucap_legacy10k_recipe_on_original100k_20260921_v1/run/physical_feature_tandem_inverse_weights.npz",
+    "symmetric100k_weights_sha256_recorded": "ddc3476184911007132728722ae5fb0a00d1183ee867af80cbc6ccaf9dfc805b",
+    "symmetric100k_results_local": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/legacy10k_recipe_on_original100k_20260921_v1/received_report_20260921T2011Z",
+    "symmetric100k_forward_local": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/current100k_forward_evidence_20260921_v1",
+    "dataset_size_models_local": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/dataset_size_811_20260921_v1/trained_models",
+    "dataset_size_split_local": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/dataset_size_811_20260921_v1/data",
+    "architecture_models_local": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/architecture_100k_20260921_v1/trained_models",
+    "repeats_models_local": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/repeats_20260921_v1/received/runs",
+    "paired64_local": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/paired64_20260921_v1/received_snapshots/snapshot_0063",
+    "actual_structure_local": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap15ghz_20260908T220300Z/paper_actual_structure_package_20260919_v1",
+    "public_checkout_local": "/Users/wyf/Documents/模拟变压器AI反向建模/github_release/rfic-transformer-inverse-design",
+    "research_worktree_local": "/Users/wyf/Documents/模拟变压器AI反向建模/github_worktrees/eucap15-mlp-capacity-20260909",
+    "historical_mars_venv": "/volumes/research-localdata/ywang3652/rfic-transformer-inverse-design-mars56-s4p-20260702/.venv"
+  },
+  "note": "Remote paths and hashes are recorded evidence, not rechecked on 2026-10-12. Local path validation is in BUILD_CHECK.json."
+}

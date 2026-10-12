@@ -1,0 +1,12 @@
+{
+  "schema": "physical_feature_tandem_stage_checkpoint_marker_v1",
+  "generated_utc": "2026-09-21T15:33:20+00:00",
+  "status": "PASS",
+  "stage": "tandem_inverse",
+  "contract_fingerprint_sha256": "4e7399fffe567878d7b292209b5c5beb682b82e3b0bc49f4dd251bf770f040fa",
+  "dependency_weights_sha256": "b7e0e25f869e95cd8d6e7bf203d7784ca36230b0bd96982c628fe09be3065dfb",
+  "weights_path": "/volumes/research-localdata/ywang3652/eucap_paper_repeats_20260921_v1/runtime_v1/runs/dataset/seed29/D50k/stage_checkpoints/tandem_inverse_stage_weights.npz",
+  "weights_sha256": "84ab5a03c6681b2c78452a54422f80a5a183b4e3ea9a93233e149baf385034ee",
+  "metadata_path": "/volumes/research-localdata/ywang3652/eucap_paper_repeats_20260921_v1/runtime_v1/runs/dataset/seed29/D50k/stage_checkpoints/tandem_inverse_stage.json",
+  "metadata_sha256": "b1714e776b841d9def78a73472d2e8d950ca91b352f958e0a9acf8a16c9b507a"
+}

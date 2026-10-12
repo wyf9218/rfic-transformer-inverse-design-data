@@ -1,0 +1,257 @@
+{
+  "status": "COMPLETE",
+  "utc": "2026-09-21T19:28:28.167597+00:00",
+  "source_npz_sha256": "ea755900c0e49712386aea4409382b0ecc422c0efd842193e1daf171d2c7230b",
+  "source_summary_sha256": "7106d5fca5f8f1431d8980aa39a462d42bc2cbabd565be1b3afa531ff2804e18",
+  "script_sha256": "38f51037c446ea9367ce787c75fbb5cf81c5e88c8747df4acb23d563e85b1829",
+  "n_requests": 10000,
+  "n_candidates": 110000,
+  "mutually_exclusive_outcomes": {
+    "selected_hits": 2073,
+    "passing_candidate_not_selected": 552,
+    "no_passing_candidate_among_saved_11": 7375
+  },
+  "any_Q_joint_hits": 2625,
+  "groups": [
+    {
+      "group": "all",
+      "n": 10000,
+      "hits": 2073,
+      "percent": 20.73,
+      "any_Q_hit_count": 2625
+    },
+    {
+      "group": "inside_old_target_domain",
+      "n": 372,
+      "hits": 209,
+      "percent": 56.18279569892473,
+      "any_Q_hit_count": 245
+    },
+    {
+      "group": "outside_old_target_domain",
+      "n": 9628,
+      "hits": 1864,
+      "percent": 19.36019941836311,
+      "any_Q_hit_count": 2380
+    },
+    {
+      "group": "Ls_over_Lp_0p67_to_1p5",
+      "n": 4523,
+      "hits": 1690,
+      "percent": 37.36458103028963,
+      "any_Q_hit_count": 2042
+    },
+    {
+      "group": "outside_Ls_over_Lp_0p67_to_1p5",
+      "n": 5477,
+      "hits": 383,
+      "percent": 6.9928793134927885,
+      "any_Q_hit_count": 583
+    },
+    {
+      "group": "both_L_at_most_1p5",
+      "n": 1661,
+      "hits": 876,
+      "percent": 52.73931366646598,
+      "any_Q_hit_count": 1112
+    },
+    {
+      "group": "any_L_above_1p5",
+      "n": 8339,
+      "hits": 1197,
+      "percent": 14.354239117400168,
+      "any_Q_hit_count": 1513
+    }
+  ],
+  "feature_pass_counts": {
+    "Lp": 5505,
+    "Ls": 4500,
+    "Q": 6459,
+    "K": 6477
+  },
+  "single_feature_only_failures": {
+    "Lp": 453,
+    "Ls": 661,
+    "Q": 1000,
+    "K": 316
+  },
+  "exclusive_failure_patterns": [
+    {
+      "failed_features": [],
+      "n": 2073
+    },
+    {
+      "failed_features": [
+        "Lp"
+      ],
+      "n": 453
+    },
+    {
+      "failed_features": [
+        "Ls"
+      ],
+      "n": 661
+    },
+    {
+      "failed_features": [
+        "Lp",
+        "Ls"
+      ],
+      "n": 1069
+    },
+    {
+      "failed_features": [
+        "Q"
+      ],
+      "n": 1000
+    },
+    {
+      "failed_features": [
+        "Lp",
+        "Q"
+      ],
+      "n": 263
+    },
+    {
+      "failed_features": [
+        "Ls",
+        "Q"
+      ],
+      "n": 530
+    },
+    {
+      "failed_features": [
+        "Lp",
+        "Ls",
+        "Q"
+      ],
+      "n": 428
+    },
+    {
+      "failed_features": [
+        "K"
+      ],
+      "n": 316
+    },
+    {
+      "failed_features": [
+        "Lp",
+        "K"
+      ],
+      "n": 181
+    },
+    {
+      "failed_features": [
+        "Ls",
+        "K"
+      ],
+      "n": 436
+    },
+    {
+      "failed_features": [
+        "Lp",
+        "Ls",
+        "K"
+      ],
+      "n": 1270
+    },
+    {
+      "failed_features": [
+        "Q",
+        "K"
+      ],
+      "n": 97
+    },
+    {
+      "failed_features": [
+        "Lp",
+        "Q",
+        "K"
+      ],
+      "n": 117
+    },
+    {
+      "failed_features": [
+        "Ls",
+        "Q",
+        "K"
+      ],
+      "n": 392
+    },
+    {
+      "failed_features": [
+        "Lp",
+        "Ls",
+        "Q",
+        "K"
+      ],
+      "n": 714
+    }
+  ],
+  "Q_overshoot_above10pct": 2807,
+  "Q_undershoot_below10pct": 734,
+  "passing_Lp_Ls_K_count": 3073,
+  "selection_tradeoff_examples": [
+    {
+      "target_id": "paper_u20260921_00004",
+      "selected_Q": 16,
+      "selected_score": 0.03779976987690053,
+      "selected_relative_error_pct": [
+        6.0090359416662595,
+        12.653712354686261,
+        5.5381666358208514,
+        9.70182406337177
+      ],
+      "passing_Q": 15,
+      "passing_score": 0.04142302400915522,
+      "passing_relative_error_pct": [
+        6.307585633612764,
+        5.069596804305027,
+        9.607174847335452,
+        3.1538559392000174
+      ]
+    },
+    {
+      "target_id": "paper_u20260921_00019",
+      "selected_Q": 11,
+      "selected_score": 0.03958092248570617,
+      "selected_relative_error_pct": [
+        0.40496769539950395,
+        6.530371647139596,
+        12.641677324479792,
+        4.065307094181652
+      ],
+      "passing_Q": 15,
+      "passing_score": 0.046100718617089996,
+      "passing_relative_error_pct": [
+        8.517178292620478,
+        2.7512963978849925,
+        6.20785213188429,
+        9.393165903875488
+      ]
+    },
+    {
+      "target_id": "paper_u20260921_00027",
+      "selected_Q": 11,
+      "selected_score": 0.03863628370119071,
+      "selected_relative_error_pct": [
+        1.77648305231947,
+        6.917902325715776,
+        11.660605949645584,
+        0.8494083091703473
+      ],
+      "passing_Q": 12,
+      "passing_score": 0.04301134430917319,
+      "passing_relative_error_pct": [
+        2.8131425043864415,
+        8.327087301478972,
+        9.213506940887184,
+        4.991958329792641
+      ]
+    }
+  ],
+  "qualification": "POST_HOC_DIAGNOSTIC_ONLY; selection/rules/figures unchanged. Any-Q bound is only over these 11 saved proxy candidates, not physical feasibility or achievable best design.",
+  "comparison": "Old-domain slice is a different finite target sample and model from historical 8000; not a paired causal model comparison.",
+  "no_new_inference": true,
+  "no_new_EMX": true
+}

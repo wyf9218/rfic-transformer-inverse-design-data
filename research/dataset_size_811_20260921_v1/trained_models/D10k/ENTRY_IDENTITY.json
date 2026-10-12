@@ -1,0 +1,22 @@
+{
+  "schema": "original100k_dataset_total_arm.v1",
+  "arm": "D10k",
+  "dataset_total_rows": 10000,
+  "actual_train_rows": 8000,
+  "validation_rows": 1000,
+  "test_rows_reserved": 1000,
+  "contract_sha256": "f4259d99c19b7b9efb2b97171c7e20c61aff585c80391355a37fb451a7e4b880",
+  "adapter_sha256": "bd59a6b6d0188d67e1c0f5ae702ce7654e9c6a2f0870625054fd032a8580af55",
+  "core_sha256": "ddb5088d9143ac9bd9b870fd4bef1cbdff93ef36c7f0e0176db3fefac03bed49",
+  "runtime_sha256": "fbfda2023f862af2f0b185e41c4bf899f97cb79b0d0d763d20501c03525e8a4f",
+  "splitter_sha256": "9db4b7f1ed9435f73e95e49c558003bdaaf153579c5c44f04fb779aa31e0ef8a",
+  "global_index_sha256": {
+    "train": "2dc5cd82d9828e050368832f018a2e0dfecfa3e0a12891fbda9a7a1e99cf5306",
+    "validation": "9057e54bd7201ad96b8c80fc2c0d4e23e4ad4018de0e11d5742b6678bdfb151e",
+    "test": "a6e295b1315a76a8f988d1b767f99137d4ef2e54637db3a8551735bbcd13b77a"
+  },
+  "common_test_global_index_sha256": "5c22ced2ec926dad716708afcb2da313f0d29ebe2d0a627670913a4c69dccdd6",
+  "old_model_outputs_untouched": true,
+  "fresh_emx": "NOT_RUN",
+  "original_split_preserved": true
+}

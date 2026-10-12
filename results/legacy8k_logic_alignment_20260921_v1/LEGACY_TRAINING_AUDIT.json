@@ -1,0 +1,256 @@
+{
+  "schema": "legacy_real10k_training_decoder_static_audit.v1",
+  "status": "COMPLETE_STATIC_AUDIT_WITH_HISTORICAL_SOURCE_GAP",
+  "created_utc": "2026-09-21T19:39:07Z",
+  "scope": "Read-only recovery of historical training records, tensor shapes, saved normalization and decoder; no inference, training, tests, EMX, or Q-selection rerun.",
+  "model_id": "real10k_center15ghz_seed20260711",
+  "model_generated_utc": "2026-07-20T19:39:42+00:00",
+  "sources": [
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/physical_feature_tandem_inverse_summary.json",
+      "sha256": "90a81532f7342ae7348248ea45889368fbb13ed2b6ee8f89e789f80f6811a3fa"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/physical_feature_tandem_inverse_weights.npz",
+      "sha256": "ffea66dfdd0bb252e402e1ade70f5e8768511e26f2978b1d73b1817a0221e42a"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/runner_command.json",
+      "sha256": "7a4c822b732fd221efbbf7752870596fb308fc44a9326bdba6903099a73e847b"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/stage_checkpoints/stage_checkpoint_contract.json",
+      "sha256": "2e9cddc4f3ed2c9345e5f80abb092a70585cd08e5da0ee75192f6e2c93659063"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/stage_checkpoints/forward_proxy_stage.json",
+      "sha256": "85b1ddcff7e57d852ca6c3276dc7e253bf750a1a326970afd6606cd9a315a170"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/stage_checkpoints/tandem_inverse_stage.json",
+      "sha256": "a23f48fe54a11dd254846c0f437e4d45004624c9c0f4064f07144ff2d1d77ba5"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/github_release/rfic-transformer-inverse-design/rfic_transformer_inverse_design/synthesis/real10k_model_contract.json",
+      "sha256": "c09aabf91071baa08fdbe0a44eb8ef840c7c61ff241937681e40d8844c7f2812"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/seven_model_10k_v3_20260907T222800Z/BB00_reference_package_v1/PACKAGE_MANIFEST.json",
+      "sha256": "e94be4dcb769c3de4e60f3ad4aca4abf6cfdea17ffd76d312ca46b061fc74944"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/seven_model_10k_v3_20260907T222800Z/BB00_reference_package_v1/runtime/frozen_mlp.py",
+      "sha256": "5fe2ac6a7f3c3ed119b5350f9a96e3726c70bec147ce9e253edbd7fd5fe40d03"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/seven_model_10k_v3_20260907T222800Z/BB00_reference_package_v1/evidence/REPLAY_RECEIPT.json",
+      "sha256": "3c5f2af02ace48b73e5a442761bde2e4d61b1eef0bb5fd57f92d361e957fd76c"
+    }
+  ],
+  "architecture": {
+    "forward": [
+      10,
+      256,
+      256,
+      256,
+      4
+    ],
+    "inverse": [
+      4,
+      256,
+      256,
+      256,
+      10
+    ],
+    "weight_tensor_shapes_confirmed": true,
+    "hidden_activation": "tanh-approximation GELU",
+    "activation_evidence": "Public model contract and saved replay runtime; exact original training source byte identity remains unproven.",
+    "output_activation": "linear raw output followed by inverse-only independent sigmoid envelope",
+    "feature_order": [
+      "Lp_nH",
+      "Ls_nH",
+      "Q=min(Qp,Qs)",
+      "abs(K)"
+    ],
+    "frequency_ghz": 15
+  },
+  "rows": {
+    "source_table": 10000,
+    "gradient_training": 7871,
+    "validation": 1227,
+    "sealed_test": 902,
+    "test_access_event_count": 0
+  },
+  "split": {
+    "mode": "physical_cell_grouped",
+    "partition_method": "seeded_sha256_threshold_by_cell_id",
+    "seed": 20260711,
+    "bins_per_dimension": 4,
+    "lower": [
+      0.5,
+      0.5,
+      5,
+      0
+    ],
+    "upper": [
+      3,
+      3,
+      25,
+      0.8
+    ],
+    "requested_validation_fraction": 0.15,
+    "requested_test_fraction": 0.1,
+    "occupied_cells": 107,
+    "cells": {
+      "train": 83,
+      "validation": 13,
+      "test": 11
+    },
+    "cell_overlap_count": 0,
+    "split_fingerprint_sha256": "7bb0ccc353b3ecc20051fa563dd478267d9f42b288573a4379fd9eb8e530385d"
+  },
+  "training": {
+    "seed": 20260711,
+    "forward_sampler_seed": 20260711,
+    "inverse_sampler_seed": 20260712,
+    "numpy_version_recorded": "2.4.6",
+    "batch_size": 1024,
+    "sampler": "row_uniform; one random permutation of all real train rows per epoch; no replacement",
+    "learning_rate": 0.001,
+    "weight_decay": 0.000001,
+    "normalization_floor": 1e-12,
+    "budget_mode": "fixed_optimizer_updates",
+    "forward_updates": 1200,
+    "inverse_updates": 1200,
+    "validation_every_updates": 20,
+    "early_stopping_enabled": false,
+    "configured_epoch_limits": {
+      "forward": 160,
+      "inverse": 180
+    },
+    "best_updates": {
+      "forward": 1200,
+      "inverse": 1060
+    },
+    "best_epochs": {
+      "forward": 150,
+      "inverse": 133
+    },
+    "resumed_stage_count": 0,
+    "optimizer_algorithm_exact_source_status": "UNKNOWN: original source byte snapshot not established by inspected evidence; do not infer from current defaults"
+  },
+  "loss": {
+    "family": "mse",
+    "scaling": "declared_range",
+    "q_semantics": "exact symmetric response regression",
+    "q_semantics_basis": "Recorded mse family and declared-range four-feature consistency, not the current runtime default; min(Qp,Qs) defines the scalar label, not a lower-bound target.",
+    "q_minimum_margin": "NOT_PRESENT_IN_HISTORICAL_RECORDED_OBJECTIVE",
+    "physical_spans": [
+      2.5,
+      2.5,
+      20,
+      0.8
+    ],
+    "standardized_dimension_weights": [
+      1.1522627181686569,
+      1.3089853003412328,
+      0.6742038033806842,
+      0.8645481781094257
+    ],
+    "response_formula": "mean_j(weights_j*((response_j-target_j)/x_scale_j)^2), equivalent up to one positive global constant to mean_j(((response_j-target_j)/span_j)^2)",
+    "response_weight": 1,
+    "geometry_anchor_weight": 0.01,
+    "geometry_anchor_in_standardized_space": true,
+    "topology_penalty_enabled": false,
+    "topology_penalty_weight": 0,
+    "response_weight_schedule": "warmup_ramp_adaptive_ema",
+    "schedule_domain": "optimizer_update",
+    "warmup_fraction": 0.05,
+    "ramp_fraction": 0.25,
+    "adaptive_ema_decay": 0.95,
+    "adaptive_multiplier_limits": [
+      0.25,
+      4
+    ],
+    "source_code_exact_schedule_implementation": "UNKNOWN: recorded parameters recovered, original trainer bytes unproven"
+  },
+  "checkpoint": {
+    "selection_split": "validation",
+    "forward_best_recorded_loss": 0.17569316433120366,
+    "inverse_best_recorded_loss": 0.05544069751122155,
+    "forward_loss_record_matches": "validation_feature_balanced_normalized_rmse",
+    "inverse_loss_record_matches": "validation_feature_balanced_response_normalized_rmse + 0.01*validation_geometry_anchor_normalized_rmse",
+    "checkpoint_comparator_exact_source": "UNKNOWN; observed stage best records and historical history support validation selection, original source not recovered",
+    "quality_status": "REVIEW_REQUIRED_VALIDATION_ONLY",
+    "eligible_for_checkpoint_model_acceptance": false,
+    "eligible_for_model_success_claim": false
+  },
+  "normalization": {
+    "persistence": "All ten normalization arrays in original NPZ are exactly equal to original stage checkpoint contract arrays",
+    "x_mean": [
+      1.5484307483166782,
+      1.7301908571933708,
+      11.698736853209141,
+      0.3340134472867065
+    ],
+    "x_scale": [
+      0.5276887725559419,
+      0.5624313023517619,
+      3.2291460263115885,
+      0.1462671088279796
+    ],
+    "geometry_lower_upper_space": "standardized geometry, not micrometres",
+    "formula": "x_std=(x-x_mean)/x_scale; g_std=g_lower+(g_upper-g_lower)*sigmoid(clip(I(x_std),-40,40)); g_um=g_std*y_scale+y_mean; response=F(g_std)*x_scale+x_mean",
+    "normalizer_values_authority": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/stage_checkpoints/stage_checkpoint_contract.json#normalization",
+    "statistical_construction_exact_source": "UNKNOWN; reuse persisted arrays, do not refit."
+  },
+  "decoder": {
+    "type": "independent_sigmoid_to_observed_training_envelope",
+    "raw_clip": [
+      -40,
+      40
+    ],
+    "coupled_hard_feasible_topology": false,
+    "physical_gating_certificate": false,
+    "geometry_repair": false,
+    "refinement_steps": 0,
+    "refinement_enabled": false
+  },
+  "trainer_identity": {
+    "expected_original_sha256": "1288e8f5dbedb74e64fe77d044cb8ca67b24edde172b2f21e988dc0f93a9ef4a",
+    "binding": "Original summary:27 and stage contract:3",
+    "historical_command_path": "/Users/wyf/Documents/模拟变压器AI反向建模/rfic-transformer-inverse-design/scripts/train_physical_feature_tandem_inverse.py",
+    "current_path_sha256": "92988524b08b15a2388f655f6239070889098024e49ee184832f69876f7db3be",
+    "exact_original_source_recovered": false,
+    "evidence_status": "UNPROVEN_EXISTING_REPLAY_RECORD_CONFIRMED",
+    "search_scope": "Original model directory, documented historical command path, sibling public trainer, current-memory exact hash references, and existing BB00 portable replay package. No all-workspace source hunt.",
+    "exact_optimizer_state_available": "UNKNOWN; no retained optimizer moments/RNG/sampler resume state established; exported NPZ contains weights/normalizer/budget metadata"
+  },
+  "reuse_recommendation": {
+    "frozen_legacy_inference": "Reuse existing portable package runtime FrozenTandemMLP.load(model_dir, contract_path=contract) and predict with original weights and normalizer; no rebuilding or retraining.",
+    "package_loader": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/seven_model_10k_v3_20260907T222800Z/BB00_reference_package_v1/load_baseline.py#load_package",
+    "packaged_runtime": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/seven_model_10k_v3_20260907T222800Z/BB00_reference_package_v1/runtime/frozen_mlp.py",
+    "current_model_same_frame": "Keep current-100K own decoder/weights/normalizer and change only the external input frame/scoring; this is a descriptive model-system comparison.",
+    "future_training": "If expressly requested, make a new explicitly versioned historical-recipe reconstruction with the recorded args. Do not label byte-identical historical retraining until original trainer identity or missing details are resolved."
+  },
+  "boundaries": [
+    "No new training/inference/test/EM performed by this audit.",
+    "Existing frozen inference is reusable despite the original training source identity gap.",
+    "Different data, loss, decoder, split and budget prohibit attributing old-vs-current performance to dataset size or Q semantics alone.",
+    "Validation-only training status and proxy-only downstream evaluation are preserved."
+  ],
+  "navigation": {
+    "summary_architecture": 46,
+    "summary_arguments": 112,
+    "summary_split_rows": 208,
+    "summary_decoder": 311,
+    "summary_loss": 328,
+    "summary_realized_updates": 403,
+    "summary_refinement": 657,
+    "summary_best_updates": 767,
+    "stage_contract_normalization": 190,
+    "packaged_runtime_predict": 149,
+    "packaged_runtime_gelu": 198,
+    "original_source_gap_receipt": 244
+  }
+}

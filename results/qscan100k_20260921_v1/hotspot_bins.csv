@@ -1,0 +1,1421 @@
+projection,x_label,y_label,bin_x,bin_y,x_lower,x_upper,y_lower,y_upper,n_total,n_hit,hit_fraction,empty,low_N
+lp_ls,Target Lp (nH),Target Ls (nH),0,0,0.5,0.625,0.5,0.625,25,15,0.6,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),0,1,0.5,0.625,0.625,0.75,27,12,0.4444444444444444,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),0,2,0.5,0.625,0.75,0.875,28,13,0.4642857142857143,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),0,3,0.5,0.625,0.875,1.0,23,6,0.2608695652173913,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),0,4,0.5,0.625,1.0,1.125,20,2,0.1,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),0,5,0.5,0.625,1.125,1.25,31,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),0,6,0.5,0.625,1.25,1.375,19,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),0,7,0.5,0.625,1.375,1.5,31,1,0.03225806451612903,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),0,8,0.5,0.625,1.5,1.625,22,2,0.09090909090909091,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),0,9,0.5,0.625,1.625,1.75,18,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),0,10,0.5,0.625,1.75,1.875,28,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),0,11,0.5,0.625,1.875,2.0,17,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),0,12,0.5,0.625,2.0,2.125,28,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),0,13,0.5,0.625,2.125,2.25,18,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),0,14,0.5,0.625,2.25,2.375,23,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),0,15,0.5,0.625,2.375,2.5,31,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),0,16,0.5,0.625,2.5,2.625,14,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),0,17,0.5,0.625,2.625,2.75,33,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),0,18,0.5,0.625,2.75,2.875,22,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),0,19,0.5,0.625,2.875,3.0,21,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,0,0.625,0.75,0.5,0.625,22,14,0.6363636363636364,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,1,0.625,0.75,0.625,0.75,21,14,0.6666666666666666,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,2,0.625,0.75,0.75,0.875,17,14,0.8235294117647058,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,3,0.625,0.75,0.875,1.0,18,13,0.7222222222222222,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,4,0.625,0.75,1.0,1.125,31,17,0.5483870967741935,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,5,0.625,0.75,1.125,1.25,29,5,0.1724137931034483,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,6,0.625,0.75,1.25,1.375,19,3,0.15789473684210525,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,7,0.625,0.75,1.375,1.5,24,2,0.08333333333333333,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,8,0.625,0.75,1.5,1.625,25,1,0.04,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,9,0.625,0.75,1.625,1.75,21,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,10,0.625,0.75,1.75,1.875,25,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,11,0.625,0.75,1.875,2.0,24,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,12,0.625,0.75,2.0,2.125,27,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,13,0.625,0.75,2.125,2.25,24,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,14,0.625,0.75,2.25,2.375,31,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,15,0.625,0.75,2.375,2.5,30,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,16,0.625,0.75,2.5,2.625,21,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,17,0.625,0.75,2.625,2.75,29,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,18,0.625,0.75,2.75,2.875,24,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),1,19,0.625,0.75,2.875,3.0,29,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,0,0.75,0.875,0.5,0.625,33,16,0.48484848484848486,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,1,0.75,0.875,0.625,0.75,28,19,0.6785714285714286,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,2,0.75,0.875,0.75,0.875,25,19,0.76,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,3,0.75,0.875,0.875,1.0,29,24,0.8275862068965517,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,4,0.75,0.875,1.0,1.125,23,20,0.8695652173913043,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,5,0.75,0.875,1.125,1.25,37,23,0.6216216216216216,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,6,0.75,0.875,1.25,1.375,26,12,0.46153846153846156,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,7,0.75,0.875,1.375,1.5,19,10,0.5263157894736842,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,8,0.75,0.875,1.5,1.625,19,3,0.15789473684210525,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,9,0.75,0.875,1.625,1.75,21,1,0.047619047619047616,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,10,0.75,0.875,1.75,1.875,25,4,0.16,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,11,0.75,0.875,1.875,2.0,28,1,0.03571428571428571,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,12,0.75,0.875,2.0,2.125,28,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,13,0.75,0.875,2.125,2.25,27,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,14,0.75,0.875,2.25,2.375,31,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,15,0.75,0.875,2.375,2.5,16,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,16,0.75,0.875,2.5,2.625,26,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,17,0.75,0.875,2.625,2.75,28,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,18,0.75,0.875,2.75,2.875,17,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),2,19,0.75,0.875,2.875,3.0,22,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,0,0.875,1.0,0.5,0.625,19,9,0.47368421052631576,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,1,0.875,1.0,0.625,0.75,25,19,0.76,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,2,0.875,1.0,0.75,0.875,23,16,0.6956521739130435,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,3,0.875,1.0,0.875,1.0,31,27,0.8709677419354839,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,4,0.875,1.0,1.0,1.125,18,11,0.6111111111111112,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,5,0.875,1.0,1.125,1.25,28,23,0.8214285714285714,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,6,0.875,1.0,1.25,1.375,30,21,0.7,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,7,0.875,1.0,1.375,1.5,26,16,0.6153846153846154,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,8,0.875,1.0,1.5,1.625,25,10,0.4,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,9,0.875,1.0,1.625,1.75,29,14,0.4827586206896552,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,10,0.875,1.0,1.75,1.875,20,7,0.35,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,11,0.875,1.0,1.875,2.0,21,5,0.23809523809523808,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,12,0.875,1.0,2.0,2.125,31,6,0.1935483870967742,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,13,0.875,1.0,2.125,2.25,22,2,0.09090909090909091,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,14,0.875,1.0,2.25,2.375,19,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,15,0.875,1.0,2.375,2.5,31,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,16,0.875,1.0,2.5,2.625,29,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,17,0.875,1.0,2.625,2.75,19,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,18,0.875,1.0,2.75,2.875,27,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),3,19,0.875,1.0,2.875,3.0,29,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,0,1.0,1.125,0.5,0.625,25,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,1,1.0,1.125,0.625,0.75,16,5,0.3125,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,2,1.0,1.125,0.75,0.875,30,24,0.8,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,3,1.0,1.125,0.875,1.0,27,16,0.5925925925925926,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,4,1.0,1.125,1.0,1.125,16,9,0.5625,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,5,1.0,1.125,1.125,1.25,28,21,0.75,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,6,1.0,1.125,1.25,1.375,21,15,0.7142857142857143,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,7,1.0,1.125,1.375,1.5,24,13,0.5416666666666666,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,8,1.0,1.125,1.5,1.625,28,10,0.35714285714285715,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,9,1.0,1.125,1.625,1.75,26,11,0.4230769230769231,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,10,1.0,1.125,1.75,1.875,19,9,0.47368421052631576,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,11,1.0,1.125,1.875,2.0,29,8,0.27586206896551724,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,12,1.0,1.125,2.0,2.125,27,4,0.14814814814814814,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,13,1.0,1.125,2.125,2.25,21,2,0.09523809523809523,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,14,1.0,1.125,2.25,2.375,21,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,15,1.0,1.125,2.375,2.5,27,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,16,1.0,1.125,2.5,2.625,24,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,17,1.0,1.125,2.625,2.75,25,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,18,1.0,1.125,2.75,2.875,30,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),4,19,1.0,1.125,2.875,3.0,22,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,0,1.125,1.25,0.5,0.625,23,5,0.21739130434782608,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,1,1.125,1.25,0.625,0.75,30,7,0.23333333333333334,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,2,1.125,1.25,0.75,0.875,38,16,0.42105263157894735,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,3,1.125,1.25,0.875,1.0,23,11,0.4782608695652174,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,4,1.125,1.25,1.0,1.125,28,18,0.6428571428571429,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,5,1.125,1.25,1.125,1.25,26,16,0.6153846153846154,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,6,1.125,1.25,1.25,1.375,29,27,0.9310344827586207,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,7,1.125,1.25,1.375,1.5,25,19,0.76,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,8,1.125,1.25,1.5,1.625,23,11,0.4782608695652174,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,9,1.125,1.25,1.625,1.75,20,4,0.2,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,10,1.125,1.25,1.75,1.875,19,8,0.42105263157894735,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,11,1.125,1.25,1.875,2.0,27,14,0.5185185185185185,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,12,1.125,1.25,2.0,2.125,31,9,0.2903225806451613,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,13,1.125,1.25,2.125,2.25,29,4,0.13793103448275862,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,14,1.125,1.25,2.25,2.375,28,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,15,1.125,1.25,2.375,2.5,20,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,16,1.125,1.25,2.5,2.625,20,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,17,1.125,1.25,2.625,2.75,25,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,18,1.125,1.25,2.75,2.875,31,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),5,19,1.125,1.25,2.875,3.0,22,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,0,1.25,1.375,0.5,0.625,23,4,0.17391304347826086,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,1,1.25,1.375,0.625,0.75,23,5,0.21739130434782608,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,2,1.25,1.375,0.75,0.875,27,10,0.37037037037037035,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,3,1.25,1.375,0.875,1.0,28,20,0.7142857142857143,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,4,1.25,1.375,1.0,1.125,25,19,0.76,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,5,1.25,1.375,1.125,1.25,30,22,0.7333333333333333,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,6,1.25,1.375,1.25,1.375,25,20,0.8,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,7,1.25,1.375,1.375,1.5,33,28,0.8484848484848485,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,8,1.25,1.375,1.5,1.625,20,17,0.85,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,9,1.25,1.375,1.625,1.75,18,11,0.6111111111111112,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,10,1.25,1.375,1.75,1.875,19,9,0.47368421052631576,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,11,1.25,1.375,1.875,2.0,23,3,0.13043478260869565,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,12,1.25,1.375,2.0,2.125,32,6,0.1875,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,13,1.25,1.375,2.125,2.25,16,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,14,1.25,1.375,2.25,2.375,16,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,15,1.25,1.375,2.375,2.5,25,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,16,1.25,1.375,2.5,2.625,27,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,17,1.25,1.375,2.625,2.75,31,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,18,1.25,1.375,2.75,2.875,27,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),6,19,1.25,1.375,2.875,3.0,17,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,0,1.375,1.5,0.5,0.625,27,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,1,1.375,1.5,0.625,0.75,33,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,2,1.375,1.5,0.75,0.875,38,10,0.2631578947368421,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,3,1.375,1.5,0.875,1.0,25,8,0.32,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,4,1.375,1.5,1.0,1.125,27,23,0.8518518518518519,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,5,1.375,1.5,1.125,1.25,24,20,0.8333333333333334,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,6,1.375,1.5,1.25,1.375,36,34,0.9444444444444444,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,7,1.375,1.5,1.375,1.5,23,15,0.6521739130434783,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,8,1.375,1.5,1.5,1.625,36,29,0.8055555555555556,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,9,1.375,1.5,1.625,1.75,23,12,0.5217391304347826,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,10,1.375,1.5,1.75,1.875,23,11,0.4782608695652174,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,11,1.375,1.5,1.875,2.0,21,8,0.38095238095238093,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,12,1.375,1.5,2.0,2.125,26,3,0.11538461538461539,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,13,1.375,1.5,2.125,2.25,30,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,14,1.375,1.5,2.25,2.375,23,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,15,1.375,1.5,2.375,2.5,18,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,16,1.375,1.5,2.5,2.625,28,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,17,1.375,1.5,2.625,2.75,21,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,18,1.375,1.5,2.75,2.875,26,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),7,19,1.375,1.5,2.875,3.0,16,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,0,1.5,1.625,0.5,0.625,26,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,1,1.5,1.625,0.625,0.75,22,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,2,1.5,1.625,0.75,0.875,25,2,0.08,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,3,1.5,1.625,0.875,1.0,32,10,0.3125,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,4,1.5,1.625,1.0,1.125,25,9,0.36,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,5,1.5,1.625,1.125,1.25,22,11,0.5,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,6,1.5,1.625,1.25,1.375,28,22,0.7857142857142857,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,7,1.5,1.625,1.375,1.5,24,10,0.4166666666666667,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,8,1.5,1.625,1.5,1.625,28,12,0.42857142857142855,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,9,1.5,1.625,1.625,1.75,19,10,0.5263157894736842,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,10,1.5,1.625,1.75,1.875,19,13,0.6842105263157895,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,11,1.5,1.625,1.875,2.0,22,7,0.3181818181818182,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,12,1.5,1.625,2.0,2.125,31,7,0.22580645161290322,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,13,1.5,1.625,2.125,2.25,23,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,14,1.5,1.625,2.25,2.375,28,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,15,1.5,1.625,2.375,2.5,29,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,16,1.5,1.625,2.5,2.625,31,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,17,1.5,1.625,2.625,2.75,21,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,18,1.5,1.625,2.75,2.875,28,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),8,19,1.5,1.625,2.875,3.0,21,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,0,1.625,1.75,0.5,0.625,23,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,1,1.625,1.75,0.625,0.75,26,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,2,1.625,1.75,0.75,0.875,32,4,0.125,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,3,1.625,1.75,0.875,1.0,22,6,0.2727272727272727,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,4,1.625,1.75,1.0,1.125,36,7,0.19444444444444445,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,5,1.625,1.75,1.125,1.25,31,8,0.25806451612903225,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,6,1.625,1.75,1.25,1.375,29,11,0.3793103448275862,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,7,1.625,1.75,1.375,1.5,30,18,0.6,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,8,1.625,1.75,1.5,1.625,21,13,0.6190476190476191,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,9,1.625,1.75,1.625,1.75,20,11,0.55,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,10,1.625,1.75,1.75,1.875,31,18,0.5806451612903226,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,11,1.625,1.75,1.875,2.0,26,16,0.6153846153846154,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,12,1.625,1.75,2.0,2.125,31,8,0.25806451612903225,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,13,1.625,1.75,2.125,2.25,35,2,0.05714285714285714,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,14,1.625,1.75,2.25,2.375,23,3,0.13043478260869565,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,15,1.625,1.75,2.375,2.5,19,1,0.05263157894736842,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,16,1.625,1.75,2.5,2.625,20,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,17,1.625,1.75,2.625,2.75,17,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,18,1.625,1.75,2.75,2.875,33,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),9,19,1.625,1.75,2.875,3.0,24,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,0,1.75,1.875,0.5,0.625,23,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,1,1.75,1.875,0.625,0.75,24,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,2,1.75,1.875,0.75,0.875,29,1,0.034482758620689655,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,3,1.75,1.875,0.875,1.0,23,4,0.17391304347826086,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,4,1.75,1.875,1.0,1.125,21,5,0.23809523809523808,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,5,1.75,1.875,1.125,1.25,25,3,0.12,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,6,1.75,1.875,1.25,1.375,26,8,0.3076923076923077,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,7,1.75,1.875,1.375,1.5,32,17,0.53125,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,8,1.75,1.875,1.5,1.625,32,21,0.65625,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,9,1.75,1.875,1.625,1.75,23,13,0.5652173913043478,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,10,1.75,1.875,1.75,1.875,23,13,0.5652173913043478,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,11,1.75,1.875,1.875,2.0,17,11,0.6470588235294118,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,12,1.75,1.875,2.0,2.125,18,4,0.2222222222222222,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,13,1.75,1.875,2.125,2.25,18,6,0.3333333333333333,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,14,1.75,1.875,2.25,2.375,19,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,15,1.75,1.875,2.375,2.5,18,1,0.05555555555555555,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,16,1.75,1.875,2.5,2.625,26,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,17,1.75,1.875,2.625,2.75,24,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,18,1.75,1.875,2.75,2.875,34,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),10,19,1.75,1.875,2.875,3.0,25,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,0,1.875,2.0,0.5,0.625,16,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,1,1.875,2.0,0.625,0.75,22,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,2,1.875,2.0,0.75,0.875,26,2,0.07692307692307693,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,3,1.875,2.0,0.875,1.0,25,1,0.04,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,4,1.875,2.0,1.0,1.125,31,3,0.0967741935483871,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,5,1.875,2.0,1.125,1.25,22,2,0.09090909090909091,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,6,1.875,2.0,1.25,1.375,21,9,0.42857142857142855,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,7,1.875,2.0,1.375,1.5,28,9,0.32142857142857145,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,8,1.875,2.0,1.5,1.625,17,8,0.47058823529411764,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,9,1.875,2.0,1.625,1.75,23,7,0.30434782608695654,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,10,1.875,2.0,1.75,1.875,28,19,0.6785714285714286,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,11,1.875,2.0,1.875,2.0,21,10,0.47619047619047616,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,12,1.875,2.0,2.0,2.125,22,9,0.4090909090909091,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,13,1.875,2.0,2.125,2.25,20,16,0.8,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,14,1.875,2.0,2.25,2.375,35,5,0.14285714285714285,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,15,1.875,2.0,2.375,2.5,20,1,0.05,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,16,1.875,2.0,2.5,2.625,34,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,17,1.875,2.0,2.625,2.75,20,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,18,1.875,2.0,2.75,2.875,21,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),11,19,1.875,2.0,2.875,3.0,20,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,0,2.0,2.125,0.5,0.625,29,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,1,2.0,2.125,0.625,0.75,19,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,2,2.0,2.125,0.75,0.875,23,2,0.08695652173913043,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,3,2.0,2.125,0.875,1.0,21,2,0.09523809523809523,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,4,2.0,2.125,1.0,1.125,27,5,0.18518518518518517,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,5,2.0,2.125,1.125,1.25,26,3,0.11538461538461539,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,6,2.0,2.125,1.25,1.375,27,6,0.2222222222222222,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,7,2.0,2.125,1.375,1.5,22,4,0.18181818181818182,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,8,2.0,2.125,1.5,1.625,18,6,0.3333333333333333,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,9,2.0,2.125,1.625,1.75,31,16,0.5161290322580645,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,10,2.0,2.125,1.75,1.875,31,23,0.7419354838709677,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,11,2.0,2.125,1.875,2.0,33,19,0.5757575757575758,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,12,2.0,2.125,2.0,2.125,26,13,0.5,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,13,2.0,2.125,2.125,2.25,29,14,0.4827586206896552,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,14,2.0,2.125,2.25,2.375,16,7,0.4375,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,15,2.0,2.125,2.375,2.5,35,10,0.2857142857142857,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,16,2.0,2.125,2.5,2.625,24,2,0.08333333333333333,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,17,2.0,2.125,2.625,2.75,37,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,18,2.0,2.125,2.75,2.875,10,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),12,19,2.0,2.125,2.875,3.0,33,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,0,2.125,2.25,0.5,0.625,42,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,1,2.125,2.25,0.625,0.75,32,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,2,2.125,2.25,0.75,0.875,22,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,3,2.125,2.25,0.875,1.0,34,1,0.029411764705882353,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,4,2.125,2.25,1.0,1.125,35,2,0.05714285714285714,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,5,2.125,2.25,1.125,1.25,25,3,0.12,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,6,2.125,2.25,1.25,1.375,30,3,0.1,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,7,2.125,2.25,1.375,1.5,20,2,0.1,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,8,2.125,2.25,1.5,1.625,23,4,0.17391304347826086,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,9,2.125,2.25,1.625,1.75,27,8,0.2962962962962963,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,10,2.125,2.25,1.75,1.875,16,5,0.3125,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,11,2.125,2.25,1.875,2.0,27,5,0.18518518518518517,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,12,2.125,2.25,2.0,2.125,28,9,0.32142857142857145,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,13,2.125,2.25,2.125,2.25,18,7,0.3888888888888889,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,14,2.125,2.25,2.25,2.375,18,12,0.6666666666666666,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,15,2.125,2.25,2.375,2.5,26,7,0.2692307692307692,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,16,2.125,2.25,2.5,2.625,34,6,0.17647058823529413,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,17,2.125,2.25,2.625,2.75,22,1,0.045454545454545456,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,18,2.125,2.25,2.75,2.875,29,1,0.034482758620689655,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),13,19,2.125,2.25,2.875,3.0,25,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,0,2.25,2.375,0.5,0.625,32,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,1,2.25,2.375,0.625,0.75,28,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,2,2.25,2.375,0.75,0.875,27,1,0.037037037037037035,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,3,2.25,2.375,0.875,1.0,25,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,4,2.25,2.375,1.0,1.125,23,2,0.08695652173913043,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,5,2.25,2.375,1.125,1.25,20,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,6,2.25,2.375,1.25,1.375,27,2,0.07407407407407407,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,7,2.25,2.375,1.375,1.5,32,8,0.25,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,8,2.25,2.375,1.5,1.625,18,4,0.2222222222222222,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,9,2.25,2.375,1.625,1.75,21,5,0.23809523809523808,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,10,2.25,2.375,1.75,1.875,19,2,0.10526315789473684,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,11,2.25,2.375,1.875,2.0,29,1,0.034482758620689655,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,12,2.25,2.375,2.0,2.125,17,1,0.058823529411764705,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,13,2.25,2.375,2.125,2.25,25,10,0.4,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,14,2.25,2.375,2.25,2.375,30,15,0.5,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,15,2.25,2.375,2.375,2.5,23,8,0.34782608695652173,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,16,2.25,2.375,2.5,2.625,22,8,0.36363636363636365,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,17,2.25,2.375,2.625,2.75,22,1,0.045454545454545456,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,18,2.25,2.375,2.75,2.875,26,1,0.038461538461538464,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),14,19,2.25,2.375,2.875,3.0,21,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,0,2.375,2.5,0.5,0.625,27,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,1,2.375,2.5,0.625,0.75,24,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,2,2.375,2.5,0.75,0.875,31,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,3,2.375,2.5,0.875,1.0,26,1,0.038461538461538464,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,4,2.375,2.5,1.0,1.125,19,1,0.05263157894736842,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,5,2.375,2.5,1.125,1.25,28,2,0.07142857142857142,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,6,2.375,2.5,1.25,1.375,17,1,0.058823529411764705,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,7,2.375,2.5,1.375,1.5,21,2,0.09523809523809523,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,8,2.375,2.5,1.5,1.625,18,1,0.05555555555555555,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,9,2.375,2.5,1.625,1.75,30,8,0.26666666666666666,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,10,2.375,2.5,1.75,1.875,19,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,11,2.375,2.5,1.875,2.0,24,1,0.041666666666666664,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,12,2.375,2.5,2.0,2.125,20,1,0.05,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,13,2.375,2.5,2.125,2.25,32,1,0.03125,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,14,2.375,2.5,2.25,2.375,25,9,0.36,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,15,2.375,2.5,2.375,2.5,32,21,0.65625,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,16,2.375,2.5,2.5,2.625,32,12,0.375,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,17,2.375,2.5,2.625,2.75,24,6,0.25,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,18,2.375,2.5,2.75,2.875,26,6,0.23076923076923078,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),15,19,2.375,2.5,2.875,3.0,19,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,0,2.5,2.625,0.5,0.625,20,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,1,2.5,2.625,0.625,0.75,24,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,2,2.5,2.625,0.75,0.875,31,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,3,2.5,2.625,0.875,1.0,34,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,4,2.5,2.625,1.0,1.125,30,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,5,2.5,2.625,1.125,1.25,17,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,6,2.5,2.625,1.25,1.375,26,1,0.038461538461538464,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,7,2.5,2.625,1.375,1.5,31,1,0.03225806451612903,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,8,2.5,2.625,1.5,1.625,30,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,9,2.5,2.625,1.625,1.75,21,1,0.047619047619047616,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,10,2.5,2.625,1.75,1.875,23,4,0.17391304347826086,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,11,2.5,2.625,1.875,2.0,26,5,0.19230769230769232,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,12,2.5,2.625,2.0,2.125,22,1,0.045454545454545456,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,13,2.5,2.625,2.125,2.25,41,1,0.024390243902439025,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,14,2.5,2.625,2.25,2.375,28,2,0.07142857142857142,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,15,2.5,2.625,2.375,2.5,29,8,0.27586206896551724,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,16,2.5,2.625,2.5,2.625,19,11,0.5789473684210527,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,17,2.5,2.625,2.625,2.75,22,9,0.4090909090909091,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,18,2.5,2.625,2.75,2.875,30,7,0.23333333333333334,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),16,19,2.5,2.625,2.875,3.0,27,6,0.2222222222222222,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,0,2.625,2.75,0.5,0.625,24,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,1,2.625,2.75,0.625,0.75,17,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,2,2.625,2.75,0.75,0.875,25,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,3,2.625,2.75,0.875,1.0,28,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,4,2.625,2.75,1.0,1.125,23,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,5,2.625,2.75,1.125,1.25,25,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,6,2.625,2.75,1.25,1.375,22,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,7,2.625,2.75,1.375,1.5,24,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,8,2.625,2.75,1.5,1.625,24,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,9,2.625,2.75,1.625,1.75,28,2,0.07142857142857142,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,10,2.625,2.75,1.75,1.875,32,3,0.09375,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,11,2.625,2.75,1.875,2.0,21,1,0.047619047619047616,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,12,2.625,2.75,2.0,2.125,28,1,0.03571428571428571,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,13,2.625,2.75,2.125,2.25,27,3,0.1111111111111111,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,14,2.625,2.75,2.25,2.375,21,2,0.09523809523809523,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,15,2.625,2.75,2.375,2.5,33,3,0.09090909090909091,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,16,2.625,2.75,2.5,2.625,12,3,0.25,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,17,2.625,2.75,2.625,2.75,30,13,0.43333333333333335,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,18,2.625,2.75,2.75,2.875,25,12,0.48,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),17,19,2.625,2.75,2.875,3.0,30,11,0.36666666666666664,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,0,2.75,2.875,0.5,0.625,24,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,1,2.75,2.875,0.625,0.75,23,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,2,2.75,2.875,0.75,0.875,24,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,3,2.75,2.875,0.875,1.0,30,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,4,2.75,2.875,1.0,1.125,19,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,5,2.75,2.875,1.125,1.25,26,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,6,2.75,2.875,1.25,1.375,28,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,7,2.75,2.875,1.375,1.5,21,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,8,2.75,2.875,1.5,1.625,24,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,9,2.75,2.875,1.625,1.75,27,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,10,2.75,2.875,1.75,1.875,28,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,11,2.75,2.875,1.875,2.0,25,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,12,2.75,2.875,2.0,2.125,25,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,13,2.75,2.875,2.125,2.25,29,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,14,2.75,2.875,2.25,2.375,21,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,15,2.75,2.875,2.375,2.5,15,2,0.13333333333333333,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,16,2.75,2.875,2.5,2.625,23,3,0.13043478260869565,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,17,2.75,2.875,2.625,2.75,15,4,0.26666666666666666,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,18,2.75,2.875,2.75,2.875,24,9,0.375,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),18,19,2.75,2.875,2.875,3.0,30,8,0.26666666666666666,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,0,2.875,3.0,0.5,0.625,26,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,1,2.875,3.0,0.625,0.75,23,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,2,2.875,3.0,0.75,0.875,19,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,3,2.875,3.0,0.875,1.0,22,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,4,2.875,3.0,1.0,1.125,30,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,5,2.875,3.0,1.125,1.25,25,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,6,2.875,3.0,1.25,1.375,25,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,7,2.875,3.0,1.375,1.5,30,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,8,2.875,3.0,1.5,1.625,22,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,9,2.875,3.0,1.625,1.75,27,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,10,2.875,3.0,1.75,1.875,25,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,11,2.875,3.0,1.875,2.0,29,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,12,2.875,3.0,2.0,2.125,22,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,13,2.875,3.0,2.125,2.25,26,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,14,2.875,3.0,2.25,2.375,23,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,15,2.875,3.0,2.375,2.5,21,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,16,2.875,3.0,2.5,2.625,21,2,0.09523809523809523,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,17,2.875,3.0,2.625,2.75,18,0,0.0,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,18,2.875,3.0,2.75,2.875,24,1,0.041666666666666664,False,False
+lp_ls,Target Lp (nH),Target Ls (nH),19,19,2.875,3.0,2.875,3.0,23,1,0.043478260869565216,False,False
+lp_k,Target Lp (nH),Target |k|,0,0,0.5,0.625,0.0,0.04,8,0,0.0,False,True
+lp_k,Target Lp (nH),Target |k|,0,1,0.5,0.625,0.04,0.08,36,2,0.05555555555555555,False,False
+lp_k,Target Lp (nH),Target |k|,0,2,0.5,0.625,0.08,0.12,19,5,0.2631578947368421,False,False
+lp_k,Target Lp (nH),Target |k|,0,3,0.5,0.625,0.12,0.16,24,2,0.08333333333333333,False,False
+lp_k,Target Lp (nH),Target |k|,0,4,0.5,0.625,0.16,0.2,18,3,0.16666666666666666,False,False
+lp_k,Target Lp (nH),Target |k|,0,5,0.5,0.625,0.2,0.24,27,10,0.37037037037037035,False,False
+lp_k,Target Lp (nH),Target |k|,0,6,0.5,0.625,0.24,0.28,22,4,0.18181818181818182,False,False
+lp_k,Target Lp (nH),Target |k|,0,7,0.5,0.625,0.28,0.32,19,3,0.15789473684210525,False,False
+lp_k,Target Lp (nH),Target |k|,0,8,0.5,0.625,0.32,0.36,37,5,0.13513513513513514,False,False
+lp_k,Target Lp (nH),Target |k|,0,9,0.5,0.625,0.36,0.4,22,4,0.18181818181818182,False,False
+lp_k,Target Lp (nH),Target |k|,0,10,0.5,0.625,0.4,0.44,26,4,0.15384615384615385,False,False
+lp_k,Target Lp (nH),Target |k|,0,11,0.5,0.625,0.44,0.48,27,1,0.037037037037037035,False,False
+lp_k,Target Lp (nH),Target |k|,0,12,0.5,0.625,0.48,0.52,29,3,0.10344827586206896,False,False
+lp_k,Target Lp (nH),Target |k|,0,13,0.5,0.625,0.52,0.56,21,3,0.14285714285714285,False,False
+lp_k,Target Lp (nH),Target |k|,0,14,0.5,0.625,0.56,0.6,25,2,0.08,False,False
+lp_k,Target Lp (nH),Target |k|,0,15,0.5,0.625,0.6,0.64,22,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,0,16,0.5,0.625,0.64,0.68,25,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,0,17,0.5,0.625,0.68,0.72,20,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,0,18,0.5,0.625,0.72,0.76,23,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,0,19,0.5,0.625,0.76,0.8,29,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,1,0,0.625,0.75,0.0,0.04,16,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,1,1,0.625,0.75,0.04,0.08,23,4,0.17391304347826086,False,False
+lp_k,Target Lp (nH),Target |k|,1,2,0.625,0.75,0.08,0.12,25,4,0.16,False,False
+lp_k,Target Lp (nH),Target |k|,1,3,0.625,0.75,0.12,0.16,31,6,0.1935483870967742,False,False
+lp_k,Target Lp (nH),Target |k|,1,4,0.625,0.75,0.16,0.2,20,4,0.2,False,False
+lp_k,Target Lp (nH),Target |k|,1,5,0.625,0.75,0.2,0.24,29,8,0.27586206896551724,False,False
+lp_k,Target Lp (nH),Target |k|,1,6,0.625,0.75,0.24,0.28,24,3,0.125,False,False
+lp_k,Target Lp (nH),Target |k|,1,7,0.625,0.75,0.28,0.32,24,8,0.3333333333333333,False,False
+lp_k,Target Lp (nH),Target |k|,1,8,0.625,0.75,0.32,0.36,23,8,0.34782608695652173,False,False
+lp_k,Target Lp (nH),Target |k|,1,9,0.625,0.75,0.36,0.4,21,4,0.19047619047619047,False,False
+lp_k,Target Lp (nH),Target |k|,1,10,0.625,0.75,0.4,0.44,16,5,0.3125,False,False
+lp_k,Target Lp (nH),Target |k|,1,11,0.625,0.75,0.44,0.48,24,4,0.16666666666666666,False,False
+lp_k,Target Lp (nH),Target |k|,1,12,0.625,0.75,0.48,0.52,27,6,0.2222222222222222,False,False
+lp_k,Target Lp (nH),Target |k|,1,13,0.625,0.75,0.52,0.56,26,4,0.15384615384615385,False,False
+lp_k,Target Lp (nH),Target |k|,1,14,0.625,0.75,0.56,0.6,39,6,0.15384615384615385,False,False
+lp_k,Target Lp (nH),Target |k|,1,15,0.625,0.75,0.6,0.64,19,3,0.15789473684210525,False,False
+lp_k,Target Lp (nH),Target |k|,1,16,0.625,0.75,0.64,0.68,28,4,0.14285714285714285,False,False
+lp_k,Target Lp (nH),Target |k|,1,17,0.625,0.75,0.68,0.72,23,2,0.08695652173913043,False,False
+lp_k,Target Lp (nH),Target |k|,1,18,0.625,0.75,0.72,0.76,27,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,1,19,0.625,0.75,0.76,0.8,26,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,2,0,0.75,0.875,0.0,0.04,14,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,2,1,0.75,0.875,0.04,0.08,35,7,0.2,False,False
+lp_k,Target Lp (nH),Target |k|,2,2,0.75,0.875,0.08,0.12,25,8,0.32,False,False
+lp_k,Target Lp (nH),Target |k|,2,3,0.75,0.875,0.12,0.16,23,9,0.391304347826087,False,False
+lp_k,Target Lp (nH),Target |k|,2,4,0.75,0.875,0.16,0.2,28,9,0.32142857142857145,False,False
+lp_k,Target Lp (nH),Target |k|,2,5,0.75,0.875,0.2,0.24,30,13,0.43333333333333335,False,False
+lp_k,Target Lp (nH),Target |k|,2,6,0.75,0.875,0.24,0.28,19,8,0.42105263157894735,False,False
+lp_k,Target Lp (nH),Target |k|,2,7,0.75,0.875,0.28,0.32,30,13,0.43333333333333335,False,False
+lp_k,Target Lp (nH),Target |k|,2,8,0.75,0.875,0.32,0.36,32,20,0.625,False,False
+lp_k,Target Lp (nH),Target |k|,2,9,0.75,0.875,0.36,0.4,25,9,0.36,False,False
+lp_k,Target Lp (nH),Target |k|,2,10,0.75,0.875,0.4,0.44,21,6,0.2857142857142857,False,False
+lp_k,Target Lp (nH),Target |k|,2,11,0.75,0.875,0.44,0.48,21,9,0.42857142857142855,False,False
+lp_k,Target Lp (nH),Target |k|,2,12,0.75,0.875,0.48,0.52,26,9,0.34615384615384615,False,False
+lp_k,Target Lp (nH),Target |k|,2,13,0.75,0.875,0.52,0.56,25,8,0.32,False,False
+lp_k,Target Lp (nH),Target |k|,2,14,0.75,0.875,0.56,0.6,23,8,0.34782608695652173,False,False
+lp_k,Target Lp (nH),Target |k|,2,15,0.75,0.875,0.6,0.64,25,6,0.24,False,False
+lp_k,Target Lp (nH),Target |k|,2,16,0.75,0.875,0.64,0.68,31,7,0.22580645161290322,False,False
+lp_k,Target Lp (nH),Target |k|,2,17,0.75,0.875,0.68,0.72,23,3,0.13043478260869565,False,False
+lp_k,Target Lp (nH),Target |k|,2,18,0.75,0.875,0.72,0.76,27,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,2,19,0.75,0.875,0.76,0.8,25,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,3,0,0.875,1.0,0.0,0.04,17,1,0.058823529411764705,False,False
+lp_k,Target Lp (nH),Target |k|,3,1,0.875,1.0,0.04,0.08,21,8,0.38095238095238093,False,False
+lp_k,Target Lp (nH),Target |k|,3,2,0.875,1.0,0.08,0.12,27,10,0.37037037037037035,False,False
+lp_k,Target Lp (nH),Target |k|,3,3,0.875,1.0,0.12,0.16,28,13,0.4642857142857143,False,False
+lp_k,Target Lp (nH),Target |k|,3,4,0.875,1.0,0.16,0.2,30,19,0.6333333333333333,False,False
+lp_k,Target Lp (nH),Target |k|,3,5,0.875,1.0,0.2,0.24,37,18,0.4864864864864865,False,False
+lp_k,Target Lp (nH),Target |k|,3,6,0.875,1.0,0.24,0.28,31,15,0.4838709677419355,False,False
+lp_k,Target Lp (nH),Target |k|,3,7,0.875,1.0,0.28,0.32,35,13,0.37142857142857144,False,False
+lp_k,Target Lp (nH),Target |k|,3,8,0.875,1.0,0.32,0.36,26,16,0.6153846153846154,False,False
+lp_k,Target Lp (nH),Target |k|,3,9,0.875,1.0,0.36,0.4,20,9,0.45,False,False
+lp_k,Target Lp (nH),Target |k|,3,10,0.875,1.0,0.4,0.44,18,9,0.5,False,False
+lp_k,Target Lp (nH),Target |k|,3,11,0.875,1.0,0.44,0.48,20,9,0.45,False,False
+lp_k,Target Lp (nH),Target |k|,3,12,0.875,1.0,0.48,0.52,23,12,0.5217391304347826,False,False
+lp_k,Target Lp (nH),Target |k|,3,13,0.875,1.0,0.52,0.56,20,9,0.45,False,False
+lp_k,Target Lp (nH),Target |k|,3,14,0.875,1.0,0.56,0.6,25,8,0.32,False,False
+lp_k,Target Lp (nH),Target |k|,3,15,0.875,1.0,0.6,0.64,28,12,0.42857142857142855,False,False
+lp_k,Target Lp (nH),Target |k|,3,16,0.875,1.0,0.64,0.68,23,2,0.08695652173913043,False,False
+lp_k,Target Lp (nH),Target |k|,3,17,0.875,1.0,0.68,0.72,23,3,0.13043478260869565,False,False
+lp_k,Target Lp (nH),Target |k|,3,18,0.875,1.0,0.72,0.76,21,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,3,19,0.875,1.0,0.76,0.8,29,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,4,0,1.0,1.125,0.0,0.04,11,1,0.09090909090909091,False,False
+lp_k,Target Lp (nH),Target |k|,4,1,1.0,1.125,0.04,0.08,27,7,0.25925925925925924,False,False
+lp_k,Target Lp (nH),Target |k|,4,2,1.0,1.125,0.08,0.12,23,8,0.34782608695652173,False,False
+lp_k,Target Lp (nH),Target |k|,4,3,1.0,1.125,0.12,0.16,26,9,0.34615384615384615,False,False
+lp_k,Target Lp (nH),Target |k|,4,4,1.0,1.125,0.16,0.2,31,13,0.41935483870967744,False,False
+lp_k,Target Lp (nH),Target |k|,4,5,1.0,1.125,0.2,0.24,14,7,0.5,False,False
+lp_k,Target Lp (nH),Target |k|,4,6,1.0,1.125,0.24,0.28,21,7,0.3333333333333333,False,False
+lp_k,Target Lp (nH),Target |k|,4,7,1.0,1.125,0.28,0.32,38,21,0.5526315789473685,False,False
+lp_k,Target Lp (nH),Target |k|,4,8,1.0,1.125,0.32,0.36,26,14,0.5384615384615384,False,False
+lp_k,Target Lp (nH),Target |k|,4,9,1.0,1.125,0.36,0.4,20,12,0.6,False,False
+lp_k,Target Lp (nH),Target |k|,4,10,1.0,1.125,0.4,0.44,26,13,0.5,False,False
+lp_k,Target Lp (nH),Target |k|,4,11,1.0,1.125,0.44,0.48,16,5,0.3125,False,False
+lp_k,Target Lp (nH),Target |k|,4,12,1.0,1.125,0.48,0.52,17,7,0.4117647058823529,False,False
+lp_k,Target Lp (nH),Target |k|,4,13,1.0,1.125,0.52,0.56,27,5,0.18518518518518517,False,False
+lp_k,Target Lp (nH),Target |k|,4,14,1.0,1.125,0.56,0.6,22,3,0.13636363636363635,False,False
+lp_k,Target Lp (nH),Target |k|,4,15,1.0,1.125,0.6,0.64,21,2,0.09523809523809523,False,False
+lp_k,Target Lp (nH),Target |k|,4,16,1.0,1.125,0.64,0.68,29,9,0.3103448275862069,False,False
+lp_k,Target Lp (nH),Target |k|,4,17,1.0,1.125,0.68,0.72,30,3,0.1,False,False
+lp_k,Target Lp (nH),Target |k|,4,18,1.0,1.125,0.72,0.76,32,1,0.03125,False,False
+lp_k,Target Lp (nH),Target |k|,4,19,1.0,1.125,0.76,0.8,29,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,5,0,1.125,1.25,0.0,0.04,15,1,0.06666666666666667,False,False
+lp_k,Target Lp (nH),Target |k|,5,1,1.125,1.25,0.04,0.08,27,14,0.5185185185185185,False,False
+lp_k,Target Lp (nH),Target |k|,5,2,1.125,1.25,0.08,0.12,20,9,0.45,False,False
+lp_k,Target Lp (nH),Target |k|,5,3,1.125,1.25,0.12,0.16,27,13,0.48148148148148145,False,False
+lp_k,Target Lp (nH),Target |k|,5,4,1.125,1.25,0.16,0.2,17,8,0.47058823529411764,False,False
+lp_k,Target Lp (nH),Target |k|,5,5,1.125,1.25,0.2,0.24,31,21,0.6774193548387096,False,False
+lp_k,Target Lp (nH),Target |k|,5,6,1.125,1.25,0.24,0.28,29,17,0.5862068965517241,False,False
+lp_k,Target Lp (nH),Target |k|,5,7,1.125,1.25,0.28,0.32,29,12,0.41379310344827586,False,False
+lp_k,Target Lp (nH),Target |k|,5,8,1.125,1.25,0.32,0.36,29,14,0.4827586206896552,False,False
+lp_k,Target Lp (nH),Target |k|,5,9,1.125,1.25,0.36,0.4,22,7,0.3181818181818182,False,False
+lp_k,Target Lp (nH),Target |k|,5,10,1.125,1.25,0.4,0.44,25,10,0.4,False,False
+lp_k,Target Lp (nH),Target |k|,5,11,1.125,1.25,0.44,0.48,26,9,0.34615384615384615,False,False
+lp_k,Target Lp (nH),Target |k|,5,12,1.125,1.25,0.48,0.52,21,9,0.42857142857142855,False,False
+lp_k,Target Lp (nH),Target |k|,5,13,1.125,1.25,0.52,0.56,24,5,0.20833333333333334,False,False
+lp_k,Target Lp (nH),Target |k|,5,14,1.125,1.25,0.56,0.6,30,5,0.16666666666666666,False,False
+lp_k,Target Lp (nH),Target |k|,5,15,1.125,1.25,0.6,0.64,39,5,0.1282051282051282,False,False
+lp_k,Target Lp (nH),Target |k|,5,16,1.125,1.25,0.64,0.68,31,1,0.03225806451612903,False,False
+lp_k,Target Lp (nH),Target |k|,5,17,1.125,1.25,0.68,0.72,20,2,0.1,False,False
+lp_k,Target Lp (nH),Target |k|,5,18,1.125,1.25,0.72,0.76,31,4,0.12903225806451613,False,False
+lp_k,Target Lp (nH),Target |k|,5,19,1.125,1.25,0.76,0.8,24,3,0.125,False,False
+lp_k,Target Lp (nH),Target |k|,6,0,1.25,1.375,0.0,0.04,16,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,6,1,1.25,1.375,0.04,0.08,40,9,0.225,False,False
+lp_k,Target Lp (nH),Target |k|,6,2,1.25,1.375,0.08,0.12,24,11,0.4583333333333333,False,False
+lp_k,Target Lp (nH),Target |k|,6,3,1.25,1.375,0.12,0.16,12,4,0.3333333333333333,False,False
+lp_k,Target Lp (nH),Target |k|,6,4,1.25,1.375,0.16,0.2,24,16,0.6666666666666666,False,False
+lp_k,Target Lp (nH),Target |k|,6,5,1.25,1.375,0.2,0.24,26,12,0.46153846153846156,False,False
+lp_k,Target Lp (nH),Target |k|,6,6,1.25,1.375,0.24,0.28,23,11,0.4782608695652174,False,False
+lp_k,Target Lp (nH),Target |k|,6,7,1.25,1.375,0.28,0.32,25,13,0.52,False,False
+lp_k,Target Lp (nH),Target |k|,6,8,1.25,1.375,0.32,0.36,25,11,0.44,False,False
+lp_k,Target Lp (nH),Target |k|,6,9,1.25,1.375,0.36,0.4,28,15,0.5357142857142857,False,False
+lp_k,Target Lp (nH),Target |k|,6,10,1.25,1.375,0.4,0.44,25,10,0.4,False,False
+lp_k,Target Lp (nH),Target |k|,6,11,1.25,1.375,0.44,0.48,24,11,0.4583333333333333,False,False
+lp_k,Target Lp (nH),Target |k|,6,12,1.25,1.375,0.48,0.52,25,6,0.24,False,False
+lp_k,Target Lp (nH),Target |k|,6,13,1.25,1.375,0.52,0.56,33,14,0.42424242424242425,False,False
+lp_k,Target Lp (nH),Target |k|,6,14,1.25,1.375,0.56,0.6,24,7,0.2916666666666667,False,False
+lp_k,Target Lp (nH),Target |k|,6,15,1.25,1.375,0.6,0.64,28,11,0.39285714285714285,False,False
+lp_k,Target Lp (nH),Target |k|,6,16,1.25,1.375,0.64,0.68,22,2,0.09090909090909091,False,False
+lp_k,Target Lp (nH),Target |k|,6,17,1.25,1.375,0.68,0.72,26,5,0.19230769230769232,False,False
+lp_k,Target Lp (nH),Target |k|,6,18,1.25,1.375,0.72,0.76,17,2,0.11764705882352941,False,False
+lp_k,Target Lp (nH),Target |k|,6,19,1.25,1.375,0.76,0.8,18,4,0.2222222222222222,False,False
+lp_k,Target Lp (nH),Target |k|,7,0,1.375,1.5,0.0,0.04,14,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,7,1,1.375,1.5,0.04,0.08,24,5,0.20833333333333334,False,False
+lp_k,Target Lp (nH),Target |k|,7,2,1.375,1.5,0.08,0.12,22,6,0.2727272727272727,False,False
+lp_k,Target Lp (nH),Target |k|,7,3,1.375,1.5,0.12,0.16,29,14,0.4827586206896552,False,False
+lp_k,Target Lp (nH),Target |k|,7,4,1.375,1.5,0.16,0.2,24,9,0.375,False,False
+lp_k,Target Lp (nH),Target |k|,7,5,1.375,1.5,0.2,0.24,28,11,0.39285714285714285,False,False
+lp_k,Target Lp (nH),Target |k|,7,6,1.375,1.5,0.24,0.28,29,14,0.4827586206896552,False,False
+lp_k,Target Lp (nH),Target |k|,7,7,1.375,1.5,0.28,0.32,22,11,0.5,False,False
+lp_k,Target Lp (nH),Target |k|,7,8,1.375,1.5,0.32,0.36,19,5,0.2631578947368421,False,False
+lp_k,Target Lp (nH),Target |k|,7,9,1.375,1.5,0.36,0.4,35,15,0.42857142857142855,False,False
+lp_k,Target Lp (nH),Target |k|,7,10,1.375,1.5,0.4,0.44,31,12,0.3870967741935484,False,False
+lp_k,Target Lp (nH),Target |k|,7,11,1.375,1.5,0.44,0.48,33,15,0.45454545454545453,False,False
+lp_k,Target Lp (nH),Target |k|,7,12,1.375,1.5,0.48,0.52,28,13,0.4642857142857143,False,False
+lp_k,Target Lp (nH),Target |k|,7,13,1.375,1.5,0.52,0.56,27,9,0.3333333333333333,False,False
+lp_k,Target Lp (nH),Target |k|,7,14,1.375,1.5,0.56,0.6,23,7,0.30434782608695654,False,False
+lp_k,Target Lp (nH),Target |k|,7,15,1.375,1.5,0.6,0.64,29,10,0.3448275862068966,False,False
+lp_k,Target Lp (nH),Target |k|,7,16,1.375,1.5,0.64,0.68,28,6,0.21428571428571427,False,False
+lp_k,Target Lp (nH),Target |k|,7,17,1.375,1.5,0.68,0.72,27,5,0.18518518518518517,False,False
+lp_k,Target Lp (nH),Target |k|,7,18,1.375,1.5,0.72,0.76,19,3,0.15789473684210525,False,False
+lp_k,Target Lp (nH),Target |k|,7,19,1.375,1.5,0.76,0.8,33,3,0.09090909090909091,False,False
+lp_k,Target Lp (nH),Target |k|,8,0,1.5,1.625,0.0,0.04,15,3,0.2,False,False
+lp_k,Target Lp (nH),Target |k|,8,1,1.5,1.625,0.04,0.08,26,4,0.15384615384615385,False,False
+lp_k,Target Lp (nH),Target |k|,8,2,1.5,1.625,0.08,0.12,22,5,0.22727272727272727,False,False
+lp_k,Target Lp (nH),Target |k|,8,3,1.5,1.625,0.12,0.16,27,7,0.25925925925925924,False,False
+lp_k,Target Lp (nH),Target |k|,8,4,1.5,1.625,0.16,0.2,33,12,0.36363636363636365,False,False
+lp_k,Target Lp (nH),Target |k|,8,5,1.5,1.625,0.2,0.24,22,4,0.18181818181818182,False,False
+lp_k,Target Lp (nH),Target |k|,8,6,1.5,1.625,0.24,0.28,23,6,0.2608695652173913,False,False
+lp_k,Target Lp (nH),Target |k|,8,7,1.5,1.625,0.28,0.32,25,6,0.24,False,False
+lp_k,Target Lp (nH),Target |k|,8,8,1.5,1.625,0.32,0.36,23,3,0.13043478260869565,False,False
+lp_k,Target Lp (nH),Target |k|,8,9,1.5,1.625,0.36,0.4,28,4,0.14285714285714285,False,False
+lp_k,Target Lp (nH),Target |k|,8,10,1.5,1.625,0.4,0.44,31,5,0.16129032258064516,False,False
+lp_k,Target Lp (nH),Target |k|,8,11,1.5,1.625,0.44,0.48,28,13,0.4642857142857143,False,False
+lp_k,Target Lp (nH),Target |k|,8,12,1.5,1.625,0.48,0.52,31,10,0.3225806451612903,False,False
+lp_k,Target Lp (nH),Target |k|,8,13,1.5,1.625,0.52,0.56,20,9,0.45,False,False
+lp_k,Target Lp (nH),Target |k|,8,14,1.5,1.625,0.56,0.6,27,3,0.1111111111111111,False,False
+lp_k,Target Lp (nH),Target |k|,8,15,1.5,1.625,0.6,0.64,26,7,0.2692307692307692,False,False
+lp_k,Target Lp (nH),Target |k|,8,16,1.5,1.625,0.64,0.68,34,9,0.2647058823529412,False,False
+lp_k,Target Lp (nH),Target |k|,8,17,1.5,1.625,0.68,0.72,18,2,0.1111111111111111,False,False
+lp_k,Target Lp (nH),Target |k|,8,18,1.5,1.625,0.72,0.76,22,1,0.045454545454545456,False,False
+lp_k,Target Lp (nH),Target |k|,8,19,1.5,1.625,0.76,0.8,23,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,9,0,1.625,1.75,0.0,0.04,18,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,9,1,1.625,1.75,0.04,0.08,24,4,0.16666666666666666,False,False
+lp_k,Target Lp (nH),Target |k|,9,2,1.625,1.75,0.08,0.12,27,10,0.37037037037037035,False,False
+lp_k,Target Lp (nH),Target |k|,9,3,1.625,1.75,0.12,0.16,32,5,0.15625,False,False
+lp_k,Target Lp (nH),Target |k|,9,4,1.625,1.75,0.16,0.2,36,8,0.2222222222222222,False,False
+lp_k,Target Lp (nH),Target |k|,9,5,1.625,1.75,0.2,0.24,17,3,0.17647058823529413,False,False
+lp_k,Target Lp (nH),Target |k|,9,6,1.625,1.75,0.24,0.28,30,3,0.1,False,False
+lp_k,Target Lp (nH),Target |k|,9,7,1.625,1.75,0.28,0.32,24,4,0.16666666666666666,False,False
+lp_k,Target Lp (nH),Target |k|,9,8,1.625,1.75,0.32,0.36,22,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,9,9,1.625,1.75,0.36,0.4,22,1,0.045454545454545456,False,False
+lp_k,Target Lp (nH),Target |k|,9,10,1.625,1.75,0.4,0.44,26,7,0.2692307692307692,False,False
+lp_k,Target Lp (nH),Target |k|,9,11,1.625,1.75,0.44,0.48,20,7,0.35,False,False
+lp_k,Target Lp (nH),Target |k|,9,12,1.625,1.75,0.48,0.52,34,17,0.5,False,False
+lp_k,Target Lp (nH),Target |k|,9,13,1.625,1.75,0.52,0.56,24,14,0.5833333333333334,False,False
+lp_k,Target Lp (nH),Target |k|,9,14,1.625,1.75,0.56,0.6,25,10,0.4,False,False
+lp_k,Target Lp (nH),Target |k|,9,15,1.625,1.75,0.6,0.64,25,5,0.2,False,False
+lp_k,Target Lp (nH),Target |k|,9,16,1.625,1.75,0.64,0.68,27,7,0.25925925925925924,False,False
+lp_k,Target Lp (nH),Target |k|,9,17,1.625,1.75,0.68,0.72,30,10,0.3333333333333333,False,False
+lp_k,Target Lp (nH),Target |k|,9,18,1.625,1.75,0.72,0.76,31,6,0.1935483870967742,False,False
+lp_k,Target Lp (nH),Target |k|,9,19,1.625,1.75,0.76,0.8,35,5,0.14285714285714285,False,False
+lp_k,Target Lp (nH),Target |k|,10,0,1.75,1.875,0.0,0.04,16,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,10,1,1.75,1.875,0.04,0.08,20,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,10,2,1.75,1.875,0.08,0.12,27,5,0.18518518518518517,False,False
+lp_k,Target Lp (nH),Target |k|,10,3,1.75,1.875,0.12,0.16,24,4,0.16666666666666666,False,False
+lp_k,Target Lp (nH),Target |k|,10,4,1.75,1.875,0.16,0.2,23,7,0.30434782608695654,False,False
+lp_k,Target Lp (nH),Target |k|,10,5,1.75,1.875,0.2,0.24,31,10,0.3225806451612903,False,False
+lp_k,Target Lp (nH),Target |k|,10,6,1.75,1.875,0.24,0.28,22,2,0.09090909090909091,False,False
+lp_k,Target Lp (nH),Target |k|,10,7,1.75,1.875,0.28,0.32,35,7,0.2,False,False
+lp_k,Target Lp (nH),Target |k|,10,8,1.75,1.875,0.32,0.36,28,4,0.14285714285714285,False,False
+lp_k,Target Lp (nH),Target |k|,10,9,1.75,1.875,0.36,0.4,17,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,10,10,1.75,1.875,0.4,0.44,21,6,0.2857142857142857,False,False
+lp_k,Target Lp (nH),Target |k|,10,11,1.75,1.875,0.44,0.48,30,11,0.36666666666666664,False,False
+lp_k,Target Lp (nH),Target |k|,10,12,1.75,1.875,0.48,0.52,24,12,0.5,False,False
+lp_k,Target Lp (nH),Target |k|,10,13,1.75,1.875,0.52,0.56,23,6,0.2608695652173913,False,False
+lp_k,Target Lp (nH),Target |k|,10,14,1.75,1.875,0.56,0.6,26,11,0.4230769230769231,False,False
+lp_k,Target Lp (nH),Target |k|,10,15,1.75,1.875,0.6,0.64,20,3,0.15,False,False
+lp_k,Target Lp (nH),Target |k|,10,16,1.75,1.875,0.64,0.68,15,5,0.3333333333333333,False,False
+lp_k,Target Lp (nH),Target |k|,10,17,1.75,1.875,0.68,0.72,28,8,0.2857142857142857,False,False
+lp_k,Target Lp (nH),Target |k|,10,18,1.75,1.875,0.72,0.76,21,2,0.09523809523809523,False,False
+lp_k,Target Lp (nH),Target |k|,10,19,1.75,1.875,0.76,0.8,29,4,0.13793103448275862,False,False
+lp_k,Target Lp (nH),Target |k|,11,0,1.875,2.0,0.0,0.04,14,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,11,1,1.875,2.0,0.04,0.08,31,2,0.06451612903225806,False,False
+lp_k,Target Lp (nH),Target |k|,11,2,1.875,2.0,0.08,0.12,21,1,0.047619047619047616,False,False
+lp_k,Target Lp (nH),Target |k|,11,3,1.875,2.0,0.12,0.16,23,4,0.17391304347826086,False,False
+lp_k,Target Lp (nH),Target |k|,11,4,1.875,2.0,0.16,0.2,25,7,0.28,False,False
+lp_k,Target Lp (nH),Target |k|,11,5,1.875,2.0,0.2,0.24,27,7,0.25925925925925924,False,False
+lp_k,Target Lp (nH),Target |k|,11,6,1.875,2.0,0.24,0.28,20,5,0.25,False,False
+lp_k,Target Lp (nH),Target |k|,11,7,1.875,2.0,0.28,0.32,28,6,0.21428571428571427,False,False
+lp_k,Target Lp (nH),Target |k|,11,8,1.875,2.0,0.32,0.36,21,7,0.3333333333333333,False,False
+lp_k,Target Lp (nH),Target |k|,11,9,1.875,2.0,0.36,0.4,29,7,0.2413793103448276,False,False
+lp_k,Target Lp (nH),Target |k|,11,10,1.875,2.0,0.4,0.44,25,4,0.16,False,False
+lp_k,Target Lp (nH),Target |k|,11,11,1.875,2.0,0.44,0.48,23,4,0.17391304347826086,False,False
+lp_k,Target Lp (nH),Target |k|,11,12,1.875,2.0,0.48,0.52,25,5,0.2,False,False
+lp_k,Target Lp (nH),Target |k|,11,13,1.875,2.0,0.52,0.56,27,13,0.48148148148148145,False,False
+lp_k,Target Lp (nH),Target |k|,11,14,1.875,2.0,0.56,0.6,22,7,0.3181818181818182,False,False
+lp_k,Target Lp (nH),Target |k|,11,15,1.875,2.0,0.6,0.64,24,12,0.5,False,False
+lp_k,Target Lp (nH),Target |k|,11,16,1.875,2.0,0.64,0.68,16,3,0.1875,False,False
+lp_k,Target Lp (nH),Target |k|,11,17,1.875,2.0,0.68,0.72,23,5,0.21739130434782608,False,False
+lp_k,Target Lp (nH),Target |k|,11,18,1.875,2.0,0.72,0.76,29,1,0.034482758620689655,False,False
+lp_k,Target Lp (nH),Target |k|,11,19,1.875,2.0,0.76,0.8,19,1,0.05263157894736842,False,False
+lp_k,Target Lp (nH),Target |k|,12,0,2.0,2.125,0.0,0.04,15,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,12,1,2.0,2.125,0.04,0.08,37,4,0.10810810810810811,False,False
+lp_k,Target Lp (nH),Target |k|,12,2,2.0,2.125,0.08,0.12,29,7,0.2413793103448276,False,False
+lp_k,Target Lp (nH),Target |k|,12,3,2.0,2.125,0.12,0.16,25,4,0.16,False,False
+lp_k,Target Lp (nH),Target |k|,12,4,2.0,2.125,0.16,0.2,22,8,0.36363636363636365,False,False
+lp_k,Target Lp (nH),Target |k|,12,5,2.0,2.125,0.2,0.24,27,7,0.25925925925925924,False,False
+lp_k,Target Lp (nH),Target |k|,12,6,2.0,2.125,0.24,0.28,23,4,0.17391304347826086,False,False
+lp_k,Target Lp (nH),Target |k|,12,7,2.0,2.125,0.28,0.32,22,5,0.22727272727272727,False,False
+lp_k,Target Lp (nH),Target |k|,12,8,2.0,2.125,0.32,0.36,36,5,0.1388888888888889,False,False
+lp_k,Target Lp (nH),Target |k|,12,9,2.0,2.125,0.36,0.4,22,11,0.5,False,False
+lp_k,Target Lp (nH),Target |k|,12,10,2.0,2.125,0.4,0.44,36,10,0.2777777777777778,False,False
+lp_k,Target Lp (nH),Target |k|,12,11,2.0,2.125,0.44,0.48,27,6,0.2222222222222222,False,False
+lp_k,Target Lp (nH),Target |k|,12,12,2.0,2.125,0.48,0.52,20,2,0.1,False,False
+lp_k,Target Lp (nH),Target |k|,12,13,2.0,2.125,0.52,0.56,40,12,0.3,False,False
+lp_k,Target Lp (nH),Target |k|,12,14,2.0,2.125,0.56,0.6,26,15,0.5769230769230769,False,False
+lp_k,Target Lp (nH),Target |k|,12,15,2.0,2.125,0.6,0.64,18,10,0.5555555555555556,False,False
+lp_k,Target Lp (nH),Target |k|,12,16,2.0,2.125,0.64,0.68,23,13,0.5652173913043478,False,False
+lp_k,Target Lp (nH),Target |k|,12,17,2.0,2.125,0.68,0.72,28,6,0.21428571428571427,False,False
+lp_k,Target Lp (nH),Target |k|,12,18,2.0,2.125,0.72,0.76,15,3,0.2,False,False
+lp_k,Target Lp (nH),Target |k|,12,19,2.0,2.125,0.76,0.8,26,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,13,0,2.125,2.25,0.0,0.04,11,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,13,1,2.125,2.25,0.04,0.08,36,5,0.1388888888888889,False,False
+lp_k,Target Lp (nH),Target |k|,13,2,2.125,2.25,0.08,0.12,25,2,0.08,False,False
+lp_k,Target Lp (nH),Target |k|,13,3,2.125,2.25,0.12,0.16,23,3,0.13043478260869565,False,False
+lp_k,Target Lp (nH),Target |k|,13,4,2.125,2.25,0.16,0.2,19,2,0.10526315789473684,False,False
+lp_k,Target Lp (nH),Target |k|,13,5,2.125,2.25,0.2,0.24,30,2,0.06666666666666667,False,False
+lp_k,Target Lp (nH),Target |k|,13,6,2.125,2.25,0.24,0.28,35,2,0.05714285714285714,False,False
+lp_k,Target Lp (nH),Target |k|,13,7,2.125,2.25,0.28,0.32,21,2,0.09523809523809523,False,False
+lp_k,Target Lp (nH),Target |k|,13,8,2.125,2.25,0.32,0.36,34,3,0.08823529411764706,False,False
+lp_k,Target Lp (nH),Target |k|,13,9,2.125,2.25,0.36,0.4,30,11,0.36666666666666664,False,False
+lp_k,Target Lp (nH),Target |k|,13,10,2.125,2.25,0.4,0.44,27,8,0.2962962962962963,False,False
+lp_k,Target Lp (nH),Target |k|,13,11,2.125,2.25,0.44,0.48,23,6,0.2608695652173913,False,False
+lp_k,Target Lp (nH),Target |k|,13,12,2.125,2.25,0.48,0.52,28,4,0.14285714285714285,False,False
+lp_k,Target Lp (nH),Target |k|,13,13,2.125,2.25,0.52,0.56,27,1,0.037037037037037035,False,False
+lp_k,Target Lp (nH),Target |k|,13,14,2.125,2.25,0.56,0.6,25,5,0.2,False,False
+lp_k,Target Lp (nH),Target |k|,13,15,2.125,2.25,0.6,0.64,22,5,0.22727272727272727,False,False
+lp_k,Target Lp (nH),Target |k|,13,16,2.125,2.25,0.64,0.68,29,10,0.3448275862068966,False,False
+lp_k,Target Lp (nH),Target |k|,13,17,2.125,2.25,0.68,0.72,28,3,0.10714285714285714,False,False
+lp_k,Target Lp (nH),Target |k|,13,18,2.125,2.25,0.72,0.76,32,1,0.03125,False,False
+lp_k,Target Lp (nH),Target |k|,13,19,2.125,2.25,0.76,0.8,28,1,0.03571428571428571,False,False
+lp_k,Target Lp (nH),Target |k|,14,0,2.25,2.375,0.0,0.04,19,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,14,1,2.25,2.375,0.04,0.08,25,3,0.12,False,False
+lp_k,Target Lp (nH),Target |k|,14,2,2.25,2.375,0.08,0.12,16,2,0.125,False,False
+lp_k,Target Lp (nH),Target |k|,14,3,2.25,2.375,0.12,0.16,23,2,0.08695652173913043,False,False
+lp_k,Target Lp (nH),Target |k|,14,4,2.25,2.375,0.16,0.2,22,1,0.045454545454545456,False,False
+lp_k,Target Lp (nH),Target |k|,14,5,2.25,2.375,0.2,0.24,27,4,0.14814814814814814,False,False
+lp_k,Target Lp (nH),Target |k|,14,6,2.25,2.375,0.24,0.28,22,3,0.13636363636363635,False,False
+lp_k,Target Lp (nH),Target |k|,14,7,2.25,2.375,0.28,0.32,20,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,14,8,2.25,2.375,0.32,0.36,27,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,14,9,2.25,2.375,0.36,0.4,34,9,0.2647058823529412,False,False
+lp_k,Target Lp (nH),Target |k|,14,10,2.25,2.375,0.4,0.44,21,3,0.14285714285714285,False,False
+lp_k,Target Lp (nH),Target |k|,14,11,2.25,2.375,0.44,0.48,28,8,0.2857142857142857,False,False
+lp_k,Target Lp (nH),Target |k|,14,12,2.25,2.375,0.48,0.52,25,7,0.28,False,False
+lp_k,Target Lp (nH),Target |k|,14,13,2.25,2.375,0.52,0.56,27,6,0.2222222222222222,False,False
+lp_k,Target Lp (nH),Target |k|,14,14,2.25,2.375,0.56,0.6,21,3,0.14285714285714285,False,False
+lp_k,Target Lp (nH),Target |k|,14,15,2.25,2.375,0.6,0.64,17,4,0.23529411764705882,False,False
+lp_k,Target Lp (nH),Target |k|,14,16,2.25,2.375,0.64,0.68,32,6,0.1875,False,False
+lp_k,Target Lp (nH),Target |k|,14,17,2.25,2.375,0.68,0.72,25,6,0.24,False,False
+lp_k,Target Lp (nH),Target |k|,14,18,2.25,2.375,0.72,0.76,32,1,0.03125,False,False
+lp_k,Target Lp (nH),Target |k|,14,19,2.25,2.375,0.76,0.8,24,1,0.041666666666666664,False,False
+lp_k,Target Lp (nH),Target |k|,15,0,2.375,2.5,0.0,0.04,14,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,15,1,2.375,2.5,0.04,0.08,19,1,0.05263157894736842,False,False
+lp_k,Target Lp (nH),Target |k|,15,2,2.375,2.5,0.08,0.12,21,2,0.09523809523809523,False,False
+lp_k,Target Lp (nH),Target |k|,15,3,2.375,2.5,0.12,0.16,24,5,0.20833333333333334,False,False
+lp_k,Target Lp (nH),Target |k|,15,4,2.375,2.5,0.16,0.2,27,3,0.1111111111111111,False,False
+lp_k,Target Lp (nH),Target |k|,15,5,2.375,2.5,0.2,0.24,25,4,0.16,False,False
+lp_k,Target Lp (nH),Target |k|,15,6,2.375,2.5,0.24,0.28,24,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,15,7,2.375,2.5,0.28,0.32,30,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,15,8,2.375,2.5,0.32,0.36,22,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,15,9,2.375,2.5,0.36,0.4,33,3,0.09090909090909091,False,False
+lp_k,Target Lp (nH),Target |k|,15,10,2.375,2.5,0.4,0.44,30,1,0.03333333333333333,False,False
+lp_k,Target Lp (nH),Target |k|,15,11,2.375,2.5,0.44,0.48,36,11,0.3055555555555556,False,False
+lp_k,Target Lp (nH),Target |k|,15,12,2.375,2.5,0.48,0.52,15,6,0.4,False,False
+lp_k,Target Lp (nH),Target |k|,15,13,2.375,2.5,0.52,0.56,20,6,0.3,False,False
+lp_k,Target Lp (nH),Target |k|,15,14,2.375,2.5,0.56,0.6,21,7,0.3333333333333333,False,False
+lp_k,Target Lp (nH),Target |k|,15,15,2.375,2.5,0.6,0.64,21,4,0.19047619047619047,False,False
+lp_k,Target Lp (nH),Target |k|,15,16,2.375,2.5,0.64,0.68,32,6,0.1875,False,False
+lp_k,Target Lp (nH),Target |k|,15,17,2.375,2.5,0.68,0.72,31,10,0.3225806451612903,False,False
+lp_k,Target Lp (nH),Target |k|,15,18,2.375,2.5,0.72,0.76,21,1,0.047619047619047616,False,False
+lp_k,Target Lp (nH),Target |k|,15,19,2.375,2.5,0.76,0.8,28,3,0.10714285714285714,False,False
+lp_k,Target Lp (nH),Target |k|,16,0,2.5,2.625,0.0,0.04,17,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,16,1,2.5,2.625,0.04,0.08,35,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,16,2,2.5,2.625,0.08,0.12,29,1,0.034482758620689655,False,False
+lp_k,Target Lp (nH),Target |k|,16,3,2.5,2.625,0.12,0.16,25,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,16,4,2.5,2.625,0.16,0.2,41,1,0.024390243902439025,False,False
+lp_k,Target Lp (nH),Target |k|,16,5,2.5,2.625,0.2,0.24,29,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,16,6,2.5,2.625,0.24,0.28,23,1,0.043478260869565216,False,False
+lp_k,Target Lp (nH),Target |k|,16,7,2.5,2.625,0.28,0.32,19,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,16,8,2.5,2.625,0.32,0.36,26,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,16,9,2.5,2.625,0.36,0.4,19,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,16,10,2.5,2.625,0.4,0.44,26,5,0.19230769230769232,False,False
+lp_k,Target Lp (nH),Target |k|,16,11,2.5,2.625,0.44,0.48,24,6,0.25,False,False
+lp_k,Target Lp (nH),Target |k|,16,12,2.5,2.625,0.48,0.52,26,8,0.3076923076923077,False,False
+lp_k,Target Lp (nH),Target |k|,16,13,2.5,2.625,0.52,0.56,30,4,0.13333333333333333,False,False
+lp_k,Target Lp (nH),Target |k|,16,14,2.5,2.625,0.56,0.6,33,5,0.15151515151515152,False,False
+lp_k,Target Lp (nH),Target |k|,16,15,2.5,2.625,0.6,0.64,28,7,0.25,False,False
+lp_k,Target Lp (nH),Target |k|,16,16,2.5,2.625,0.64,0.68,26,8,0.3076923076923077,False,False
+lp_k,Target Lp (nH),Target |k|,16,17,2.5,2.625,0.68,0.72,29,8,0.27586206896551724,False,False
+lp_k,Target Lp (nH),Target |k|,16,18,2.5,2.625,0.72,0.76,21,2,0.09523809523809523,False,False
+lp_k,Target Lp (nH),Target |k|,16,19,2.5,2.625,0.76,0.8,25,1,0.04,False,False
+lp_k,Target Lp (nH),Target |k|,17,0,2.625,2.75,0.0,0.04,23,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,17,1,2.625,2.75,0.04,0.08,27,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,17,2,2.625,2.75,0.08,0.12,25,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,17,3,2.625,2.75,0.12,0.16,27,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,17,4,2.625,2.75,0.16,0.2,25,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,17,5,2.625,2.75,0.2,0.24,33,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,17,6,2.625,2.75,0.24,0.28,32,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,17,7,2.625,2.75,0.28,0.32,21,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,17,8,2.625,2.75,0.32,0.36,18,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,17,9,2.625,2.75,0.36,0.4,28,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,17,10,2.625,2.75,0.4,0.44,26,2,0.07692307692307693,False,False
+lp_k,Target Lp (nH),Target |k|,17,11,2.625,2.75,0.44,0.48,27,6,0.2222222222222222,False,False
+lp_k,Target Lp (nH),Target |k|,17,12,2.625,2.75,0.48,0.52,14,2,0.14285714285714285,False,False
+lp_k,Target Lp (nH),Target |k|,17,13,2.625,2.75,0.52,0.56,24,5,0.20833333333333334,False,False
+lp_k,Target Lp (nH),Target |k|,17,14,2.625,2.75,0.56,0.6,30,7,0.23333333333333334,False,False
+lp_k,Target Lp (nH),Target |k|,17,15,2.625,2.75,0.6,0.64,33,11,0.3333333333333333,False,False
+lp_k,Target Lp (nH),Target |k|,17,16,2.625,2.75,0.64,0.68,20,5,0.25,False,False
+lp_k,Target Lp (nH),Target |k|,17,17,2.625,2.75,0.68,0.72,21,11,0.5238095238095238,False,False
+lp_k,Target Lp (nH),Target |k|,17,18,2.625,2.75,0.72,0.76,22,4,0.18181818181818182,False,False
+lp_k,Target Lp (nH),Target |k|,17,19,2.625,2.75,0.76,0.8,23,1,0.043478260869565216,False,False
+lp_k,Target Lp (nH),Target |k|,18,0,2.75,2.875,0.0,0.04,11,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,18,1,2.75,2.875,0.04,0.08,29,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,18,2,2.75,2.875,0.08,0.12,35,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,18,3,2.75,2.875,0.12,0.16,27,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,18,4,2.75,2.875,0.16,0.2,26,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,18,5,2.75,2.875,0.2,0.24,30,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,18,6,2.75,2.875,0.24,0.28,22,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,18,7,2.75,2.875,0.28,0.32,25,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,18,8,2.75,2.875,0.32,0.36,20,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,18,9,2.75,2.875,0.36,0.4,24,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,18,10,2.75,2.875,0.4,0.44,30,1,0.03333333333333333,False,False
+lp_k,Target Lp (nH),Target |k|,18,11,2.75,2.875,0.44,0.48,30,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,18,12,2.75,2.875,0.48,0.52,23,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,18,13,2.75,2.875,0.52,0.56,17,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,18,14,2.75,2.875,0.56,0.6,23,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,18,15,2.75,2.875,0.6,0.64,24,4,0.16666666666666666,False,False
+lp_k,Target Lp (nH),Target |k|,18,16,2.75,2.875,0.64,0.68,21,4,0.19047619047619047,False,False
+lp_k,Target Lp (nH),Target |k|,18,17,2.75,2.875,0.68,0.72,22,8,0.36363636363636365,False,False
+lp_k,Target Lp (nH),Target |k|,18,18,2.75,2.875,0.72,0.76,20,5,0.25,False,False
+lp_k,Target Lp (nH),Target |k|,18,19,2.75,2.875,0.76,0.8,22,4,0.18181818181818182,False,False
+lp_k,Target Lp (nH),Target |k|,19,0,2.875,3.0,0.0,0.04,14,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,19,1,2.875,3.0,0.04,0.08,30,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,19,2,2.875,3.0,0.08,0.12,23,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,19,3,2.875,3.0,0.12,0.16,27,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,19,4,2.875,3.0,0.16,0.2,25,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,19,5,2.875,3.0,0.2,0.24,18,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,19,6,2.875,3.0,0.24,0.28,20,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,19,7,2.875,3.0,0.28,0.32,27,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,19,8,2.875,3.0,0.32,0.36,16,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,19,9,2.875,3.0,0.36,0.4,23,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,19,10,2.875,3.0,0.4,0.44,36,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,19,11,2.875,3.0,0.44,0.48,26,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,19,12,2.875,3.0,0.48,0.52,25,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,19,13,2.875,3.0,0.52,0.56,30,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,19,14,2.875,3.0,0.56,0.6,22,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,19,15,2.875,3.0,0.6,0.64,23,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,19,16,2.875,3.0,0.64,0.68,18,3,0.16666666666666666,False,False
+lp_k,Target Lp (nH),Target |k|,19,17,2.875,3.0,0.68,0.72,30,0,0.0,False,False
+lp_k,Target Lp (nH),Target |k|,19,18,2.875,3.0,0.72,0.76,23,1,0.043478260869565216,False,False
+lp_k,Target Lp (nH),Target |k|,19,19,2.875,3.0,0.76,0.8,25,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,0,0,0.5,0.625,0.0,0.04,23,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,0,1,0.5,0.625,0.04,0.08,31,3,0.0967741935483871,False,False
+ls_k,Target Ls (nH),Target |k|,0,2,0.5,0.625,0.08,0.12,20,1,0.05,False,False
+ls_k,Target Ls (nH),Target |k|,0,3,0.5,0.625,0.12,0.16,30,1,0.03333333333333333,False,False
+ls_k,Target Ls (nH),Target |k|,0,4,0.5,0.625,0.16,0.2,26,2,0.07692307692307693,False,False
+ls_k,Target Ls (nH),Target |k|,0,5,0.5,0.625,0.2,0.24,33,13,0.3939393939393939,False,False
+ls_k,Target Ls (nH),Target |k|,0,6,0.5,0.625,0.24,0.28,21,3,0.14285714285714285,False,False
+ls_k,Target Ls (nH),Target |k|,0,7,0.5,0.625,0.28,0.32,32,6,0.1875,False,False
+ls_k,Target Ls (nH),Target |k|,0,8,0.5,0.625,0.32,0.36,28,6,0.21428571428571427,False,False
+ls_k,Target Ls (nH),Target |k|,0,9,0.5,0.625,0.36,0.4,18,2,0.1111111111111111,False,False
+ls_k,Target Ls (nH),Target |k|,0,10,0.5,0.625,0.4,0.44,22,4,0.18181818181818182,False,False
+ls_k,Target Ls (nH),Target |k|,0,11,0.5,0.625,0.44,0.48,32,5,0.15625,False,False
+ls_k,Target Ls (nH),Target |k|,0,12,0.5,0.625,0.48,0.52,30,9,0.3,False,False
+ls_k,Target Ls (nH),Target |k|,0,13,0.5,0.625,0.52,0.56,21,5,0.23809523809523808,False,False
+ls_k,Target Ls (nH),Target |k|,0,14,0.5,0.625,0.56,0.6,18,2,0.1111111111111111,False,False
+ls_k,Target Ls (nH),Target |k|,0,15,0.5,0.625,0.6,0.64,26,1,0.038461538461538464,False,False
+ls_k,Target Ls (nH),Target |k|,0,16,0.5,0.625,0.64,0.68,21,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,0,17,0.5,0.625,0.68,0.72,19,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,0,18,0.5,0.625,0.72,0.76,24,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,0,19,0.5,0.625,0.76,0.8,34,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,1,0,0.625,0.75,0.0,0.04,21,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,1,1,0.625,0.75,0.04,0.08,28,5,0.17857142857142858,False,False
+ls_k,Target Ls (nH),Target |k|,1,2,0.625,0.75,0.08,0.12,29,3,0.10344827586206896,False,False
+ls_k,Target Ls (nH),Target |k|,1,3,0.625,0.75,0.12,0.16,21,6,0.2857142857142857,False,False
+ls_k,Target Ls (nH),Target |k|,1,4,0.625,0.75,0.16,0.2,19,5,0.2631578947368421,False,False
+ls_k,Target Ls (nH),Target |k|,1,5,0.625,0.75,0.2,0.24,30,8,0.26666666666666666,False,False
+ls_k,Target Ls (nH),Target |k|,1,6,0.625,0.75,0.24,0.28,23,4,0.17391304347826086,False,False
+ls_k,Target Ls (nH),Target |k|,1,7,0.625,0.75,0.28,0.32,25,1,0.04,False,False
+ls_k,Target Ls (nH),Target |k|,1,8,0.625,0.75,0.32,0.36,21,7,0.3333333333333333,False,False
+ls_k,Target Ls (nH),Target |k|,1,9,0.625,0.75,0.36,0.4,22,7,0.3181818181818182,False,False
+ls_k,Target Ls (nH),Target |k|,1,10,0.625,0.75,0.4,0.44,29,6,0.20689655172413793,False,False
+ls_k,Target Ls (nH),Target |k|,1,11,0.625,0.75,0.44,0.48,16,5,0.3125,False,False
+ls_k,Target Ls (nH),Target |k|,1,12,0.625,0.75,0.48,0.52,23,4,0.17391304347826086,False,False
+ls_k,Target Ls (nH),Target |k|,1,13,0.625,0.75,0.52,0.56,23,5,0.21739130434782608,False,False
+ls_k,Target Ls (nH),Target |k|,1,14,0.625,0.75,0.56,0.6,28,4,0.14285714285714285,False,False
+ls_k,Target Ls (nH),Target |k|,1,15,0.625,0.75,0.6,0.64,28,8,0.2857142857142857,False,False
+ls_k,Target Ls (nH),Target |k|,1,16,0.625,0.75,0.64,0.68,19,3,0.15789473684210525,False,False
+ls_k,Target Ls (nH),Target |k|,1,17,0.625,0.75,0.68,0.72,25,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,1,18,0.625,0.75,0.72,0.76,31,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,1,19,0.625,0.75,0.76,0.8,26,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,2,0,0.75,0.875,0.0,0.04,12,2,0.16666666666666666,False,False
+ls_k,Target Ls (nH),Target |k|,2,1,0.75,0.875,0.04,0.08,34,16,0.47058823529411764,False,False
+ls_k,Target Ls (nH),Target |k|,2,2,0.75,0.875,0.08,0.12,25,10,0.4,False,False
+ls_k,Target Ls (nH),Target |k|,2,3,0.75,0.875,0.12,0.16,17,3,0.17647058823529413,False,False
+ls_k,Target Ls (nH),Target |k|,2,4,0.75,0.875,0.16,0.2,27,11,0.4074074074074074,False,False
+ls_k,Target Ls (nH),Target |k|,2,5,0.75,0.875,0.2,0.24,30,8,0.26666666666666666,False,False
+ls_k,Target Ls (nH),Target |k|,2,6,0.75,0.875,0.24,0.28,32,11,0.34375,False,False
+ls_k,Target Ls (nH),Target |k|,2,7,0.75,0.875,0.28,0.32,29,9,0.3103448275862069,False,False
+ls_k,Target Ls (nH),Target |k|,2,8,0.75,0.875,0.32,0.36,30,13,0.43333333333333335,False,False
+ls_k,Target Ls (nH),Target |k|,2,9,0.75,0.875,0.36,0.4,28,5,0.17857142857142858,False,False
+ls_k,Target Ls (nH),Target |k|,2,10,0.75,0.875,0.4,0.44,28,10,0.35714285714285715,False,False
+ls_k,Target Ls (nH),Target |k|,2,11,0.75,0.875,0.44,0.48,22,7,0.3181818181818182,False,False
+ls_k,Target Ls (nH),Target |k|,2,12,0.75,0.875,0.48,0.52,23,4,0.17391304347826086,False,False
+ls_k,Target Ls (nH),Target |k|,2,13,0.75,0.875,0.52,0.56,31,7,0.22580645161290322,False,False
+ls_k,Target Ls (nH),Target |k|,2,14,0.75,0.875,0.56,0.6,29,6,0.20689655172413793,False,False
+ls_k,Target Ls (nH),Target |k|,2,15,0.75,0.875,0.6,0.64,30,4,0.13333333333333333,False,False
+ls_k,Target Ls (nH),Target |k|,2,16,0.75,0.875,0.64,0.68,32,5,0.15625,False,False
+ls_k,Target Ls (nH),Target |k|,2,17,0.75,0.875,0.68,0.72,26,3,0.11538461538461539,False,False
+ls_k,Target Ls (nH),Target |k|,2,18,0.75,0.875,0.72,0.76,29,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,2,19,0.75,0.875,0.76,0.8,26,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,3,0,0.875,1.0,0.0,0.04,14,4,0.2857142857142857,False,False
+ls_k,Target Ls (nH),Target |k|,3,1,0.875,1.0,0.04,0.08,23,10,0.43478260869565216,False,False
+ls_k,Target Ls (nH),Target |k|,3,2,0.875,1.0,0.08,0.12,20,5,0.25,False,False
+ls_k,Target Ls (nH),Target |k|,3,3,0.875,1.0,0.12,0.16,31,13,0.41935483870967744,False,False
+ls_k,Target Ls (nH),Target |k|,3,4,0.875,1.0,0.16,0.2,40,17,0.425,False,False
+ls_k,Target Ls (nH),Target |k|,3,5,0.875,1.0,0.2,0.24,23,12,0.5217391304347826,False,False
+ls_k,Target Ls (nH),Target |k|,3,6,0.875,1.0,0.24,0.28,19,8,0.42105263157894735,False,False
+ls_k,Target Ls (nH),Target |k|,3,7,0.875,1.0,0.28,0.32,28,11,0.39285714285714285,False,False
+ls_k,Target Ls (nH),Target |k|,3,8,0.875,1.0,0.32,0.36,43,11,0.2558139534883721,False,False
+ls_k,Target Ls (nH),Target |k|,3,9,0.875,1.0,0.36,0.4,30,9,0.3,False,False
+ls_k,Target Ls (nH),Target |k|,3,10,0.875,1.0,0.4,0.44,25,5,0.2,False,False
+ls_k,Target Ls (nH),Target |k|,3,11,0.875,1.0,0.44,0.48,30,8,0.26666666666666666,False,False
+ls_k,Target Ls (nH),Target |k|,3,12,0.875,1.0,0.48,0.52,33,8,0.24242424242424243,False,False
+ls_k,Target Ls (nH),Target |k|,3,13,0.875,1.0,0.52,0.56,22,5,0.22727272727272727,False,False
+ls_k,Target Ls (nH),Target |k|,3,14,0.875,1.0,0.56,0.6,22,5,0.22727272727272727,False,False
+ls_k,Target Ls (nH),Target |k|,3,15,0.875,1.0,0.6,0.64,30,8,0.26666666666666666,False,False
+ls_k,Target Ls (nH),Target |k|,3,16,0.875,1.0,0.64,0.68,28,6,0.21428571428571427,False,False
+ls_k,Target Ls (nH),Target |k|,3,17,0.875,1.0,0.68,0.72,24,5,0.20833333333333334,False,False
+ls_k,Target Ls (nH),Target |k|,3,18,0.875,1.0,0.72,0.76,14,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,3,19,0.875,1.0,0.76,0.8,27,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,4,0,1.0,1.125,0.0,0.04,13,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,4,1,1.0,1.125,0.04,0.08,34,10,0.29411764705882354,False,False
+ls_k,Target Ls (nH),Target |k|,4,2,1.0,1.125,0.08,0.12,19,10,0.5263157894736842,False,False
+ls_k,Target Ls (nH),Target |k|,4,3,1.0,1.125,0.12,0.16,20,8,0.4,False,False
+ls_k,Target Ls (nH),Target |k|,4,4,1.0,1.125,0.16,0.2,34,14,0.4117647058823529,False,False
+ls_k,Target Ls (nH),Target |k|,4,5,1.0,1.125,0.2,0.24,33,19,0.5757575757575758,False,False
+ls_k,Target Ls (nH),Target |k|,4,6,1.0,1.125,0.24,0.28,33,9,0.2727272727272727,False,False
+ls_k,Target Ls (nH),Target |k|,4,7,1.0,1.125,0.28,0.32,22,10,0.45454545454545453,False,False
+ls_k,Target Ls (nH),Target |k|,4,8,1.0,1.125,0.32,0.36,30,7,0.23333333333333334,False,False
+ls_k,Target Ls (nH),Target |k|,4,9,1.0,1.125,0.36,0.4,28,5,0.17857142857142858,False,False
+ls_k,Target Ls (nH),Target |k|,4,10,1.0,1.125,0.4,0.44,21,6,0.2857142857142857,False,False
+ls_k,Target Ls (nH),Target |k|,4,11,1.0,1.125,0.44,0.48,30,11,0.36666666666666664,False,False
+ls_k,Target Ls (nH),Target |k|,4,12,1.0,1.125,0.48,0.52,28,15,0.5357142857142857,False,False
+ls_k,Target Ls (nH),Target |k|,4,13,1.0,1.125,0.52,0.56,29,8,0.27586206896551724,False,False
+ls_k,Target Ls (nH),Target |k|,4,14,1.0,1.125,0.56,0.6,25,9,0.36,False,False
+ls_k,Target Ls (nH),Target |k|,4,15,1.0,1.125,0.6,0.64,17,4,0.23529411764705882,False,False
+ls_k,Target Ls (nH),Target |k|,4,16,1.0,1.125,0.64,0.68,25,5,0.2,False,False
+ls_k,Target Ls (nH),Target |k|,4,17,1.0,1.125,0.68,0.72,24,3,0.125,False,False
+ls_k,Target Ls (nH),Target |k|,4,18,1.0,1.125,0.72,0.76,18,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,4,19,1.0,1.125,0.76,0.8,24,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,5,0,1.125,1.25,0.0,0.04,18,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,5,1,1.125,1.25,0.04,0.08,25,5,0.2,False,False
+ls_k,Target Ls (nH),Target |k|,5,2,1.125,1.25,0.08,0.12,26,13,0.5,False,False
+ls_k,Target Ls (nH),Target |k|,5,3,1.125,1.25,0.12,0.16,30,13,0.43333333333333335,False,False
+ls_k,Target Ls (nH),Target |k|,5,4,1.125,1.25,0.16,0.2,22,8,0.36363636363636365,False,False
+ls_k,Target Ls (nH),Target |k|,5,5,1.125,1.25,0.2,0.24,28,12,0.42857142857142855,False,False
+ls_k,Target Ls (nH),Target |k|,5,6,1.125,1.25,0.24,0.28,31,10,0.3225806451612903,False,False
+ls_k,Target Ls (nH),Target |k|,5,7,1.125,1.25,0.28,0.32,34,12,0.35294117647058826,False,False
+ls_k,Target Ls (nH),Target |k|,5,8,1.125,1.25,0.32,0.36,27,7,0.25925925925925924,False,False
+ls_k,Target Ls (nH),Target |k|,5,9,1.125,1.25,0.36,0.4,26,8,0.3076923076923077,False,False
+ls_k,Target Ls (nH),Target |k|,5,10,1.125,1.25,0.4,0.44,51,18,0.35294117647058826,False,False
+ls_k,Target Ls (nH),Target |k|,5,11,1.125,1.25,0.44,0.48,24,10,0.4166666666666667,False,False
+ls_k,Target Ls (nH),Target |k|,5,12,1.125,1.25,0.48,0.52,22,13,0.5909090909090909,False,False
+ls_k,Target Ls (nH),Target |k|,5,13,1.125,1.25,0.52,0.56,30,9,0.3,False,False
+ls_k,Target Ls (nH),Target |k|,5,14,1.125,1.25,0.56,0.6,29,11,0.3793103448275862,False,False
+ls_k,Target Ls (nH),Target |k|,5,15,1.125,1.25,0.6,0.64,13,3,0.23076923076923078,False,False
+ls_k,Target Ls (nH),Target |k|,5,16,1.125,1.25,0.64,0.68,17,4,0.23529411764705882,False,False
+ls_k,Target Ls (nH),Target |k|,5,17,1.125,1.25,0.68,0.72,21,2,0.09523809523809523,False,False
+ls_k,Target Ls (nH),Target |k|,5,18,1.125,1.25,0.72,0.76,24,1,0.041666666666666664,False,False
+ls_k,Target Ls (nH),Target |k|,5,19,1.125,1.25,0.76,0.8,27,3,0.1111111111111111,False,False
+ls_k,Target Ls (nH),Target |k|,6,0,1.25,1.375,0.0,0.04,14,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,6,1,1.25,1.375,0.04,0.08,33,5,0.15151515151515152,False,False
+ls_k,Target Ls (nH),Target |k|,6,2,1.25,1.375,0.08,0.12,29,18,0.6206896551724138,False,False
+ls_k,Target Ls (nH),Target |k|,6,3,1.25,1.375,0.12,0.16,31,15,0.4838709677419355,False,False
+ls_k,Target Ls (nH),Target |k|,6,4,1.25,1.375,0.16,0.2,25,8,0.32,False,False
+ls_k,Target Ls (nH),Target |k|,6,5,1.25,1.375,0.2,0.24,24,5,0.20833333333333334,False,False
+ls_k,Target Ls (nH),Target |k|,6,6,1.25,1.375,0.24,0.28,24,9,0.375,False,False
+ls_k,Target Ls (nH),Target |k|,6,7,1.25,1.375,0.28,0.32,43,21,0.4883720930232558,False,False
+ls_k,Target Ls (nH),Target |k|,6,8,1.25,1.375,0.32,0.36,25,11,0.44,False,False
+ls_k,Target Ls (nH),Target |k|,6,9,1.25,1.375,0.36,0.4,22,9,0.4090909090909091,False,False
+ls_k,Target Ls (nH),Target |k|,6,10,1.25,1.375,0.4,0.44,23,9,0.391304347826087,False,False
+ls_k,Target Ls (nH),Target |k|,6,11,1.25,1.375,0.44,0.48,29,10,0.3448275862068966,False,False
+ls_k,Target Ls (nH),Target |k|,6,12,1.25,1.375,0.48,0.52,21,9,0.42857142857142855,False,False
+ls_k,Target Ls (nH),Target |k|,6,13,1.25,1.375,0.52,0.56,25,14,0.56,False,False
+ls_k,Target Ls (nH),Target |k|,6,14,1.25,1.375,0.56,0.6,26,6,0.23076923076923078,False,False
+ls_k,Target Ls (nH),Target |k|,6,15,1.25,1.375,0.6,0.64,29,18,0.6206896551724138,False,False
+ls_k,Target Ls (nH),Target |k|,6,16,1.25,1.375,0.64,0.68,15,5,0.3333333333333333,False,False
+ls_k,Target Ls (nH),Target |k|,6,17,1.25,1.375,0.68,0.72,21,12,0.5714285714285714,False,False
+ls_k,Target Ls (nH),Target |k|,6,18,1.25,1.375,0.72,0.76,31,10,0.3225806451612903,False,False
+ls_k,Target Ls (nH),Target |k|,6,19,1.25,1.375,0.76,0.8,21,1,0.047619047619047616,False,False
+ls_k,Target Ls (nH),Target |k|,7,0,1.375,1.5,0.0,0.04,12,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,7,1,1.375,1.5,0.04,0.08,25,8,0.32,False,False
+ls_k,Target Ls (nH),Target |k|,7,2,1.375,1.5,0.08,0.12,27,12,0.4444444444444444,False,False
+ls_k,Target Ls (nH),Target |k|,7,3,1.375,1.5,0.12,0.16,18,5,0.2777777777777778,False,False
+ls_k,Target Ls (nH),Target |k|,7,4,1.375,1.5,0.16,0.2,28,10,0.35714285714285715,False,False
+ls_k,Target Ls (nH),Target |k|,7,5,1.375,1.5,0.2,0.24,33,15,0.45454545454545453,False,False
+ls_k,Target Ls (nH),Target |k|,7,6,1.375,1.5,0.24,0.28,22,8,0.36363636363636365,False,False
+ls_k,Target Ls (nH),Target |k|,7,7,1.375,1.5,0.28,0.32,32,16,0.5,False,False
+ls_k,Target Ls (nH),Target |k|,7,8,1.375,1.5,0.32,0.36,24,9,0.375,False,False
+ls_k,Target Ls (nH),Target |k|,7,9,1.375,1.5,0.36,0.4,24,13,0.5416666666666666,False,False
+ls_k,Target Ls (nH),Target |k|,7,10,1.375,1.5,0.4,0.44,29,10,0.3448275862068966,False,False
+ls_k,Target Ls (nH),Target |k|,7,11,1.375,1.5,0.44,0.48,26,10,0.38461538461538464,False,False
+ls_k,Target Ls (nH),Target |k|,7,12,1.375,1.5,0.48,0.52,27,11,0.4074074074074074,False,False
+ls_k,Target Ls (nH),Target |k|,7,13,1.375,1.5,0.52,0.56,26,13,0.5,False,False
+ls_k,Target Ls (nH),Target |k|,7,14,1.375,1.5,0.56,0.6,26,11,0.4230769230769231,False,False
+ls_k,Target Ls (nH),Target |k|,7,15,1.375,1.5,0.6,0.64,31,5,0.16129032258064516,False,False
+ls_k,Target Ls (nH),Target |k|,7,16,1.375,1.5,0.64,0.68,28,7,0.25,False,False
+ls_k,Target Ls (nH),Target |k|,7,17,1.375,1.5,0.68,0.72,26,5,0.19230769230769232,False,False
+ls_k,Target Ls (nH),Target |k|,7,18,1.375,1.5,0.72,0.76,27,4,0.14814814814814814,False,False
+ls_k,Target Ls (nH),Target |k|,7,19,1.375,1.5,0.76,0.8,29,3,0.10344827586206896,False,False
+ls_k,Target Ls (nH),Target |k|,8,0,1.5,1.625,0.0,0.04,11,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,8,1,1.5,1.625,0.04,0.08,33,8,0.24242424242424243,False,False
+ls_k,Target Ls (nH),Target |k|,8,2,1.5,1.625,0.08,0.12,23,5,0.21739130434782608,False,False
+ls_k,Target Ls (nH),Target |k|,8,3,1.5,1.625,0.12,0.16,17,7,0.4117647058823529,False,False
+ls_k,Target Ls (nH),Target |k|,8,4,1.5,1.625,0.16,0.2,25,9,0.36,False,False
+ls_k,Target Ls (nH),Target |k|,8,5,1.5,1.625,0.2,0.24,28,7,0.25,False,False
+ls_k,Target Ls (nH),Target |k|,8,6,1.5,1.625,0.24,0.28,30,12,0.4,False,False
+ls_k,Target Ls (nH),Target |k|,8,7,1.5,1.625,0.28,0.32,21,11,0.5238095238095238,False,False
+ls_k,Target Ls (nH),Target |k|,8,8,1.5,1.625,0.32,0.36,31,15,0.4838709677419355,False,False
+ls_k,Target Ls (nH),Target |k|,8,9,1.5,1.625,0.36,0.4,27,10,0.37037037037037035,False,False
+ls_k,Target Ls (nH),Target |k|,8,10,1.5,1.625,0.4,0.44,19,10,0.5263157894736842,False,False
+ls_k,Target Ls (nH),Target |k|,8,11,1.5,1.625,0.44,0.48,25,9,0.36,False,False
+ls_k,Target Ls (nH),Target |k|,8,12,1.5,1.625,0.48,0.52,14,8,0.5714285714285714,False,False
+ls_k,Target Ls (nH),Target |k|,8,13,1.5,1.625,0.52,0.56,23,9,0.391304347826087,False,False
+ls_k,Target Ls (nH),Target |k|,8,14,1.5,1.625,0.56,0.6,17,2,0.11764705882352941,False,False
+ls_k,Target Ls (nH),Target |k|,8,15,1.5,1.625,0.6,0.64,24,9,0.375,False,False
+ls_k,Target Ls (nH),Target |k|,8,16,1.5,1.625,0.64,0.68,28,5,0.17857142857142858,False,False
+ls_k,Target Ls (nH),Target |k|,8,17,1.5,1.625,0.68,0.72,32,8,0.25,False,False
+ls_k,Target Ls (nH),Target |k|,8,18,1.5,1.625,0.72,0.76,17,2,0.11764705882352941,False,False
+ls_k,Target Ls (nH),Target |k|,8,19,1.5,1.625,0.76,0.8,28,6,0.21428571428571427,False,False
+ls_k,Target Ls (nH),Target |k|,9,0,1.625,1.75,0.0,0.04,11,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,9,1,1.625,1.75,0.04,0.08,24,4,0.16666666666666666,False,False
+ls_k,Target Ls (nH),Target |k|,9,2,1.625,1.75,0.08,0.12,26,8,0.3076923076923077,False,False
+ls_k,Target Ls (nH),Target |k|,9,3,1.625,1.75,0.12,0.16,30,10,0.3333333333333333,False,False
+ls_k,Target Ls (nH),Target |k|,9,4,1.625,1.75,0.16,0.2,22,12,0.5454545454545454,False,False
+ls_k,Target Ls (nH),Target |k|,9,5,1.625,1.75,0.2,0.24,21,8,0.38095238095238093,False,False
+ls_k,Target Ls (nH),Target |k|,9,6,1.625,1.75,0.24,0.28,21,6,0.2857142857142857,False,False
+ls_k,Target Ls (nH),Target |k|,9,7,1.625,1.75,0.28,0.32,21,11,0.5238095238095238,False,False
+ls_k,Target Ls (nH),Target |k|,9,8,1.625,1.75,0.32,0.36,24,9,0.375,False,False
+ls_k,Target Ls (nH),Target |k|,9,9,1.625,1.75,0.36,0.4,9,4,0.4444444444444444,False,True
+ls_k,Target Ls (nH),Target |k|,9,10,1.625,1.75,0.4,0.44,27,9,0.3333333333333333,False,False
+ls_k,Target Ls (nH),Target |k|,9,11,1.625,1.75,0.44,0.48,23,11,0.4782608695652174,False,False
+ls_k,Target Ls (nH),Target |k|,9,12,1.625,1.75,0.48,0.52,29,8,0.27586206896551724,False,False
+ls_k,Target Ls (nH),Target |k|,9,13,1.625,1.75,0.52,0.56,25,10,0.4,False,False
+ls_k,Target Ls (nH),Target |k|,9,14,1.625,1.75,0.56,0.6,20,6,0.3,False,False
+ls_k,Target Ls (nH),Target |k|,9,15,1.625,1.75,0.6,0.64,19,6,0.3157894736842105,False,False
+ls_k,Target Ls (nH),Target |k|,9,16,1.625,1.75,0.64,0.68,26,5,0.19230769230769232,False,False
+ls_k,Target Ls (nH),Target |k|,9,17,1.625,1.75,0.68,0.72,22,4,0.18181818181818182,False,False
+ls_k,Target Ls (nH),Target |k|,9,18,1.625,1.75,0.72,0.76,43,2,0.046511627906976744,False,False
+ls_k,Target Ls (nH),Target |k|,9,19,1.625,1.75,0.76,0.8,30,1,0.03333333333333333,False,False
+ls_k,Target Ls (nH),Target |k|,10,0,1.75,1.875,0.0,0.04,15,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,10,1,1.75,1.875,0.04,0.08,26,3,0.11538461538461539,False,False
+ls_k,Target Ls (nH),Target |k|,10,2,1.75,1.875,0.08,0.12,23,7,0.30434782608695654,False,False
+ls_k,Target Ls (nH),Target |k|,10,3,1.75,1.875,0.12,0.16,32,12,0.375,False,False
+ls_k,Target Ls (nH),Target |k|,10,4,1.75,1.875,0.16,0.2,28,17,0.6071428571428571,False,False
+ls_k,Target Ls (nH),Target |k|,10,5,1.75,1.875,0.2,0.24,25,10,0.4,False,False
+ls_k,Target Ls (nH),Target |k|,10,6,1.75,1.875,0.24,0.28,21,7,0.3333333333333333,False,False
+ls_k,Target Ls (nH),Target |k|,10,7,1.75,1.875,0.28,0.32,15,3,0.2,False,False
+ls_k,Target Ls (nH),Target |k|,10,8,1.75,1.875,0.32,0.36,31,10,0.3225806451612903,False,False
+ls_k,Target Ls (nH),Target |k|,10,9,1.75,1.875,0.36,0.4,40,16,0.4,False,False
+ls_k,Target Ls (nH),Target |k|,10,10,1.75,1.875,0.4,0.44,17,1,0.058823529411764705,False,False
+ls_k,Target Ls (nH),Target |k|,10,11,1.75,1.875,0.44,0.48,15,10,0.6666666666666666,False,False
+ls_k,Target Ls (nH),Target |k|,10,12,1.75,1.875,0.48,0.52,19,10,0.5263157894736842,False,False
+ls_k,Target Ls (nH),Target |k|,10,13,1.75,1.875,0.52,0.56,17,8,0.47058823529411764,False,False
+ls_k,Target Ls (nH),Target |k|,10,14,1.75,1.875,0.56,0.6,21,9,0.42857142857142855,False,False
+ls_k,Target Ls (nH),Target |k|,10,15,1.75,1.875,0.6,0.64,26,6,0.23076923076923078,False,False
+ls_k,Target Ls (nH),Target |k|,10,16,1.75,1.875,0.64,0.68,26,9,0.34615384615384615,False,False
+ls_k,Target Ls (nH),Target |k|,10,17,1.75,1.875,0.68,0.72,24,6,0.25,False,False
+ls_k,Target Ls (nH),Target |k|,10,18,1.75,1.875,0.72,0.76,16,1,0.0625,False,False
+ls_k,Target Ls (nH),Target |k|,10,19,1.75,1.875,0.76,0.8,35,3,0.08571428571428572,False,False
+ls_k,Target Ls (nH),Target |k|,11,0,1.875,2.0,0.0,0.04,15,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,11,1,1.875,2.0,0.04,0.08,32,1,0.03125,False,False
+ls_k,Target Ls (nH),Target |k|,11,2,1.875,2.0,0.08,0.12,23,2,0.08695652173913043,False,False
+ls_k,Target Ls (nH),Target |k|,11,3,1.875,2.0,0.12,0.16,23,6,0.2608695652173913,False,False
+ls_k,Target Ls (nH),Target |k|,11,4,1.875,2.0,0.16,0.2,19,5,0.2631578947368421,False,False
+ls_k,Target Ls (nH),Target |k|,11,5,1.875,2.0,0.2,0.24,26,11,0.4230769230769231,False,False
+ls_k,Target Ls (nH),Target |k|,11,6,1.875,2.0,0.24,0.28,18,4,0.2222222222222222,False,False
+ls_k,Target Ls (nH),Target |k|,11,7,1.875,2.0,0.28,0.32,27,7,0.25925925925925924,False,False
+ls_k,Target Ls (nH),Target |k|,11,8,1.875,2.0,0.32,0.36,17,7,0.4117647058823529,False,False
+ls_k,Target Ls (nH),Target |k|,11,9,1.875,2.0,0.36,0.4,26,6,0.23076923076923078,False,False
+ls_k,Target Ls (nH),Target |k|,11,10,1.875,2.0,0.4,0.44,25,8,0.32,False,False
+ls_k,Target Ls (nH),Target |k|,11,11,1.875,2.0,0.44,0.48,32,7,0.21875,False,False
+ls_k,Target Ls (nH),Target |k|,11,12,1.875,2.0,0.48,0.52,19,8,0.42105263157894735,False,False
+ls_k,Target Ls (nH),Target |k|,11,13,1.875,2.0,0.52,0.56,24,5,0.20833333333333334,False,False
+ls_k,Target Ls (nH),Target |k|,11,14,1.875,2.0,0.56,0.6,30,7,0.23333333333333334,False,False
+ls_k,Target Ls (nH),Target |k|,11,15,1.875,2.0,0.6,0.64,23,6,0.2608695652173913,False,False
+ls_k,Target Ls (nH),Target |k|,11,16,1.875,2.0,0.64,0.68,36,12,0.3333333333333333,False,False
+ls_k,Target Ls (nH),Target |k|,11,17,1.875,2.0,0.68,0.72,29,6,0.20689655172413793,False,False
+ls_k,Target Ls (nH),Target |k|,11,18,1.875,2.0,0.72,0.76,27,3,0.1111111111111111,False,False
+ls_k,Target Ls (nH),Target |k|,11,19,1.875,2.0,0.76,0.8,19,4,0.21052631578947367,False,False
+ls_k,Target Ls (nH),Target |k|,12,0,2.0,2.125,0.0,0.04,14,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,12,1,2.0,2.125,0.04,0.08,31,1,0.03225806451612903,False,False
+ls_k,Target Ls (nH),Target |k|,12,2,2.0,2.125,0.08,0.12,24,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,12,3,2.0,2.125,0.12,0.16,16,4,0.25,False,False
+ls_k,Target Ls (nH),Target |k|,12,4,2.0,2.125,0.16,0.2,35,8,0.22857142857142856,False,False
+ls_k,Target Ls (nH),Target |k|,12,5,2.0,2.125,0.2,0.24,25,8,0.32,False,False
+ls_k,Target Ls (nH),Target |k|,12,6,2.0,2.125,0.24,0.28,33,10,0.30303030303030304,False,False
+ls_k,Target Ls (nH),Target |k|,12,7,2.0,2.125,0.28,0.32,28,4,0.14285714285714285,False,False
+ls_k,Target Ls (nH),Target |k|,12,8,2.0,2.125,0.32,0.36,29,3,0.10344827586206896,False,False
+ls_k,Target Ls (nH),Target |k|,12,9,2.0,2.125,0.36,0.4,28,9,0.32142857142857145,False,False
+ls_k,Target Ls (nH),Target |k|,12,10,2.0,2.125,0.4,0.44,23,5,0.21739130434782608,False,False
+ls_k,Target Ls (nH),Target |k|,12,11,2.0,2.125,0.44,0.48,28,3,0.10714285714285714,False,False
+ls_k,Target Ls (nH),Target |k|,12,12,2.0,2.125,0.48,0.52,27,6,0.2222222222222222,False,False
+ls_k,Target Ls (nH),Target |k|,12,13,2.0,2.125,0.52,0.56,20,5,0.25,False,False
+ls_k,Target Ls (nH),Target |k|,12,14,2.0,2.125,0.56,0.6,30,4,0.13333333333333333,False,False
+ls_k,Target Ls (nH),Target |k|,12,15,2.0,2.125,0.6,0.64,21,4,0.19047619047619047,False,False
+ls_k,Target Ls (nH),Target |k|,12,16,2.0,2.125,0.64,0.68,33,4,0.12121212121212122,False,False
+ls_k,Target Ls (nH),Target |k|,12,17,2.0,2.125,0.68,0.72,32,2,0.0625,False,False
+ls_k,Target Ls (nH),Target |k|,12,18,2.0,2.125,0.72,0.76,19,1,0.05263157894736842,False,False
+ls_k,Target Ls (nH),Target |k|,12,19,2.0,2.125,0.76,0.8,24,1,0.041666666666666664,False,False
+ls_k,Target Ls (nH),Target |k|,13,0,2.125,2.25,0.0,0.04,15,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,13,1,2.125,2.25,0.04,0.08,24,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,13,2,2.125,2.25,0.08,0.12,23,2,0.08695652173913043,False,False
+ls_k,Target Ls (nH),Target |k|,13,3,2.125,2.25,0.12,0.16,28,1,0.03571428571428571,False,False
+ls_k,Target Ls (nH),Target |k|,13,4,2.125,2.25,0.16,0.2,26,4,0.15384615384615385,False,False
+ls_k,Target Ls (nH),Target |k|,13,5,2.125,2.25,0.2,0.24,25,5,0.2,False,False
+ls_k,Target Ls (nH),Target |k|,13,6,2.125,2.25,0.24,0.28,20,4,0.2,False,False
+ls_k,Target Ls (nH),Target |k|,13,7,2.125,2.25,0.28,0.32,22,2,0.09090909090909091,False,False
+ls_k,Target Ls (nH),Target |k|,13,8,2.125,2.25,0.32,0.36,15,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,13,9,2.125,2.25,0.36,0.4,20,3,0.15,False,False
+ls_k,Target Ls (nH),Target |k|,13,10,2.125,2.25,0.4,0.44,30,5,0.16666666666666666,False,False
+ls_k,Target Ls (nH),Target |k|,13,11,2.125,2.25,0.44,0.48,29,8,0.27586206896551724,False,False
+ls_k,Target Ls (nH),Target |k|,13,12,2.125,2.25,0.48,0.52,32,6,0.1875,False,False
+ls_k,Target Ls (nH),Target |k|,13,13,2.125,2.25,0.52,0.56,29,12,0.41379310344827586,False,False
+ls_k,Target Ls (nH),Target |k|,13,14,2.125,2.25,0.56,0.6,31,7,0.22580645161290322,False,False
+ls_k,Target Ls (nH),Target |k|,13,15,2.125,2.25,0.6,0.64,24,4,0.16666666666666666,False,False
+ls_k,Target Ls (nH),Target |k|,13,16,2.125,2.25,0.64,0.68,36,5,0.1388888888888889,False,False
+ls_k,Target Ls (nH),Target |k|,13,17,2.125,2.25,0.68,0.72,26,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,13,18,2.125,2.25,0.72,0.76,26,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,13,19,2.125,2.25,0.76,0.8,29,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,14,0,2.25,2.375,0.0,0.04,16,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,14,1,2.25,2.375,0.04,0.08,37,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,14,2,2.25,2.375,0.08,0.12,30,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,14,3,2.25,2.375,0.12,0.16,29,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,14,4,2.25,2.375,0.16,0.2,16,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,14,5,2.25,2.375,0.2,0.24,24,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,14,6,2.25,2.375,0.24,0.28,23,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,14,7,2.25,2.375,0.28,0.32,24,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,14,8,2.25,2.375,0.32,0.36,11,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,14,9,2.25,2.375,0.36,0.4,31,11,0.3548387096774194,False,False
+ls_k,Target Ls (nH),Target |k|,14,10,2.25,2.375,0.4,0.44,25,4,0.16,False,False
+ls_k,Target Ls (nH),Target |k|,14,11,2.25,2.375,0.44,0.48,21,8,0.38095238095238093,False,False
+ls_k,Target Ls (nH),Target |k|,14,12,2.25,2.375,0.48,0.52,26,6,0.23076923076923078,False,False
+ls_k,Target Ls (nH),Target |k|,14,13,2.25,2.375,0.52,0.56,30,7,0.23333333333333334,False,False
+ls_k,Target Ls (nH),Target |k|,14,14,2.25,2.375,0.56,0.6,29,7,0.2413793103448276,False,False
+ls_k,Target Ls (nH),Target |k|,14,15,2.25,2.375,0.6,0.64,25,3,0.12,False,False
+ls_k,Target Ls (nH),Target |k|,14,16,2.25,2.375,0.64,0.68,15,4,0.26666666666666666,False,False
+ls_k,Target Ls (nH),Target |k|,14,17,2.25,2.375,0.68,0.72,31,5,0.16129032258064516,False,False
+ls_k,Target Ls (nH),Target |k|,14,18,2.25,2.375,0.72,0.76,21,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,14,19,2.25,2.375,0.76,0.8,15,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,15,0,2.375,2.5,0.0,0.04,15,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,15,1,2.375,2.5,0.04,0.08,33,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,15,2,2.375,2.5,0.08,0.12,21,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,15,3,2.375,2.5,0.12,0.16,27,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,15,4,2.375,2.5,0.16,0.2,32,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,15,5,2.375,2.5,0.2,0.24,28,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,15,6,2.375,2.5,0.24,0.28,23,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,15,7,2.375,2.5,0.28,0.32,25,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,15,8,2.375,2.5,0.32,0.36,26,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,15,9,2.375,2.5,0.36,0.4,33,4,0.12121212121212122,False,False
+ls_k,Target Ls (nH),Target |k|,15,10,2.375,2.5,0.4,0.44,30,4,0.13333333333333333,False,False
+ls_k,Target Ls (nH),Target |k|,15,11,2.375,2.5,0.44,0.48,26,9,0.34615384615384615,False,False
+ls_k,Target Ls (nH),Target |k|,15,12,2.375,2.5,0.48,0.52,25,4,0.16,False,False
+ls_k,Target Ls (nH),Target |k|,15,13,2.375,2.5,0.52,0.56,23,4,0.17391304347826086,False,False
+ls_k,Target Ls (nH),Target |k|,15,14,2.375,2.5,0.56,0.6,26,8,0.3076923076923077,False,False
+ls_k,Target Ls (nH),Target |k|,15,15,2.375,2.5,0.6,0.64,18,6,0.3333333333333333,False,False
+ls_k,Target Ls (nH),Target |k|,15,16,2.375,2.5,0.64,0.68,21,10,0.47619047619047616,False,False
+ls_k,Target Ls (nH),Target |k|,15,17,2.375,2.5,0.68,0.72,24,7,0.2916666666666667,False,False
+ls_k,Target Ls (nH),Target |k|,15,18,2.375,2.5,0.72,0.76,18,4,0.2222222222222222,False,False
+ls_k,Target Ls (nH),Target |k|,15,19,2.375,2.5,0.76,0.8,24,2,0.08333333333333333,False,False
+ls_k,Target Ls (nH),Target |k|,16,0,2.5,2.625,0.0,0.04,20,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,16,1,2.5,2.625,0.04,0.08,24,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,16,2,2.5,2.625,0.08,0.12,17,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,16,3,2.5,2.625,0.12,0.16,25,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,16,4,2.5,2.625,0.16,0.2,26,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,16,5,2.5,2.625,0.2,0.24,19,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,16,6,2.5,2.625,0.24,0.28,29,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,16,7,2.5,2.625,0.28,0.32,27,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,16,8,2.5,2.625,0.32,0.36,26,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,16,9,2.5,2.625,0.36,0.4,26,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,16,10,2.5,2.625,0.4,0.44,20,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,16,11,2.5,2.625,0.44,0.48,24,4,0.16666666666666666,False,False
+ls_k,Target Ls (nH),Target |k|,16,12,2.5,2.625,0.48,0.52,33,6,0.18181818181818182,False,False
+ls_k,Target Ls (nH),Target |k|,16,13,2.5,2.625,0.52,0.56,25,6,0.24,False,False
+ls_k,Target Ls (nH),Target |k|,16,14,2.5,2.625,0.56,0.6,23,3,0.13043478260869565,False,False
+ls_k,Target Ls (nH),Target |k|,16,15,2.5,2.625,0.6,0.64,19,7,0.3684210526315789,False,False
+ls_k,Target Ls (nH),Target |k|,16,16,2.5,2.625,0.64,0.68,28,9,0.32142857142857145,False,False
+ls_k,Target Ls (nH),Target |k|,16,17,2.5,2.625,0.68,0.72,19,8,0.42105263157894735,False,False
+ls_k,Target Ls (nH),Target |k|,16,18,2.5,2.625,0.72,0.76,21,2,0.09523809523809523,False,False
+ls_k,Target Ls (nH),Target |k|,16,19,2.5,2.625,0.76,0.8,36,2,0.05555555555555555,False,False
+ls_k,Target Ls (nH),Target |k|,17,0,2.625,2.75,0.0,0.04,13,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,17,1,2.625,2.75,0.04,0.08,18,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,17,2,2.625,2.75,0.08,0.12,30,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,17,3,2.625,2.75,0.12,0.16,29,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,17,4,2.625,2.75,0.16,0.2,24,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,17,5,2.625,2.75,0.2,0.24,32,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,17,6,2.625,2.75,0.24,0.28,33,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,17,7,2.625,2.75,0.28,0.32,20,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,17,8,2.625,2.75,0.32,0.36,20,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,17,9,2.625,2.75,0.36,0.4,22,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,17,10,2.625,2.75,0.4,0.44,24,3,0.125,False,False
+ls_k,Target Ls (nH),Target |k|,17,11,2.625,2.75,0.44,0.48,24,5,0.20833333333333334,False,False
+ls_k,Target Ls (nH),Target |k|,17,12,2.625,2.75,0.48,0.52,18,3,0.16666666666666666,False,False
+ls_k,Target Ls (nH),Target |k|,17,13,2.625,2.75,0.52,0.56,24,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,17,14,2.625,2.75,0.56,0.6,24,2,0.08333333333333333,False,False
+ls_k,Target Ls (nH),Target |k|,17,15,2.625,2.75,0.6,0.64,40,11,0.275,False,False
+ls_k,Target Ls (nH),Target |k|,17,16,2.625,2.75,0.64,0.68,22,4,0.18181818181818182,False,False
+ls_k,Target Ls (nH),Target |k|,17,17,2.625,2.75,0.68,0.72,25,3,0.12,False,False
+ls_k,Target Ls (nH),Target |k|,17,18,2.625,2.75,0.72,0.76,20,2,0.1,False,False
+ls_k,Target Ls (nH),Target |k|,17,19,2.625,2.75,0.76,0.8,21,1,0.047619047619047616,False,False
+ls_k,Target Ls (nH),Target |k|,18,0,2.75,2.875,0.0,0.04,13,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,18,1,2.75,2.875,0.04,0.08,34,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,18,2,2.75,2.875,0.08,0.12,24,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,18,3,2.75,2.875,0.12,0.16,30,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,18,4,2.75,2.875,0.16,0.2,27,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,18,5,2.75,2.875,0.2,0.24,26,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,18,6,2.75,2.875,0.24,0.28,22,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,18,7,2.75,2.875,0.28,0.32,23,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,18,8,2.75,2.875,0.32,0.36,22,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,18,9,2.75,2.875,0.36,0.4,21,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,18,10,2.75,2.875,0.4,0.44,32,4,0.125,False,False
+ls_k,Target Ls (nH),Target |k|,18,11,2.75,2.875,0.44,0.48,34,1,0.029411764705882353,False,False
+ls_k,Target Ls (nH),Target |k|,18,12,2.75,2.875,0.48,0.52,16,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,18,13,2.75,2.875,0.52,0.56,33,1,0.030303030303030304,False,False
+ls_k,Target Ls (nH),Target |k|,18,14,2.75,2.875,0.56,0.6,32,9,0.28125,False,False
+ls_k,Target Ls (nH),Target |k|,18,15,2.75,2.875,0.6,0.64,24,4,0.16666666666666666,False,False
+ls_k,Target Ls (nH),Target |k|,18,16,2.75,2.875,0.64,0.68,23,3,0.13043478260869565,False,False
+ls_k,Target Ls (nH),Target |k|,18,17,2.75,2.875,0.68,0.72,25,11,0.44,False,False
+ls_k,Target Ls (nH),Target |k|,18,18,2.75,2.875,0.72,0.76,36,3,0.08333333333333333,False,False
+ls_k,Target Ls (nH),Target |k|,18,19,2.75,2.875,0.76,0.8,17,1,0.058823529411764705,False,False
+ls_k,Target Ls (nH),Target |k|,19,0,2.875,3.0,0.0,0.04,13,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,19,1,2.875,3.0,0.04,0.08,23,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,19,2,2.875,3.0,0.08,0.12,26,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,19,3,2.875,3.0,0.12,0.16,23,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,19,4,2.875,3.0,0.16,0.2,15,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,19,5,2.875,3.0,0.2,0.24,25,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,19,6,2.875,3.0,0.24,0.28,16,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,19,7,2.875,3.0,0.28,0.32,21,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,19,8,2.875,3.0,0.32,0.36,30,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,19,9,2.875,3.0,0.36,0.4,21,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,19,10,2.875,3.0,0.4,0.44,23,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,19,11,2.875,3.0,0.44,0.48,23,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,19,12,2.875,3.0,0.48,0.52,21,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,19,13,2.875,3.0,0.52,0.56,32,0,0.0,False,False
+ls_k,Target Ls (nH),Target |k|,19,14,2.875,3.0,0.56,0.6,26,1,0.038461538461538464,False,False
+ls_k,Target Ls (nH),Target |k|,19,15,2.875,3.0,0.6,0.64,25,4,0.16,False,False
+ls_k,Target Ls (nH),Target |k|,19,16,2.875,3.0,0.64,0.68,31,5,0.16129032258064516,False,False
+ls_k,Target Ls (nH),Target |k|,19,17,2.875,3.0,0.68,0.72,30,10,0.3333333333333333,False,False
+ls_k,Target Ls (nH),Target |k|,19,18,2.875,3.0,0.72,0.76,24,3,0.125,False,False
+ls_k,Target Ls (nH),Target |k|,19,19,2.875,3.0,0.76,0.8,28,3,0.10714285714285714,False,False
+q_selected_k,Selected Q target,Target |k|,0,0,9.5,10.5,0.0,0.04,104,0,0.0,False,False
+q_selected_k,Selected Q target,Target |k|,0,1,9.5,10.5,0.04,0.08,185,5,0.02702702702702703,False,False
+q_selected_k,Selected Q target,Target |k|,0,2,9.5,10.5,0.08,0.12,158,1,0.006329113924050633,False,False
+q_selected_k,Selected Q target,Target |k|,0,3,9.5,10.5,0.12,0.16,185,1,0.005405405405405406,False,False
+q_selected_k,Selected Q target,Target |k|,0,4,9.5,10.5,0.16,0.2,211,0,0.0,False,False
+q_selected_k,Selected Q target,Target |k|,0,5,9.5,10.5,0.2,0.24,237,0,0.0,False,False
+q_selected_k,Selected Q target,Target |k|,0,6,9.5,10.5,0.24,0.28,223,2,0.008968609865470852,False,False
+q_selected_k,Selected Q target,Target |k|,0,7,9.5,10.5,0.28,0.32,232,0,0.0,False,False
+q_selected_k,Selected Q target,Target |k|,0,8,9.5,10.5,0.32,0.36,210,0,0.0,False,False
+q_selected_k,Selected Q target,Target |k|,0,9,9.5,10.5,0.36,0.4,208,1,0.004807692307692308,False,False
+q_selected_k,Selected Q target,Target |k|,0,10,9.5,10.5,0.4,0.44,244,0,0.0,False,False
+q_selected_k,Selected Q target,Target |k|,0,11,9.5,10.5,0.44,0.48,215,9,0.04186046511627907,False,False
+q_selected_k,Selected Q target,Target |k|,0,12,9.5,10.5,0.48,0.52,196,9,0.04591836734693878,False,False
+q_selected_k,Selected Q target,Target |k|,0,13,9.5,10.5,0.52,0.56,239,11,0.04602510460251046,False,False
+q_selected_k,Selected Q target,Target |k|,0,14,9.5,10.5,0.56,0.6,254,25,0.0984251968503937,False,False
+q_selected_k,Selected Q target,Target |k|,0,15,9.5,10.5,0.6,0.64,264,32,0.12121212121212122,False,False
+q_selected_k,Selected Q target,Target |k|,0,16,9.5,10.5,0.64,0.68,274,40,0.145985401459854,False,False
+q_selected_k,Selected Q target,Target |k|,0,17,9.5,10.5,0.68,0.72,249,41,0.1646586345381526,False,False
+q_selected_k,Selected Q target,Target |k|,0,18,9.5,10.5,0.72,0.76,242,23,0.09504132231404959,False,False
+q_selected_k,Selected Q target,Target |k|,0,19,9.5,10.5,0.76,0.8,293,20,0.06825938566552901,False,False
+q_selected_k,Selected Q target,Target |k|,1,0,10.5,11.5,0.0,0.04,64,0,0.0,False,False
+q_selected_k,Selected Q target,Target |k|,1,1,10.5,11.5,0.04,0.08,117,11,0.09401709401709402,False,False
+q_selected_k,Selected Q target,Target |k|,1,2,10.5,11.5,0.08,0.12,93,7,0.07526881720430108,False,False
+q_selected_k,Selected Q target,Target |k|,1,3,10.5,11.5,0.12,0.16,72,2,0.027777777777777776,False,False
+q_selected_k,Selected Q target,Target |k|,1,4,10.5,11.5,0.16,0.2,64,2,0.03125,False,False
+q_selected_k,Selected Q target,Target |k|,1,5,10.5,11.5,0.2,0.24,68,10,0.14705882352941177,False,False
+q_selected_k,Selected Q target,Target |k|,1,6,10.5,11.5,0.24,0.28,69,10,0.14492753623188406,False,False
+q_selected_k,Selected Q target,Target |k|,1,7,10.5,11.5,0.28,0.32,70,11,0.15714285714285714,False,False
+q_selected_k,Selected Q target,Target |k|,1,8,10.5,11.5,0.32,0.36,90,7,0.07777777777777778,False,False
+q_selected_k,Selected Q target,Target |k|,1,9,10.5,11.5,0.36,0.4,106,10,0.09433962264150944,False,False
+q_selected_k,Selected Q target,Target |k|,1,10,10.5,11.5,0.4,0.44,136,18,0.1323529411764706,False,False
+q_selected_k,Selected Q target,Target |k|,1,11,10.5,11.5,0.44,0.48,129,29,0.2248062015503876,False,False
+q_selected_k,Selected Q target,Target |k|,1,12,10.5,11.5,0.48,0.52,125,31,0.248,False,False
+q_selected_k,Selected Q target,Target |k|,1,13,10.5,11.5,0.52,0.56,128,34,0.265625,False,False
+q_selected_k,Selected Q target,Target |k|,1,14,10.5,11.5,0.56,0.6,119,23,0.19327731092436976,False,False
+q_selected_k,Selected Q target,Target |k|,1,15,10.5,11.5,0.6,0.64,91,23,0.25274725274725274,False,False
+q_selected_k,Selected Q target,Target |k|,1,16,10.5,11.5,0.64,0.68,110,32,0.2909090909090909,False,False
+q_selected_k,Selected Q target,Target |k|,1,17,10.5,11.5,0.68,0.72,116,29,0.25,False,False
+q_selected_k,Selected Q target,Target |k|,1,18,10.5,11.5,0.72,0.76,104,11,0.10576923076923077,False,False
+q_selected_k,Selected Q target,Target |k|,1,19,10.5,11.5,0.76,0.8,103,10,0.0970873786407767,False,False
+q_selected_k,Selected Q target,Target |k|,2,0,11.5,12.5,0.0,0.04,37,0,0.0,False,False
+q_selected_k,Selected Q target,Target |k|,2,1,11.5,12.5,0.04,0.08,63,5,0.07936507936507936,False,False
+q_selected_k,Selected Q target,Target |k|,2,2,11.5,12.5,0.08,0.12,59,9,0.15254237288135594,False,False
+q_selected_k,Selected Q target,Target |k|,2,3,11.5,12.5,0.12,0.16,78,24,0.3076923076923077,False,False
+q_selected_k,Selected Q target,Target |k|,2,4,11.5,12.5,0.16,0.2,82,35,0.4268292682926829,False,False
+q_selected_k,Selected Q target,Target |k|,2,5,11.5,12.5,0.2,0.24,47,25,0.5319148936170213,False,False
+q_selected_k,Selected Q target,Target |k|,2,6,11.5,12.5,0.24,0.28,57,16,0.2807017543859649,False,False
+q_selected_k,Selected Q target,Target |k|,2,7,11.5,12.5,0.28,0.32,62,17,0.27419354838709675,False,False
+q_selected_k,Selected Q target,Target |k|,2,8,11.5,12.5,0.32,0.36,88,18,0.20454545454545456,False,False
+q_selected_k,Selected Q target,Target |k|,2,9,11.5,12.5,0.36,0.4,88,39,0.4431818181818182,False,False
+q_selected_k,Selected Q target,Target |k|,2,10,11.5,12.5,0.4,0.44,43,22,0.5116279069767442,False,False
+q_selected_k,Selected Q target,Target |k|,2,11,11.5,12.5,0.44,0.48,46,18,0.391304347826087,False,False
+q_selected_k,Selected Q target,Target |k|,2,12,11.5,12.5,0.48,0.52,53,20,0.37735849056603776,False,False
+q_selected_k,Selected Q target,Target |k|,2,13,11.5,12.5,0.52,0.56,45,21,0.4666666666666667,False,False
+q_selected_k,Selected Q target,Target |k|,2,14,11.5,12.5,0.56,0.6,50,22,0.44,False,False
+q_selected_k,Selected Q target,Target |k|,2,15,11.5,12.5,0.6,0.64,40,20,0.5,False,False
+q_selected_k,Selected Q target,Target |k|,2,16,11.5,12.5,0.64,0.68,62,22,0.3548387096774194,False,False
+q_selected_k,Selected Q target,Target |k|,2,17,11.5,12.5,0.68,0.72,73,17,0.2328767123287671,False,False
+q_selected_k,Selected Q target,Target |k|,2,18,11.5,12.5,0.72,0.76,70,2,0.02857142857142857,False,False
+q_selected_k,Selected Q target,Target |k|,2,19,11.5,12.5,0.76,0.8,70,1,0.014285714285714285,False,False
+q_selected_k,Selected Q target,Target |k|,3,0,12.5,13.5,0.0,0.04,26,0,0.0,False,False
+q_selected_k,Selected Q target,Target |k|,3,1,12.5,13.5,0.04,0.08,76,10,0.13157894736842105,False,False
+q_selected_k,Selected Q target,Target |k|,3,2,12.5,13.5,0.08,0.12,63,21,0.3333333333333333,False,False
+q_selected_k,Selected Q target,Target |k|,3,3,12.5,13.5,0.12,0.16,56,16,0.2857142857142857,False,False
+q_selected_k,Selected Q target,Target |k|,3,4,12.5,13.5,0.16,0.2,51,24,0.47058823529411764,False,False
+q_selected_k,Selected Q target,Target |k|,3,5,12.5,13.5,0.2,0.24,49,23,0.46938775510204084,False,False
+q_selected_k,Selected Q target,Target |k|,3,6,12.5,13.5,0.24,0.28,43,12,0.27906976744186046,False,False
+q_selected_k,Selected Q target,Target |k|,3,7,12.5,13.5,0.28,0.32,43,20,0.46511627906976744,False,False
+q_selected_k,Selected Q target,Target |k|,3,8,12.5,13.5,0.32,0.36,34,25,0.7352941176470589,False,False
+q_selected_k,Selected Q target,Target |k|,3,9,12.5,13.5,0.36,0.4,25,16,0.64,False,False
+q_selected_k,Selected Q target,Target |k|,3,10,12.5,13.5,0.4,0.44,22,15,0.6818181818181818,False,False
+q_selected_k,Selected Q target,Target |k|,3,11,12.5,13.5,0.44,0.48,39,22,0.5641025641025641,False,False
+q_selected_k,Selected Q target,Target |k|,3,12,12.5,13.5,0.48,0.52,46,27,0.5869565217391305,False,False
+q_selected_k,Selected Q target,Target |k|,3,13,12.5,13.5,0.52,0.56,37,22,0.5945945945945946,False,False
+q_selected_k,Selected Q target,Target |k|,3,14,12.5,13.5,0.56,0.6,38,17,0.4473684210526316,False,False
+q_selected_k,Selected Q target,Target |k|,3,15,12.5,13.5,0.6,0.64,44,20,0.45454545454545453,False,False
+q_selected_k,Selected Q target,Target |k|,3,16,12.5,13.5,0.64,0.68,33,9,0.2727272727272727,False,False
+q_selected_k,Selected Q target,Target |k|,3,17,12.5,13.5,0.68,0.72,26,8,0.3076923076923077,False,False
+q_selected_k,Selected Q target,Target |k|,3,18,12.5,13.5,0.72,0.76,32,2,0.0625,False,False
+q_selected_k,Selected Q target,Target |k|,3,19,12.5,13.5,0.76,0.8,24,0,0.0,False,False
+q_selected_k,Selected Q target,Target |k|,4,0,13.5,14.5,0.0,0.04,18,2,0.1111111111111111,False,False
+q_selected_k,Selected Q target,Target |k|,4,1,13.5,14.5,0.04,0.08,35,12,0.34285714285714286,False,False
+q_selected_k,Selected Q target,Target |k|,4,2,13.5,14.5,0.08,0.12,26,14,0.5384615384615384,False,False
+q_selected_k,Selected Q target,Target |k|,4,3,13.5,14.5,0.12,0.16,20,9,0.45,False,False
+q_selected_k,Selected Q target,Target |k|,4,4,13.5,14.5,0.16,0.2,24,19,0.7916666666666666,False,False
+q_selected_k,Selected Q target,Target |k|,4,5,13.5,14.5,0.2,0.24,40,11,0.275,False,False
+q_selected_k,Selected Q target,Target |k|,4,6,13.5,14.5,0.24,0.28,36,18,0.5,False,False
+q_selected_k,Selected Q target,Target |k|,4,7,13.5,14.5,0.28,0.32,25,14,0.56,False,False
+q_selected_k,Selected Q target,Target |k|,4,8,13.5,14.5,0.32,0.36,19,11,0.5789473684210527,False,False
+q_selected_k,Selected Q target,Target |k|,4,9,13.5,14.5,0.36,0.4,20,12,0.6,False,False
+q_selected_k,Selected Q target,Target |k|,4,10,13.5,14.5,0.4,0.44,26,20,0.7692307692307693,False,False
+q_selected_k,Selected Q target,Target |k|,4,11,13.5,14.5,0.44,0.48,39,29,0.7435897435897436,False,False
+q_selected_k,Selected Q target,Target |k|,4,12,13.5,14.5,0.48,0.52,28,16,0.5714285714285714,False,False
+q_selected_k,Selected Q target,Target |k|,4,13,13.5,14.5,0.52,0.56,27,20,0.7407407407407407,False,False
+q_selected_k,Selected Q target,Target |k|,4,14,13.5,14.5,0.56,0.6,33,20,0.6060606060606061,False,False
+q_selected_k,Selected Q target,Target |k|,4,15,13.5,14.5,0.6,0.64,35,15,0.42857142857142855,False,False
+q_selected_k,Selected Q target,Target |k|,4,16,13.5,14.5,0.64,0.68,23,6,0.2608695652173913,False,False
+q_selected_k,Selected Q target,Target |k|,4,17,13.5,14.5,0.68,0.72,30,5,0.16666666666666666,False,False
+q_selected_k,Selected Q target,Target |k|,4,18,13.5,14.5,0.72,0.76,15,0,0.0,False,False
+q_selected_k,Selected Q target,Target |k|,4,19,13.5,14.5,0.76,0.8,19,0,0.0,False,False
+q_selected_k,Selected Q target,Target |k|,5,0,14.5,15.5,0.0,0.04,20,1,0.05,False,False
+q_selected_k,Selected Q target,Target |k|,5,1,14.5,15.5,0.04,0.08,23,4,0.17391304347826086,False,False
+q_selected_k,Selected Q target,Target |k|,5,2,14.5,15.5,0.08,0.12,15,8,0.5333333333333333,False,False
+q_selected_k,Selected Q target,Target |k|,5,3,14.5,15.5,0.12,0.16,15,8,0.5333333333333333,False,False
+q_selected_k,Selected Q target,Target |k|,5,4,14.5,15.5,0.16,0.2,14,6,0.42857142857142855,False,False
+q_selected_k,Selected Q target,Target |k|,5,5,14.5,15.5,0.2,0.24,13,7,0.5384615384615384,False,False
+q_selected_k,Selected Q target,Target |k|,5,6,14.5,15.5,0.24,0.28,16,9,0.5625,False,False
+q_selected_k,Selected Q target,Target |k|,5,7,14.5,15.5,0.28,0.32,25,18,0.72,False,False
+q_selected_k,Selected Q target,Target |k|,5,8,14.5,15.5,0.32,0.36,10,7,0.7,False,False
+q_selected_k,Selected Q target,Target |k|,5,9,14.5,15.5,0.36,0.4,16,13,0.8125,False,False
+q_selected_k,Selected Q target,Target |k|,5,10,14.5,15.5,0.4,0.44,21,17,0.8095238095238095,False,False
+q_selected_k,Selected Q target,Target |k|,5,11,14.5,15.5,0.44,0.48,15,13,0.8666666666666667,False,False
+q_selected_k,Selected Q target,Target |k|,5,12,14.5,15.5,0.48,0.52,12,10,0.8333333333333334,False,False
+q_selected_k,Selected Q target,Target |k|,5,13,14.5,15.5,0.52,0.56,22,13,0.5909090909090909,False,False
+q_selected_k,Selected Q target,Target |k|,5,14,14.5,15.5,0.56,0.6,16,10,0.625,False,False
+q_selected_k,Selected Q target,Target |k|,5,15,14.5,15.5,0.6,0.64,18,11,0.6111111111111112,False,False
+q_selected_k,Selected Q target,Target |k|,5,16,14.5,15.5,0.64,0.68,7,1,0.14285714285714285,False,True
+q_selected_k,Selected Q target,Target |k|,5,17,14.5,15.5,0.68,0.72,10,0,0.0,False,False
+q_selected_k,Selected Q target,Target |k|,5,18,14.5,15.5,0.72,0.76,14,0,0.0,False,False
+q_selected_k,Selected Q target,Target |k|,5,19,14.5,15.5,0.76,0.8,7,0,0.0,False,True
+q_selected_k,Selected Q target,Target |k|,6,0,15.5,16.5,0.0,0.04,9,1,0.1111111111111111,False,True
+q_selected_k,Selected Q target,Target |k|,6,1,15.5,16.5,0.04,0.08,28,17,0.6071428571428571,False,False
+q_selected_k,Selected Q target,Target |k|,6,2,15.5,16.5,0.08,0.12,20,12,0.6,False,False
+q_selected_k,Selected Q target,Target |k|,6,3,15.5,16.5,0.12,0.16,19,9,0.47368421052631576,False,False
+q_selected_k,Selected Q target,Target |k|,6,4,15.5,16.5,0.16,0.2,10,2,0.2,False,False
+q_selected_k,Selected Q target,Target |k|,6,5,15.5,16.5,0.2,0.24,21,9,0.42857142857142855,False,False
+q_selected_k,Selected Q target,Target |k|,6,6,15.5,16.5,0.24,0.28,15,11,0.7333333333333333,False,False
+q_selected_k,Selected Q target,Target |k|,6,7,15.5,16.5,0.28,0.32,21,14,0.6666666666666666,False,False
+q_selected_k,Selected Q target,Target |k|,6,8,15.5,16.5,0.32,0.36,18,12,0.6666666666666666,False,False
+q_selected_k,Selected Q target,Target |k|,6,9,15.5,16.5,0.36,0.4,13,9,0.6923076923076923,False,False
+q_selected_k,Selected Q target,Target |k|,6,10,15.5,16.5,0.4,0.44,13,12,0.9230769230769231,False,False
+q_selected_k,Selected Q target,Target |k|,6,11,15.5,16.5,0.44,0.48,19,13,0.6842105263157895,False,False
+q_selected_k,Selected Q target,Target |k|,6,12,15.5,16.5,0.48,0.52,19,18,0.9473684210526315,False,False
+q_selected_k,Selected Q target,Target |k|,6,13,15.5,16.5,0.52,0.56,12,10,0.8333333333333334,False,False
+q_selected_k,Selected Q target,Target |k|,6,14,15.5,16.5,0.56,0.6,2,2,1.0,False,True
+q_selected_k,Selected Q target,Target |k|,6,15,15.5,16.5,0.6,0.64,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,6,16,15.5,16.5,0.64,0.68,1,0,0.0,False,True
+q_selected_k,Selected Q target,Target |k|,6,17,15.5,16.5,0.68,0.72,1,0,0.0,False,True
+q_selected_k,Selected Q target,Target |k|,6,18,15.5,16.5,0.72,0.76,9,0,0.0,False,True
+q_selected_k,Selected Q target,Target |k|,6,19,15.5,16.5,0.76,0.8,1,0,0.0,False,True
+q_selected_k,Selected Q target,Target |k|,7,0,16.5,17.5,0.0,0.04,9,2,0.2222222222222222,False,True
+q_selected_k,Selected Q target,Target |k|,7,1,16.5,17.5,0.04,0.08,13,7,0.5384615384615384,False,False
+q_selected_k,Selected Q target,Target |k|,7,2,16.5,17.5,0.08,0.12,26,12,0.46153846153846156,False,False
+q_selected_k,Selected Q target,Target |k|,7,3,16.5,17.5,0.12,0.16,28,13,0.4642857142857143,False,False
+q_selected_k,Selected Q target,Target |k|,7,4,16.5,17.5,0.16,0.2,31,21,0.6774193548387096,False,False
+q_selected_k,Selected Q target,Target |k|,7,5,16.5,17.5,0.2,0.24,29,23,0.7931034482758621,False,False
+q_selected_k,Selected Q target,Target |k|,7,6,16.5,17.5,0.24,0.28,14,8,0.5714285714285714,False,False
+q_selected_k,Selected Q target,Target |k|,7,7,16.5,17.5,0.28,0.32,22,11,0.5,False,False
+q_selected_k,Selected Q target,Target |k|,7,8,16.5,17.5,0.32,0.36,18,15,0.8333333333333334,False,False
+q_selected_k,Selected Q target,Target |k|,7,9,16.5,17.5,0.36,0.4,22,18,0.8181818181818182,False,False
+q_selected_k,Selected Q target,Target |k|,7,10,16.5,17.5,0.4,0.44,14,13,0.9285714285714286,False,False
+q_selected_k,Selected Q target,Target |k|,7,11,16.5,17.5,0.44,0.48,11,8,0.7272727272727273,False,False
+q_selected_k,Selected Q target,Target |k|,7,12,16.5,17.5,0.48,0.52,7,7,1.0,False,True
+q_selected_k,Selected Q target,Target |k|,7,13,16.5,17.5,0.52,0.56,2,2,1.0,False,True
+q_selected_k,Selected Q target,Target |k|,7,14,16.5,17.5,0.56,0.6,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,7,15,16.5,17.5,0.6,0.64,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,7,16,16.5,17.5,0.64,0.68,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,7,17,16.5,17.5,0.68,0.72,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,7,18,16.5,17.5,0.72,0.76,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,7,19,16.5,17.5,0.76,0.8,3,0,0.0,False,True
+q_selected_k,Selected Q target,Target |k|,8,0,17.5,18.5,0.0,0.04,6,0,0.0,False,True
+q_selected_k,Selected Q target,Target |k|,8,1,17.5,18.5,0.04,0.08,19,5,0.2631578947368421,False,False
+q_selected_k,Selected Q target,Target |k|,8,2,17.5,18.5,0.08,0.12,13,7,0.5384615384615384,False,False
+q_selected_k,Selected Q target,Target |k|,8,3,17.5,18.5,0.12,0.16,23,16,0.6956521739130435,False,False
+q_selected_k,Selected Q target,Target |k|,8,4,17.5,18.5,0.16,0.2,21,14,0.6666666666666666,False,False
+q_selected_k,Selected Q target,Target |k|,8,5,17.5,18.5,0.2,0.24,21,20,0.9523809523809523,False,False
+q_selected_k,Selected Q target,Target |k|,8,6,17.5,18.5,0.24,0.28,16,14,0.875,False,False
+q_selected_k,Selected Q target,Target |k|,8,7,17.5,18.5,0.28,0.32,19,19,1.0,False,False
+q_selected_k,Selected Q target,Target |k|,8,8,17.5,18.5,0.32,0.36,23,20,0.8695652173913043,False,False
+q_selected_k,Selected Q target,Target |k|,8,9,17.5,18.5,0.36,0.4,4,3,0.75,False,True
+q_selected_k,Selected Q target,Target |k|,8,10,17.5,18.5,0.4,0.44,4,4,1.0,False,True
+q_selected_k,Selected Q target,Target |k|,8,11,17.5,18.5,0.44,0.48,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,8,12,17.5,18.5,0.48,0.52,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,8,13,17.5,18.5,0.52,0.56,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,8,14,17.5,18.5,0.56,0.6,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,8,15,17.5,18.5,0.6,0.64,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,8,16,17.5,18.5,0.64,0.68,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,8,17,17.5,18.5,0.68,0.72,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,8,18,17.5,18.5,0.72,0.76,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,8,19,17.5,18.5,0.76,0.8,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,9,0,18.5,19.5,0.0,0.04,4,0,0.0,False,True
+q_selected_k,Selected Q target,Target |k|,9,1,18.5,19.5,0.04,0.08,8,3,0.375,False,True
+q_selected_k,Selected Q target,Target |k|,9,2,18.5,19.5,0.08,0.12,11,4,0.36363636363636365,False,False
+q_selected_k,Selected Q target,Target |k|,9,3,18.5,19.5,0.12,0.16,11,6,0.5454545454545454,False,False
+q_selected_k,Selected Q target,Target |k|,9,4,18.5,19.5,0.16,0.2,8,7,0.875,False,True
+q_selected_k,Selected Q target,Target |k|,9,5,18.5,19.5,0.2,0.24,13,13,1.0,False,False
+q_selected_k,Selected Q target,Target |k|,9,6,18.5,19.5,0.24,0.28,5,5,1.0,False,True
+q_selected_k,Selected Q target,Target |k|,9,7,18.5,19.5,0.28,0.32,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,9,8,18.5,19.5,0.32,0.36,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,9,9,18.5,19.5,0.36,0.4,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,9,10,18.5,19.5,0.4,0.44,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,9,11,18.5,19.5,0.44,0.48,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,9,12,18.5,19.5,0.48,0.52,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,9,13,18.5,19.5,0.52,0.56,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,9,14,18.5,19.5,0.56,0.6,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,9,15,18.5,19.5,0.6,0.64,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,9,16,18.5,19.5,0.64,0.68,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,9,17,18.5,19.5,0.68,0.72,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,9,18,18.5,19.5,0.72,0.76,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,9,19,18.5,19.5,0.76,0.8,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,10,0,19.5,20.5,0.0,0.04,1,0,0.0,False,True
+q_selected_k,Selected Q target,Target |k|,10,1,19.5,20.5,0.04,0.08,5,0,0.0,False,True
+q_selected_k,Selected Q target,Target |k|,10,2,19.5,20.5,0.08,0.12,1,1,1.0,False,True
+q_selected_k,Selected Q target,Target |k|,10,3,19.5,20.5,0.12,0.16,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,10,4,19.5,20.5,0.16,0.2,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,10,5,19.5,20.5,0.2,0.24,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,10,6,19.5,20.5,0.24,0.28,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,10,7,19.5,20.5,0.28,0.32,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,10,8,19.5,20.5,0.32,0.36,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,10,9,19.5,20.5,0.36,0.4,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,10,10,19.5,20.5,0.4,0.44,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,10,11,19.5,20.5,0.44,0.48,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,10,12,19.5,20.5,0.48,0.52,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,10,13,19.5,20.5,0.52,0.56,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,10,14,19.5,20.5,0.56,0.6,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,10,15,19.5,20.5,0.6,0.64,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,10,16,19.5,20.5,0.64,0.68,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,10,17,19.5,20.5,0.68,0.72,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,10,18,19.5,20.5,0.72,0.76,0,0,,True,False
+q_selected_k,Selected Q target,Target |k|,10,19,19.5,20.5,0.76,0.8,0,0,,True,False

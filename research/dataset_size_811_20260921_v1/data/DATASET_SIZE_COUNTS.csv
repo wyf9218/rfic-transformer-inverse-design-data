@@ -1,0 +1,4 @@
+dataset,source_table_rows,gradient_training_rows,validation_rows,own_test_rows,common_forward_test_rows,partition_rule
+D10k,10000,8000,1000,1000,11369,preserved_original_physical_cell_partition; fixed_seed_nested_within_each_partition
+D50k,50000,40000,5000,5000,11369,preserved_original_physical_cell_partition; fixed_seed_nested_within_each_partition
+D100k,100000,78891,9740,11369,11369,preserved_original_physical_cell_partition; fixed_seed_nested_within_each_partition

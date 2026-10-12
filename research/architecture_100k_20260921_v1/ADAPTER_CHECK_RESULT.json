@@ -1,0 +1,26 @@
+{
+  "observed_utc": "2026-09-21T07:31:09Z",
+  "status": "PASS_TARGETED_ARCHITECTURE_WRAPPER_CHECKS",
+  "tests_run": 3,
+  "tests_passed": 3,
+  "elapsed_seconds": 0.032,
+  "checks": [
+    "Only hidden width/depth declarations differ from pinned original seed13 recipe; depth remains3",
+    "Actual declared layer shapes and parameter-count arithmetic for Small/Medium/Large",
+    "Synthetic three-step observer preserves original Adam parameters and all state bitwise and preserves stage return values"
+  ],
+  "formal_training_started_by_checks": false,
+  "formal_model_optimizer_updates_by_checks": 0,
+  "synthetic_optimizer_steps_in_observer_fixture": 3,
+  "new_inference_by_checks": 0,
+  "remote_calls_by_checks": 0,
+  "native_calls_by_checks": 0,
+  "existing_active_source_modified": false,
+  "source_files": {
+    "train_architectures.py": "159adcff89f2590b7750af0452fa8919b4d00d468e394ca655c960446b1e2b73",
+    "run_all.py": "0a71a1452112866d97ea7d9223ee9a27a8b753feb06fc26c000091d4487ae53e",
+    "test_architecture_adapter.py": "1e187adb9e0fb3f4ea9fa8775495b23b8eb43c4179e5832b14241b9a4104d0e0"
+  },
+  "launch_owner": "parent task only",
+  "stage_resume_limit": "Completed stages only; interrupted unfinished stage has no Adam/RNG continuation"
+}

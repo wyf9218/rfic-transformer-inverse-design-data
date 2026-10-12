@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE",
+  "utc": "2026-09-21T16:07:27.140258+00:00",
+  "returncode": 0,
+  "summary_sha256": "1c079751b878fd02834439117c36fdd0b16e00103bf17d5b0b31c823158973c8",
+  "model_seed": 17,
+  "partition_counts": {
+    "train": 78891,
+    "validation": 9740,
+    "test": 11369
+  },
+  "test_evaluation": "NOT_RUN",
+  "fresh_emx": "NOT_RUN",
+  "deadline_drain_seconds": 0
+}

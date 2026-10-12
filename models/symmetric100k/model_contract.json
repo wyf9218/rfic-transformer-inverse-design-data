@@ -1,0 +1,24 @@
+{
+  "schema": "rfic_frozen_tandem_mlp_public_contract.v1",
+  "model_id": "legacyrecipe_D100k_seed20260711",
+  "display_name": "Symmetric-recipe 100K reconstruction, seed 20260711",
+  "model_seed": 20260711,
+  "target_frequency_ghz": 15.0,
+  "q_training_definition": "min(Qp, Qs)",
+  "q_target_semantics": "exact",
+  "q_training_margin_physical": 0.0,
+  "row_counts": {"source": 100000, "train": 78891, "validation": 9740, "test": 11369},
+  "input_columns": ["input__lp_nh_center", "input__ls_nh_center", "input__q_center", "input__k_abs_center"],
+  "input_units": ["nH", "nH", "dimensionless", "dimensionless"],
+  "geometry_unit": "um",
+  "geometry_columns": ["geom__primary_outer_width_um", "geom__primary_outer_height_um", "geom__secondary_outer_width_um", "geom__secondary_outer_height_um", "geom__line_width_um", "geom__primary_terminal_y_span_um", "geom__secondary_terminal_y_span_um", "geom__offset_um", "geom__primary_feed_extension_um", "geom__secondary_feed_extension_um"],
+  "declared_support_lower": [0.5, 0.5, 5.0, 0.0],
+  "declared_support_upper": [3.0, 3.0, 25.0, 0.8],
+  "architecture": {"inverse_mlp": [4, 256, 256, 256, 10], "forward_surrogate": [10, 256, 256, 256, 4], "hidden_activation": "gelu", "geometry_projection": "independent_sigmoid"},
+  "artifacts": {
+    "summary": {"filename": "physical_feature_tandem_inverse_summary.json", "sha256": "dd2773ba3eba618d7628ac22ddb9b7d99ed55742c5786799a4eb2b54a1dae76b"},
+    "weights": {"filename": "physical_feature_tandem_inverse_weights.npz", "sha256": "ddc3476184911007132728722ae5fb0a00d1183ee867af80cbc6ccaf9dfc805b"},
+    "training_table": {"sha256": "fe94d15b0d083330fe7a64d3e059d083a5aa32d73394c85fc4b881e9904e68a2"}
+  },
+  "scientific_boundary": "Relocation/load contract authored 2026-10-12 from unchanged archived weights and summary. Recorded-recipe reconstruction, not bitwise original real10k replay. SELF_PROXY only; no new physical accuracy claim."
+}

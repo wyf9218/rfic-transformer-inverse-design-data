@@ -1,0 +1,52 @@
+{
+  "schema": "original100k_nested_dataset_totals.v1",
+  "created_utc": "2026-09-21T07:17:43.424413+00:00",
+  "mother": {
+    "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap15ghz_20260908T220300Z/old100k_baseline_recovery_20260914_v1/source_v1/physical_feature_inverse_training_table.csv",
+    "sha256": "fe94d15b0d083330fe7a64d3e059d083a5aa32d73394c85fc4b881e9904e68a2",
+    "rows": 100000
+  },
+  "indices": {
+    "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/dataset_size_811_20260921_v1/data/DATASET_SIZE_INDICES.json",
+    "sha256": "1364e39c819736ea0de65b51c839b8e9eec77bb3dd998409e0306f5771500286"
+  },
+  "qualification": {
+    "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/dataset_size_811_20260921_v1/data/QUALIFICATION.json",
+    "sha256": "14dc38a45cb6243aed7336f1214b3e027b73a276fd634b01f410f162928ac678"
+  },
+  "counts": {
+    "D10k": {
+      "train": 8000,
+      "validation": 1000,
+      "test": 1000
+    },
+    "D50k": {
+      "train": 40000,
+      "validation": 5000,
+      "test": 5000
+    },
+    "D100k": {
+      "train": 78891,
+      "validation": 9740,
+      "test": 11369
+    }
+  },
+  "common_test": {
+    "name": "original_test_all_11369",
+    "rows": 11369,
+    "index_sha256": "5c22ced2ec926dad716708afcb2da313f0d29ebe2d0a627670913a4c69dccdd6"
+  },
+  "dataset_size_semantics": "total_train_plus_validation_plus_own_test",
+  "training_row_order": "source_csv_ascending",
+  "normalizer_policy": "Fit on the current arm train indices only; never substitute into historical weights.",
+  "source_rows_are_zero_based": true,
+  "original_summary": {
+    "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/physical_feature_tandem_inverse_summary.json",
+    "sha256": "f05c4c0b3937bf9107f95d38d14679995aedc936071852ac7696f9838c5d43c1"
+  },
+  "splitter": {
+    "path": "/Users/wyf/Documents/模拟变压器AI反向建模/github_worktrees/eucap15-mlp-capacity-20260909/rfic_transformer_inverse_design/model_splitting.py",
+    "sha256": "9db4b7f1ed9435f73e95e49c558003bdaaf153579c5c44f04fb779aa31e0ef8a"
+  },
+  "no_training_launched": true
+}

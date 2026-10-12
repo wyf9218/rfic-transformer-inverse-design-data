@@ -1,0 +1,12 @@
+{
+  "schema": "physical_feature_tandem_stage_checkpoint_marker_v1",
+  "generated_utc": "2026-09-21T11:58:02+00:00",
+  "status": "PASS",
+  "stage": "forward_proxy",
+  "contract_fingerprint_sha256": "08cc5093df5054a9f3eaff9c0ab5694d34ec17aab6abebc58322f5c41fa4d25b",
+  "dependency_weights_sha256": "",
+  "weights_path": "/volumes/research-localdata/ywang3652/eucap_paper_repeats_20260921_v1/runtime_v1/runs/architecture/seed17/Medium/stage_checkpoints/forward_proxy_stage_weights.npz",
+  "weights_sha256": "6320dd202597d0d9407934ca87f56745a9be0f9021a1b804541ceec174e217ba",
+  "metadata_path": "/volumes/research-localdata/ywang3652/eucap_paper_repeats_20260921_v1/runtime_v1/runs/architecture/seed17/Medium/stage_checkpoints/forward_proxy_stage.json",
+  "metadata_sha256": "b12e8aba9bd282b80c07ec31ecd335b82ca3ac0effb455e0622f6082dad666d8"
+}

@@ -1,0 +1,105 @@
+{
+  "schema": "independent_saved_qscan_arithmetic_verification.v1",
+  "status": "PASS",
+  "completed_utc": "2026-09-21T18:46:57.228193+00:00",
+  "script_sha256": "33d35825a00a75922cee0cd009b5142434d27cd3be0cb2f554c9999834c8f857",
+  "inputs": {
+    "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/qscan100k_20260921_v1/CONTRACT.json": "c363ef17af4a6ae20351b214b95868974a7cbfd1e85d85190e676c52a5cac24b",
+    "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/qscan100k_20260921_v1/SUMMARY.json": "7106d5fca5f8f1431d8980aa39a462d42bc2cbabd565be1b3afa531ff2804e18",
+    "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/qscan100k_20260921_v1/all_candidates.npz": "ea755900c0e49712386aea4409382b0ecc422c0efd842193e1daf171d2c7230b",
+    "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/qscan100k_20260921_v1/selected_10000_results.csv": "b969ea1dc484171f61829d93f0faeb5a5e6a5fe64edb35bd84a080dd36c438ec",
+    "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/qscan100k_20260921_v1/hotspot_bins.csv": "a82599dea08bd8eca8c38accdb2dc2d354d386cc712a08e4df4f661be034355b",
+    "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/figure_data/random10000_targets.csv": "a71e43284e1e629d14892d6e0ff72a4c2fbdf64616784884aa854bdd6984b223",
+    "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/physical_feature_tandem_inverse_weights.npz": "c61a93d56136ad21686863aae72984c49eb0d33ce766923c8ec2d03d9c3177dd"
+  },
+  "checks": {
+    "input_sha_random10000_targets.csv": true,
+    "input_sha_physical_feature_tandem_inverse_weights.npz": true,
+    "output_sha_CONTRACT.json": true,
+    "output_sha_all_candidates.npz": true,
+    "output_sha_selected_10000_results.csv": true,
+    "output_sha_hotspot_bins.csv": true,
+    "exact_shapes": true,
+    "exact_ids_and_order": true,
+    "source_triplets_unchanged_all_candidates": true,
+    "q_grid_exact": true,
+    "original_q_archived": true,
+    "scales_exact": true,
+    "all_110000_scores_exact": true,
+    "all_finite_masks_exact": true,
+    "finite_candidate_count": true,
+    "all_argmins_exact": true,
+    "selected_q_exact": true,
+    "candidate_ids_exact": true,
+    "selected_targets_exact": true,
+    "selected_proxy_exact": true,
+    "selected_scores_exact": true,
+    "selected_geometry_valid_masks": true,
+    "selected_proxy_valid_masks": true,
+    "proxy_valid_count": true,
+    "signed_error_all_four_symmetric_exact": true,
+    "absolute_error_all_four_symmetric_exact": true,
+    "relative_error_pct_all_four_symmetric_exact": true,
+    "joint_5_row_flags": true,
+    "joint_10_row_flags": true,
+    "joint_15_row_flags": true,
+    "joint_20_row_flags": true,
+    "joint_counts_exact": true,
+    "feature_10pct_counts_exact": true,
+    "bin_rows_exact": true,
+    "lp_ls_bin_keys": true,
+    "lp_ls_every_bin_count_fraction_bounds_flags": true,
+    "lp_k_bin_keys": true,
+    "lp_k_every_bin_count_fraction_bounds_flags": true,
+    "ls_k_bin_keys": true,
+    "ls_k_every_bin_count_fraction_bounds_flags": true,
+    "q_selected_k_bin_keys": true,
+    "q_selected_k_every_bin_count_fraction_bounds_flags": true,
+    "all_grid_summaries_exact": true,
+    "all_grid_denominators_10000": true
+  },
+  "n_checks": 44,
+  "joint_hits": {
+    "5": 233,
+    "10": 2073,
+    "15": 4242,
+    "20": 5816
+  },
+  "feature_hits_10pct": {
+    "lp_nh": 5505,
+    "ls_nh": 4500,
+    "q_scalar": 6459,
+    "k_abs": 6477
+  },
+  "grids": {
+    "lp_ls": {
+      "n_total": 10000,
+      "n_hit": 2073,
+      "n_empty": 0,
+      "n_low": 0
+    },
+    "lp_k": {
+      "n_total": 10000,
+      "n_hit": 2073,
+      "n_empty": 0,
+      "n_low": 1
+    },
+    "ls_k": {
+      "n_total": 10000,
+      "n_hit": 2073,
+      "n_empty": 0,
+      "n_low": 1
+    },
+    "q_selected_k": {
+      "n_total": 10000,
+      "n_hit": 2073,
+      "n_empty": 45,
+      "n_low": 22
+    }
+  },
+  "maximum_score_absolute_difference": 0.0,
+  "selected_q_mismatch_count": 0,
+  "q_above_target_count": 7059,
+  "q_below_target_count": 2941,
+  "scope": "Saved-array arithmetic only; no inference, training, EMX, plotting, or assessment of numerical backend warnings. Weights read only for decoder-bound constants."
+}

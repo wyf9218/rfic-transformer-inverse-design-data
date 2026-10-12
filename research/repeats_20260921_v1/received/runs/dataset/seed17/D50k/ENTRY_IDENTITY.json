@@ -1,0 +1,85 @@
+{
+  "schema": "original100k_repeat_arm.v1",
+  "job_id": "dataset__D50k__seed17",
+  "kind": "new-trained",
+  "family": "dataset",
+  "arm": "D50k",
+  "model_seed": 17,
+  "partition": "D50k",
+  "partition_counts": {
+    "train": 40000,
+    "validation": 5000,
+    "test": 5000
+  },
+  "run_dir": "/volumes/research-localdata/ywang3652/eucap_paper_repeats_20260921_v1/runtime_v1/runs/dataset/seed17/D50k",
+  "eval_dir": "/volumes/research-localdata/ywang3652/eucap_paper_repeats_20260921_v1/runtime_v1/analysis_outputs/dataset/seed17/results/D50k",
+  "architecture": {
+    "forward": [
+      10,
+      256,
+      256,
+      128,
+      4
+    ],
+    "inverse": [
+      4,
+      512,
+      512,
+      256,
+      10
+    ],
+    "forward_parameters": 102020,
+    "inverse_parameters": 399114
+  },
+  "dataset_contract_sha256": "f4259d99c19b7b9efb2b97171c7e20c61aff585c80391355a37fb451a7e4b880",
+  "global_split_index_sha256": {
+    "train": "39d928a3030848f61e0a6c0fde8d2f2319b048f122e376b6d74f782dfae15314",
+    "validation": "99bdd6874d5300020b3ef976be1645d9dfa88309fcbed1149261ec83e7b62b74",
+    "test": "4734093801a8fc882161ed80f2b6bc17e03bd2fc2a864169469ab895b164a161"
+  },
+  "sources": {
+    "architecture_adapter": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_architecture_100k_20260921_v1/train_architectures.py",
+      "sha256": "159adcff89f2590b7750af0452fa8919b4d00d468e394ca655c960446b1e2b73"
+    },
+    "dataset_adapter": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/train_dataset_sizes.py",
+      "sha256": "bd59a6b6d0188d67e1c0f5ae702ce7654e9c6a2f0870625054fd032a8580af55"
+    },
+    "core": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/runtime_inputs/train_original100k_nested.py",
+      "sha256": "ddb5088d9143ac9bd9b870fd4bef1cbdff93ef36c7f0e0176db3fefac03bed49"
+    },
+    "trainer": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/runtime_inputs/trainer_runtime.py",
+      "sha256": "fbfda2023f862af2f0b185e41c4bf899f97cb79b0d0d763d20501c03525e8a4f"
+    },
+    "splitter": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/runtime_inputs/model_splitting.py",
+      "sha256": "9db4b7f1ed9435f73e95e49c558003bdaaf153579c5c44f04fb779aa31e0ef8a"
+    },
+    "original_summary": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/runtime_inputs/physical_feature_tandem_inverse_summary.json",
+      "sha256": "f05c4c0b3937bf9107f95d38d14679995aedc936071852ac7696f9838c5d43c1"
+    },
+    "evaluator": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis/evaluate_completed_arm.py",
+      "sha256": "240d7a4419856ec6b17a5bb504ba9e6587bf12a56ecc0342caab879732642381"
+    },
+    "evaluator_base": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/analysis/evaluate_arm_once.py",
+      "sha256": "5d713a19b21bdc1c1875531edec11707aa66615f9a88447f5f6c9f54cf04b557"
+    },
+    "entry": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_repeats_20260921_v1/repeat_study.py",
+      "sha256": "c16764c8b500e6f8916a27579be96040c63b737dea59d77cf0629e95b193f060"
+    },
+    "aggregator": {
+      "path": "/volumes/research-localdata/ywang3652/eucap_paper_repeats_20260921_v1/aggregate_repeats.py",
+      "sha256": "f5a4ca3efd184019795ec6a28c8f400040b3211a554990224404a257a658eb2c"
+    }
+  },
+  "initialization": "SCRATCH_F_AND_I",
+  "common_test_in_training": false,
+  "fresh_emx": "NOT_RUN"
+}

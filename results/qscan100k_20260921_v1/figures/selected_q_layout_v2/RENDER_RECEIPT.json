@@ -1,0 +1,39 @@
+{
+  "status": "RENDER_COMPLETE",
+  "timestamp_utc": "2026-09-21T18:46:51.676343+00:00",
+  "inputs_sha256": {
+    "SUMMARY.json": "7106d5fca5f8f1431d8980aa39a462d42bc2cbabd565be1b3afa531ff2804e18",
+    "hotspot_bins.csv": "a82599dea08bd8eca8c38accdb2dc2d354d386cc712a08e4df4f661be034355b"
+  },
+  "script_sha256": "fe29c54955dd191024f44980242fdb86563076f85c9d71318100b55b65699245",
+  "model_id": "current_foundry_qmin_response_only_seed20260713",
+  "model_weights_sha256": "c61a93d56136ad21686863aae72984c49eb0d33ce766923c8ec2d03d9c3177dd",
+  "target_sha256": "a71e43284e1e629d14892d6e0ff72a4c2fbdf64616784884aa854bdd6984b223",
+  "n_requests": 10000,
+  "n_candidates": 110000,
+  "n_failed_requests": 0,
+  "joint_hits": {
+    "5": 233,
+    "10": 2073,
+    "15": 4242,
+    "20": 5816
+  },
+  "feature_hits_10pct": {
+    "lp_nh": 5505,
+    "ls_nh": 4500,
+    "q_scalar": 6459,
+    "k_abs": 6477
+  },
+  "png_dpi": 400,
+  "width_mm": 184,
+  "matplotlib_version": "3.9.4",
+  "numpy_version": "2.0.2",
+  "evidence_class": "FROZEN_FORWARD_PROXY_NOT_FRESH_EMX",
+  "source_checks": "all bins, boundaries, flags, rates, summary counts, and original denominators reconciled",
+  "visual_review": "PENDING_EXTERNAL_INSPECTION",
+  "output_sha256": {
+    "CAPTIONS_EN.md": "a88773ea89a4e86e0a025f4c6e3a8ebee9b65db93fd4f6be1f1976e5fd0641cb",
+    "SelectedQ_K_hotspot.png": "d93fb9d1196c5792d53dcdd8cad3f9ba5647514f94a2fe5362da3b62fbfd1718",
+    "SelectedQ_K_hotspot.svg": "68b02e5481983a9e9d8a697c3bc3415fc62e37cc960a8bcd6f80a4accdd110f9"
+  }
+}

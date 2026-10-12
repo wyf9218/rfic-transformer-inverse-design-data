@@ -1,0 +1,12 @@
+{
+  "schema": "physical_feature_tandem_stage_checkpoint_marker_v1",
+  "generated_utc": "2026-07-20T19:39:42+00:00",
+  "status": "PASS",
+  "stage": "tandem_inverse",
+  "contract_fingerprint_sha256": "e4660f9f6f7da7bebbec0fde12c65805e08590a2fba6fefe3b7f47d5cebbdbcc",
+  "dependency_weights_sha256": "91c13defc30f64308df5f0f26a4fde742bc45f1ec5c23af52ec3e3d500ef1db3",
+  "weights_path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/stage_checkpoints/tandem_inverse_stage_weights.npz",
+  "weights_sha256": "9303dc083bacc2fbf4539f2b09ab2c7e837cdf6c8c2a504ff776627bc8d10c94",
+  "metadata_path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/model_training_monday_20260720/multifrequency_real10k_pilot_20260720/model_seed_20260711/A_center_15ghz_4d/stage_checkpoints/tandem_inverse_stage.json",
+  "metadata_sha256": "a23f48fe54a11dd254846c0f437e4d45004624c9c0f4064f07144ff2d1d77ba5"
+}

@@ -1,0 +1,21 @@
+{
+  "observed_utc": "2026-09-21T11:09:25Z",
+  "status": "PASS_LOCAL_PLUMBING_ONLY_NOT_TRAINING",
+  "command": "/usr/bin/python3 -m unittest -v test_repeat_study.py",
+  "tests": 3,
+  "seconds": 0.055,
+  "entry_sha256": "c16764c8b500e6f8916a27579be96040c63b737dea59d77cf0629e95b193f060",
+  "tests_sha256": "cf27015a157c18d9316dd467a1ca88c3ff900d57462224fbe5136ff18ca66caf",
+  "real_training_started": 0,
+  "real_model_inference_calls": 0,
+  "mother_data_read": false,
+  "remote_access": false,
+  "fresh_emx": "NOT_RUN",
+  "checks": [
+    "Original runtime parses all 12 prospective seed/family arguments; scratch F/I, unchanged widths, validation_only and 3600/3600",
+    "Original normalizer fits only tiny synthetic training rows, excluding synthetic validation extreme",
+    "New D100k enters new dataset arithmetic, not original saved-prediction branch; summary/ENTRY seed mismatch rejected",
+    "Deadline blocks new optimizer-stage entry without changing an allowed original call/return"
+  ],
+  "next_action_owner": "parent execution engineer: resource admission, source deployment, once-only configure and launch"
+}

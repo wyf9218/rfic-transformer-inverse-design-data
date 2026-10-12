@@ -1,0 +1,37 @@
+{
+  "schema": "rfic_frozen_inverse_mlp_bundle_v1",
+  "model_id": "dataset_D10k_seed20260713",
+  "model_seed": 20260713,
+  "target_frequency_ghz": 15.0,
+  "q_target_semantics": "minimum",
+  "architecture": {
+    "forward_surrogate": [
+      10,
+      256,
+      256,
+      128,
+      4
+    ],
+    "inverse_mlp": [
+      4,
+      512,
+      512,
+      256,
+      10
+    ]
+  },
+  "artifacts": {
+    "model_summary": {
+      "path": "physical_feature_tandem_inverse_summary.json",
+      "sha256": "eb5a277d577242004b7a5fdb5398127392226f91751ce38cea13fab2e7c1f37d"
+    },
+    "model_weights": {
+      "path": "physical_feature_tandem_inverse_weights.npz",
+      "sha256": "d01de3595defe5a2783b1d0a2a1b86e5c68b6c15a61a1fc15c5d5599b89c0886"
+    }
+  },
+  "original_training_identity": {
+    "path": "/volumes/research-localdata/ywang3652/eucap_paper_dataset_size_811_20260921_v1/runs/D10k/ENTRY_IDENTITY.json",
+    "sha256": "7552f5772667d52d0f7e06a7ac0f6323383c2b35579386bb057b23490bf919fd"
+  }
+}

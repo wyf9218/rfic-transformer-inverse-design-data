@@ -1,0 +1,79 @@
+{
+  "status": "COMPLETE",
+  "model_id": "legacyrecipe_D100k_seed20260711",
+  "frame": "application8000",
+  "n_requests": 8000,
+  "n_candidates": 88000,
+  "n_finite_candidates": 88000,
+  "n_failed_requests": 0,
+  "n_proxy_invalid_requests": 0,
+  "joint_hits": {
+    "5": 4642,
+    "10": 6192,
+    "15": 6991,
+    "20": 7444
+  },
+  "feature_hits_10pct": {
+    "lp_nh": 7140,
+    "ls_nh": 6788,
+    "q_scalar": 7543,
+    "k_abs": 7316
+  },
+  "selection_score": "sqrt(mean(((proxy-target)/[2.5,2.5,20,0.8])**2)); symmetric Q; exact ties choose lower Q",
+  "target_sha256": "c12835ab65f898f4b72e2471b125e68fe81edfe6221541ed166c1e21b569a346",
+  "model_training_Q_semantics": "exact symmetric; zero Q minimum margin",
+  "evaluation_Q_semantics": "exact symmetric; no postprocessing guardband",
+  "physical_errors": [
+    {
+      "feature": "lp_nh",
+      "unit": "nH",
+      "original_denominator": 8000,
+      "n_finite": 8000,
+      "MAE": 0.03130085807920725,
+      "RMSE": 0.04739397185947829,
+      "P95_absolute_error": 0.10982515920370207,
+      "mean_relative_error_pct": 3.8606512563757747,
+      "P95_relative_error_pct": 16.764304905821035,
+      "hits_10pct": 7140
+    },
+    {
+      "feature": "ls_nh",
+      "unit": "nH",
+      "original_denominator": 8000,
+      "n_finite": 8000,
+      "MAE": 0.04076508912433563,
+      "RMSE": 0.06361276759326531,
+      "P95_absolute_error": 0.14183287278726012,
+      "mean_relative_error_pct": 5.054048318548125,
+      "P95_relative_error_pct": 20.308398916628278,
+      "hits_10pct": 6788
+    },
+    {
+      "feature": "q_scalar",
+      "unit": "dimensionless",
+      "original_denominator": 8000,
+      "n_finite": 8000,
+      "MAE": 0.3165878141059125,
+      "RMSE": 0.48495390272583305,
+      "P95_absolute_error": 1.1343256100554586,
+      "mean_relative_error_pct": 2.893777564018014,
+      "P95_relative_error_pct": 10.457108884485367,
+      "hits_10pct": 7543
+    },
+    {
+      "feature": "k_abs",
+      "unit": "dimensionless",
+      "original_denominator": 8000,
+      "n_finite": 8000,
+      "MAE": 0.02604046114482068,
+      "RMSE": 0.03922341673946591,
+      "P95_absolute_error": 0.08669788283769,
+      "mean_relative_error_pct": 3.690913939245049,
+      "P95_relative_error_pct": 11.669391607436731,
+      "hits_10pct": 7316
+    }
+  ],
+  "evidence": "SELF_PROXY_NOT_PHYSICAL_ACCURACY",
+  "fresh_EMX": "NOT_RUN",
+  "failed_request_Q_assignment": "All-nonfinite requests retain Q=10 sentinel for bin bookkeeping; never counted as hits."
+}

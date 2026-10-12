@@ -1,0 +1,34 @@
+{
+  "purpose": "Handoff of existing experiments; formatted original aggregate means/SD, not new evaluation",
+  "sources": [
+    {
+      "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/repeats_20260921_v1/received/aggregate_v1/dataset/d14358c5cefdd731/forward_mean_sample_SD.csv",
+      "sha256": "2229b51cb84a861f18b6942900ccebc11d8e8f412afc29a1e47145d0e566fe77"
+    },
+    {
+      "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/repeats_20260921_v1/received/aggregate_v1/dataset/d14358c5cefdd731/target_hit_mean_sample_SD.csv",
+      "sha256": "354569633ea01c4b046c2b0537f5d075210e1b48204553c2c33573560678339b"
+    },
+    {
+      "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/training_cost_comparison_v1/dataset_total/1f615d1005fa69d1/comparison_cost.csv",
+      "sha256": "03ccd0be876f4cd9842d43f3a09370e1351a3ec997db40a7177d3af2e7d05d48"
+    },
+    {
+      "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/repeats_20260921_v1/received/aggregate_v1/architecture/b0e1ba535efa6985/forward_mean_sample_SD.csv",
+      "sha256": "9a14607c3c2e08815fcaaac482084a27ff822e8969cca870309608c6c658fc34"
+    },
+    {
+      "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/repeats_20260921_v1/received/aggregate_v1/architecture/b0e1ba535efa6985/target_hit_mean_sample_SD.csv",
+      "sha256": "ef5836738007e46d41a6d9230805a4d73b870c365cbdc31c28174b81c19221d3"
+    },
+    {
+      "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/training_cost_comparison_v1/width_only/6dd60cd90b838ec6/comparison_cost.csv",
+      "sha256": "2b0fc65a246aa114d7f91045bce0f2cf82ff4da0f3d37659e49c00b808e62a62"
+    }
+  ],
+  "script_sha256": "6d6cac1dd648e2856e49923016381edfbb999f1386029c48208da82d63c6ffea",
+  "rows": 6,
+  "fresh_EMX": 0,
+  "training": 0,
+  "inference": 0
+}

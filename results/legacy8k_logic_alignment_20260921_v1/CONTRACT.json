@@ -1,0 +1,61 @@
+{
+  "created_utc": "2026-09-21T19:40:50.980673+00:00",
+  "n_targets": 8000,
+  "n_candidates": 88000,
+  "inputs": [
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap_paper_figures_overnight_20260921_v1/qscan100k_20260921_v1/run_qscan.py",
+      "sha256": "729d99b62990bc90a3e324832ee2916a0f4b9c1625ed0550102064d5de6a2dac"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/application8k_qscan_v1/application8k_qscan_v1.csv",
+      "sha256": "c12835ab65f898f4b72e2471b125e68fe81edfe6221541ed166c1e21b569a346"
+    },
+    {
+      "path": "/Users/wyf/Desktop/Q_Optimized_8000_Advisor_Report/csv/selected_best_q_per_target.csv",
+      "sha256": "e4d5b40e62f212952df345ef1078903b595c56b3bb5eafab8c864fb7f3693825"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/src/rfic_transformer_inverse_design/synthesis/frozen_mlp.py",
+      "sha256": "d962de6f923234d5e9702556a1df16ff63d84df59c2684f3b46e469f2fe39eb9"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/model_manifest.json",
+      "sha256": "37a47545bc94193f4d2ef0afed9697fcd0b1b2a5f579aeaf118330d526fb396c"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/physical_feature_tandem_inverse_summary.json",
+      "sha256": "f05c4c0b3937bf9107f95d38d14679995aedc936071852ac7696f9838c5d43c1"
+    },
+    {
+      "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/physical_feature_tandem_inverse_weights.npz",
+      "sha256": "c61a93d56136ad21686863aae72984c49eb0d33ce766923c8ec2d03d9c3177dd"
+    }
+  ],
+  "script_sha256": "c90f2f2641fa8c64863526204baf52050ff2e2b0b7c779b4de51b9233fca0d96",
+  "old_model": "real10k_center15ghz_seed20260711",
+  "new_model": "current_foundry_qmin_response_only_seed20260713",
+  "target_rule": "Exact saved application8k IDs and triplets; no redraw or replacements",
+  "score": "sqrt(mean(((proxy-target)/[2.5,2.5,20,0.8])**2))",
+  "q_values": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "tie_rule": "ascending Q, first argmin",
+  "hit_rule": "After selection: all four abs(proxy-target)/target <= tolerance; symmetric Q, no minimum/margin",
+  "evidence": "DESCRIPTIVE_SELF_PROXY_NOT_FRESH_EMX",
+  "caveat": "Same targets/scan/score/hit rule, but different models, training, decoder and own forward evaluator; not a causal data-size comparison",
+  "original100k_training_Q": "minimum with margin2; unchanged",
+  "failure_policy": "Nonfinite candidates excluded from selection; requests remain denominator; no replacements",
+  "original_API_batch_equivalence": "Reuse qscan100k_20260921_v1/IMPLEMENTATION_CHECK.json and VERIFICATION.json; same helper/weights",
+  "execution": "local CPU cap4; no remote access, training or physical execution"
+}

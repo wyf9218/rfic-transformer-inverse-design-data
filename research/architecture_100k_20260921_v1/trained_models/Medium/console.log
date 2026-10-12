@@ -1,0 +1,4 @@
+overall_status=COMPLETE_REVIEW_REQUIRED
+test_access_event_count=0
+tandem_validation_response_range_normalized_rmse=0.06026117639518946
+summary=/volumes/research-localdata/ywang3652/eucap_paper_architecture_100k_20260921_v1/runs/Medium/physical_feature_tandem_inverse_summary.json

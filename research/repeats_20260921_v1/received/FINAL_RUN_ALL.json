@@ -1,0 +1,109 @@
+{
+  "status": "COMPLETE",
+  "utc": "2026-09-21T11:18:30.133070+00:00",
+  "pid": 3720718,
+  "deadline_epoch": 1790075910.0684907,
+  "workers": 5,
+  "threads_per_worker": 4,
+  "results": {
+    "architecture__Medium__seed17": {
+      "training_returncode": 0,
+      "elapsed_training_seconds": 6404.608915657969,
+      "finished_utc": "2026-09-21T13:05:14.744352+00:00",
+      "evaluation_returncode": 0,
+      "elapsed_evaluation_seconds": 7.788843765971251,
+      "status": "COMPLETE"
+    },
+    "architecture__Medium__seed29": {
+      "training_returncode": 0,
+      "elapsed_training_seconds": 6404.857640021015,
+      "finished_utc": "2026-09-21T13:05:14.992782+00:00",
+      "evaluation_returncode": 0,
+      "elapsed_evaluation_seconds": 8.526675418019295,
+      "status": "COMPLETE"
+    },
+    "dataset__D100k__seed17": {
+      "training_returncode": 0,
+      "elapsed_training_seconds": 7506.788071151939,
+      "finished_utc": "2026-09-21T13:23:36.924358+00:00",
+      "evaluation_returncode": 0,
+      "elapsed_evaluation_seconds": 11.392496137996204,
+      "status": "COMPLETE"
+    },
+    "dataset__D50k__seed17": {
+      "training_returncode": 0,
+      "elapsed_training_seconds": 7675.543981447001,
+      "finished_utc": "2026-09-21T15:13:19.064968+00:00",
+      "evaluation_returncode": 0,
+      "elapsed_evaluation_seconds": 10.999886263045482,
+      "status": "COMPLETE"
+    },
+    "dataset__D100k__seed29": {
+      "training_returncode": 0,
+      "elapsed_training_seconds": 7799.538790751947,
+      "finished_utc": "2026-09-21T15:15:22.076026+00:00",
+      "evaluation_returncode": 0,
+      "elapsed_evaluation_seconds": 10.810901509015821,
+      "status": "COMPLETE"
+    },
+    "architecture__Large__seed29": {
+      "training_returncode": 0,
+      "elapsed_training_seconds": 14905.725248011993,
+      "finished_utc": "2026-09-21T15:26:55.860203+00:00",
+      "evaluation_returncode": 0,
+      "elapsed_evaluation_seconds": 16.466645488981158,
+      "status": "COMPLETE"
+    },
+    "architecture__Large__seed17": {
+      "training_returncode": 0,
+      "elapsed_training_seconds": 14987.350681034033,
+      "finished_utc": "2026-09-21T15:28:17.485366+00:00",
+      "evaluation_returncode": 0,
+      "elapsed_evaluation_seconds": 12.314994225976989,
+      "status": "COMPLETE"
+    },
+    "dataset__D50k__seed29": {
+      "training_returncode": 0,
+      "elapsed_training_seconds": 7774.060796300997,
+      "finished_utc": "2026-09-21T15:33:22.379653+00:00",
+      "evaluation_returncode": 0,
+      "elapsed_evaluation_seconds": 8.440035338979214,
+      "status": "COMPLETE"
+    },
+    "architecture__Small__seed29": {
+      "training_returncode": 0,
+      "elapsed_training_seconds": 3109.831636706018,
+      "finished_utc": "2026-09-21T16:07:22.720835+00:00",
+      "evaluation_returncode": 0,
+      "elapsed_evaluation_seconds": 6.762303739902563,
+      "status": "COMPLETE"
+    },
+    "architecture__Small__seed17": {
+      "training_returncode": 0,
+      "elapsed_training_seconds": 3237.143244076986,
+      "finished_utc": "2026-09-21T16:07:27.209735+00:00",
+      "evaluation_returncode": 0,
+      "elapsed_evaluation_seconds": 6.571824592072517,
+      "status": "COMPLETE"
+    },
+    "dataset__D10k__seed29": {
+      "training_returncode": 0,
+      "elapsed_training_seconds": 7351.256991529954,
+      "finished_utc": "2026-09-21T17:31:01.059272+00:00",
+      "evaluation_returncode": 0,
+      "elapsed_evaluation_seconds": 10.807500456925482,
+      "status": "COMPLETE"
+    },
+    "dataset__D10k__seed17": {
+      "training_returncode": 0,
+      "elapsed_training_seconds": 7435.252374158939,
+      "finished_utc": "2026-09-21T17:31:07.580910+00:00",
+      "evaluation_returncode": 0,
+      "elapsed_evaluation_seconds": 10.318781087989919,
+      "status": "COMPLETE"
+    }
+  },
+  "aggregate_returncode": 0,
+  "finished_utc": "2026-09-21T17:31:19.527353+00:00",
+  "deadline_drain_seconds": 0
+}

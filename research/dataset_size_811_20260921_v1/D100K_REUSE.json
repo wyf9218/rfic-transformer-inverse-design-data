@@ -1,0 +1,270 @@
+{
+  "generated_utc": "2026-09-21T07:26:48.118221+00:00",
+  "status": "REUSABLE_SCIENTIFIC_CONTRACT_EXACT",
+  "model_id": "seed20260713/E1_qmargin2_semantic1_1_2_4",
+  "fresh_D100k_training_necessary": false,
+  "new_training_started_by_audit": false,
+  "new_inference_started_by_audit": false,
+  "native_calls": 0,
+  "original_dataset": {
+    "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap15ghz_20260908T220300Z/old100k_baseline_recovery_20260914_v1/source_v1/physical_feature_inverse_training_table.csv",
+    "sha256": "fe94d15b0d083330fe7a64d3e059d083a5aa32d73394c85fc4b881e9904e68a2",
+    "rows": 100000
+  },
+  "protected_weights": {
+    "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/physical_feature_tandem_inverse_weights.npz",
+    "sha256": "c61a93d56136ad21686863aae72984c49eb0d33ce766923c8ec2d03d9c3177dd"
+  },
+  "protected_summary": {
+    "path": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/frozen_mlp_synthesis_toolkit_20260804/toolkit/rfic_transformer_inverse_synthesis_toolkit_v1/model/physical_feature_tandem_inverse_summary.json",
+    "sha256": "f05c4c0b3937bf9107f95d38d14679995aedc936071852ac7696f9838c5d43c1"
+  },
+  "source_match": {
+    "runtime_sha256": "fbfda2023f862af2f0b185e41c4bf899f97cb79b0d0d763d20501c03525e8a4f",
+    "recorded_original_runtime_sha256": "fbfda2023f862af2f0b185e41c4bf899f97cb79b0d0d763d20501c03525e8a4f",
+    "runtime_exact": true
+  },
+  "data_split": {
+    "counts": [
+      78891,
+      9740,
+      11369
+    ],
+    "partition_index_exact": {
+      "train": true,
+      "validation": true,
+      "test": true
+    },
+    "global_indices_sha256": {
+      "train": "9ef1f3d0bebf30cfd8c1ccdc6f4a40d0676956354a0091e897d0894257301a37",
+      "validation": "5799974d9f22e63f4e8cc5f5f4c30b2d2390060aaecebb9a0a858c4d384603cd",
+      "test": "5c22ced2ec926dad716708afcb2da313f0d29ebe2d0a627670913a4c69dccdd6"
+    },
+    "original_fraction_cli": [
+      0.15,
+      0.1
+    ],
+    "new_recorded_actual_fractions": [
+      0.0974,
+      0.11369
+    ],
+    "interpretation": "Original cell partition is reused by explicit indices; fraction metadata differs but no row assignment differs."
+  },
+  "weight_shapes": {
+    "forward_weight_0": [
+      10,
+      256
+    ],
+    "forward_weight_1": [
+      256,
+      256
+    ],
+    "forward_weight_2": [
+      256,
+      128
+    ],
+    "forward_weight_3": [
+      128,
+      4
+    ],
+    "forward_bias_0": [
+      256
+    ],
+    "forward_bias_1": [
+      256
+    ],
+    "forward_bias_2": [
+      128
+    ],
+    "forward_bias_3": [
+      4
+    ],
+    "inverse_weight_0": [
+      4,
+      512
+    ],
+    "inverse_weight_1": [
+      512,
+      512
+    ],
+    "inverse_weight_2": [
+      512,
+      256
+    ],
+    "inverse_weight_3": [
+      256,
+      10
+    ],
+    "inverse_bias_0": [
+      512
+    ],
+    "inverse_bias_1": [
+      512
+    ],
+    "inverse_bias_2": [
+      256
+    ],
+    "inverse_bias_3": [
+      10
+    ]
+  },
+  "parameter_counts": {
+    "forward": 102020,
+    "inverse": 399114
+  },
+  "activation": "GELU hidden, original output projection",
+  "scientific_argument_differences": {},
+  "all_argument_differences": {
+    "training_csv": {
+      "old": "/volumes/research-localdata/ywang3652/current_foundry_campaign_20260728/first100k_v1/real_emx_round_v2/model_checkpoint_1_n100000/training_table/physical_feature_inverse_training_table.csv",
+      "new": "/Users/wyf/Documents/模拟变压器AI反向建模/reports/eucap15ghz_20260908T220300Z/old100k_baseline_recovery_20260914_v1/source_v1/physical_feature_inverse_training_table.csv",
+      "operational_or_split_metadata_only": true
+    },
+    "out_dir": {
+      "old": "/volumes/research-localdata/ywang3652/current_foundry_campaign_20260728/first100k_v1/real_emx_round_v2/focused_hard_one_shot_freeze_100k_v1/global_contract_correction_v4_lowk_qguard_20260803/model_selection_v3/stage1/E1_qmargin2_semantic1_1_2_4/seed_20260713",
+      "new": "/READ_ONLY_NOT_CREATED/D100k",
+      "operational_or_split_metadata_only": true
+    },
+    "min_training_rows": {
+      "old": 100000,
+      "new": 1,
+      "operational_or_split_metadata_only": true
+    },
+    "validation_fraction": {
+      "old": 0.15,
+      "new": 0.0974,
+      "operational_or_split_metadata_only": true
+    },
+    "test_fraction": {
+      "old": 0.1,
+      "new": 0.11369,
+      "operational_or_split_metadata_only": true
+    }
+  },
+  "normalizer_arrays": {
+    "x_mean": {
+      "exact_array_equal": true,
+      "max_absolute_difference": 0.0,
+      "shape": [
+        4
+      ]
+    },
+    "x_scale": {
+      "exact_array_equal": true,
+      "max_absolute_difference": 0.0,
+      "shape": [
+        4
+      ]
+    },
+    "feature_lower": {
+      "exact_array_equal": true,
+      "max_absolute_difference": 0.0,
+      "shape": [
+        4
+      ]
+    },
+    "feature_upper": {
+      "exact_array_equal": true,
+      "max_absolute_difference": 0.0,
+      "shape": [
+        4
+      ]
+    },
+    "y_mean": {
+      "exact_array_equal": true,
+      "max_absolute_difference": 0.0,
+      "shape": [
+        10
+      ]
+    },
+    "y_scale": {
+      "exact_array_equal": true,
+      "max_absolute_difference": 0.0,
+      "shape": [
+        10
+      ]
+    },
+    "geometry_lower": {
+      "exact_array_equal": true,
+      "max_absolute_difference": 0.0,
+      "shape": [
+        10
+      ]
+    },
+    "geometry_upper": {
+      "exact_array_equal": true,
+      "max_absolute_difference": 0.0,
+      "shape": [
+        10
+      ]
+    },
+    "response_loss_dimension_weights": {
+      "exact_array_equal": true,
+      "max_absolute_difference": 0.0,
+      "shape": [
+        4
+      ]
+    },
+    "response_loss_physical_spans": {
+      "exact_array_equal": true,
+      "max_absolute_difference": 0.0,
+      "shape": [
+        4
+      ]
+    }
+  },
+  "normalizer_all_bitwise_equal_on_local_reconstruction": true,
+  "decoder_topology_contract_equal": true,
+  "sampler_fingerprint_exact": true,
+  "budget_fingerprint_exact": true,
+  "actual_original_budget": {
+    "forward_optimizer_updates": 3600,
+    "inverse_optimizer_updates": 3600,
+    "forward_target_exactly_met": true,
+    "inverse_target_exactly_met": true,
+    "exact_update_budget_pass": true
+  },
+  "historical_best_optimizer_updates": {
+    "forward_proxy": 3560,
+    "tandem_inverse": 3580
+  },
+  "historical_training_sampler": {
+    "version": "train_only_physical_cell_sampler_v1",
+    "family": "row_uniform",
+    "training_row_count": 78891,
+    "draws_per_epoch": 78891,
+    "batch_size": 4096,
+    "optimizer_updates_per_epoch": 20,
+    "train_split_index_sha256": "9ef1f3d0bebf30cfd8c1ccdc6f4a40d0676956354a0091e897d0894257301a37",
+    "model_seed": 20260713,
+    "forward_sampler_seed": 20260713,
+    "inverse_sampler_seed": 20260714,
+    "enabled": false,
+    "implementation": "one_random_permutation_of_every_real_train_row_per_epoch",
+    "train_only": true,
+    "validation_or_test_rows_eligible_for_sampling": false,
+    "synthetic_rows_created": false,
+    "sampling_with_replacement": false,
+    "occupied_training_cell_count": null,
+    "target_cell_draw_count_difference_max_per_epoch": null,
+    "fingerprint_sha256": "392b10f184a17bbeca37706ed0199787fd0238a160fda8aca0a3e0c50f4bd77c",
+    "interpretation_boundary": "This is the unchanged row-uniform baseline. It balances neither occupied physical cells nor the full declared 4-D grid.",
+    "realized_training_budget": {
+      "forward_epochs": 180,
+      "forward_real_row_draws": 14200380,
+      "forward_optimizer_updates": 3600,
+      "inverse_epochs": 180,
+      "inverse_real_row_draws": 14200380,
+      "inverse_optimizer_updates": 3600,
+      "total_real_row_draws": 28400760,
+      "total_optimizer_updates": 7200
+    }
+  },
+  "original_software_environment": "UNKNOWN: original summary contains no Python/NumPy/BLAS environment record",
+  "local_audit_numpy_version": "2.3.5",
+  "environment_boundary": "Scientific recipe/source/normalizer identity is proven; historical hardware/library bitwise training replay is not asserted. This does not itself require retraining.",
+  "selection_boundary": "Original seed13 was historically selected; this is retrospective reuse under a now fixed recipe, not a prospectively randomized data-size causal experiment.",
+  "new_run_comparison_boundary": "D10k/D50k execute the same pinned trainer and scientific recipe with smaller nested train/validation/test. Their normalizers intentionally differ. Common 11369-row test is evaluated separately once without model selection.",
+  "evaluation": "Final NPZ stores validation-selected best F/I, not last optimizer weights; F best3560, I best3580; both stages actually3600 updates. No evaluation added here.",
+  "inference": "Explicit matching NPZ + its embedded normalizer/decoder. Original minimum-Q training margin+2 is not added to inference targets. Own F=SELF_PROXY; fixed original F=COMMON_PROXY; neither is fresh EMX."
+}

@@ -1,0 +1,72 @@
+{
+  "observed_utc": "2026-09-21T06:44:37.561778+00:00",
+  "scope": "Saved CSV readback and independent arithmetic only; no model inference/EM/training",
+  "checks": {
+    "frozen_target_SHA": true,
+    "saved_inference_SHA": true,
+    "10000_original_ordered_unique_requests": true,
+    "targets_unchanged_in_results": true,
+    "target_bounds": true,
+    "all_results_explicit_complete_no_error": true,
+    "correct_model_only": true,
+    "ten_finite_geometry_values_and_four_responses": true,
+    "signed_absolute_relative_errors": true,
+    "proxy_flags_recomputed": true,
+    "hit_denominator_preserved": true,
+    "Q_shortfall_and_fixed_span_RMS": true,
+    "no_random_request_EM_validation_claim": true,
+    "error_summary_lp_nh": true,
+    "error_summary_ls_nh": true,
+    "error_summary_q_min": true,
+    "error_summary_k_abs": true,
+    "existing_EM_source_SHA": true,
+    "three_EM_original_fields_preserved": true,
+    "EM_original_target_outcomes_recomputed": true,
+    "lp_ls_400_unique_bins": true,
+    "lp_ls_all_grid_counts_recomputed": true,
+    "lp_ls_random10000_proxy_hit_vs_existing3_EM_observed": true,
+    "lp_ls_matched3_proxy_responses_vs_EM_responses": true,
+    "lp_ls_matched3_proxy_hit_vs_EM_target_hit": true,
+    "q_k_400_unique_bins": true,
+    "q_k_all_grid_counts_recomputed": true,
+    "q_k_random10000_proxy_hit_vs_existing3_EM_observed": true,
+    "q_k_matched3_proxy_responses_vs_EM_responses": true,
+    "q_k_matched3_proxy_hit_vs_EM_target_hit": true,
+    "histogram_counts_lp_nh": true,
+    "histogram_counts_ls_nh": true,
+    "histogram_counts_q_min": true,
+    "histogram_counts_k_abs": true,
+    "three_widths_all_three_seeds": true,
+    "development_not_mislabeled_original100K": true,
+    "inverse_common_frozen_forward": true,
+    "inverse_failures_in_denominator": true
+  },
+  "pass": true,
+  "out_of_plot_counts": {
+    "lp_ls": {
+      "target_count": 0,
+      "target_proxy_hit_count": 0,
+      "proxy_valid_response_count": 0,
+      "proxy_hit_response_count": 0,
+      "EM_observed_response_count": 0,
+      "EM_target_hit_response_count": 0,
+      "paired3_proxy_response_count": 0,
+      "paired3_proxy_hit_response_count": 0
+    },
+    "q_k": {
+      "target_count": 0,
+      "target_proxy_hit_count": 0,
+      "proxy_valid_response_count": 23,
+      "proxy_hit_response_count": 3,
+      "EM_observed_response_count": 0,
+      "EM_target_hit_response_count": 0,
+      "paired3_proxy_response_count": 0,
+      "paired3_proxy_hit_response_count": 0
+    }
+  },
+  "source_SHA": {
+    "random10000_targets": "a71e43284e1e629d14892d6e0ff72a4c2fbdf64616784884aa854bdd6984b223",
+    "random10000_predictions": "731bab8852bbd438e0ac152489083c16081be08f8f0669cc8693b86a2e936e44"
+  },
+  "prior_goal_turn_classification": "NO_PROGRESS_FOR_FIGURE_GOAL: prior turn delivered existing unrelated structure ZIP; this continuation checks existing figures and completes missing goal artifacts."
+}

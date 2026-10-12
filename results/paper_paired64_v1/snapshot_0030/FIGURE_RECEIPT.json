@@ -1,0 +1,148 @@
+{
+  "schema": "paired64_offline_correspondence_figures.v1",
+  "utc": "2026-09-21T10:01:10.162353+00:00",
+  "status": "PARTIAL  N=31/64 matched",
+  "original_denominator": 64,
+  "state_counts": {
+    "PENDING": 33,
+    "EVIDENCE_PENDING": 0,
+    "EVIDENCE_REJECTED": 0,
+    "PHYSICAL_CHAIN_FAILURE": 0,
+    "FRESH_EMX_VERIFIED": 31
+  },
+  "paired_contingency": {
+    "both_hit": 5,
+    "proxy_only_hit": 0,
+    "emx_only_hit": 0,
+    "both_miss": 26
+  },
+  "matched_candidate_ids": [
+    "paper_u20260921_00431",
+    "paper_u20260921_00626",
+    "paper_u20260921_00728",
+    "paper_u20260921_00852",
+    "paper_u20260921_00952",
+    "paper_u20260921_01426",
+    "paper_u20260921_01768",
+    "paper_u20260921_01983",
+    "paper_u20260921_02258",
+    "paper_u20260921_02428",
+    "paper_u20260921_02606",
+    "paper_u20260921_02767",
+    "paper_u20260921_02905",
+    "paper_u20260921_03246",
+    "paper_u20260921_03321",
+    "paper_u20260921_03326",
+    "paper_u20260921_03471",
+    "paper_u20260921_03520",
+    "paper_u20260921_03705",
+    "paper_u20260921_03899",
+    "paper_u20260921_03998",
+    "paper_u20260921_04108",
+    "paper_u20260921_04197",
+    "paper_u20260921_04364",
+    "paper_u20260921_04498",
+    "paper_u20260921_04599",
+    "paper_u20260921_04639",
+    "paper_u20260921_04666",
+    "paper_u20260921_04791",
+    "paper_u20260921_04823",
+    "paper_u20260921_04835"
+  ],
+  "model_id": "current_foundry_qmin_response_only_seed20260713",
+  "weights_sha256": "c61a93d56136ad21686863aae72984c49eb0d33ce766923c8ec2d03d9c3177dd",
+  "model_manifest_sha256": "37a47545bc94193f4d2ef0afed9697fcd0b1b2a5f579aeaf118330d526fb396c",
+  "source_analysis_timestamp": "2026-09-21T09:58:58.512045+00:00",
+  "source_analysis_native_scope": "Mirrored terminal/feature JSON SHA verified; S4P/GDS pins retained by producer but raw native artifacts are not re-extracted or re-audited here.",
+  "inputs": [
+    {
+      "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/paired64_20260921_v1/received_snapshots/snapshot_0030/analysis/ANALYSIS_RECEIPT.json",
+      "sha256": "98afe9e6b2ff387aa316f57a12248d72b391c863361a71ce8c1ff6762734921e"
+    },
+    {
+      "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/paired64_20260921_v1/received_snapshots/snapshot_0030/analysis/paired64_candidate_status.csv",
+      "sha256": "cf752fe1d479e21884f5c11838e4c9a2eedc519eedc5043631a3c5ea21613504"
+    },
+    {
+      "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/paired64_20260921_v1/received_snapshots/snapshot_0030/analysis/paired64_target_hotspot_grid.csv",
+      "sha256": "7f2cc753362a041cf11ddc2d4e4f641959f7346629ccd0c6ff98cf0f8277133e"
+    },
+    {
+      "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/paired64_20260921_v1/received_snapshots/snapshot_0030/analysis/SHA256SUMS",
+      "sha256": "05a402598ad86f5aac55858e244d68bcb2aeb86445d402adbe321924465c6f31"
+    },
+    {
+      "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/paired64_20260921_v1/paired64_requests.json",
+      "sha256": "875cf9e5c9aae6a9839da7d9bc15723012757f2c481c526cc4fcf90a7092b3c6"
+    },
+    {
+      "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/summary/C_FRAME_CONTRACT.json",
+      "sha256": "6aac68901d58180d5fef3eb52064052cdde9fe0730d18121b86ade99bb500e48"
+    },
+    {
+      "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/paired64_20260921_v1/SELECTION_MANIFEST.json",
+      "sha256": "ed42f9d14a915626ae9d35a72b3bd33b384f21ed0800fe2e52cd3d51b565f308"
+    }
+  ],
+  "plot_source": {
+    "path": "/Users/wyf/Documents/\u6a21\u62df\u53d8\u538b\u5668AI\u53cd\u5411\u5efa\u6a21/reports/eucap_paper_figures_overnight_20260921_v1/dataset_size_811_20260921_v1/paired64_analysis/offline_paired_figures_v1/plot_paired64_correspondence.py",
+    "sha256": "418010e2ce7d0c887757ebf99fefe9f96e647dbe01adbca7d3e3d7d6cd1057e5"
+  },
+  "layouts": {
+    "correspondence": {
+      "width_mm": 184.273,
+      "height_mm": 127.0,
+      "minimum_normal_font_pt": 8.7,
+      "text_clipping_check": "PASS",
+      "svg_vector_no_rasterized_artists": true,
+      "legend": {
+        "columns": 3,
+        "rows": 1,
+        "axes_top": 0.8
+      }
+    },
+    "difference": {
+      "width_mm": 184.273,
+      "height_mm": 95.25,
+      "minimum_normal_font_pt": 8.7,
+      "text_clipping_check": "PASS",
+      "svg_vector_no_rasterized_artists": true
+    },
+    "hit_rates": {
+      "width_mm": 184.273,
+      "height_mm": 134.61999999999998,
+      "minimum_normal_font_pt": 8.7,
+      "text_clipping_check": "PASS",
+      "svg_vector_no_rasterized_artists": true,
+      "rows": [
+        "Lp\u2013Ls",
+        "Qmin\u2013|k|"
+      ],
+      "columns": [
+        "same-paired proxy",
+        "same-paired EMX"
+      ],
+      "color_limits": [
+        0,
+        1
+      ]
+    }
+  },
+  "difference_color_limits": [
+    -1,
+    1
+  ],
+  "target_grid": [
+    20,
+    20
+  ],
+  "low_n_threshold": 5,
+  "new_inference_training_native": 0,
+  "network_connections": 0,
+  "raw_native_artifacts_read": 0,
+  "source_csvs": [
+    "matched_proxy_emx_source.csv",
+    "target_hit_rate_difference_source.csv",
+    "denominator_accounting_source.csv"
+  ]
+}

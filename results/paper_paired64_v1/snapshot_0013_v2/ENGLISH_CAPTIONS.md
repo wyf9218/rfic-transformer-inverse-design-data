@@ -1,0 +1,11 @@
+PARTIAL  N=14/64 matched. Original64: matched 14; chain failures 0; pending 50; unverified 0. The snapshot is dated 2026-09-21T08:43:58.631455+00:00.
+
+Figure 1. Four-metric correspondence between frozen forward-proxy predictions and fresh EMX responses for the same identity-verified candidates. Each point uses one unchanged candidate geometry; the dashed line denotes equality, not a tolerance band. Marker categories refer to the original joint target-hit rule: absolute relative Lp, Ls and |k| errors at most10%, and achieved Qmin at least the requested minimum. No regression, correlation-based accuracy claim, or missing-value imputation is used.
+
+Figure 2. Difference in conditional joint target-hit rate, EMX minus proxy, in the original frozen20×20 target-coordinate grids. Each cell uses exactly the same matched candidates for both rates; the fixed color scale is[-1,1]. Empty cells are gray, zero observed difference is white, and crosses mark1–4 matched pairs. There is no interpolation or extrapolation. Zero observed difference does not imply feature equality or feasibility of unobserved targets. Failures and unverified/pending candidates remain in the original64 accounting but are not assigned proxy–EM pairs.
+
+Figure 3. Paired joint target-hit rates on a common 0–1 color scale. Rows show the original Lp–Ls and Qmin–|k| target projections; columns show the frozen proxy and fresh EMX for exactly the same verified candidates within each cell. Gray cells have no matched pairs and crosses mark 1–4 pairs. The hit definition is identical to Figure 1. Rates are conditional on verified pairs; unresolved and failed requests remain separately accounted for in the original 64 denominator. No interpolation or additional geometry selection is applied.
+
+Paired joint outcomes: both hit 2, proxy-only hit 0, EMX-only hit 0, both miss 12. These are descriptive survivor-conditional results, not a causal dataset-size comparison or a full-domain coverage estimate. Original operating frequency15GHz and minimum-Q semantics are unchanged; no half-SRF filter, repair, resampling, or alternate geometry is introduced.
+
+Model identity: current_foundry_qmin_response_only_seed20260713; weights SHA-256 c61a93d56136ad21686863aae72984c49eb0d33ce766923c8ec2d03d9c3177dd. All target, geometry, receipt and source-file bindings are listed in FIGURE_RECEIPT.json.

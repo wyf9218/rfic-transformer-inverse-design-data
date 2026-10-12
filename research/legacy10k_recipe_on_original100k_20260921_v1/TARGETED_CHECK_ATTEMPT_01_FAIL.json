@@ -1,0 +1,10 @@
+{
+  "status": "FAIL_TEST_COMPARATOR_REPRESENTATION",
+  "script_sha256_at_failure": "b4bad89ab3b7748b7fdfaa0390b4a9ac440b8da3a2916f890e6659ad55daff2b",
+  "failed_check": "legacy_argument:max_forward_test_rmse",
+  "cause": "Original strict JSON stores disabled infinite test thresholds as null; the current parser correctly returns positive infinity when these optional flags are omitted.",
+  "correction": "Normalize only max_forward_test_rmse and max_tandem_response_test_rmse null/infinity equivalence in the test comparator. Keep validation_only and sealed test behavior.",
+  "training_performed": false,
+  "real_dataset_rows_read": 0,
+  "wrapper_modified": false
+}

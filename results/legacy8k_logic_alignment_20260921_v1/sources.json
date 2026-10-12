@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "legacy-method",
+      "title": "原80.85%的真实方法",
+      "queries": [
+        {
+          "id": "saved-method",
+          "source": {
+            "label": "原application8k合同、旧模型summary与逐请求结果",
+            "filters": [
+              "15 GHz",
+              "Lp/Ls为0.5–1.5 nH",
+              "|k|为0.5–0.8",
+              "0.67≤Ls/Lp≤1.5",
+              "整数Q=10…20，双侧固定量程RMSE选最小值"
+            ],
+            "metricDefinitions": [
+              {
+                "id": "joint-hit",
+                "label": "四项联合命中率",
+                "definition": "选中候选的Lp、Ls、Q及|k|相对误差同时不超过10%的请求比例。"
+              }
+            ],
+            "caveats": [
+              "Q=min(Qp,Qs)是标签定义，不是Q下限要求。",
+              "旧训练记录为对称响应匹配，但历史trainer的精确源码SHA仍未恢复。",
+              "所有结果是SELF_PROXY，不是fresh EMX。"
+            ]
+          },
+          "rows": [
+            {
+              "model": "real10k seed20260711",
+              "source_rows": 10000,
+              "train_rows": 7871,
+              "validation_rows": 1227,
+              "test_rows": 902,
+              "targets": 8000,
+              "hits": 6468,
+              "percent": 80.85
+            }
+          ],
+          "columns": [
+            "model",
+            "source_rows",
+            "train_rows",
+            "validation_rows",
+            "test_rows",
+            "targets",
+            "hits",
+            "percent"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "same-frame-result",
+      "title": "同一8000目标上的实际复核",
+      "queries": [
+        {
+          "id": "paired-targets",
+          "source": {
+            "label": "同帧新推理SUMMARY和保存CSV",
+            "caveats": [
+              "原结果直接复算，当前100K本轮实际计算88000个候选，无训练或EM。",
+              "不同模型使用各自F；架构、decoder和训练目标不同，不能作数据量的因果比较。",
+              "宽10000目标的20.73%仍保留，8000诊断不替换它。"
+            ]
+          },
+          "rows": [
+            {
+              "model": "旧real10k",
+              "hits": 6468,
+              "N": 8000,
+              "percent": 80.85,
+              "Lp_hits": 7254,
+              "Ls_hits": 7620,
+              "Q_hits": 7977,
+              "K_hits": 6967
+            },
+            {
+              "model": "原100K seed13",
+              "hits": 4492,
+              "N": 8000,
+              "percent": 56.15,
+              "Lp_hits": 7267,
+              "Ls_hits": 6670,
+              "Q_hits": 6022,
+              "K_hits": 6870
+            }
+          ],
+          "columns": [
+            "model",
+            "hits",
+            "N",
+            "percent",
+            "Lp_hits",
+            "Ls_hits",
+            "Q_hits",
+            "K_hits"
+          ],
+          "methods": [
+            {
+              "language": "calculation",
+              "code": "score = sqrt(mean(((proxy-target)/[2.5,2.5,20,0.8])**2)); selected = first argmin over Q=10..20; hit = all(abs(proxy-target)/target <= 0.10)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

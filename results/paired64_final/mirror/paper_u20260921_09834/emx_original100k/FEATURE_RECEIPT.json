@@ -1,0 +1,96 @@
+{
+  "status": "FRESH_EMX_EXTRACTED",
+  "candidate_id": "paper_u20260921_09834",
+  "target_id": "paper_u20260921_09834",
+  "utc": "2026-09-21T12:14:39.453104+00:00",
+  "original_denominator": 64,
+  "model_id": "current_foundry_qmin_response_only_seed20260713",
+  "source_geometry_digest": "0a21d51d03e1e30923d173d2be5dde2fee7487e32e53162be6b2f6d3c5b54e3a",
+  "source_geometry_um": {
+    "primary_outer_width_um": 276.3566502850939,
+    "primary_outer_height_um": 324.8673705195348,
+    "secondary_outer_width_um": 295.25945952707207,
+    "secondary_outer_height_um": 296.4199581952813,
+    "line_width_um": 9.74931970303334,
+    "primary_terminal_y_span_um": 63.74236099795913,
+    "secondary_terminal_y_span_um": 20.2117339980599,
+    "offset_um": -23.630210636872846,
+    "primary_feed_extension_um": 269.0067901546819,
+    "secondary_feed_extension_um": 100.15210550056096
+  },
+  "target": {
+    "lp_nh": 1.5600317026751869,
+    "ls_nh": 0.7477786221246663,
+    "q_min": 15.222569143970023,
+    "k_abs": 0.6448643936535972
+  },
+  "actual": {
+    "lp_nh": 1.2368131028424723,
+    "ls_nh": 0.9421107116114494,
+    "q_min": 13.916977661352526,
+    "k_abs": 0.5218701313971944
+  },
+  "relative_absolute_error": {
+    "lp_nh": 0.2071871996437317,
+    "ls_nh": 0.259879172440938,
+    "k_abs": 0.19072887798868265
+  },
+  "q_minimum_met": false,
+  "original_target_hit": false,
+  "s4p": {
+    "path": "/volumes/research-localdata/ywang3652/eucap15_native_owner_20260909T062500Z/paper_original100k_paired64_20260921_v2_env_recovery/results/paper_u20260921_09834/emx_original100k/emx/emx.s4p",
+    "sha256": "ccd2f16b7d3d50eb03627e994757e79010016b16575338c05b3bffe309c779e9"
+  },
+  "command": {
+    "path": "/volumes/research-localdata/ywang3652/eucap15_native_owner_20260909T062500Z/paper_original100k_paired64_20260921_v2_env_recovery/results/paper_u20260921_09834/emx_original100k/emx/emx_command.json",
+    "sha256": "80fefcaa006b62caa4581b08fd04d09565f7a123b76f67757ef527cb86e4bafa"
+  },
+  "dataset": {
+    "path": "/volumes/research-localdata/ywang3652/eucap15_native_owner_20260909T062500Z/paper_original100k_paired64_20260921_v2_env_recovery/results/paper_u20260921_09834/emx_original100k/dataset_rows.csv",
+    "sha256": "84cf238aed76c0bdcb197445175c599d838faed321cbde5689dc90b90b9fb74a"
+  },
+  "input_sources": [
+    {
+      "path": "/volumes/research-localdata/ywang3652/eucap15_native_owner_20260909T062500Z/paper_original100k_paired64_20260921_v2_env_recovery/results/paper_u20260921_09834/gds_audit/candidate_bound_cadence_gds_index.csv",
+      "sha256": "520ae6f9586f526e3b62ecdba1b1cfb28e4e69803dec197c5a30cc5fe0a87a61"
+    },
+    {
+      "path": "/volumes/research-localdata/ywang3652/eucap15_native_owner_20260909T062500Z/paper_original100k_paired64_20260921_v2_env_recovery/results/paper_u20260921_09834/calibre/drc_index.csv",
+      "sha256": "82009b35e94c668699c09fb12d5cb5043b62a6ee9ea5995c66b3dc35fb8fb056"
+    },
+    {
+      "path": "/volumes/research-localdata/ywang3652/eucap15_native_owner_20260909T062500Z/paper_original100k_paired64_20260921_v2_env_recovery/results/paper_u20260921_09834/cadence_only/evaluations/8b6da1c281dc7f8b/streamout/transformer_layout_cadpins.gds",
+      "sha256": "730b027751afa527cbabc17fe6bba2835f584416fe01ce981fa62ad6672ed10e"
+    },
+    {
+      "path": "/volumes/research-localdata/ywang3652/eucap15_native_owner_20260909T062500Z/paper_original100k_paired64_20260921_v2_env_recovery/results/paper_u20260921_09834/gds_audit/candidate_bound_geometry_audits/eff967f325480d22_geometry_audit.json",
+      "sha256": "4a13e609d62b39fce051f2302a122d749dbffd926f695a541f0e02e928548620"
+    },
+    {
+      "path": "/volumes/research-localdata/ywang3652/eucap15_native_owner_20260909T062500Z/paper_original100k_paired64_20260921_v2_env_recovery/results/paper_u20260921_09834/cadence_only/evaluations/8b6da1c281dc7f8b/layout/transformer_layout.layout.json",
+      "sha256": "3f01a4084e3728abb95d62fff7c88c1c40a26951943634e9e9d5654b290083c3"
+    },
+    {
+      "path": "/volumes/research-localdata/ywang3652/eucap15_native_owner_20260909T062500Z/paper_original100k_paired64_20260921_v2_env_recovery/results/paper_u20260921_09834/calibre/candidates/eff967f325480d22/drc_summary.json",
+      "sha256": "2f39bb7eef59368bd90cf8b86a4af9ae252dd9fd0a9eb216b0e02df68f506793"
+    },
+    {
+      "path": "/volumes/research-localdata/ywang3652/rfic-transformer-inverse-design-current-foundry-20260730-qmin10-v2/configs/mars_current_foundry_s4p_5_60_0p5_drc_margin_v2.yaml",
+      "sha256": "996ebad95e407b5f959b3807e1a2b90fad5599c54a7b6745fcd24ce82c4708e0"
+    },
+    {
+      "path": "/volumes/research-localdata/ywang3652/eucap15_native_owner_20260909T062500Z/paper_original100k_paired64_20260921_v2_env_recovery/results/paper_u20260921_09834/FROZEN_JOB.json",
+      "sha256": "d72592615b96fb5a01d5d4a7ff75d1ce442da21e57750ad281d8330580b8265e"
+    },
+    {
+      "path": "/volumes/research-localdata/ywang3652/eucap15_native_owner_20260909T062500Z/paper_original100k_paired64_20260921_v2_env_recovery/results/paper_u20260921_09834/cadence_candidates.csv",
+      "sha256": "f6656dd9bb2983e04d036026c59cb3d52acfeebad95cc67c8b8038c12d48a97b"
+    }
+  ],
+  "operating_point_policy": "SEPARATE_ANALYSIS_NOT_APPLIED",
+  "half_srf_gate_applied": false,
+  "production_accepted": false,
+  "new_solver_starts_for_candidate": 1,
+  "historical_generator_equivalence": "Case002 conductor regions equal at1nm on all14 layer/datatype pairs; exact source-version history unknown",
+  "historical_geometry_equivalence_scope": "one retained Case002 sample; not an all-domain proof"
+}
