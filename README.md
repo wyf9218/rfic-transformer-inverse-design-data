@@ -1,8 +1,14 @@
-# 15 GHz transformer research assets — private companion
+# 15 GHz transformer research assets — public data and model companion
 
 Prepared for Professor Liu and authorized successors, 12 October 2026.
 
-**Start with the English [handover guide](https://github.com/wyf9218/rfic-transformer-inverse-design/blob/main/docs/handover/HANDOVER_EN.md) and [executable quickstart](https://github.com/wyf9218/rfic-transformer-inverse-design/blob/main/docs/handover/QUICKSTART.md).** The public code repository and this private repository are both required. Access must be granted to each recipient's own GitHub account; never share passwords or tokens.
+> **Handover author: Yufeng Wang**
+>
+> GitHub: [wyf9218](https://github.com/wyf9218)
+
+**Start with the English [handover guide](https://github.com/wyf9218/rfic-transformer-inverse-design/blob/main/docs/handover/HANDOVER_EN.md) and [executable quickstart](https://github.com/wyf9218/rfic-transformer-inverse-design/blob/main/docs/handover/QUICKSTART.md).** Both the code repository and this data/model repository are public. No invitation or GitHub login is required to read or download them. Never share passwords or tokens. Please acknowledge Yufeng Wang and reference the repository and exact commits when reusing this handover.
+
+This archive was initially published privately and subsequently made public at the owner's explicit request. Historical `private` path names and manifest schema identifiers are retained for provenance; they do not describe the current GitHub visibility.
 
 This repository contains the exact original 100,000-row dataset as a compressed CSV; original split and nested dataset indices; original100K, real10k and symmetric-recipe100K model bundles; completed dataset-size and network-width experiments; saved predictions, figures, histories, stage checkpoints, configuration, frozen training sources and result receipts. The English guide distinguishes incompatible experiments and explains limitations.
 
@@ -24,4 +30,4 @@ Full raw S4P/GDS storage, PDK/process decks, license files and authentication ma
 
 The public package supports local proxy inference. Native physical mode is not accepted for unattended use: the archived GUI backend lacks the currently required operating-point QA/DRC evidence producer and fails before dispatch. No MARS process was altered for this handover.
 
-This private research archive grants no public redistribution permission for proprietary datasets, geometry, or institution-controlled material. Obtain the project owner's permission before sharing it beyond the authorized research team.
+Public visibility does not grant rights to third-party proprietary or institution-controlled materials. Such excluded assets still require their own authorized access. This visibility update does not assign a new dataset license or change the code repository's existing license.
